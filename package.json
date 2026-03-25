@@ -1,0 +1,14 @@
+{
+    "name": "greenstand-design-system",
+    "version": "1.0.0",
+    "description": "Design system basics for Greenstand products",
+    "main": "index.js",
+    "scripts": {
+        "sync:figma": "npx skills add firebenders/sync-figma-token-skill@sync-figma-token -y",
+        "sync-skills": "npm run sync:figma"
+    },
+    "devDependencies": {
+    },
+    "dependencies": {
+    }
+  }
