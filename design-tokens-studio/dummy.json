@@ -1496,8 +1496,12 @@
         "value": "AUTO",
         "type": "lineHeights"
       },
+      "1": {
+        "value": "116.7%",
+        "type": "lineHeights"
+      },
       "2": {
-        "value": "AUTO",
+        "value": "120%",
         "type": "lineHeights"
       },
       "3": {
@@ -1505,43 +1509,43 @@
         "type": "lineHeights"
       },
       "4": {
-        "value": "120%",
-        "type": "lineHeights"
-      },
-      "5": {
-        "value": "116.7%",
-        "type": "lineHeights"
-      },
-      "6": {
         "value": "123.5%",
         "type": "lineHeights"
       },
-      "7": {
+      "5": {
         "value": "133.4%",
         "type": "lineHeights"
       },
-      "8": {
+      "6": {
         "value": "160%",
         "type": "lineHeights"
       },
-      "9": {
+      "7": {
         "value": "143%",
         "type": "lineHeights"
       },
-      "10": {
+      "8": {
         "value": "175%",
         "type": "lineHeights"
       },
-      "11": {
+      "9": {
         "value": "157%",
         "type": "lineHeights"
       },
-      "12": {
+      "10": {
         "value": "266%",
         "type": "lineHeights"
       },
-      "13": {
+      "11": {
         "value": "166%",
+        "type": "lineHeights"
+      },
+      "12": {
+        "value": "AUTO",
+        "type": "lineHeights"
+      },
+      "13": {
+        "value": "AUTO",
         "type": "lineHeights"
       },
       "14": {
@@ -1557,15 +1561,31 @@
         "type": "lineHeights"
       },
       "17": {
-        "value": "AUTO",
+        "value": "150%",
         "type": "lineHeights"
       },
       "18": {
-        "value": "AUTO",
+        "value": "143%",
+        "type": "lineHeights"
+      },
+      "23": {
+        "value": "166%",
+        "type": "lineHeights"
+      },
+      "28": {
+        "value": "150%",
+        "type": "lineHeights"
+      },
+      "31": {
+        "value": "166%",
         "type": "lineHeights"
       },
       "33": {
-        "value": "166%",
+        "value": "150%",
+        "type": "lineHeights"
+      },
+      "38": {
+        "value": "116.7%",
         "type": "lineHeights"
       },
       "40": {
@@ -1575,6 +1595,10 @@
     },
     "fontWeights": {
       "inter-2": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "inter-0": {
         "value": "Regular",
         "type": "fontWeights"
       }
@@ -1601,21 +1625,12 @@
     },
     "input": {
       "value": {
-        "fontFamily": "{fontFamilies.roboto}",
-        "fontWeight": "{fontWeights.roboto-2}",
-        "lineHeight": "{lineHeights.25}",
-        "fontSize": "{fontSize.5}",
-        "letterSpacing": "{letterSpacing.1}",
-        "paragraphSpacing": "{paragraphSpacing.0}",
-        "paragraphIndent": "{paragraphIndent.0}",
-        "textCase": "{textCase.none}",
-        "textDecoration": "{textDecoration.none}",
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-2}",
           "lineHeight": "{lineHeights.25}",
           "fontSize": "{fontSize.5}",
-          "letterSpacing": "{letterSpacing.1}",
+          "letterSpacing": "{letterSpacing.5}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -1623,14 +1638,13 @@
         },
         "type": "typography"
       },
-      "type": "typography",
       "label": {
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-2}",
           "lineHeight": "{lineHeights.21}",
           "fontSize": "{fontSize.1}",
-          "letterSpacing": "{letterSpacing.1}",
+          "letterSpacing": "{letterSpacing.5}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -1642,7 +1656,7 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-2}",
-          "lineHeight": "{lineHeights.13}",
+          "lineHeight": "{lineHeights.11}",
           "fontSize": "{fontSize.1}",
           "letterSpacing": "{letterSpacing.9}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -1672,9 +1686,9 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-1}",
-          "lineHeight": "{lineHeights.3}",
+          "lineHeight": "{lineHeights.1}",
           "fontSize": "{fontSize.12}",
-          "letterSpacing": "{letterSpacing.2}",
+          "letterSpacing": "{letterSpacing.1}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -1686,9 +1700,9 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-1}",
-          "lineHeight": "{lineHeights.4}",
+          "lineHeight": "{lineHeights.2}",
           "fontSize": "{fontSize.10}",
-          "letterSpacing": "{letterSpacing.3}",
+          "letterSpacing": "{letterSpacing.2}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -1700,9 +1714,9 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-2}",
-          "lineHeight": "{lineHeights.3}",
+          "lineHeight": "{lineHeights.1}",
           "fontSize": "{fontSize.9}",
-          "letterSpacing": "{letterSpacing.4}",
+          "letterSpacing": "{letterSpacing.3}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -1714,9 +1728,9 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-2}",
-          "lineHeight": "{lineHeights.6}",
+          "lineHeight": "{lineHeights.4}",
           "fontSize": "{fontSize.8}",
-          "letterSpacing": "{letterSpacing.5}",
+          "letterSpacing": "{letterSpacing.4}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -1728,9 +1742,9 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-2}",
-          "lineHeight": "{lineHeights.7}",
+          "lineHeight": "{lineHeights.5}",
           "fontSize": "{fontSize.7}",
-          "letterSpacing": "{letterSpacing.4}",
+          "letterSpacing": "{letterSpacing.3}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -1742,9 +1756,9 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-3}",
-          "lineHeight": "{lineHeights.8}",
+          "lineHeight": "{lineHeights.6}",
           "fontSize": "{fontSize.6}",
-          "letterSpacing": "{letterSpacing.1}",
+          "letterSpacing": "{letterSpacing.5}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -1756,7 +1770,7 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-2}",
-          "lineHeight": "{lineHeights.9}",
+          "lineHeight": "{lineHeights.7}",
           "fontSize": "{fontSize.3}",
           "letterSpacing": "{letterSpacing.6}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -1770,9 +1784,9 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-2}",
-          "lineHeight": "{lineHeights.10}",
+          "lineHeight": "{lineHeights.8}",
           "fontSize": "{fontSize.5}",
-          "letterSpacing": "{letterSpacing.1}",
+          "letterSpacing": "{letterSpacing.5}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -1784,7 +1798,7 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-3}",
-          "lineHeight": "{lineHeights.11}",
+          "lineHeight": "{lineHeights.9}",
           "fontSize": "{fontSize.3}",
           "letterSpacing": "{letterSpacing.7}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -1798,7 +1812,7 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-2}",
-          "lineHeight": "{lineHeights.12}",
+          "lineHeight": "{lineHeights.10}",
           "fontSize": "{fontSize.1}",
           "letterSpacing": "{letterSpacing.8}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -1812,7 +1826,7 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-2}",
-          "lineHeight": "{lineHeights.13}",
+          "lineHeight": "{lineHeights.11}",
           "fontSize": "{fontSize.1}",
           "letterSpacing": "{letterSpacing.9}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -1825,7 +1839,7 @@
       "Body": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-2}",
+          "fontWeight": "{fontWeights.inter-0}",
           "lineHeight": "{lineHeights.0}",
           "fontSize": "{fontSize.1}",
           "letterSpacing": "{letterSpacing.0}",
@@ -1840,7 +1854,7 @@
         "Bold": {
           "value": {
             "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-2}",
+            "fontWeight": "{fontWeights.inter-0}",
             "lineHeight": "{lineHeights.0}",
             "fontSize": "{fontSize.1}",
             "letterSpacing": "{letterSpacing.0}",
@@ -1854,7 +1868,7 @@
         "Regular": {
           "value": {
             "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-2}",
+            "fontWeight": "{fontWeights.inter-0}",
             "lineHeight": "{lineHeights.0}",
             "fontSize": "{fontSize.1}",
             "letterSpacing": "{letterSpacing.0}",
@@ -1870,7 +1884,7 @@
         "Bold": {
           "value": {
             "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-2}",
+            "fontWeight": "{fontWeights.inter-0}",
             "lineHeight": "{lineHeights.0}",
             "fontSize": "{fontSize.1}",
             "letterSpacing": "{letterSpacing.0}",
@@ -1884,7 +1898,7 @@
         "Regular": {
           "value": {
             "fontFamily": "{fontFamilies.inter}",
-            "fontWeight": "{fontWeights.inter-2}",
+            "fontWeight": "{fontWeights.inter-0}",
             "lineHeight": "{lineHeights.0}",
             "fontSize": "{fontSize.1}",
             "letterSpacing": "{letterSpacing.0}",
@@ -1902,9 +1916,9 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-3}",
-          "lineHeight": "{lineHeights.19}",
+          "lineHeight": "{lineHeights.17}",
           "fontSize": "{fontSize.5}",
-          "letterSpacing": "{letterSpacing.1}",
+          "letterSpacing": "{letterSpacing.5}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -1916,9 +1930,9 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-3}",
-          "lineHeight": "{lineHeights.9}",
+          "lineHeight": "{lineHeights.7}",
           "fontSize": "{fontSize.3}",
-          "letterSpacing": "{letterSpacing.1}",
+          "letterSpacing": "{letterSpacing.5}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -1948,7 +1962,7 @@
           "fontWeight": "{fontWeights.roboto-2}",
           "lineHeight": "{lineHeights.20}",
           "fontSize": "{fontSize.0}",
-          "letterSpacing": "{letterSpacing.4}",
+          "letterSpacing": "{letterSpacing.3}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -1962,7 +1976,7 @@
           "fontWeight": "{fontWeights.roboto-2}",
           "lineHeight": "{lineHeights.21}",
           "fontSize": "{fontSize.1}",
-          "letterSpacing": "{letterSpacing.4}",
+          "letterSpacing": "{letterSpacing.3}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -1992,7 +2006,7 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-2}",
-          "lineHeight": "{lineHeights.13}",
+          "lineHeight": "{lineHeights.11}",
           "fontSize": "{fontSize.3}",
           "letterSpacing": "{letterSpacing.9}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -2068,9 +2082,9 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-3}",
-          "lineHeight": "{lineHeights.19}",
+          "lineHeight": "{lineHeights.17}",
           "fontSize": "{fontSize.5}",
-          "letterSpacing": "{letterSpacing.1}",
+          "letterSpacing": "{letterSpacing.5}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2100,9 +2114,9 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto}",
           "fontWeight": "{fontWeights.roboto-2}",
-          "lineHeight": "{lineHeights.19}",
+          "lineHeight": "{lineHeights.17}",
           "fontSize": "{fontSize.5}",
-          "letterSpacing": "{letterSpacing.1}",
+          "letterSpacing": "{letterSpacing.5}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2148,7 +2162,7 @@
           "fontWeight": "{fontWeights.roboto-3}",
           "lineHeight": "{lineHeights.36}",
           "fontSize": "{fontSize.0}",
-          "letterSpacing": "{letterSpacing.4}",
+          "letterSpacing": "{letterSpacing.3}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2164,7 +2178,7 @@
           "fontWeight": "{fontWeights.roboto-3}",
           "lineHeight": "{lineHeights.21}",
           "fontSize": "{fontSize.1}",
-          "letterSpacing": "{letterSpacing.1}",
+          "letterSpacing": "{letterSpacing.5}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.uppercase}",
@@ -2178,9 +2192,9 @@
         "value": {
           "fontFamily": "{fontFamilies.roboto-mono}",
           "fontWeight": "{fontWeights.roboto-mono-5}",
-          "lineHeight": "{lineHeights.3}",
+          "lineHeight": "{lineHeights.1}",
           "fontSize": "{fontSize.11}",
-          "letterSpacing": "{letterSpacing.2}",
+          "letterSpacing": "{letterSpacing.1}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2204,6 +2218,20 @@
         "value": "none",
         "type": "textDecoration"
       }
+    },
+    "hello": {
+      "value": {
+        "fontFamily": "{fontFamilies.inter}",
+        "fontWeight": "{fontWeights.inter-0}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.1}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
     }
   },
   "palette/Dark": {
