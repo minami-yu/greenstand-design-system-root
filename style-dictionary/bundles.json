@@ -1,0 +1,11 @@
+{
+  "buildPath": "build/style-dictionary",
+  "prefix": "gs",
+  "androidCompose": {
+    "packageName": "org.greenstand.tokens",
+    "className": "Tokens"
+  },
+  "source": [
+    "design-tokens/**/*.json"
+  ]
+}
