@@ -1,0 +1,139 @@
+const fs = require('node:fs/promises');
+const path = require('node:path');
+const StyleDictionary = require('style-dictionary');
+
+const repoRoot = process.cwd();
+const manifestPath = path.join(repoRoot, 'style-dictionary', 'bundles.json');
+
+function toPosixPath(filePath) {
+  return filePath.split(path.sep).join(path.posix.sep);
+}
+
+function createPlatformConfig({ buildPath, prefix, androidCompose }) {
+  const baseDir = toPosixPath(buildPath);
+
+  return {
+    platforms: {
+      web: {
+        transformGroup: 'js',
+        buildPath: `${baseDir}/web/`,
+        files: [
+          {
+            destination: 'tokens.json',
+            format: 'json/nested'
+          },
+          {
+            destination: 'variables.css',
+            format: 'css/variables',
+            options: {
+              outputReferences: true
+            }
+          },
+          {
+            destination: '_variables.scss',
+            format: 'scss/variables',
+            options: {
+              outputReferences: true
+            }
+          },
+          {
+            destination: 'tokens.js',
+            format: 'javascript/module'
+          }
+        ],
+        prefix,
+      },
+      android: {
+        prefix,
+        transformGroup: 'android',
+        buildPath: `${baseDir}/android/resources/`,
+        files: [
+          {
+            destination: 'tokens.json',
+            format: 'json/nested'
+          },
+          {
+            destination: 'resources.xml',
+            format: 'android/resources'
+          }
+        ]
+      },
+      androidCompose: {
+        transformGroup: 'compose',
+        buildPath: `${baseDir}/android/compose/`,
+        files: [
+          {
+            destination: 'Tokens.kt',
+            format: 'compose/object',
+            options: {
+              packageName: androidCompose.packageName,
+              className: androidCompose.className,
+              outputReferences: true
+            }
+          },
+          {
+            destination: 'tokens.json',
+            format: 'json/nested'
+          }
+        ]
+      },
+      ios: {
+        prefix,
+        transformGroup: 'ios-swift',
+        buildPath: `${baseDir}/ios/`,
+        files: [
+          {
+            destination: 'tokens.json',
+            format: 'json/nested'
+          },
+          {
+            destination: 'StyleDictionary.swift',
+            format: 'ios-swift/class.swift'
+          }
+        ]
+      }
+    }
+  };
+}
+
+async function loadManifest() {
+  const raw = await fs.readFile(manifestPath, 'utf8');
+  return JSON.parse(raw);
+}
+
+async function buildTokens({ buildPath, prefix, source, androidCompose }) {
+  const dictionary = StyleDictionary.extend(
+    {
+      source,
+      ...createPlatformConfig({
+        buildPath,
+        androidCompose,
+        prefix
+      })
+    }
+  );
+
+  await dictionary.buildAllPlatforms();
+}
+
+async function main() {
+  const manifest = await loadManifest();
+  const buildPath = path.join(repoRoot, manifest.buildPath);
+  const prefix = manifest.prefix || 'token';
+  const source = manifest.source || [];
+  const androidCompose = {
+    packageName: manifest.androidCompose?.packageName || 'org.greenstand.tokens',
+    className: manifest.androidCompose?.className || 'Tokens'
+  };
+
+  if (source.length === 0) {
+    throw new Error('No Style Dictionary source globs were defined in style-dictionary/bundles.json');
+  }
+
+  await buildTokens({ buildPath, prefix, source, androidCompose });
+}
+
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});
