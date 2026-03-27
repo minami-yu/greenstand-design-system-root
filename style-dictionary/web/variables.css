@@ -1,0 +1,428 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --Gs1: 8;
+  --Gs2: 16;
+  --Gs3: 24;
+  --Gs4: 32;
+  --Gs5: 40;
+  --Gs6: 48;
+  --Gs7: 56;
+  --Gs8: 64;
+  --Gs9: 72;
+  --Gs10: 80;
+  --Gs11: 88;
+  --Gs12: 96;
+  --GsLg: 1200;
+  --GsMd: 900;
+  --GsSm: 600;
+  --GsXl: 1536;
+  --GsXs: 444;
+  --GsAccentBg: #ffffff;
+  --GsAccentDefault: #ffffff;
+  --GsAccentOnAccent: #ffffff;
+  --GsBgDefault: #ffffff;
+  --GsBgMuted: #ffffff;
+  --GsBgSubtle: #ffffff;
+  --GsFgDefault: #ffffff;
+  --GsFgMuted: #ffffff;
+  --GsFgSubtle: #ffffff;
+  --GsShadowsDefault: #ffffff;
+  --GsAmber50: #fff8e1;
+  --GsAmber100: #ffecb3;
+  --GsAmber200: #ffe082;
+  --GsAmber300: #ffd54f;
+  --GsAmber400: #ffca28;
+  --GsAmber500: #ffc107;
+  --GsAmber600: #ffb300;
+  --GsAmber700: #ffa000;
+  --GsAmber800: #ff8f00;
+  --GsAmber900: #ff6f00;
+  --GsAmberA100: #ffe57f;
+  --GsAmberA200: #ffd740;
+  --GsAmberA400: #ffc400;
+  --GsAmberA700: #ffab00;
+  --GsBlue50: #e3f2fd;
+  --GsBlue100: #bbdefb;
+  --GsBlue200: #90caf9;
+  --GsBlue300: #64b5f6;
+  --GsBlue400: #42a5f5;
+  --GsBlue500: #2196f3;
+  --GsBlue600: #1e88e5;
+  --GsBlue700: #0057b2;
+  --GsBlue800: #1565c0;
+  --GsBlue900: #0d47a1;
+  --GsBlueA100: #82b1ff;
+  --GsBlueA200: #448aff;
+  --GsBlueA400: #2979ff;
+  --GsBlueA700: #2962ff;
+  --GsBlueGrey50: #eceff1;
+  --GsBlueGrey100: #cfd8dc;
+  --GsBlueGrey200: #b0bec5;
+  --GsBlueGrey300: #90a4ae;
+  --GsBlueGrey400: #78909c;
+  --GsBlueGrey500: #607d8b;
+  --GsBlueGrey600: #546e7a;
+  --GsBlueGrey700: #455a64;
+  --GsBlueGrey800: #37474f;
+  --GsBlueGrey900: #263238;
+  --GsBlueGreyA100: #cfd8dc;
+  --GsBlueGreyA200: #b0bec5;
+  --GsBlueGreyA400: #78909c;
+  --GsBlueGreyA700: #455a64;
+  --GsCyan50: #e0f7fa;
+  --GsCyan100: #b2ebf2;
+  --GsCyan200: #80deea;
+  --GsCyan300: #4dd0e1;
+  --GsCyan400: #26c6da;
+  --GsCyan500: #00bcd4;
+  --GsCyan600: #00acc1;
+  --GsCyan700: #0097a7;
+  --GsCyan800: #00838f;
+  --GsCyan900: #006064;
+  --GsCyanA100: #84ffff;
+  --GsCyanA200: #18ffff;
+  --GsCyanA400: #00e5ff;
+  --GsCyanA700: #00b8d4;
+  --GsDeepOrange50: #fbe9e7;
+  --GsDeepOrange100: #ffccbc;
+  --GsDeepOrange200: #ffab91;
+  --GsDeepOrange300: #ff8a65;
+  --GsDeepOrange400: #ff7043;
+  --GsDeepOrange500: #ff5722;
+  --GsDeepOrange600: #f4511e;
+  --GsDeepOrange700: #e64a19;
+  --GsDeepOrange800: #d84315;
+  --GsDeepOrange900: #bf360c;
+  --GsDeepOrangeA100: #ff9e80;
+  --GsDeepOrangeA200: #ff6e40;
+  --GsDeepOrangeA400: #ff3d00;
+  --GsDeepOrangeA700: #dd2c00;
+  --GsDeepPurple50: #ede7f6;
+  --GsDeepPurple100: #d1c4e9;
+  --GsDeepPurple200: #b39ddb;
+  --GsDeepPurple300: #9575cd;
+  --GsDeepPurple400: #7e57c2;
+  --GsDeepPurple500: #673ab7;
+  --GsDeepPurple600: #5e35b1;
+  --GsDeepPurple700: #512da8;
+  --GsDeepPurple800: #4527a0;
+  --GsDeepPurple900: #311b92;
+  --GsDeepPurpleA100: #b388ff;
+  --GsDeepPurpleA200: #7c4dff;
+  --GsDeepPurpleA400: #651fff;
+  --GsDeepPurpleA700: #6200ea;
+  --GsGreen50: #e8f5e9;
+  --GsGreen100: #c8e6c9;
+  --GsGreen200: #a5d6a7;
+  --GsGreen300: #81c784;
+  --GsGreen400: #66bb6a;
+  --GsGreen500: #4caf50;
+  --GsGreen600: #43a047;
+  --GsGreen700: #388e3c;
+  --GsGreen800: #2e7d32;
+  --GsGreen900: #1b5e20;
+  --GsGreenA100: #b9f6ca;
+  --GsGreenA200: #69f0ae;
+  --GsGreenA400: #00e676;
+  --GsGreenA700: #00c853;
+  --GsGrey50: #fafafa;
+  --GsGrey100: #f5f5f5;
+  --GsGrey200: #eeeeee;
+  --GsGrey300: #e0e0e0;
+  --GsGrey400: #bdbdbd;
+  --GsGrey500: #9e9e9e;
+  --GsGrey600: #757575;
+  --GsGrey700: #616161;
+  --GsGrey800: #424242;
+  --GsGrey900: #212121;
+  --GsGreyA100: #f5f5f5;
+  --GsGreyA200: #eeeeee;
+  --GsGreyA400: #bdbdbd;
+  --GsGreyA700: #616161;
+  --GsIndigo50: #e8eaf6;
+  --GsIndigo100: #c5cae9;
+  --GsIndigo200: #9fa8da;
+  --GsIndigo300: #7986cb;
+  --GsIndigo400: #5c6bc0;
+  --GsIndigo500: #3f51b5;
+  --GsIndigo600: #3949ab;
+  --GsIndigo700: #303f9f;
+  --GsIndigo800: #283593;
+  --GsIndigo900: #1a237e;
+  --GsIndigoA100: #8c9eff;
+  --GsIndigoA200: #536dfe;
+  --GsIndigoA400: #3d5afe;
+  --GsIndigoA700: #304ffe;
+  --GsLightBlue50: #e1f5fe;
+  --GsLightBlue100: #b3e5fc;
+  --GsLightBlue200: #81d4fa;
+  --GsLightBlue300: #4fc3f7;
+  --GsLightBlue400: #29b6f6;
+  --GsLightBlue500: #03a9f4;
+  --GsLightBlue600: #039be5;
+  --GsLightBlue700: #0288d1;
+  --GsLightBlue800: #0277bd;
+  --GsLightBlue900: #01579b;
+  --GsLightBlueA100: #80d8ff;
+  --GsLightBlueA200: #40c4ff;
+  --GsLightBlueA400: #00b0ff;
+  --GsLightBlueA700: #0091ea;
+  --GsLightGreen50: #f1f8e9;
+  --GsLightGreen100: #dcedc8;
+  --GsLightGreen200: #c5e1a5;
+  --GsLightGreen300: #aed581;
+  --GsLightGreen400: #8bc34a;
+  --GsLightGreen500: #8bc34a;
+  --GsLightGreen600: #7cb342;
+  --GsLightGreen700: #689f38;
+  --GsLightGreen800: #558b2f;
+  --GsLightGreen900: #33691e;
+  --GsLightGreenA100: #ccff90;
+  --GsLightGreenA200: #b2ff59;
+  --GsLightGreenA400: #76ff03;
+  --GsLightGreenA700: #64dd17;
+  --GsLime50: #f9fbe7;
+  --GsLime100: #f0f4c3;
+  --GsLime200: #e6ee9c;
+  --GsLime300: #dce775;
+  --GsLime400: #d4e157;
+  --GsLime500: #cddc39;
+  --GsLime600: #c0ca33;
+  --GsLime700: #afb42b;
+  --GsLime800: #9e9d24;
+  --GsLime900: #827717;
+  --GsLimeA100: #f4ff81;
+  --GsLimeA200: #eeff41;
+  --GsLimeA400: #c6ff00;
+  --GsLimeA700: #aeea00;
+  --GsOrange50: #fff3e0;
+  --GsOrange100: #ffe0b2;
+  --GsOrange200: #ffcc80;
+  --GsOrange300: #ffb74d;
+  --GsOrange400: #ffa726;
+  --GsOrange500: #ff9800;
+  --GsOrange600: #fb8c00;
+  --GsOrange700: #f57c00;
+  --GsOrange800: #ef6c00;
+  --GsOrange900: #e65100;
+  --GsOrangeA100: #ffd180;
+  --GsOrangeA200: #ffab40;
+  --GsOrangeA400: #ff9100;
+  --GsOrangeA700: #ff6d00;
+  --GsPink50: #fce4ec;
+  --GsPink100: #f8bbd0;
+  --GsPink200: #f48fb1;
+  --GsPink300: #f06292;
+  --GsPink400: #ec407a;
+  --GsPink500: #e91e63;
+  --GsPink600: #d81b60;
+  --GsPink700: #c2185b;
+  --GsPink800: #ad1457;
+  --GsPink900: #880e4f;
+  --GsPinkA100: #ff80ab;
+  --GsPinkA200: #ff4081;
+  --GsPinkA400: #f50057;
+  --GsPinkA700: #c51162;
+  --GsPurple50: #f3e5f5;
+  --GsPurple100: #e1bee7;
+  --GsPurple200: #ce93d8;
+  --GsPurple300: #ba68c8;
+  --GsPurple400: #ab47bc;
+  --GsPurple500: #9c27b0;
+  --GsPurple600: #8e24aa;
+  --GsPurple700: #7b1fa2;
+  --GsPurple800: #6a1b9a;
+  --GsPurple900: #4a148c;
+  --GsPurpleA100: #ea80fc;
+  --GsPurpleA200: #e040fb;
+  --GsPurpleA400: #d500f9;
+  --GsPurpleA700: #aa00ff;
+  --GsRed50: #feebee;
+  --GsRed100: #fecdd2;
+  --GsRed200: #ef9a9a;
+  --GsRed300: #e57373;
+  --GsRed400: #ef5350;
+  --GsRed500: #f44336;
+  --GsRed600: #e53935;
+  --GsRed700: #d32f2f;
+  --GsRed800: #c62828;
+  --GsRed900: #b71c1c;
+  --GsRedA100: #ff8a80;
+  --GsRedA200: #ff5252;
+  --GsRedA400: #ff1744;
+  --GsRedA700: #d50000;
+  --GsTeal50: #e0f2f1;
+  --GsTeal100: #b2dfdb;
+  --GsTeal200: #80cbc4;
+  --GsTeal300: #4db6ac;
+  --GsTeal400: #26a69a;
+  --GsTeal500: #009688;
+  --GsTeal600: #00897b;
+  --GsTeal700: #00796b;
+  --GsTeal800: #00695c;
+  --GsTeal900: #004d40;
+  --GsTealA100: #a7ffeb;
+  --GsTealA200: #64ffda;
+  --GsTealA400: #1de9b6;
+  --GsTealA700: #00bfa5;
+  --GsYellow50: #fffde7;
+  --GsYellow100: #fff9c4;
+  --GsYellow200: #fff59d;
+  --GsYellow300: #fff176;
+  --GsYellow400: #ffee58;
+  --GsYellow500: #ffeb3b;
+  --GsYellow600: #fdd835;
+  --GsYellow700: #fbc02d;
+  --GsYellow800: #f9a825;
+  --GsYellow900: #f57f17;
+  --GsYellowA100: #ffff8d;
+  --GsYellowA200: #ffff00;
+  --GsYellowA400: #ffea00;
+  --GsYellowA700: #ffd600;
+  --GsComponentsAlertErrorBackground: #fdeded;
+  --GsComponentsAlertErrorColor: #5f2120;
+  --GsComponentsAlertInfoBackground: #e5f6fd;
+  --GsComponentsAlertInfoColor: #014361;
+  --GsComponentsAlertSuccessBackground: #edf7ed;
+  --GsComponentsAlertSuccessColor: #1e4620;
+  --GsComponentsAlertWarningBackground: #fff4e5;
+  --GsComponentsAlertWarningColor: #663c00;
+  --GsComponentsBackdropFill: #00000080;
+  --GsComponentsChipDefaultCloseFill: #000000;
+  --GsComponentsChipDefaultFocusFill: #00000033;
+  --GsComponentsChipDefaultHoverFill: #0000001f;
+  --GsComponentsInputFilledEnabledFill: #0000000f;
+  --GsComponentsInputFilledHoverFill: #00000017;
+  --GsComponentsInputOutlinedEnabledBorder: #0000003b;
+  --GsComponentsInputOutlinedHoverBorder: #000000;
+  --GsComponentsInputStandardEnabledBorder: #0000006b;
+  --GsComponentsInputStandardHoverBorder: #000000;
+  --GsComponentsRatingActiveFill: #ffb400;
+  --GsComponentsRatingEnabledBorder: #0000003b;
+  --GsComponentsSnackbarFill: #323232;
+  --GsComponentsSwitchSlideFill: #000000;
+  --GsComponentsTooltipFill: #616161e6;
+  --GsActionActive: #2226298f;
+  --GsActionDisabled: #22262961; /** Reflects the action.disabled variable from the theme object */
+  --GsActionDisabledBackground: #0000001f; /** Reflects the action.disabledBackground variable from the theme object */
+  --GsActionFocus: #2226291f; /** Reflects the action.focus variable from the theme object */
+  --GsActionHover: #2226290a; /** Reflects the action.hover variable from the theme object */
+  --GsActionSelected: #22262914; /** Reflects the action.selected variable from the theme object */
+  --GsBackgroundDefault: #ffffff; /** Reflects the background.default variable from the theme object */
+  --GsBackgroundPaperElevation0: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation1: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation10: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation11: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation12: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation13: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation14: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation15: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation16: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation17: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation18: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation19: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation2: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation20: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation21: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation22: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation23: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation24: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation3: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation4: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation5: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation6: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation7: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation8: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsBackgroundPaperElevation9: #ffffff; /** Reflects the background.paper variable from the theme object */
+  --GsCommonBlackStatesFocus: #2226291f;
+  --GsCommonBlackStatesFocusVisible: #2226294d; /** Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token. */
+  --GsCommonBlackStatesHover: #2226290a; /** Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token. */
+  --GsCommonBlackStatesMain: #222629;
+  --GsCommonBlackStatesOutlinedBorder: #22262980; /** Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token. */
+  --GsCommonBlackStatesSelected: #22262914; /** Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token. */
+  --GsCommonWhiteStatesFocus: #ffffff1f;
+  --GsCommonWhiteStatesFocusVisible: #ffffff4d;
+  --GsCommonWhiteStatesHover: #ffffff0a; /** Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token. */
+  --GsCommonWhiteStatesMain: #ffffff;
+  --GsCommonWhiteStatesOutlinedBorder: #ffffff80; /** Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token. */
+  --GsCommonWhiteStatesSelected: #ffffff14; /** Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token. */
+  --GsDivider: #2226291f; /** Reflects the divider variable from the theme object */
+  --GsElevationOutlined: #e0e0e0;
+  --GsErrorStatesFocusVisible: #d32f2f4d;
+  --GsErrorStatesHover: #d32f2f0a; /** Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token. */
+  --GsErrorStatesOutlinedBorder: #d32f2f80; /** Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token. */
+  --GsErrorStatesSelected: #d32f2f14; /** Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token. */
+  --GsErrorContrast: #ffffff;
+  --GsInfoStatesFocusVisible: #0288d14d; /** Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token. */
+  --GsInfoStatesHover: #0288d10a; /** Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token. */
+  --GsInfoStatesOutlinedBorder: #0288d180; /** Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token. */
+  --GsInfoStatesSelected: #0288d114; /** Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token. */
+  --GsInfoContrast: #ffffff;
+  --GsPrimaryStatesFocus: #61892f1f; /** Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token. */
+  --GsPrimaryStatesFocusVisible: #61892f4d;
+  --GsPrimaryStatesHover: #61892f0a; /** Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token. */
+  --GsPrimaryStatesOutlinedBorder: #61892f80; /** Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token. */
+  --GsPrimaryStatesSelected: #61892f14; /** Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token. */
+  --GsPrimaryContrast: #ffffff; /** Reflects the primary.contrast variable from the theme object. Color that keeps a contrast ratio above AA when XX.main is used as a bg. color */
+  --GsPrimaryDark: #86c232; /** Used for hover states. Reflects the primary.dark variable from the theme object */
+  --GsPrimaryLight: #61892f; /** Reflects the primary.light variable from the theme object */
+  --GsPrimaryMain: #61892f; /** Reflects the primary.main variable from the theme object */
+  --GsSecondaryStatesFocus: #ffa5001f; /** Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token. */
+  --GsSecondaryStatesFocusVisible: #ffa5004d;
+  --GsSecondaryStatesHover: #ffa5000a; /** Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token. */
+  --GsSecondaryStatesOutlinedBorder: #ffa50080; /** Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token. */
+  --GsSecondaryStatesSelected: #ffa50014; /** Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token. */
+  --GsSecondaryContrast: #222629;
+  --GsSecondaryDark: #fff8eb;
+  --GsSecondaryLight: #ff7a00;
+  --GsSecondaryMain: #ffa500;
+  --GsSuccessStatesFocusVisible: #2e7d324d; /** Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token. */
+  --GsSuccessStatesHover: #2e7d320a; /** Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token. */
+  --GsSuccessStatesOutlinedBorder: #2e7d3280; /** Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token. */
+  --GsSuccessStatesSelected: #2e7d3214; /** Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token. */
+  --GsSuccessContrast: #ffffff;
+  --GsTextStatesFocus: #2226291f; /** Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token. */
+  --GsTextStatesFocusVisible: #2226294d; /** Used for focus visible states. The token represents the value of focusVisibleOpacity (0.3 by default) of the main token. */
+  --GsTextStatesHover: #2226290a; /** Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token. */
+  --GsTextStatesSelected: #22262914; /** Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token. */
+  --GsTextDisabled: #22262961; /** Reflects the text.disabled variable from the theme object */
+  --GsTextPrimary: #222629de; /** Reflects the text.primary variable from the theme object */
+  --GsTextSecondary: #22262999; /** Reflects the text.secondary variable from the theme object */
+  --GsWarningStatesFocusVisible: #ef6c004d;
+  --GsWarningStatesHover: #ef6c000a; /** Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token. */
+  --GsWarningStatesOutlinedBorder: #ef6c0080; /** Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token. */
+  --GsWarningStatesSelected: #ef6c0014; /** Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token. */
+  --GsWarningContrast: #ffffff;
+  --GsBorderRadius: 4;
+  --GsNone: 0;
+  --GsButtonBorderRadius: 0;
+  --GsButtonBorderWidth: 0;
+  --GsCardBorderRadius: 0;
+  --GsCardPadding: 0;
+  --GsComponentsAppBarDefaultFill: var(--GsGrey100);
+  --GsComponentsAvatarFill: var(--GsGrey400);
+  --GsComponentsBreadcrumbsCollapseFill: var(--GsGrey100);
+  --GsComponentsChipDefaultEnabledBorder: var(--GsGrey400);
+  --GsComponentsStepperConnector: var(--GsGrey400);
+  --GsComponentsSwitchKnobFillEnabled: var(--GsGrey50);
+  --GsComponentsSwitchKnowFillDisabled: var(--GsGrey100);
+  --GsNativeScrollbarBg: var(--GsGrey200);
+  --GsErrorDark: var(--GsRed800);
+  --GsErrorLight: var(--GsRed400);
+  --GsErrorMain: var(--GsRed700);
+  --GsInfoDark: var(--GsLightBlue900);
+  --GsInfoLight: var(--GsLightBlue500);
+  --GsInfoMain: var(--GsLightBlue700);
+  --GsSuccessDark: var(--GsGreen900);
+  --GsSuccessLight: var(--GsGreen500);
+  --GsSuccessMain: var(--GsGreen800);
+  --GsWarningDark: var(--GsOrange900);
+  --GsWarningLight: var(--GsOrange500);
+  --GsWarningMain: var(--GsOrange800);
+  --GsButtonPrimaryBackground: var(--GsAccentDefault);
+  --GsButtonPrimaryText: var(--GsAccentOnAccent);
+  --GsCardBackground: var(--GsBgDefault);
+}
