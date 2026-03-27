@@ -17,7 +17,7 @@
   <integer name="gs_11">88</integer>
   <integer name="gs_12">96</integer>
   <string name="gs_string">String value</string>
-  <integer name="gs_font_weight">500</integer>
+  <integer name="gs_font_weight">400</integer>
   <integer name="gs_lg">1200</integer>
   <integer name="gs_md">900</integer>
   <integer name="gs_sm">600</integer>
