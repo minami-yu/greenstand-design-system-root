@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "sync-figma-token": {
+      "source": "firebenders/sync-figma-token-skill",
+      "sourceType": "github",
+      "computedHash": "8e5a4baf6c18429dfd22c0177dca15c220125ba54d97dd571778428c56cea822"
+    }
+  }
+}

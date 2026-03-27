@@ -2,6 +2,7 @@
   "name": "greenstand-design-system",
   "version": "1.0.0",
   "description": "Design system basics for Greenstand products",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "build:tokens": "node scripts/build-tokens.js",

@@ -1,9 +1,9 @@
-const fs = require('node:fs/promises');
-const path = require('node:path');
-const StyleDictionary = require('style-dictionary');
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import StyleDictionary from 'style-dictionary';
 
 const repoRoot = process.cwd();
-const manifestPath = path.join(repoRoot, 'style-dictionary', 'bundles.json');
+const manifestPath = path.join(repoRoot, 'style-dictionary.config.json');
 
 function toPosixPath(filePath) {
   return filePath.split(path.sep).join(path.posix.sep);
@@ -38,10 +38,10 @@ function createPlatformConfig({ buildPath, prefix, androidCompose }) {
           },
           {
             destination: 'tokens.js',
-            format: 'javascript/module'
+            format: 'javascript/esm'
           }
         ],
-        prefix,
+        prefix
       },
       android: {
         prefix,
@@ -102,16 +102,14 @@ async function loadManifest() {
 }
 
 async function buildTokens({ buildPath, prefix, source, androidCompose }) {
-  const dictionary = StyleDictionary.extend(
-    {
-      source,
-      ...createPlatformConfig({
-        buildPath,
-        androidCompose,
-        prefix
-      })
-    }
-  );
+  const dictionary = new StyleDictionary({
+    source,
+    ...createPlatformConfig({
+      buildPath,
+      androidCompose,
+      prefix
+    })
+  });
 
   await dictionary.buildAllPlatforms();
 }
@@ -127,7 +125,7 @@ async function main() {
   };
 
   if (source.length === 0) {
-    throw new Error('No Style Dictionary source globs were defined in style-dictionary/bundles.json');
+    throw new Error('No Style Dictionary source globs were defined in style-dictionary.config.json');
   }
 
   await buildTokens({ buildPath, prefix, source, androidCompose });
