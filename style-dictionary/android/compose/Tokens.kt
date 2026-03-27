@@ -23,7 +23,7 @@ object Tokens {
   val 11 = 88
   val 12 = 96
   val string = String value
-  val fontWeight = 500
+  val fontWeight = 400
   val lg = 1200
   val md = 900
   val sm = 600

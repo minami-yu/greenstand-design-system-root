@@ -227,12 +227,12 @@ export default {
   "font weight": {
     key: "{font weight}",
     $type: "number",
-    $value: 500,
+    $value: 400,
     filePath: "design-tokens/token_Test_Mode1.json",
     isSource: true,
     original: {
       $type: "number",
-      $value: 500,
+      $value: 400,
       key: "{font weight}",
     },
     name: "GsFontWeight",

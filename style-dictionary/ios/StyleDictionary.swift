@@ -245,7 +245,7 @@ public class {
     public static let gsFontSize7 = 24
     public static let gsFontSize8 = 34
     public static let gsFontSize9 = 48
-    public static let gsFontWeight = 500
+    public static let gsFontWeight = 400
     public static let gsFontWeightsInter4 = Regular
     public static let gsFontWeightsMontserrat0 = Regular
     public static let gsFontWeightsRoboto1 = Light
