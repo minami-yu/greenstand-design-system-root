@@ -1,0 +1,6 @@
+{
+  "String": {
+    "$type": "string",
+    "$value": "String value"
+  }
+}

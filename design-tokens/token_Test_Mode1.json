@@ -1,0 +1,6 @@
+{
+  "font weight": {
+    "$type": "number",
+    "$value": 500
+  }
+}
