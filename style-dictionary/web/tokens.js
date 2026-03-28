@@ -14,7 +14,7 @@ export default {
       $value: 8,
       key: "{1}",
     },
-    name: "Gs1",
+    name: "gs-1",
     attributes: {
       category: "1",
     },
@@ -31,7 +31,7 @@ export default {
       $value: 16,
       key: "{2}",
     },
-    name: "Gs2",
+    name: "gs-2",
     attributes: {
       category: "2",
     },
@@ -48,7 +48,7 @@ export default {
       $value: 24,
       key: "{3}",
     },
-    name: "Gs3",
+    name: "gs-3",
     attributes: {
       category: "3",
     },
@@ -65,7 +65,7 @@ export default {
       $value: 32,
       key: "{4}",
     },
-    name: "Gs4",
+    name: "gs-4",
     attributes: {
       category: "4",
     },
@@ -82,7 +82,7 @@ export default {
       $value: 40,
       key: "{5}",
     },
-    name: "Gs5",
+    name: "gs-5",
     attributes: {
       category: "5",
     },
@@ -99,7 +99,7 @@ export default {
       $value: 48,
       key: "{6}",
     },
-    name: "Gs6",
+    name: "gs-6",
     attributes: {
       category: "6",
     },
@@ -116,7 +116,7 @@ export default {
       $value: 56,
       key: "{7}",
     },
-    name: "Gs7",
+    name: "gs-7",
     attributes: {
       category: "7",
     },
@@ -133,7 +133,7 @@ export default {
       $value: 64,
       key: "{8}",
     },
-    name: "Gs8",
+    name: "gs-8",
     attributes: {
       category: "8",
     },
@@ -150,7 +150,7 @@ export default {
       $value: 72,
       key: "{9}",
     },
-    name: "Gs9",
+    name: "gs-9",
     attributes: {
       category: "9",
     },
@@ -167,7 +167,7 @@ export default {
       $value: 80,
       key: "{10}",
     },
-    name: "Gs10",
+    name: "gs-10",
     attributes: {
       category: "10",
     },
@@ -184,7 +184,7 @@ export default {
       $value: 88,
       key: "{11}",
     },
-    name: "Gs11",
+    name: "gs-11",
     attributes: {
       category: "11",
     },
@@ -201,7 +201,7 @@ export default {
       $value: 96,
       key: "{12}",
     },
-    name: "Gs12",
+    name: "gs-12",
     attributes: {
       category: "12",
     },
@@ -218,7 +218,7 @@ export default {
       $value: 1200,
       key: "{lg}",
     },
-    name: "GsLg",
+    name: "gs-lg",
     attributes: {
       category: "lg",
     },
@@ -235,7 +235,7 @@ export default {
       $value: 900,
       key: "{md}",
     },
-    name: "GsMd",
+    name: "gs-md",
     attributes: {
       category: "md",
     },
@@ -252,7 +252,7 @@ export default {
       $value: 600,
       key: "{sm}",
     },
-    name: "GsSm",
+    name: "gs-sm",
     attributes: {
       category: "sm",
     },
@@ -269,7 +269,7 @@ export default {
       $value: 1536,
       key: "{xl}",
     },
-    name: "GsXl",
+    name: "gs-xl",
     attributes: {
       category: "xl",
     },
@@ -286,7 +286,7 @@ export default {
       $value: 444,
       key: "{xs}",
     },
-    name: "GsXs",
+    name: "gs-xs",
     attributes: {
       category: "xs",
     },
@@ -304,7 +304,7 @@ export default {
         $value: "#FFFFFF",
         key: "{accent.bg}",
       },
-      name: "GsAccentBg",
+      name: "gs-accent-bg",
       attributes: {
         category: "accent",
         type: "bg",
@@ -322,7 +322,7 @@ export default {
         $value: "#FFFFFF",
         key: "{accent.default}",
       },
-      name: "GsAccentDefault",
+      name: "gs-accent-default",
       attributes: {
         category: "accent",
         type: "default",
@@ -340,7 +340,7 @@ export default {
         $value: "#FFFFFF",
         key: "{accent.onAccent}",
       },
-      name: "GsAccentOnAccent",
+      name: "gs-accent-on-accent",
       attributes: {
         category: "accent",
         type: "onAccent",
@@ -360,7 +360,7 @@ export default {
         $value: "#FFFFFF",
         key: "{bg.default}",
       },
-      name: "GsBgDefault",
+      name: "gs-bg-default",
       attributes: {
         category: "bg",
         type: "default",
@@ -378,7 +378,7 @@ export default {
         $value: "#FFFFFF",
         key: "{bg.muted}",
       },
-      name: "GsBgMuted",
+      name: "gs-bg-muted",
       attributes: {
         category: "bg",
         type: "muted",
@@ -396,7 +396,7 @@ export default {
         $value: "#FFFFFF",
         key: "{bg.subtle}",
       },
-      name: "GsBgSubtle",
+      name: "gs-bg-subtle",
       attributes: {
         category: "bg",
         type: "subtle",
@@ -416,7 +416,7 @@ export default {
         $value: "#FFFFFF",
         key: "{fg.default}",
       },
-      name: "GsFgDefault",
+      name: "gs-fg-default",
       attributes: {
         category: "fg",
         type: "default",
@@ -434,7 +434,7 @@ export default {
         $value: "#FFFFFF",
         key: "{fg.muted}",
       },
-      name: "GsFgMuted",
+      name: "gs-fg-muted",
       attributes: {
         category: "fg",
         type: "muted",
@@ -452,7 +452,7 @@ export default {
         $value: "#FFFFFF",
         key: "{fg.subtle}",
       },
-      name: "GsFgSubtle",
+      name: "gs-fg-subtle",
       attributes: {
         category: "fg",
         type: "subtle",
@@ -472,7 +472,7 @@ export default {
         $value: "#FFFFFF",
         key: "{shadows.default}",
       },
-      name: "GsShadowsDefault",
+      name: "gs-shadows-default",
       attributes: {
         category: "shadows",
         type: "default",
@@ -492,7 +492,7 @@ export default {
         $value: "#FFF8E1",
         key: "{amber.50}",
       },
-      name: "GsAmber50",
+      name: "gs-amber-50",
       attributes: {
         category: "amber",
         type: "50",
@@ -510,7 +510,7 @@ export default {
         $value: "#FFECB3",
         key: "{amber.100}",
       },
-      name: "GsAmber100",
+      name: "gs-amber-100",
       attributes: {
         category: "amber",
         type: "100",
@@ -528,7 +528,7 @@ export default {
         $value: "#FFE082",
         key: "{amber.200}",
       },
-      name: "GsAmber200",
+      name: "gs-amber-200",
       attributes: {
         category: "amber",
         type: "200",
@@ -546,7 +546,7 @@ export default {
         $value: "#FFD54F",
         key: "{amber.300}",
       },
-      name: "GsAmber300",
+      name: "gs-amber-300",
       attributes: {
         category: "amber",
         type: "300",
@@ -564,7 +564,7 @@ export default {
         $value: "#FFCA28",
         key: "{amber.400}",
       },
-      name: "GsAmber400",
+      name: "gs-amber-400",
       attributes: {
         category: "amber",
         type: "400",
@@ -582,7 +582,7 @@ export default {
         $value: "#FFC107",
         key: "{amber.500}",
       },
-      name: "GsAmber500",
+      name: "gs-amber-500",
       attributes: {
         category: "amber",
         type: "500",
@@ -600,7 +600,7 @@ export default {
         $value: "#FFB300",
         key: "{amber.600}",
       },
-      name: "GsAmber600",
+      name: "gs-amber-600",
       attributes: {
         category: "amber",
         type: "600",
@@ -618,7 +618,7 @@ export default {
         $value: "#FFA000",
         key: "{amber.700}",
       },
-      name: "GsAmber700",
+      name: "gs-amber-700",
       attributes: {
         category: "amber",
         type: "700",
@@ -636,7 +636,7 @@ export default {
         $value: "#FF8F00",
         key: "{amber.800}",
       },
-      name: "GsAmber800",
+      name: "gs-amber-800",
       attributes: {
         category: "amber",
         type: "800",
@@ -654,7 +654,7 @@ export default {
         $value: "#FF6F00",
         key: "{amber.900}",
       },
-      name: "GsAmber900",
+      name: "gs-amber-900",
       attributes: {
         category: "amber",
         type: "900",
@@ -672,7 +672,7 @@ export default {
         $value: "#FFE57F",
         key: "{amber.A100}",
       },
-      name: "GsAmberA100",
+      name: "gs-amber-a100",
       attributes: {
         category: "amber",
         type: "A100",
@@ -690,7 +690,7 @@ export default {
         $value: "#FFD740",
         key: "{amber.A200}",
       },
-      name: "GsAmberA200",
+      name: "gs-amber-a200",
       attributes: {
         category: "amber",
         type: "A200",
@@ -708,7 +708,7 @@ export default {
         $value: "#FFC400",
         key: "{amber.A400}",
       },
-      name: "GsAmberA400",
+      name: "gs-amber-a400",
       attributes: {
         category: "amber",
         type: "A400",
@@ -726,7 +726,7 @@ export default {
         $value: "#FFAB00",
         key: "{amber.A700}",
       },
-      name: "GsAmberA700",
+      name: "gs-amber-a700",
       attributes: {
         category: "amber",
         type: "A700",
@@ -746,7 +746,7 @@ export default {
         $value: "#E3F2FD",
         key: "{blue.50}",
       },
-      name: "GsBlue50",
+      name: "gs-blue-50",
       attributes: {
         category: "blue",
         type: "50",
@@ -764,7 +764,7 @@ export default {
         $value: "#BBDEFB",
         key: "{blue.100}",
       },
-      name: "GsBlue100",
+      name: "gs-blue-100",
       attributes: {
         category: "blue",
         type: "100",
@@ -782,7 +782,7 @@ export default {
         $value: "#90CAF9",
         key: "{blue.200}",
       },
-      name: "GsBlue200",
+      name: "gs-blue-200",
       attributes: {
         category: "blue",
         type: "200",
@@ -800,7 +800,7 @@ export default {
         $value: "#64B5F6",
         key: "{blue.300}",
       },
-      name: "GsBlue300",
+      name: "gs-blue-300",
       attributes: {
         category: "blue",
         type: "300",
@@ -818,7 +818,7 @@ export default {
         $value: "#42A5F5",
         key: "{blue.400}",
       },
-      name: "GsBlue400",
+      name: "gs-blue-400",
       attributes: {
         category: "blue",
         type: "400",
@@ -836,7 +836,7 @@ export default {
         $value: "#2196F3",
         key: "{blue.500}",
       },
-      name: "GsBlue500",
+      name: "gs-blue-500",
       attributes: {
         category: "blue",
         type: "500",
@@ -854,7 +854,7 @@ export default {
         $value: "#1E88E5",
         key: "{blue.600}",
       },
-      name: "GsBlue600",
+      name: "gs-blue-600",
       attributes: {
         category: "blue",
         type: "600",
@@ -872,7 +872,7 @@ export default {
         $value: "#0057B2",
         key: "{blue.700}",
       },
-      name: "GsBlue700",
+      name: "gs-blue-700",
       attributes: {
         category: "blue",
         type: "700",
@@ -890,7 +890,7 @@ export default {
         $value: "#1565C0",
         key: "{blue.800}",
       },
-      name: "GsBlue800",
+      name: "gs-blue-800",
       attributes: {
         category: "blue",
         type: "800",
@@ -908,7 +908,7 @@ export default {
         $value: "#0D47A1",
         key: "{blue.900}",
       },
-      name: "GsBlue900",
+      name: "gs-blue-900",
       attributes: {
         category: "blue",
         type: "900",
@@ -926,7 +926,7 @@ export default {
         $value: "#82B1FF",
         key: "{blue.A100}",
       },
-      name: "GsBlueA100",
+      name: "gs-blue-a100",
       attributes: {
         category: "blue",
         type: "A100",
@@ -944,7 +944,7 @@ export default {
         $value: "#448AFF",
         key: "{blue.A200}",
       },
-      name: "GsBlueA200",
+      name: "gs-blue-a200",
       attributes: {
         category: "blue",
         type: "A200",
@@ -962,7 +962,7 @@ export default {
         $value: "#2979FF",
         key: "{blue.A400}",
       },
-      name: "GsBlueA400",
+      name: "gs-blue-a400",
       attributes: {
         category: "blue",
         type: "A400",
@@ -980,7 +980,7 @@ export default {
         $value: "#2962FF",
         key: "{blue.A700}",
       },
-      name: "GsBlueA700",
+      name: "gs-blue-a700",
       attributes: {
         category: "blue",
         type: "A700",
@@ -1000,7 +1000,7 @@ export default {
         $value: "#ECEFF1",
         key: "{blueGrey.50}",
       },
-      name: "GsBlueGrey50",
+      name: "gs-blue-grey-50",
       attributes: {
         category: "blueGrey",
         type: "50",
@@ -1018,7 +1018,7 @@ export default {
         $value: "#CFD8DC",
         key: "{blueGrey.100}",
       },
-      name: "GsBlueGrey100",
+      name: "gs-blue-grey-100",
       attributes: {
         category: "blueGrey",
         type: "100",
@@ -1036,7 +1036,7 @@ export default {
         $value: "#B0BEC5",
         key: "{blueGrey.200}",
       },
-      name: "GsBlueGrey200",
+      name: "gs-blue-grey-200",
       attributes: {
         category: "blueGrey",
         type: "200",
@@ -1054,7 +1054,7 @@ export default {
         $value: "#90A4AE",
         key: "{blueGrey.300}",
       },
-      name: "GsBlueGrey300",
+      name: "gs-blue-grey-300",
       attributes: {
         category: "blueGrey",
         type: "300",
@@ -1072,7 +1072,7 @@ export default {
         $value: "#78909C",
         key: "{blueGrey.400}",
       },
-      name: "GsBlueGrey400",
+      name: "gs-blue-grey-400",
       attributes: {
         category: "blueGrey",
         type: "400",
@@ -1090,7 +1090,7 @@ export default {
         $value: "#607D8B",
         key: "{blueGrey.500}",
       },
-      name: "GsBlueGrey500",
+      name: "gs-blue-grey-500",
       attributes: {
         category: "blueGrey",
         type: "500",
@@ -1108,7 +1108,7 @@ export default {
         $value: "#546E7A",
         key: "{blueGrey.600}",
       },
-      name: "GsBlueGrey600",
+      name: "gs-blue-grey-600",
       attributes: {
         category: "blueGrey",
         type: "600",
@@ -1126,7 +1126,7 @@ export default {
         $value: "#455A64",
         key: "{blueGrey.700}",
       },
-      name: "GsBlueGrey700",
+      name: "gs-blue-grey-700",
       attributes: {
         category: "blueGrey",
         type: "700",
@@ -1144,7 +1144,7 @@ export default {
         $value: "#37474F",
         key: "{blueGrey.800}",
       },
-      name: "GsBlueGrey800",
+      name: "gs-blue-grey-800",
       attributes: {
         category: "blueGrey",
         type: "800",
@@ -1162,7 +1162,7 @@ export default {
         $value: "#263238",
         key: "{blueGrey.900}",
       },
-      name: "GsBlueGrey900",
+      name: "gs-blue-grey-900",
       attributes: {
         category: "blueGrey",
         type: "900",
@@ -1180,7 +1180,7 @@ export default {
         $value: "#CFD8DC",
         key: "{blueGrey.A100}",
       },
-      name: "GsBlueGreyA100",
+      name: "gs-blue-grey-a100",
       attributes: {
         category: "blueGrey",
         type: "A100",
@@ -1198,7 +1198,7 @@ export default {
         $value: "#B0BEC5",
         key: "{blueGrey.A200}",
       },
-      name: "GsBlueGreyA200",
+      name: "gs-blue-grey-a200",
       attributes: {
         category: "blueGrey",
         type: "A200",
@@ -1216,7 +1216,7 @@ export default {
         $value: "#78909C",
         key: "{blueGrey.A400}",
       },
-      name: "GsBlueGreyA400",
+      name: "gs-blue-grey-a400",
       attributes: {
         category: "blueGrey",
         type: "A400",
@@ -1234,7 +1234,7 @@ export default {
         $value: "#455A64",
         key: "{blueGrey.A700}",
       },
-      name: "GsBlueGreyA700",
+      name: "gs-blue-grey-a700",
       attributes: {
         category: "blueGrey",
         type: "A700",
@@ -1254,7 +1254,7 @@ export default {
         $value: "#E0F7FA",
         key: "{cyan.50}",
       },
-      name: "GsCyan50",
+      name: "gs-cyan-50",
       attributes: {
         category: "cyan",
         type: "50",
@@ -1272,7 +1272,7 @@ export default {
         $value: "#B2EBF2",
         key: "{cyan.100}",
       },
-      name: "GsCyan100",
+      name: "gs-cyan-100",
       attributes: {
         category: "cyan",
         type: "100",
@@ -1290,7 +1290,7 @@ export default {
         $value: "#80DEEA",
         key: "{cyan.200}",
       },
-      name: "GsCyan200",
+      name: "gs-cyan-200",
       attributes: {
         category: "cyan",
         type: "200",
@@ -1308,7 +1308,7 @@ export default {
         $value: "#4DD0E1",
         key: "{cyan.300}",
       },
-      name: "GsCyan300",
+      name: "gs-cyan-300",
       attributes: {
         category: "cyan",
         type: "300",
@@ -1326,7 +1326,7 @@ export default {
         $value: "#26C6DA",
         key: "{cyan.400}",
       },
-      name: "GsCyan400",
+      name: "gs-cyan-400",
       attributes: {
         category: "cyan",
         type: "400",
@@ -1344,7 +1344,7 @@ export default {
         $value: "#00BCD4",
         key: "{cyan.500}",
       },
-      name: "GsCyan500",
+      name: "gs-cyan-500",
       attributes: {
         category: "cyan",
         type: "500",
@@ -1362,7 +1362,7 @@ export default {
         $value: "#00ACC1",
         key: "{cyan.600}",
       },
-      name: "GsCyan600",
+      name: "gs-cyan-600",
       attributes: {
         category: "cyan",
         type: "600",
@@ -1380,7 +1380,7 @@ export default {
         $value: "#0097A7",
         key: "{cyan.700}",
       },
-      name: "GsCyan700",
+      name: "gs-cyan-700",
       attributes: {
         category: "cyan",
         type: "700",
@@ -1398,7 +1398,7 @@ export default {
         $value: "#00838F",
         key: "{cyan.800}",
       },
-      name: "GsCyan800",
+      name: "gs-cyan-800",
       attributes: {
         category: "cyan",
         type: "800",
@@ -1416,7 +1416,7 @@ export default {
         $value: "#006064",
         key: "{cyan.900}",
       },
-      name: "GsCyan900",
+      name: "gs-cyan-900",
       attributes: {
         category: "cyan",
         type: "900",
@@ -1434,7 +1434,7 @@ export default {
         $value: "#84FFFF",
         key: "{cyan.A100}",
       },
-      name: "GsCyanA100",
+      name: "gs-cyan-a100",
       attributes: {
         category: "cyan",
         type: "A100",
@@ -1452,7 +1452,7 @@ export default {
         $value: "#18FFFF",
         key: "{cyan.A200}",
       },
-      name: "GsCyanA200",
+      name: "gs-cyan-a200",
       attributes: {
         category: "cyan",
         type: "A200",
@@ -1470,7 +1470,7 @@ export default {
         $value: "#00E5FF",
         key: "{cyan.A400}",
       },
-      name: "GsCyanA400",
+      name: "gs-cyan-a400",
       attributes: {
         category: "cyan",
         type: "A400",
@@ -1488,7 +1488,7 @@ export default {
         $value: "#00B8D4",
         key: "{cyan.A700}",
       },
-      name: "GsCyanA700",
+      name: "gs-cyan-a700",
       attributes: {
         category: "cyan",
         type: "A700",
@@ -1508,7 +1508,7 @@ export default {
         $value: "#FBE9E7",
         key: "{deepOrange.50}",
       },
-      name: "GsDeepOrange50",
+      name: "gs-deep-orange-50",
       attributes: {
         category: "deepOrange",
         type: "50",
@@ -1526,7 +1526,7 @@ export default {
         $value: "#FFCCBC",
         key: "{deepOrange.100}",
       },
-      name: "GsDeepOrange100",
+      name: "gs-deep-orange-100",
       attributes: {
         category: "deepOrange",
         type: "100",
@@ -1544,7 +1544,7 @@ export default {
         $value: "#FFAB91",
         key: "{deepOrange.200}",
       },
-      name: "GsDeepOrange200",
+      name: "gs-deep-orange-200",
       attributes: {
         category: "deepOrange",
         type: "200",
@@ -1562,7 +1562,7 @@ export default {
         $value: "#FF8A65",
         key: "{deepOrange.300}",
       },
-      name: "GsDeepOrange300",
+      name: "gs-deep-orange-300",
       attributes: {
         category: "deepOrange",
         type: "300",
@@ -1580,7 +1580,7 @@ export default {
         $value: "#FF7043",
         key: "{deepOrange.400}",
       },
-      name: "GsDeepOrange400",
+      name: "gs-deep-orange-400",
       attributes: {
         category: "deepOrange",
         type: "400",
@@ -1598,7 +1598,7 @@ export default {
         $value: "#FF5722",
         key: "{deepOrange.500}",
       },
-      name: "GsDeepOrange500",
+      name: "gs-deep-orange-500",
       attributes: {
         category: "deepOrange",
         type: "500",
@@ -1616,7 +1616,7 @@ export default {
         $value: "#F4511E",
         key: "{deepOrange.600}",
       },
-      name: "GsDeepOrange600",
+      name: "gs-deep-orange-600",
       attributes: {
         category: "deepOrange",
         type: "600",
@@ -1634,7 +1634,7 @@ export default {
         $value: "#E64A19",
         key: "{deepOrange.700}",
       },
-      name: "GsDeepOrange700",
+      name: "gs-deep-orange-700",
       attributes: {
         category: "deepOrange",
         type: "700",
@@ -1652,7 +1652,7 @@ export default {
         $value: "#D84315",
         key: "{deepOrange.800}",
       },
-      name: "GsDeepOrange800",
+      name: "gs-deep-orange-800",
       attributes: {
         category: "deepOrange",
         type: "800",
@@ -1670,7 +1670,7 @@ export default {
         $value: "#BF360C",
         key: "{deepOrange.900}",
       },
-      name: "GsDeepOrange900",
+      name: "gs-deep-orange-900",
       attributes: {
         category: "deepOrange",
         type: "900",
@@ -1688,7 +1688,7 @@ export default {
         $value: "#FF9E80",
         key: "{deepOrange.A100}",
       },
-      name: "GsDeepOrangeA100",
+      name: "gs-deep-orange-a100",
       attributes: {
         category: "deepOrange",
         type: "A100",
@@ -1706,7 +1706,7 @@ export default {
         $value: "#FF6E40",
         key: "{deepOrange.A200}",
       },
-      name: "GsDeepOrangeA200",
+      name: "gs-deep-orange-a200",
       attributes: {
         category: "deepOrange",
         type: "A200",
@@ -1724,7 +1724,7 @@ export default {
         $value: "#FF3D00",
         key: "{deepOrange.A400}",
       },
-      name: "GsDeepOrangeA400",
+      name: "gs-deep-orange-a400",
       attributes: {
         category: "deepOrange",
         type: "A400",
@@ -1742,7 +1742,7 @@ export default {
         $value: "#DD2C00",
         key: "{deepOrange.A700}",
       },
-      name: "GsDeepOrangeA700",
+      name: "gs-deep-orange-a700",
       attributes: {
         category: "deepOrange",
         type: "A700",
@@ -1762,7 +1762,7 @@ export default {
         $value: "#EDE7F6",
         key: "{deepPurple.50}",
       },
-      name: "GsDeepPurple50",
+      name: "gs-deep-purple-50",
       attributes: {
         category: "deepPurple",
         type: "50",
@@ -1780,7 +1780,7 @@ export default {
         $value: "#D1C4E9",
         key: "{deepPurple.100}",
       },
-      name: "GsDeepPurple100",
+      name: "gs-deep-purple-100",
       attributes: {
         category: "deepPurple",
         type: "100",
@@ -1798,7 +1798,7 @@ export default {
         $value: "#B39DDB",
         key: "{deepPurple.200}",
       },
-      name: "GsDeepPurple200",
+      name: "gs-deep-purple-200",
       attributes: {
         category: "deepPurple",
         type: "200",
@@ -1816,7 +1816,7 @@ export default {
         $value: "#9575CD",
         key: "{deepPurple.300}",
       },
-      name: "GsDeepPurple300",
+      name: "gs-deep-purple-300",
       attributes: {
         category: "deepPurple",
         type: "300",
@@ -1834,7 +1834,7 @@ export default {
         $value: "#7E57C2",
         key: "{deepPurple.400}",
       },
-      name: "GsDeepPurple400",
+      name: "gs-deep-purple-400",
       attributes: {
         category: "deepPurple",
         type: "400",
@@ -1852,7 +1852,7 @@ export default {
         $value: "#673AB7",
         key: "{deepPurple.500}",
       },
-      name: "GsDeepPurple500",
+      name: "gs-deep-purple-500",
       attributes: {
         category: "deepPurple",
         type: "500",
@@ -1870,7 +1870,7 @@ export default {
         $value: "#5E35B1",
         key: "{deepPurple.600}",
       },
-      name: "GsDeepPurple600",
+      name: "gs-deep-purple-600",
       attributes: {
         category: "deepPurple",
         type: "600",
@@ -1888,7 +1888,7 @@ export default {
         $value: "#512DA8",
         key: "{deepPurple.700}",
       },
-      name: "GsDeepPurple700",
+      name: "gs-deep-purple-700",
       attributes: {
         category: "deepPurple",
         type: "700",
@@ -1906,7 +1906,7 @@ export default {
         $value: "#4527A0",
         key: "{deepPurple.800}",
       },
-      name: "GsDeepPurple800",
+      name: "gs-deep-purple-800",
       attributes: {
         category: "deepPurple",
         type: "800",
@@ -1924,7 +1924,7 @@ export default {
         $value: "#311B92",
         key: "{deepPurple.900}",
       },
-      name: "GsDeepPurple900",
+      name: "gs-deep-purple-900",
       attributes: {
         category: "deepPurple",
         type: "900",
@@ -1942,7 +1942,7 @@ export default {
         $value: "#B388FF",
         key: "{deepPurple.A100}",
       },
-      name: "GsDeepPurpleA100",
+      name: "gs-deep-purple-a100",
       attributes: {
         category: "deepPurple",
         type: "A100",
@@ -1960,7 +1960,7 @@ export default {
         $value: "#7C4DFF",
         key: "{deepPurple.A200}",
       },
-      name: "GsDeepPurpleA200",
+      name: "gs-deep-purple-a200",
       attributes: {
         category: "deepPurple",
         type: "A200",
@@ -1978,7 +1978,7 @@ export default {
         $value: "#651FFF",
         key: "{deepPurple.A400}",
       },
-      name: "GsDeepPurpleA400",
+      name: "gs-deep-purple-a400",
       attributes: {
         category: "deepPurple",
         type: "A400",
@@ -1996,7 +1996,7 @@ export default {
         $value: "#6200EA",
         key: "{deepPurple.A700}",
       },
-      name: "GsDeepPurpleA700",
+      name: "gs-deep-purple-a700",
       attributes: {
         category: "deepPurple",
         type: "A700",
@@ -2016,7 +2016,7 @@ export default {
         $value: "#E8F5E9",
         key: "{green.50}",
       },
-      name: "GsGreen50",
+      name: "gs-green-50",
       attributes: {
         category: "green",
         type: "50",
@@ -2034,7 +2034,7 @@ export default {
         $value: "#C8E6C9",
         key: "{green.100}",
       },
-      name: "GsGreen100",
+      name: "gs-green-100",
       attributes: {
         category: "green",
         type: "100",
@@ -2052,7 +2052,7 @@ export default {
         $value: "#A5D6A7",
         key: "{green.200}",
       },
-      name: "GsGreen200",
+      name: "gs-green-200",
       attributes: {
         category: "green",
         type: "200",
@@ -2070,7 +2070,7 @@ export default {
         $value: "#81C784",
         key: "{green.300}",
       },
-      name: "GsGreen300",
+      name: "gs-green-300",
       attributes: {
         category: "green",
         type: "300",
@@ -2088,7 +2088,7 @@ export default {
         $value: "#66BB6A",
         key: "{green.400}",
       },
-      name: "GsGreen400",
+      name: "gs-green-400",
       attributes: {
         category: "green",
         type: "400",
@@ -2106,7 +2106,7 @@ export default {
         $value: "#4CAF50",
         key: "{green.500}",
       },
-      name: "GsGreen500",
+      name: "gs-green-500",
       attributes: {
         category: "green",
         type: "500",
@@ -2124,7 +2124,7 @@ export default {
         $value: "#43A047",
         key: "{green.600}",
       },
-      name: "GsGreen600",
+      name: "gs-green-600",
       attributes: {
         category: "green",
         type: "600",
@@ -2142,7 +2142,7 @@ export default {
         $value: "#388E3C",
         key: "{green.700}",
       },
-      name: "GsGreen700",
+      name: "gs-green-700",
       attributes: {
         category: "green",
         type: "700",
@@ -2160,7 +2160,7 @@ export default {
         $value: "#2E7D32",
         key: "{green.800}",
       },
-      name: "GsGreen800",
+      name: "gs-green-800",
       attributes: {
         category: "green",
         type: "800",
@@ -2178,7 +2178,7 @@ export default {
         $value: "#1B5E20",
         key: "{green.900}",
       },
-      name: "GsGreen900",
+      name: "gs-green-900",
       attributes: {
         category: "green",
         type: "900",
@@ -2196,7 +2196,7 @@ export default {
         $value: "#B9F6CA",
         key: "{green.A100}",
       },
-      name: "GsGreenA100",
+      name: "gs-green-a100",
       attributes: {
         category: "green",
         type: "A100",
@@ -2214,7 +2214,7 @@ export default {
         $value: "#69F0AE",
         key: "{green.A200}",
       },
-      name: "GsGreenA200",
+      name: "gs-green-a200",
       attributes: {
         category: "green",
         type: "A200",
@@ -2232,7 +2232,7 @@ export default {
         $value: "#00E676",
         key: "{green.A400}",
       },
-      name: "GsGreenA400",
+      name: "gs-green-a400",
       attributes: {
         category: "green",
         type: "A400",
@@ -2250,7 +2250,7 @@ export default {
         $value: "#00C853",
         key: "{green.A700}",
       },
-      name: "GsGreenA700",
+      name: "gs-green-a700",
       attributes: {
         category: "green",
         type: "A700",
@@ -2270,7 +2270,7 @@ export default {
         $value: "#FAFAFA",
         key: "{grey.50}",
       },
-      name: "GsGrey50",
+      name: "gs-grey-50",
       attributes: {
         category: "grey",
         type: "50",
@@ -2288,7 +2288,7 @@ export default {
         $value: "#F5F5F5",
         key: "{grey.100}",
       },
-      name: "GsGrey100",
+      name: "gs-grey-100",
       attributes: {
         category: "grey",
         type: "100",
@@ -2306,7 +2306,7 @@ export default {
         $value: "#EEEEEE",
         key: "{grey.200}",
       },
-      name: "GsGrey200",
+      name: "gs-grey-200",
       attributes: {
         category: "grey",
         type: "200",
@@ -2324,7 +2324,7 @@ export default {
         $value: "#E0E0E0",
         key: "{grey.300}",
       },
-      name: "GsGrey300",
+      name: "gs-grey-300",
       attributes: {
         category: "grey",
         type: "300",
@@ -2342,7 +2342,7 @@ export default {
         $value: "#BDBDBD",
         key: "{grey.400}",
       },
-      name: "GsGrey400",
+      name: "gs-grey-400",
       attributes: {
         category: "grey",
         type: "400",
@@ -2360,7 +2360,7 @@ export default {
         $value: "#9E9E9E",
         key: "{grey.500}",
       },
-      name: "GsGrey500",
+      name: "gs-grey-500",
       attributes: {
         category: "grey",
         type: "500",
@@ -2378,7 +2378,7 @@ export default {
         $value: "#757575",
         key: "{grey.600}",
       },
-      name: "GsGrey600",
+      name: "gs-grey-600",
       attributes: {
         category: "grey",
         type: "600",
@@ -2396,7 +2396,7 @@ export default {
         $value: "#616161",
         key: "{grey.700}",
       },
-      name: "GsGrey700",
+      name: "gs-grey-700",
       attributes: {
         category: "grey",
         type: "700",
@@ -2414,7 +2414,7 @@ export default {
         $value: "#424242",
         key: "{grey.800}",
       },
-      name: "GsGrey800",
+      name: "gs-grey-800",
       attributes: {
         category: "grey",
         type: "800",
@@ -2432,7 +2432,7 @@ export default {
         $value: "#212121",
         key: "{grey.900}",
       },
-      name: "GsGrey900",
+      name: "gs-grey-900",
       attributes: {
         category: "grey",
         type: "900",
@@ -2450,7 +2450,7 @@ export default {
         $value: "#F5F5F5",
         key: "{grey.A100}",
       },
-      name: "GsGreyA100",
+      name: "gs-grey-a100",
       attributes: {
         category: "grey",
         type: "A100",
@@ -2468,7 +2468,7 @@ export default {
         $value: "#EEEEEE",
         key: "{grey.A200}",
       },
-      name: "GsGreyA200",
+      name: "gs-grey-a200",
       attributes: {
         category: "grey",
         type: "A200",
@@ -2486,7 +2486,7 @@ export default {
         $value: "#BDBDBD",
         key: "{grey.A400}",
       },
-      name: "GsGreyA400",
+      name: "gs-grey-a400",
       attributes: {
         category: "grey",
         type: "A400",
@@ -2504,7 +2504,7 @@ export default {
         $value: "#616161",
         key: "{grey.A700}",
       },
-      name: "GsGreyA700",
+      name: "gs-grey-a700",
       attributes: {
         category: "grey",
         type: "A700",
@@ -2524,7 +2524,7 @@ export default {
         $value: "#E8EAF6",
         key: "{indigo.50}",
       },
-      name: "GsIndigo50",
+      name: "gs-indigo-50",
       attributes: {
         category: "indigo",
         type: "50",
@@ -2542,7 +2542,7 @@ export default {
         $value: "#C5CAE9",
         key: "{indigo.100}",
       },
-      name: "GsIndigo100",
+      name: "gs-indigo-100",
       attributes: {
         category: "indigo",
         type: "100",
@@ -2560,7 +2560,7 @@ export default {
         $value: "#9FA8DA",
         key: "{indigo.200}",
       },
-      name: "GsIndigo200",
+      name: "gs-indigo-200",
       attributes: {
         category: "indigo",
         type: "200",
@@ -2578,7 +2578,7 @@ export default {
         $value: "#7986CB",
         key: "{indigo.300}",
       },
-      name: "GsIndigo300",
+      name: "gs-indigo-300",
       attributes: {
         category: "indigo",
         type: "300",
@@ -2596,7 +2596,7 @@ export default {
         $value: "#5C6BC0",
         key: "{indigo.400}",
       },
-      name: "GsIndigo400",
+      name: "gs-indigo-400",
       attributes: {
         category: "indigo",
         type: "400",
@@ -2614,7 +2614,7 @@ export default {
         $value: "#3F51B5",
         key: "{indigo.500}",
       },
-      name: "GsIndigo500",
+      name: "gs-indigo-500",
       attributes: {
         category: "indigo",
         type: "500",
@@ -2632,7 +2632,7 @@ export default {
         $value: "#3949AB",
         key: "{indigo.600}",
       },
-      name: "GsIndigo600",
+      name: "gs-indigo-600",
       attributes: {
         category: "indigo",
         type: "600",
@@ -2650,7 +2650,7 @@ export default {
         $value: "#303F9F",
         key: "{indigo.700}",
       },
-      name: "GsIndigo700",
+      name: "gs-indigo-700",
       attributes: {
         category: "indigo",
         type: "700",
@@ -2668,7 +2668,7 @@ export default {
         $value: "#283593",
         key: "{indigo.800}",
       },
-      name: "GsIndigo800",
+      name: "gs-indigo-800",
       attributes: {
         category: "indigo",
         type: "800",
@@ -2686,7 +2686,7 @@ export default {
         $value: "#1A237E",
         key: "{indigo.900}",
       },
-      name: "GsIndigo900",
+      name: "gs-indigo-900",
       attributes: {
         category: "indigo",
         type: "900",
@@ -2704,7 +2704,7 @@ export default {
         $value: "#8C9EFF",
         key: "{indigo.A100}",
       },
-      name: "GsIndigoA100",
+      name: "gs-indigo-a100",
       attributes: {
         category: "indigo",
         type: "A100",
@@ -2722,7 +2722,7 @@ export default {
         $value: "#536DFE",
         key: "{indigo.A200}",
       },
-      name: "GsIndigoA200",
+      name: "gs-indigo-a200",
       attributes: {
         category: "indigo",
         type: "A200",
@@ -2740,7 +2740,7 @@ export default {
         $value: "#3D5AFE",
         key: "{indigo.A400}",
       },
-      name: "GsIndigoA400",
+      name: "gs-indigo-a400",
       attributes: {
         category: "indigo",
         type: "A400",
@@ -2758,7 +2758,7 @@ export default {
         $value: "#304FFE",
         key: "{indigo.A700}",
       },
-      name: "GsIndigoA700",
+      name: "gs-indigo-a700",
       attributes: {
         category: "indigo",
         type: "A700",
@@ -2778,7 +2778,7 @@ export default {
         $value: "#E1F5FE",
         key: "{lightBlue.50}",
       },
-      name: "GsLightBlue50",
+      name: "gs-light-blue-50",
       attributes: {
         category: "lightBlue",
         type: "50",
@@ -2796,7 +2796,7 @@ export default {
         $value: "#B3E5FC",
         key: "{lightBlue.100}",
       },
-      name: "GsLightBlue100",
+      name: "gs-light-blue-100",
       attributes: {
         category: "lightBlue",
         type: "100",
@@ -2814,7 +2814,7 @@ export default {
         $value: "#81D4FA",
         key: "{lightBlue.200}",
       },
-      name: "GsLightBlue200",
+      name: "gs-light-blue-200",
       attributes: {
         category: "lightBlue",
         type: "200",
@@ -2832,7 +2832,7 @@ export default {
         $value: "#4FC3F7",
         key: "{lightBlue.300}",
       },
-      name: "GsLightBlue300",
+      name: "gs-light-blue-300",
       attributes: {
         category: "lightBlue",
         type: "300",
@@ -2850,7 +2850,7 @@ export default {
         $value: "#29B6F6",
         key: "{lightBlue.400}",
       },
-      name: "GsLightBlue400",
+      name: "gs-light-blue-400",
       attributes: {
         category: "lightBlue",
         type: "400",
@@ -2868,7 +2868,7 @@ export default {
         $value: "#03A9F4",
         key: "{lightBlue.500}",
       },
-      name: "GsLightBlue500",
+      name: "gs-light-blue-500",
       attributes: {
         category: "lightBlue",
         type: "500",
@@ -2886,7 +2886,7 @@ export default {
         $value: "#039BE5",
         key: "{lightBlue.600}",
       },
-      name: "GsLightBlue600",
+      name: "gs-light-blue-600",
       attributes: {
         category: "lightBlue",
         type: "600",
@@ -2904,7 +2904,7 @@ export default {
         $value: "#0288D1",
         key: "{lightBlue.700}",
       },
-      name: "GsLightBlue700",
+      name: "gs-light-blue-700",
       attributes: {
         category: "lightBlue",
         type: "700",
@@ -2922,7 +2922,7 @@ export default {
         $value: "#0277BD",
         key: "{lightBlue.800}",
       },
-      name: "GsLightBlue800",
+      name: "gs-light-blue-800",
       attributes: {
         category: "lightBlue",
         type: "800",
@@ -2940,7 +2940,7 @@ export default {
         $value: "#01579B",
         key: "{lightBlue.900}",
       },
-      name: "GsLightBlue900",
+      name: "gs-light-blue-900",
       attributes: {
         category: "lightBlue",
         type: "900",
@@ -2958,7 +2958,7 @@ export default {
         $value: "#80D8FF",
         key: "{lightBlue.A100}",
       },
-      name: "GsLightBlueA100",
+      name: "gs-light-blue-a100",
       attributes: {
         category: "lightBlue",
         type: "A100",
@@ -2976,7 +2976,7 @@ export default {
         $value: "#40C4FF",
         key: "{lightBlue.A200}",
       },
-      name: "GsLightBlueA200",
+      name: "gs-light-blue-a200",
       attributes: {
         category: "lightBlue",
         type: "A200",
@@ -2994,7 +2994,7 @@ export default {
         $value: "#00B0FF",
         key: "{lightBlue.A400}",
       },
-      name: "GsLightBlueA400",
+      name: "gs-light-blue-a400",
       attributes: {
         category: "lightBlue",
         type: "A400",
@@ -3012,7 +3012,7 @@ export default {
         $value: "#0091EA",
         key: "{lightBlue.A700}",
       },
-      name: "GsLightBlueA700",
+      name: "gs-light-blue-a700",
       attributes: {
         category: "lightBlue",
         type: "A700",
@@ -3032,7 +3032,7 @@ export default {
         $value: "#F1F8E9",
         key: "{lightGreen.50}",
       },
-      name: "GsLightGreen50",
+      name: "gs-light-green-50",
       attributes: {
         category: "lightGreen",
         type: "50",
@@ -3050,7 +3050,7 @@ export default {
         $value: "#DCEDC8",
         key: "{lightGreen.100}",
       },
-      name: "GsLightGreen100",
+      name: "gs-light-green-100",
       attributes: {
         category: "lightGreen",
         type: "100",
@@ -3068,7 +3068,7 @@ export default {
         $value: "#C5E1A5",
         key: "{lightGreen.200}",
       },
-      name: "GsLightGreen200",
+      name: "gs-light-green-200",
       attributes: {
         category: "lightGreen",
         type: "200",
@@ -3086,7 +3086,7 @@ export default {
         $value: "#AED581",
         key: "{lightGreen.300}",
       },
-      name: "GsLightGreen300",
+      name: "gs-light-green-300",
       attributes: {
         category: "lightGreen",
         type: "300",
@@ -3104,7 +3104,7 @@ export default {
         $value: "#8BC34A",
         key: "{lightGreen.400}",
       },
-      name: "GsLightGreen400",
+      name: "gs-light-green-400",
       attributes: {
         category: "lightGreen",
         type: "400",
@@ -3122,7 +3122,7 @@ export default {
         $value: "#8BC34A",
         key: "{lightGreen.500}",
       },
-      name: "GsLightGreen500",
+      name: "gs-light-green-500",
       attributes: {
         category: "lightGreen",
         type: "500",
@@ -3140,7 +3140,7 @@ export default {
         $value: "#7CB342",
         key: "{lightGreen.600}",
       },
-      name: "GsLightGreen600",
+      name: "gs-light-green-600",
       attributes: {
         category: "lightGreen",
         type: "600",
@@ -3158,7 +3158,7 @@ export default {
         $value: "#689F38",
         key: "{lightGreen.700}",
       },
-      name: "GsLightGreen700",
+      name: "gs-light-green-700",
       attributes: {
         category: "lightGreen",
         type: "700",
@@ -3176,7 +3176,7 @@ export default {
         $value: "#558B2F",
         key: "{lightGreen.800}",
       },
-      name: "GsLightGreen800",
+      name: "gs-light-green-800",
       attributes: {
         category: "lightGreen",
         type: "800",
@@ -3194,7 +3194,7 @@ export default {
         $value: "#33691E",
         key: "{lightGreen.900}",
       },
-      name: "GsLightGreen900",
+      name: "gs-light-green-900",
       attributes: {
         category: "lightGreen",
         type: "900",
@@ -3212,7 +3212,7 @@ export default {
         $value: "#CCFF90",
         key: "{lightGreen.A100}",
       },
-      name: "GsLightGreenA100",
+      name: "gs-light-green-a100",
       attributes: {
         category: "lightGreen",
         type: "A100",
@@ -3230,7 +3230,7 @@ export default {
         $value: "#B2FF59",
         key: "{lightGreen.A200}",
       },
-      name: "GsLightGreenA200",
+      name: "gs-light-green-a200",
       attributes: {
         category: "lightGreen",
         type: "A200",
@@ -3248,7 +3248,7 @@ export default {
         $value: "#76FF03",
         key: "{lightGreen.A400}",
       },
-      name: "GsLightGreenA400",
+      name: "gs-light-green-a400",
       attributes: {
         category: "lightGreen",
         type: "A400",
@@ -3266,7 +3266,7 @@ export default {
         $value: "#64DD17",
         key: "{lightGreen.A700}",
       },
-      name: "GsLightGreenA700",
+      name: "gs-light-green-a700",
       attributes: {
         category: "lightGreen",
         type: "A700",
@@ -3286,7 +3286,7 @@ export default {
         $value: "#F9FBE7",
         key: "{lime.50}",
       },
-      name: "GsLime50",
+      name: "gs-lime-50",
       attributes: {
         category: "lime",
         type: "50",
@@ -3304,7 +3304,7 @@ export default {
         $value: "#F0F4C3",
         key: "{lime.100}",
       },
-      name: "GsLime100",
+      name: "gs-lime-100",
       attributes: {
         category: "lime",
         type: "100",
@@ -3322,7 +3322,7 @@ export default {
         $value: "#E6EE9C",
         key: "{lime.200}",
       },
-      name: "GsLime200",
+      name: "gs-lime-200",
       attributes: {
         category: "lime",
         type: "200",
@@ -3340,7 +3340,7 @@ export default {
         $value: "#DCE775",
         key: "{lime.300}",
       },
-      name: "GsLime300",
+      name: "gs-lime-300",
       attributes: {
         category: "lime",
         type: "300",
@@ -3358,7 +3358,7 @@ export default {
         $value: "#D4E157",
         key: "{lime.400}",
       },
-      name: "GsLime400",
+      name: "gs-lime-400",
       attributes: {
         category: "lime",
         type: "400",
@@ -3376,7 +3376,7 @@ export default {
         $value: "#CDDC39",
         key: "{lime.500}",
       },
-      name: "GsLime500",
+      name: "gs-lime-500",
       attributes: {
         category: "lime",
         type: "500",
@@ -3394,7 +3394,7 @@ export default {
         $value: "#C0CA33",
         key: "{lime.600}",
       },
-      name: "GsLime600",
+      name: "gs-lime-600",
       attributes: {
         category: "lime",
         type: "600",
@@ -3412,7 +3412,7 @@ export default {
         $value: "#AFB42B",
         key: "{lime.700}",
       },
-      name: "GsLime700",
+      name: "gs-lime-700",
       attributes: {
         category: "lime",
         type: "700",
@@ -3430,7 +3430,7 @@ export default {
         $value: "#9E9D24",
         key: "{lime.800}",
       },
-      name: "GsLime800",
+      name: "gs-lime-800",
       attributes: {
         category: "lime",
         type: "800",
@@ -3448,7 +3448,7 @@ export default {
         $value: "#827717",
         key: "{lime.900}",
       },
-      name: "GsLime900",
+      name: "gs-lime-900",
       attributes: {
         category: "lime",
         type: "900",
@@ -3466,7 +3466,7 @@ export default {
         $value: "#F4FF81",
         key: "{lime.A100}",
       },
-      name: "GsLimeA100",
+      name: "gs-lime-a100",
       attributes: {
         category: "lime",
         type: "A100",
@@ -3484,7 +3484,7 @@ export default {
         $value: "#EEFF41",
         key: "{lime.A200}",
       },
-      name: "GsLimeA200",
+      name: "gs-lime-a200",
       attributes: {
         category: "lime",
         type: "A200",
@@ -3502,7 +3502,7 @@ export default {
         $value: "#C6FF00",
         key: "{lime.A400}",
       },
-      name: "GsLimeA400",
+      name: "gs-lime-a400",
       attributes: {
         category: "lime",
         type: "A400",
@@ -3520,7 +3520,7 @@ export default {
         $value: "#AEEA00",
         key: "{lime.A700}",
       },
-      name: "GsLimeA700",
+      name: "gs-lime-a700",
       attributes: {
         category: "lime",
         type: "A700",
@@ -3540,7 +3540,7 @@ export default {
         $value: "#FFF3E0",
         key: "{orange.50}",
       },
-      name: "GsOrange50",
+      name: "gs-orange-50",
       attributes: {
         category: "orange",
         type: "50",
@@ -3558,7 +3558,7 @@ export default {
         $value: "#FFE0B2",
         key: "{orange.100}",
       },
-      name: "GsOrange100",
+      name: "gs-orange-100",
       attributes: {
         category: "orange",
         type: "100",
@@ -3576,7 +3576,7 @@ export default {
         $value: "#FFCC80",
         key: "{orange.200}",
       },
-      name: "GsOrange200",
+      name: "gs-orange-200",
       attributes: {
         category: "orange",
         type: "200",
@@ -3594,7 +3594,7 @@ export default {
         $value: "#FFB74D",
         key: "{orange.300}",
       },
-      name: "GsOrange300",
+      name: "gs-orange-300",
       attributes: {
         category: "orange",
         type: "300",
@@ -3612,7 +3612,7 @@ export default {
         $value: "#FFA726",
         key: "{orange.400}",
       },
-      name: "GsOrange400",
+      name: "gs-orange-400",
       attributes: {
         category: "orange",
         type: "400",
@@ -3630,7 +3630,7 @@ export default {
         $value: "#FF9800",
         key: "{orange.500}",
       },
-      name: "GsOrange500",
+      name: "gs-orange-500",
       attributes: {
         category: "orange",
         type: "500",
@@ -3648,7 +3648,7 @@ export default {
         $value: "#FB8C00",
         key: "{orange.600}",
       },
-      name: "GsOrange600",
+      name: "gs-orange-600",
       attributes: {
         category: "orange",
         type: "600",
@@ -3666,7 +3666,7 @@ export default {
         $value: "#F57C00",
         key: "{orange.700}",
       },
-      name: "GsOrange700",
+      name: "gs-orange-700",
       attributes: {
         category: "orange",
         type: "700",
@@ -3684,7 +3684,7 @@ export default {
         $value: "#EF6C00",
         key: "{orange.800}",
       },
-      name: "GsOrange800",
+      name: "gs-orange-800",
       attributes: {
         category: "orange",
         type: "800",
@@ -3702,7 +3702,7 @@ export default {
         $value: "#E65100",
         key: "{orange.900}",
       },
-      name: "GsOrange900",
+      name: "gs-orange-900",
       attributes: {
         category: "orange",
         type: "900",
@@ -3720,7 +3720,7 @@ export default {
         $value: "#FFD180",
         key: "{orange.A100}",
       },
-      name: "GsOrangeA100",
+      name: "gs-orange-a100",
       attributes: {
         category: "orange",
         type: "A100",
@@ -3738,7 +3738,7 @@ export default {
         $value: "#FFAB40",
         key: "{orange.A200}",
       },
-      name: "GsOrangeA200",
+      name: "gs-orange-a200",
       attributes: {
         category: "orange",
         type: "A200",
@@ -3756,7 +3756,7 @@ export default {
         $value: "#FF9100",
         key: "{orange.A400}",
       },
-      name: "GsOrangeA400",
+      name: "gs-orange-a400",
       attributes: {
         category: "orange",
         type: "A400",
@@ -3774,7 +3774,7 @@ export default {
         $value: "#FF6D00",
         key: "{orange.A700}",
       },
-      name: "GsOrangeA700",
+      name: "gs-orange-a700",
       attributes: {
         category: "orange",
         type: "A700",
@@ -3794,7 +3794,7 @@ export default {
         $value: "#FCE4EC",
         key: "{pink.50}",
       },
-      name: "GsPink50",
+      name: "gs-pink-50",
       attributes: {
         category: "pink",
         type: "50",
@@ -3812,7 +3812,7 @@ export default {
         $value: "#F8BBD0",
         key: "{pink.100}",
       },
-      name: "GsPink100",
+      name: "gs-pink-100",
       attributes: {
         category: "pink",
         type: "100",
@@ -3830,7 +3830,7 @@ export default {
         $value: "#F48FB1",
         key: "{pink.200}",
       },
-      name: "GsPink200",
+      name: "gs-pink-200",
       attributes: {
         category: "pink",
         type: "200",
@@ -3848,7 +3848,7 @@ export default {
         $value: "#F06292",
         key: "{pink.300}",
       },
-      name: "GsPink300",
+      name: "gs-pink-300",
       attributes: {
         category: "pink",
         type: "300",
@@ -3866,7 +3866,7 @@ export default {
         $value: "#EC407A",
         key: "{pink.400}",
       },
-      name: "GsPink400",
+      name: "gs-pink-400",
       attributes: {
         category: "pink",
         type: "400",
@@ -3884,7 +3884,7 @@ export default {
         $value: "#E91E63",
         key: "{pink.500}",
       },
-      name: "GsPink500",
+      name: "gs-pink-500",
       attributes: {
         category: "pink",
         type: "500",
@@ -3902,7 +3902,7 @@ export default {
         $value: "#D81B60",
         key: "{pink.600}",
       },
-      name: "GsPink600",
+      name: "gs-pink-600",
       attributes: {
         category: "pink",
         type: "600",
@@ -3920,7 +3920,7 @@ export default {
         $value: "#C2185B",
         key: "{pink.700}",
       },
-      name: "GsPink700",
+      name: "gs-pink-700",
       attributes: {
         category: "pink",
         type: "700",
@@ -3938,7 +3938,7 @@ export default {
         $value: "#AD1457",
         key: "{pink.800}",
       },
-      name: "GsPink800",
+      name: "gs-pink-800",
       attributes: {
         category: "pink",
         type: "800",
@@ -3956,7 +3956,7 @@ export default {
         $value: "#880E4F",
         key: "{pink.900}",
       },
-      name: "GsPink900",
+      name: "gs-pink-900",
       attributes: {
         category: "pink",
         type: "900",
@@ -3974,7 +3974,7 @@ export default {
         $value: "#FF80AB",
         key: "{pink.A100}",
       },
-      name: "GsPinkA100",
+      name: "gs-pink-a100",
       attributes: {
         category: "pink",
         type: "A100",
@@ -3992,7 +3992,7 @@ export default {
         $value: "#FF4081",
         key: "{pink.A200}",
       },
-      name: "GsPinkA200",
+      name: "gs-pink-a200",
       attributes: {
         category: "pink",
         type: "A200",
@@ -4010,7 +4010,7 @@ export default {
         $value: "#F50057",
         key: "{pink.A400}",
       },
-      name: "GsPinkA400",
+      name: "gs-pink-a400",
       attributes: {
         category: "pink",
         type: "A400",
@@ -4028,7 +4028,7 @@ export default {
         $value: "#C51162",
         key: "{pink.A700}",
       },
-      name: "GsPinkA700",
+      name: "gs-pink-a700",
       attributes: {
         category: "pink",
         type: "A700",
@@ -4048,7 +4048,7 @@ export default {
         $value: "#F3E5F5",
         key: "{purple.50}",
       },
-      name: "GsPurple50",
+      name: "gs-purple-50",
       attributes: {
         category: "purple",
         type: "50",
@@ -4066,7 +4066,7 @@ export default {
         $value: "#E1BEE7",
         key: "{purple.100}",
       },
-      name: "GsPurple100",
+      name: "gs-purple-100",
       attributes: {
         category: "purple",
         type: "100",
@@ -4084,7 +4084,7 @@ export default {
         $value: "#CE93D8",
         key: "{purple.200}",
       },
-      name: "GsPurple200",
+      name: "gs-purple-200",
       attributes: {
         category: "purple",
         type: "200",
@@ -4102,7 +4102,7 @@ export default {
         $value: "#BA68C8",
         key: "{purple.300}",
       },
-      name: "GsPurple300",
+      name: "gs-purple-300",
       attributes: {
         category: "purple",
         type: "300",
@@ -4120,7 +4120,7 @@ export default {
         $value: "#AB47BC",
         key: "{purple.400}",
       },
-      name: "GsPurple400",
+      name: "gs-purple-400",
       attributes: {
         category: "purple",
         type: "400",
@@ -4138,7 +4138,7 @@ export default {
         $value: "#9C27B0",
         key: "{purple.500}",
       },
-      name: "GsPurple500",
+      name: "gs-purple-500",
       attributes: {
         category: "purple",
         type: "500",
@@ -4156,7 +4156,7 @@ export default {
         $value: "#8E24AA",
         key: "{purple.600}",
       },
-      name: "GsPurple600",
+      name: "gs-purple-600",
       attributes: {
         category: "purple",
         type: "600",
@@ -4174,7 +4174,7 @@ export default {
         $value: "#7B1FA2",
         key: "{purple.700}",
       },
-      name: "GsPurple700",
+      name: "gs-purple-700",
       attributes: {
         category: "purple",
         type: "700",
@@ -4192,7 +4192,7 @@ export default {
         $value: "#6A1B9A",
         key: "{purple.800}",
       },
-      name: "GsPurple800",
+      name: "gs-purple-800",
       attributes: {
         category: "purple",
         type: "800",
@@ -4210,7 +4210,7 @@ export default {
         $value: "#4A148C",
         key: "{purple.900}",
       },
-      name: "GsPurple900",
+      name: "gs-purple-900",
       attributes: {
         category: "purple",
         type: "900",
@@ -4228,7 +4228,7 @@ export default {
         $value: "#EA80FC",
         key: "{purple.A100}",
       },
-      name: "GsPurpleA100",
+      name: "gs-purple-a100",
       attributes: {
         category: "purple",
         type: "A100",
@@ -4246,7 +4246,7 @@ export default {
         $value: "#E040FB",
         key: "{purple.A200}",
       },
-      name: "GsPurpleA200",
+      name: "gs-purple-a200",
       attributes: {
         category: "purple",
         type: "A200",
@@ -4264,7 +4264,7 @@ export default {
         $value: "#D500F9",
         key: "{purple.A400}",
       },
-      name: "GsPurpleA400",
+      name: "gs-purple-a400",
       attributes: {
         category: "purple",
         type: "A400",
@@ -4282,7 +4282,7 @@ export default {
         $value: "#AA00FF",
         key: "{purple.A700}",
       },
-      name: "GsPurpleA700",
+      name: "gs-purple-a700",
       attributes: {
         category: "purple",
         type: "A700",
@@ -4302,7 +4302,7 @@ export default {
         $value: "#FEEBEE",
         key: "{red.50}",
       },
-      name: "GsRed50",
+      name: "gs-red-50",
       attributes: {
         category: "red",
         type: "50",
@@ -4320,7 +4320,7 @@ export default {
         $value: "#FECDD2",
         key: "{red.100}",
       },
-      name: "GsRed100",
+      name: "gs-red-100",
       attributes: {
         category: "red",
         type: "100",
@@ -4338,7 +4338,7 @@ export default {
         $value: "#EF9A9A",
         key: "{red.200}",
       },
-      name: "GsRed200",
+      name: "gs-red-200",
       attributes: {
         category: "red",
         type: "200",
@@ -4356,7 +4356,7 @@ export default {
         $value: "#E57373",
         key: "{red.300}",
       },
-      name: "GsRed300",
+      name: "gs-red-300",
       attributes: {
         category: "red",
         type: "300",
@@ -4374,7 +4374,7 @@ export default {
         $value: "#EF5350",
         key: "{red.400}",
       },
-      name: "GsRed400",
+      name: "gs-red-400",
       attributes: {
         category: "red",
         type: "400",
@@ -4392,7 +4392,7 @@ export default {
         $value: "#F44336",
         key: "{red.500}",
       },
-      name: "GsRed500",
+      name: "gs-red-500",
       attributes: {
         category: "red",
         type: "500",
@@ -4410,7 +4410,7 @@ export default {
         $value: "#E53935",
         key: "{red.600}",
       },
-      name: "GsRed600",
+      name: "gs-red-600",
       attributes: {
         category: "red",
         type: "600",
@@ -4428,7 +4428,7 @@ export default {
         $value: "#D32F2F",
         key: "{red.700}",
       },
-      name: "GsRed700",
+      name: "gs-red-700",
       attributes: {
         category: "red",
         type: "700",
@@ -4446,7 +4446,7 @@ export default {
         $value: "#C62828",
         key: "{red.800}",
       },
-      name: "GsRed800",
+      name: "gs-red-800",
       attributes: {
         category: "red",
         type: "800",
@@ -4464,7 +4464,7 @@ export default {
         $value: "#B71C1C",
         key: "{red.900}",
       },
-      name: "GsRed900",
+      name: "gs-red-900",
       attributes: {
         category: "red",
         type: "900",
@@ -4482,7 +4482,7 @@ export default {
         $value: "#FF8A80",
         key: "{red.A100}",
       },
-      name: "GsRedA100",
+      name: "gs-red-a100",
       attributes: {
         category: "red",
         type: "A100",
@@ -4500,7 +4500,7 @@ export default {
         $value: "#FF5252",
         key: "{red.A200}",
       },
-      name: "GsRedA200",
+      name: "gs-red-a200",
       attributes: {
         category: "red",
         type: "A200",
@@ -4518,7 +4518,7 @@ export default {
         $value: "#FF1744",
         key: "{red.A400}",
       },
-      name: "GsRedA400",
+      name: "gs-red-a400",
       attributes: {
         category: "red",
         type: "A400",
@@ -4536,7 +4536,7 @@ export default {
         $value: "#D50000",
         key: "{red.A700}",
       },
-      name: "GsRedA700",
+      name: "gs-red-a700",
       attributes: {
         category: "red",
         type: "A700",
@@ -4556,7 +4556,7 @@ export default {
         $value: "#E0F2F1",
         key: "{teal.50}",
       },
-      name: "GsTeal50",
+      name: "gs-teal-50",
       attributes: {
         category: "teal",
         type: "50",
@@ -4574,7 +4574,7 @@ export default {
         $value: "#B2DFDB",
         key: "{teal.100}",
       },
-      name: "GsTeal100",
+      name: "gs-teal-100",
       attributes: {
         category: "teal",
         type: "100",
@@ -4592,7 +4592,7 @@ export default {
         $value: "#80CBC4",
         key: "{teal.200}",
       },
-      name: "GsTeal200",
+      name: "gs-teal-200",
       attributes: {
         category: "teal",
         type: "200",
@@ -4610,7 +4610,7 @@ export default {
         $value: "#4DB6AC",
         key: "{teal.300}",
       },
-      name: "GsTeal300",
+      name: "gs-teal-300",
       attributes: {
         category: "teal",
         type: "300",
@@ -4628,7 +4628,7 @@ export default {
         $value: "#26A69A",
         key: "{teal.400}",
       },
-      name: "GsTeal400",
+      name: "gs-teal-400",
       attributes: {
         category: "teal",
         type: "400",
@@ -4646,7 +4646,7 @@ export default {
         $value: "#009688",
         key: "{teal.500}",
       },
-      name: "GsTeal500",
+      name: "gs-teal-500",
       attributes: {
         category: "teal",
         type: "500",
@@ -4664,7 +4664,7 @@ export default {
         $value: "#00897B",
         key: "{teal.600}",
       },
-      name: "GsTeal600",
+      name: "gs-teal-600",
       attributes: {
         category: "teal",
         type: "600",
@@ -4682,7 +4682,7 @@ export default {
         $value: "#00796B",
         key: "{teal.700}",
       },
-      name: "GsTeal700",
+      name: "gs-teal-700",
       attributes: {
         category: "teal",
         type: "700",
@@ -4700,7 +4700,7 @@ export default {
         $value: "#00695C",
         key: "{teal.800}",
       },
-      name: "GsTeal800",
+      name: "gs-teal-800",
       attributes: {
         category: "teal",
         type: "800",
@@ -4718,7 +4718,7 @@ export default {
         $value: "#004D40",
         key: "{teal.900}",
       },
-      name: "GsTeal900",
+      name: "gs-teal-900",
       attributes: {
         category: "teal",
         type: "900",
@@ -4736,7 +4736,7 @@ export default {
         $value: "#A7FFEB",
         key: "{teal.A100}",
       },
-      name: "GsTealA100",
+      name: "gs-teal-a100",
       attributes: {
         category: "teal",
         type: "A100",
@@ -4754,7 +4754,7 @@ export default {
         $value: "#64FFDA",
         key: "{teal.A200}",
       },
-      name: "GsTealA200",
+      name: "gs-teal-a200",
       attributes: {
         category: "teal",
         type: "A200",
@@ -4772,7 +4772,7 @@ export default {
         $value: "#1DE9B6",
         key: "{teal.A400}",
       },
-      name: "GsTealA400",
+      name: "gs-teal-a400",
       attributes: {
         category: "teal",
         type: "A400",
@@ -4790,7 +4790,7 @@ export default {
         $value: "#00BFA5",
         key: "{teal.A700}",
       },
-      name: "GsTealA700",
+      name: "gs-teal-a700",
       attributes: {
         category: "teal",
         type: "A700",
@@ -4810,7 +4810,7 @@ export default {
         $value: "#FFFDE7",
         key: "{yellow.50}",
       },
-      name: "GsYellow50",
+      name: "gs-yellow-50",
       attributes: {
         category: "yellow",
         type: "50",
@@ -4828,7 +4828,7 @@ export default {
         $value: "#FFF9C4",
         key: "{yellow.100}",
       },
-      name: "GsYellow100",
+      name: "gs-yellow-100",
       attributes: {
         category: "yellow",
         type: "100",
@@ -4846,7 +4846,7 @@ export default {
         $value: "#FFF59D",
         key: "{yellow.200}",
       },
-      name: "GsYellow200",
+      name: "gs-yellow-200",
       attributes: {
         category: "yellow",
         type: "200",
@@ -4864,7 +4864,7 @@ export default {
         $value: "#FFF176",
         key: "{yellow.300}",
       },
-      name: "GsYellow300",
+      name: "gs-yellow-300",
       attributes: {
         category: "yellow",
         type: "300",
@@ -4882,7 +4882,7 @@ export default {
         $value: "#FFEE58",
         key: "{yellow.400}",
       },
-      name: "GsYellow400",
+      name: "gs-yellow-400",
       attributes: {
         category: "yellow",
         type: "400",
@@ -4900,7 +4900,7 @@ export default {
         $value: "#FFEB3B",
         key: "{yellow.500}",
       },
-      name: "GsYellow500",
+      name: "gs-yellow-500",
       attributes: {
         category: "yellow",
         type: "500",
@@ -4918,7 +4918,7 @@ export default {
         $value: "#FDD835",
         key: "{yellow.600}",
       },
-      name: "GsYellow600",
+      name: "gs-yellow-600",
       attributes: {
         category: "yellow",
         type: "600",
@@ -4936,7 +4936,7 @@ export default {
         $value: "#FBC02D",
         key: "{yellow.700}",
       },
-      name: "GsYellow700",
+      name: "gs-yellow-700",
       attributes: {
         category: "yellow",
         type: "700",
@@ -4954,7 +4954,7 @@ export default {
         $value: "#F9A825",
         key: "{yellow.800}",
       },
-      name: "GsYellow800",
+      name: "gs-yellow-800",
       attributes: {
         category: "yellow",
         type: "800",
@@ -4972,7 +4972,7 @@ export default {
         $value: "#F57F17",
         key: "{yellow.900}",
       },
-      name: "GsYellow900",
+      name: "gs-yellow-900",
       attributes: {
         category: "yellow",
         type: "900",
@@ -4990,7 +4990,7 @@ export default {
         $value: "#FFFF8D",
         key: "{yellow.A100}",
       },
-      name: "GsYellowA100",
+      name: "gs-yellow-a100",
       attributes: {
         category: "yellow",
         type: "A100",
@@ -5008,7 +5008,7 @@ export default {
         $value: "#FFFF00",
         key: "{yellow.A200}",
       },
-      name: "GsYellowA200",
+      name: "gs-yellow-a200",
       attributes: {
         category: "yellow",
         type: "A200",
@@ -5026,7 +5026,7 @@ export default {
         $value: "#FFEA00",
         key: "{yellow.A400}",
       },
-      name: "GsYellowA400",
+      name: "gs-yellow-a400",
       attributes: {
         category: "yellow",
         type: "A400",
@@ -5044,7 +5044,7 @@ export default {
         $value: "#FFD600",
         key: "{yellow.A700}",
       },
-      name: "GsYellowA700",
+      name: "gs-yellow-a700",
       attributes: {
         category: "yellow",
         type: "A700",
@@ -5066,7 +5066,7 @@ export default {
             $value: "#FDEDED",
             key: "{_components.alert.error.background}",
           },
-          name: "GsComponentsAlertErrorBackground",
+          name: "gs-components-alert-error-background",
           attributes: {
             category: "_components",
             type: "alert",
@@ -5086,7 +5086,7 @@ export default {
             $value: "#5F2120",
             key: "{_components.alert.error.color}",
           },
-          name: "GsComponentsAlertErrorColor",
+          name: "gs-components-alert-error-color",
           attributes: {
             category: "_components",
             type: "alert",
@@ -5108,7 +5108,7 @@ export default {
             $value: "#E5F6FD",
             key: "{_components.alert.info.background}",
           },
-          name: "GsComponentsAlertInfoBackground",
+          name: "gs-components-alert-info-background",
           attributes: {
             category: "_components",
             type: "alert",
@@ -5128,7 +5128,7 @@ export default {
             $value: "#014361",
             key: "{_components.alert.info.color}",
           },
-          name: "GsComponentsAlertInfoColor",
+          name: "gs-components-alert-info-color",
           attributes: {
             category: "_components",
             type: "alert",
@@ -5150,7 +5150,7 @@ export default {
             $value: "#EDF7ED",
             key: "{_components.alert.success.background}",
           },
-          name: "GsComponentsAlertSuccessBackground",
+          name: "gs-components-alert-success-background",
           attributes: {
             category: "_components",
             type: "alert",
@@ -5170,7 +5170,7 @@ export default {
             $value: "#1E4620",
             key: "{_components.alert.success.color}",
           },
-          name: "GsComponentsAlertSuccessColor",
+          name: "gs-components-alert-success-color",
           attributes: {
             category: "_components",
             type: "alert",
@@ -5192,7 +5192,7 @@ export default {
             $value: "#FFF4E5",
             key: "{_components.alert.warning.background}",
           },
-          name: "GsComponentsAlertWarningBackground",
+          name: "gs-components-alert-warning-background",
           attributes: {
             category: "_components",
             type: "alert",
@@ -5212,7 +5212,7 @@ export default {
             $value: "#663C00",
             key: "{_components.alert.warning.color}",
           },
-          name: "GsComponentsAlertWarningColor",
+          name: "gs-components-alert-warning-color",
           attributes: {
             category: "_components",
             type: "alert",
@@ -5235,7 +5235,7 @@ export default {
           $value: "{grey.100}",
           key: "{_components.appBar.defaultFill}",
         },
-        name: "GsComponentsAppBarDefaultFill",
+        name: "gs-components-app-bar-default-fill",
         attributes: {
           category: "_components",
           type: "appBar",
@@ -5256,7 +5256,7 @@ export default {
           $value: "{grey.400}",
           key: "{_components.avatar.fill}",
         },
-        name: "GsComponentsAvatarFill",
+        name: "gs-components-avatar-fill",
         attributes: {
           category: "_components",
           type: "avatar",
@@ -5277,7 +5277,7 @@ export default {
           $value: "#00000080",
           key: "{_components.backdrop.fill}",
         },
-        name: "GsComponentsBackdropFill",
+        name: "gs-components-backdrop-fill",
         attributes: {
           category: "_components",
           type: "backdrop",
@@ -5298,7 +5298,7 @@ export default {
           $value: "{grey.100}",
           key: "{_components.breadcrumbs.collapseFill}",
         },
-        name: "GsComponentsBreadcrumbsCollapseFill",
+        name: "gs-components-breadcrumbs-collapse-fill",
         attributes: {
           category: "_components",
           type: "breadcrumbs",
@@ -5319,7 +5319,7 @@ export default {
           $value: "#000000",
           key: "{_components.chip.defaultCloseFill}",
         },
-        name: "GsComponentsChipDefaultCloseFill",
+        name: "gs-components-chip-default-close-fill",
         attributes: {
           category: "_components",
           type: "chip",
@@ -5338,7 +5338,7 @@ export default {
           $value: "{grey.400}",
           key: "{_components.chip.defaultEnabledBorder}",
         },
-        name: "GsComponentsChipDefaultEnabledBorder",
+        name: "gs-components-chip-default-enabled-border",
         attributes: {
           category: "_components",
           type: "chip",
@@ -5357,7 +5357,7 @@ export default {
           $value: "#00000033",
           key: "{_components.chip.defaultFocusFill}",
         },
-        name: "GsComponentsChipDefaultFocusFill",
+        name: "gs-components-chip-default-focus-fill",
         attributes: {
           category: "_components",
           type: "chip",
@@ -5376,7 +5376,7 @@ export default {
           $value: "#0000001f",
           key: "{_components.chip.defaultHoverFill}",
         },
-        name: "GsComponentsChipDefaultHoverFill",
+        name: "gs-components-chip-default-hover-fill",
         attributes: {
           category: "_components",
           type: "chip",
@@ -5398,7 +5398,7 @@ export default {
             $value: "#0000000f",
             key: "{_components.input.filled.enabledFill}",
           },
-          name: "GsComponentsInputFilledEnabledFill",
+          name: "gs-components-input-filled-enabled-fill",
           attributes: {
             category: "_components",
             type: "input",
@@ -5418,7 +5418,7 @@ export default {
             $value: "#00000017",
             key: "{_components.input.filled.hoverFill}",
           },
-          name: "GsComponentsInputFilledHoverFill",
+          name: "gs-components-input-filled-hover-fill",
           attributes: {
             category: "_components",
             type: "input",
@@ -5440,7 +5440,7 @@ export default {
             $value: "#0000003b",
             key: "{_components.input.outlined.enabledBorder}",
           },
-          name: "GsComponentsInputOutlinedEnabledBorder",
+          name: "gs-components-input-outlined-enabled-border",
           attributes: {
             category: "_components",
             type: "input",
@@ -5460,7 +5460,7 @@ export default {
             $value: "#000000",
             key: "{_components.input.outlined.hoverBorder}",
           },
-          name: "GsComponentsInputOutlinedHoverBorder",
+          name: "gs-components-input-outlined-hover-border",
           attributes: {
             category: "_components",
             type: "input",
@@ -5482,7 +5482,7 @@ export default {
             $value: "#0000006b",
             key: "{_components.input.standard.enabledBorder}",
           },
-          name: "GsComponentsInputStandardEnabledBorder",
+          name: "gs-components-input-standard-enabled-border",
           attributes: {
             category: "_components",
             type: "input",
@@ -5502,7 +5502,7 @@ export default {
             $value: "#000000",
             key: "{_components.input.standard.hoverBorder}",
           },
-          name: "GsComponentsInputStandardHoverBorder",
+          name: "gs-components-input-standard-hover-border",
           attributes: {
             category: "_components",
             type: "input",
@@ -5525,7 +5525,7 @@ export default {
           $value: "#FFB400",
           key: "{_components.rating.activeFill}",
         },
-        name: "GsComponentsRatingActiveFill",
+        name: "gs-components-rating-active-fill",
         attributes: {
           category: "_components",
           type: "rating",
@@ -5544,7 +5544,7 @@ export default {
           $value: "#0000003b",
           key: "{_components.rating.enabledBorder}",
         },
-        name: "GsComponentsRatingEnabledBorder",
+        name: "gs-components-rating-enabled-border",
         attributes: {
           category: "_components",
           type: "rating",
@@ -5565,7 +5565,7 @@ export default {
           $value: "#323232",
           key: "{_components.snackbar.fill}",
         },
-        name: "GsComponentsSnackbarFill",
+        name: "gs-components-snackbar-fill",
         attributes: {
           category: "_components",
           type: "snackbar",
@@ -5586,7 +5586,7 @@ export default {
           $value: "{grey.400}",
           key: "{_components.stepper.connector}",
         },
-        name: "GsComponentsStepperConnector",
+        name: "gs-components-stepper-connector",
         attributes: {
           category: "_components",
           type: "stepper",
@@ -5607,7 +5607,7 @@ export default {
           $value: "{grey.50}",
           key: "{_components.switch.knobFillEnabled}",
         },
-        name: "GsComponentsSwitchKnobFillEnabled",
+        name: "gs-components-switch-knob-fill-enabled",
         attributes: {
           category: "_components",
           type: "switch",
@@ -5626,7 +5626,7 @@ export default {
           $value: "{grey.100}",
           key: "{_components.switch.knowFillDisabled}",
         },
-        name: "GsComponentsSwitchKnowFillDisabled",
+        name: "gs-components-switch-know-fill-disabled",
         attributes: {
           category: "_components",
           type: "switch",
@@ -5645,7 +5645,7 @@ export default {
           $value: "#000000",
           key: "{_components.switch.slideFill}",
         },
-        name: "GsComponentsSwitchSlideFill",
+        name: "gs-components-switch-slide-fill",
         attributes: {
           category: "_components",
           type: "switch",
@@ -5666,7 +5666,7 @@ export default {
           $value: "#616161e6",
           key: "{_components.tooltip.fill}",
         },
-        name: "GsComponentsTooltipFill",
+        name: "gs-components-tooltip-fill",
         attributes: {
           category: "_components",
           type: "tooltip",
@@ -5688,7 +5688,7 @@ export default {
         $value: "{grey.200}",
         key: "{_native.scrollbar-bg}",
       },
-      name: "GsNativeScrollbarBg",
+      name: "gs-native-scrollbar-bg",
       attributes: {
         category: "_native",
         type: "scrollbar-bg",
@@ -5708,7 +5708,7 @@ export default {
         $value: "#2226298f",
         key: "{action.active}",
       },
-      name: "GsActionActive",
+      name: "gs-action-active",
       attributes: {
         category: "action",
         type: "active",
@@ -5730,7 +5730,7 @@ export default {
           "Reflects the action.disabled variable from the theme object",
         key: "{action.disabled}",
       },
-      name: "GsActionDisabled",
+      name: "gs-action-disabled",
       attributes: {
         category: "action",
         type: "disabled",
@@ -5752,7 +5752,7 @@ export default {
           "Reflects the action.disabledBackground variable from the theme object",
         key: "{action.disabledBackground}",
       },
-      name: "GsActionDisabledBackground",
+      name: "gs-action-disabled-background",
       attributes: {
         category: "action",
         type: "disabledBackground",
@@ -5773,7 +5773,7 @@ export default {
           "Reflects the action.focus variable from the theme object",
         key: "{action.focus}",
       },
-      name: "GsActionFocus",
+      name: "gs-action-focus",
       attributes: {
         category: "action",
         type: "focus",
@@ -5794,7 +5794,7 @@ export default {
           "Reflects the action.hover variable from the theme object",
         key: "{action.hover}",
       },
-      name: "GsActionHover",
+      name: "gs-action-hover",
       attributes: {
         category: "action",
         type: "hover",
@@ -5816,7 +5816,7 @@ export default {
           "Reflects the action.selected variable from the theme object",
         key: "{action.selected}",
       },
-      name: "GsActionSelected",
+      name: "gs-action-selected",
       attributes: {
         category: "action",
         type: "selected",
@@ -5840,7 +5840,7 @@ export default {
           "Reflects the background.default variable from the theme object",
         key: "{background.default}",
       },
-      name: "GsBackgroundDefault",
+      name: "gs-background-default",
       attributes: {
         category: "background",
         type: "default",
@@ -5862,7 +5862,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-0}",
       },
-      name: "GsBackgroundPaperElevation0",
+      name: "gs-background-paper-elevation-0",
       attributes: {
         category: "background",
         type: "paper-elevation-0",
@@ -5884,7 +5884,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-1}",
       },
-      name: "GsBackgroundPaperElevation1",
+      name: "gs-background-paper-elevation-1",
       attributes: {
         category: "background",
         type: "paper-elevation-1",
@@ -5906,7 +5906,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-10}",
       },
-      name: "GsBackgroundPaperElevation10",
+      name: "gs-background-paper-elevation-10",
       attributes: {
         category: "background",
         type: "paper-elevation-10",
@@ -5928,7 +5928,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-11}",
       },
-      name: "GsBackgroundPaperElevation11",
+      name: "gs-background-paper-elevation-11",
       attributes: {
         category: "background",
         type: "paper-elevation-11",
@@ -5950,7 +5950,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-12}",
       },
-      name: "GsBackgroundPaperElevation12",
+      name: "gs-background-paper-elevation-12",
       attributes: {
         category: "background",
         type: "paper-elevation-12",
@@ -5972,7 +5972,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-13}",
       },
-      name: "GsBackgroundPaperElevation13",
+      name: "gs-background-paper-elevation-13",
       attributes: {
         category: "background",
         type: "paper-elevation-13",
@@ -5994,7 +5994,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-14}",
       },
-      name: "GsBackgroundPaperElevation14",
+      name: "gs-background-paper-elevation-14",
       attributes: {
         category: "background",
         type: "paper-elevation-14",
@@ -6016,7 +6016,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-15}",
       },
-      name: "GsBackgroundPaperElevation15",
+      name: "gs-background-paper-elevation-15",
       attributes: {
         category: "background",
         type: "paper-elevation-15",
@@ -6038,7 +6038,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-16}",
       },
-      name: "GsBackgroundPaperElevation16",
+      name: "gs-background-paper-elevation-16",
       attributes: {
         category: "background",
         type: "paper-elevation-16",
@@ -6060,7 +6060,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-17}",
       },
-      name: "GsBackgroundPaperElevation17",
+      name: "gs-background-paper-elevation-17",
       attributes: {
         category: "background",
         type: "paper-elevation-17",
@@ -6082,7 +6082,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-18}",
       },
-      name: "GsBackgroundPaperElevation18",
+      name: "gs-background-paper-elevation-18",
       attributes: {
         category: "background",
         type: "paper-elevation-18",
@@ -6104,7 +6104,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-19}",
       },
-      name: "GsBackgroundPaperElevation19",
+      name: "gs-background-paper-elevation-19",
       attributes: {
         category: "background",
         type: "paper-elevation-19",
@@ -6126,7 +6126,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-2}",
       },
-      name: "GsBackgroundPaperElevation2",
+      name: "gs-background-paper-elevation-2",
       attributes: {
         category: "background",
         type: "paper-elevation-2",
@@ -6148,7 +6148,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-20}",
       },
-      name: "GsBackgroundPaperElevation20",
+      name: "gs-background-paper-elevation-20",
       attributes: {
         category: "background",
         type: "paper-elevation-20",
@@ -6170,7 +6170,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-21}",
       },
-      name: "GsBackgroundPaperElevation21",
+      name: "gs-background-paper-elevation-21",
       attributes: {
         category: "background",
         type: "paper-elevation-21",
@@ -6192,7 +6192,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-22}",
       },
-      name: "GsBackgroundPaperElevation22",
+      name: "gs-background-paper-elevation-22",
       attributes: {
         category: "background",
         type: "paper-elevation-22",
@@ -6214,7 +6214,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-23}",
       },
-      name: "GsBackgroundPaperElevation23",
+      name: "gs-background-paper-elevation-23",
       attributes: {
         category: "background",
         type: "paper-elevation-23",
@@ -6236,7 +6236,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-24}",
       },
-      name: "GsBackgroundPaperElevation24",
+      name: "gs-background-paper-elevation-24",
       attributes: {
         category: "background",
         type: "paper-elevation-24",
@@ -6258,7 +6258,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-3}",
       },
-      name: "GsBackgroundPaperElevation3",
+      name: "gs-background-paper-elevation-3",
       attributes: {
         category: "background",
         type: "paper-elevation-3",
@@ -6280,7 +6280,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-4}",
       },
-      name: "GsBackgroundPaperElevation4",
+      name: "gs-background-paper-elevation-4",
       attributes: {
         category: "background",
         type: "paper-elevation-4",
@@ -6302,7 +6302,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-5}",
       },
-      name: "GsBackgroundPaperElevation5",
+      name: "gs-background-paper-elevation-5",
       attributes: {
         category: "background",
         type: "paper-elevation-5",
@@ -6324,7 +6324,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-6}",
       },
-      name: "GsBackgroundPaperElevation6",
+      name: "gs-background-paper-elevation-6",
       attributes: {
         category: "background",
         type: "paper-elevation-6",
@@ -6346,7 +6346,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-7}",
       },
-      name: "GsBackgroundPaperElevation7",
+      name: "gs-background-paper-elevation-7",
       attributes: {
         category: "background",
         type: "paper-elevation-7",
@@ -6368,7 +6368,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-8}",
       },
-      name: "GsBackgroundPaperElevation8",
+      name: "gs-background-paper-elevation-8",
       attributes: {
         category: "background",
         type: "paper-elevation-8",
@@ -6390,7 +6390,7 @@ export default {
           "Reflects the background.paper variable from the theme object",
         key: "{background.paper-elevation-9}",
       },
-      name: "GsBackgroundPaperElevation9",
+      name: "gs-background-paper-elevation-9",
       attributes: {
         category: "background",
         type: "paper-elevation-9",
@@ -6411,7 +6411,7 @@ export default {
           $value: "#2226291f",
           key: "{common.black_states.focus}",
         },
-        name: "GsCommonBlackStatesFocus",
+        name: "gs-common-black-states-focus",
         attributes: {
           category: "common",
           type: "black_states",
@@ -6434,7 +6434,7 @@ export default {
             "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
           key: "{common.black_states.focusVisible}",
         },
-        name: "GsCommonBlackStatesFocusVisible",
+        name: "gs-common-black-states-focus-visible",
         attributes: {
           category: "common",
           type: "black_states",
@@ -6457,7 +6457,7 @@ export default {
             "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
           key: "{common.black_states.hover}",
         },
-        name: "GsCommonBlackStatesHover",
+        name: "gs-common-black-states-hover",
         attributes: {
           category: "common",
           type: "black_states",
@@ -6476,7 +6476,7 @@ export default {
           $value: "#222629",
           key: "{common.black_states.main}",
         },
-        name: "GsCommonBlackStatesMain",
+        name: "gs-common-black-states-main",
         attributes: {
           category: "common",
           type: "black_states",
@@ -6499,7 +6499,7 @@ export default {
             "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
           key: "{common.black_states.outlinedBorder}",
         },
-        name: "GsCommonBlackStatesOutlinedBorder",
+        name: "gs-common-black-states-outlined-border",
         attributes: {
           category: "common",
           type: "black_states",
@@ -6522,7 +6522,7 @@ export default {
             "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
           key: "{common.black_states.selected}",
         },
-        name: "GsCommonBlackStatesSelected",
+        name: "gs-common-black-states-selected",
         attributes: {
           category: "common",
           type: "black_states",
@@ -6543,7 +6543,7 @@ export default {
           $value: "#ffffff1f",
           key: "{common.white_states.focus}",
         },
-        name: "GsCommonWhiteStatesFocus",
+        name: "gs-common-white-states-focus",
         attributes: {
           category: "common",
           type: "white_states",
@@ -6562,7 +6562,7 @@ export default {
           $value: "#ffffff4d",
           key: "{common.white_states.focusVisible}",
         },
-        name: "GsCommonWhiteStatesFocusVisible",
+        name: "gs-common-white-states-focus-visible",
         attributes: {
           category: "common",
           type: "white_states",
@@ -6585,7 +6585,7 @@ export default {
             "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
           key: "{common.white_states.hover}",
         },
-        name: "GsCommonWhiteStatesHover",
+        name: "gs-common-white-states-hover",
         attributes: {
           category: "common",
           type: "white_states",
@@ -6604,7 +6604,7 @@ export default {
           $value: "#FFFFFF",
           key: "{common.white_states.main}",
         },
-        name: "GsCommonWhiteStatesMain",
+        name: "gs-common-white-states-main",
         attributes: {
           category: "common",
           type: "white_states",
@@ -6627,7 +6627,7 @@ export default {
             "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
           key: "{common.white_states.outlinedBorder}",
         },
-        name: "GsCommonWhiteStatesOutlinedBorder",
+        name: "gs-common-white-states-outlined-border",
         attributes: {
           category: "common",
           type: "white_states",
@@ -6650,7 +6650,7 @@ export default {
             "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
           key: "{common.white_states.selected}",
         },
-        name: "GsCommonWhiteStatesSelected",
+        name: "gs-common-white-states-selected",
         attributes: {
           category: "common",
           type: "white_states",
@@ -6673,7 +6673,7 @@ export default {
       $description: "Reflects the divider variable from the theme object",
       key: "{divider}",
     },
-    name: "GsDivider",
+    name: "gs-divider",
     attributes: {
       category: "divider",
     },
@@ -6691,7 +6691,7 @@ export default {
         $value: "#E0E0E0",
         key: "{elevation.outlined}",
       },
-      name: "GsElevationOutlined",
+      name: "gs-elevation-outlined",
       attributes: {
         category: "elevation",
         type: "outlined",
@@ -6712,7 +6712,7 @@ export default {
           $value: "#d32f2f4d",
           key: "{error._states.focusVisible}",
         },
-        name: "GsErrorStatesFocusVisible",
+        name: "gs-error-states-focus-visible",
         attributes: {
           category: "error",
           type: "_states",
@@ -6735,7 +6735,7 @@ export default {
             "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
           key: "{error._states.hover}",
         },
-        name: "GsErrorStatesHover",
+        name: "gs-error-states-hover",
         attributes: {
           category: "error",
           type: "_states",
@@ -6758,7 +6758,7 @@ export default {
             "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
           key: "{error._states.outlinedBorder}",
         },
-        name: "GsErrorStatesOutlinedBorder",
+        name: "gs-error-states-outlined-border",
         attributes: {
           category: "error",
           type: "_states",
@@ -6781,7 +6781,7 @@ export default {
             "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
           key: "{error._states.selected}",
         },
-        name: "GsErrorStatesSelected",
+        name: "gs-error-states-selected",
         attributes: {
           category: "error",
           type: "_states",
@@ -6801,7 +6801,7 @@ export default {
         $value: "#FFFFFF",
         key: "{error.contrast}",
       },
-      name: "GsErrorContrast",
+      name: "gs-error-contrast",
       attributes: {
         category: "error",
         type: "contrast",
@@ -6819,7 +6819,7 @@ export default {
         $value: "{red.800}",
         key: "{error.dark}",
       },
-      name: "GsErrorDark",
+      name: "gs-error-dark",
       attributes: {
         category: "error",
         type: "dark",
@@ -6837,7 +6837,7 @@ export default {
         $value: "{red.400}",
         key: "{error.light}",
       },
-      name: "GsErrorLight",
+      name: "gs-error-light",
       attributes: {
         category: "error",
         type: "light",
@@ -6855,7 +6855,7 @@ export default {
         $value: "{red.700}",
         key: "{error.main}",
       },
-      name: "GsErrorMain",
+      name: "gs-error-main",
       attributes: {
         category: "error",
         type: "main",
@@ -6880,7 +6880,7 @@ export default {
             "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
           key: "{info._states.focusVisible}",
         },
-        name: "GsInfoStatesFocusVisible",
+        name: "gs-info-states-focus-visible",
         attributes: {
           category: "info",
           type: "_states",
@@ -6903,7 +6903,7 @@ export default {
             "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
           key: "{info._states.hover}",
         },
-        name: "GsInfoStatesHover",
+        name: "gs-info-states-hover",
         attributes: {
           category: "info",
           type: "_states",
@@ -6926,7 +6926,7 @@ export default {
             "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
           key: "{info._states.outlinedBorder}",
         },
-        name: "GsInfoStatesOutlinedBorder",
+        name: "gs-info-states-outlined-border",
         attributes: {
           category: "info",
           type: "_states",
@@ -6949,7 +6949,7 @@ export default {
             "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
           key: "{info._states.selected}",
         },
-        name: "GsInfoStatesSelected",
+        name: "gs-info-states-selected",
         attributes: {
           category: "info",
           type: "_states",
@@ -6969,7 +6969,7 @@ export default {
         $value: "#FFFFFF",
         key: "{info.contrast}",
       },
-      name: "GsInfoContrast",
+      name: "gs-info-contrast",
       attributes: {
         category: "info",
         type: "contrast",
@@ -6987,7 +6987,7 @@ export default {
         $value: "{lightBlue.900}",
         key: "{info.dark}",
       },
-      name: "GsInfoDark",
+      name: "gs-info-dark",
       attributes: {
         category: "info",
         type: "dark",
@@ -7005,7 +7005,7 @@ export default {
         $value: "{lightBlue.500}",
         key: "{info.light}",
       },
-      name: "GsInfoLight",
+      name: "gs-info-light",
       attributes: {
         category: "info",
         type: "light",
@@ -7023,7 +7023,7 @@ export default {
         $value: "{lightBlue.700}",
         key: "{info.main}",
       },
-      name: "GsInfoMain",
+      name: "gs-info-main",
       attributes: {
         category: "info",
         type: "main",
@@ -7048,7 +7048,7 @@ export default {
             "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
           key: "{primary._states.focus}",
         },
-        name: "GsPrimaryStatesFocus",
+        name: "gs-primary-states-focus",
         attributes: {
           category: "primary",
           type: "_states",
@@ -7067,7 +7067,7 @@ export default {
           $value: "#61892f4d",
           key: "{primary._states.focusVisible}",
         },
-        name: "GsPrimaryStatesFocusVisible",
+        name: "gs-primary-states-focus-visible",
         attributes: {
           category: "primary",
           type: "_states",
@@ -7090,7 +7090,7 @@ export default {
             "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
           key: "{primary._states.hover}",
         },
-        name: "GsPrimaryStatesHover",
+        name: "gs-primary-states-hover",
         attributes: {
           category: "primary",
           type: "_states",
@@ -7113,7 +7113,7 @@ export default {
             "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
           key: "{primary._states.outlinedBorder}",
         },
-        name: "GsPrimaryStatesOutlinedBorder",
+        name: "gs-primary-states-outlined-border",
         attributes: {
           category: "primary",
           type: "_states",
@@ -7136,7 +7136,7 @@ export default {
             "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
           key: "{primary._states.selected}",
         },
-        name: "GsPrimaryStatesSelected",
+        name: "gs-primary-states-selected",
         attributes: {
           category: "primary",
           type: "_states",
@@ -7160,7 +7160,7 @@ export default {
           "Reflects the primary.contrast variable from the theme object. Color that keeps a contrast ratio above AA when XX.main is used as a bg. color",
         key: "{primary.contrast}",
       },
-      name: "GsPrimaryContrast",
+      name: "gs-primary-contrast",
       attributes: {
         category: "primary",
         type: "contrast",
@@ -7182,7 +7182,7 @@ export default {
           "Used for hover states. Reflects the primary.dark variable from the theme object",
         key: "{primary.dark}",
       },
-      name: "GsPrimaryDark",
+      name: "gs-primary-dark",
       attributes: {
         category: "primary",
         type: "dark",
@@ -7203,7 +7203,7 @@ export default {
           "Reflects the primary.light variable from the theme object",
         key: "{primary.light}",
       },
-      name: "GsPrimaryLight",
+      name: "gs-primary-light",
       attributes: {
         category: "primary",
         type: "light",
@@ -7224,7 +7224,7 @@ export default {
           "Reflects the primary.main variable from the theme object",
         key: "{primary.main}",
       },
-      name: "GsPrimaryMain",
+      name: "gs-primary-main",
       attributes: {
         category: "primary",
         type: "main",
@@ -7249,7 +7249,7 @@ export default {
             "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
           key: "{secondary._states.focus}",
         },
-        name: "GsSecondaryStatesFocus",
+        name: "gs-secondary-states-focus",
         attributes: {
           category: "secondary",
           type: "_states",
@@ -7268,7 +7268,7 @@ export default {
           $value: "#ffa5004d",
           key: "{secondary._states.focusVisible}",
         },
-        name: "GsSecondaryStatesFocusVisible",
+        name: "gs-secondary-states-focus-visible",
         attributes: {
           category: "secondary",
           type: "_states",
@@ -7291,7 +7291,7 @@ export default {
             "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
           key: "{secondary._states.hover}",
         },
-        name: "GsSecondaryStatesHover",
+        name: "gs-secondary-states-hover",
         attributes: {
           category: "secondary",
           type: "_states",
@@ -7314,7 +7314,7 @@ export default {
             "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
           key: "{secondary._states.outlinedBorder}",
         },
-        name: "GsSecondaryStatesOutlinedBorder",
+        name: "gs-secondary-states-outlined-border",
         attributes: {
           category: "secondary",
           type: "_states",
@@ -7337,7 +7337,7 @@ export default {
             "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
           key: "{secondary._states.selected}",
         },
-        name: "GsSecondaryStatesSelected",
+        name: "gs-secondary-states-selected",
         attributes: {
           category: "secondary",
           type: "_states",
@@ -7357,7 +7357,7 @@ export default {
         $value: "#222629",
         key: "{secondary.contrast}",
       },
-      name: "GsSecondaryContrast",
+      name: "gs-secondary-contrast",
       attributes: {
         category: "secondary",
         type: "contrast",
@@ -7375,7 +7375,7 @@ export default {
         $value: "#FFF8EB",
         key: "{secondary.dark}",
       },
-      name: "GsSecondaryDark",
+      name: "gs-secondary-dark",
       attributes: {
         category: "secondary",
         type: "dark",
@@ -7393,7 +7393,7 @@ export default {
         $value: "#FF7A00",
         key: "{secondary.light}",
       },
-      name: "GsSecondaryLight",
+      name: "gs-secondary-light",
       attributes: {
         category: "secondary",
         type: "light",
@@ -7411,7 +7411,7 @@ export default {
         $value: "#FFA500",
         key: "{secondary.main}",
       },
-      name: "GsSecondaryMain",
+      name: "gs-secondary-main",
       attributes: {
         category: "secondary",
         type: "main",
@@ -7436,7 +7436,7 @@ export default {
             "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
           key: "{success._states.focusVisible}",
         },
-        name: "GsSuccessStatesFocusVisible",
+        name: "gs-success-states-focus-visible",
         attributes: {
           category: "success",
           type: "_states",
@@ -7459,7 +7459,7 @@ export default {
             "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
           key: "{success._states.hover}",
         },
-        name: "GsSuccessStatesHover",
+        name: "gs-success-states-hover",
         attributes: {
           category: "success",
           type: "_states",
@@ -7482,7 +7482,7 @@ export default {
             "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
           key: "{success._states.outlinedBorder}",
         },
-        name: "GsSuccessStatesOutlinedBorder",
+        name: "gs-success-states-outlined-border",
         attributes: {
           category: "success",
           type: "_states",
@@ -7505,7 +7505,7 @@ export default {
             "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
           key: "{success._states.selected}",
         },
-        name: "GsSuccessStatesSelected",
+        name: "gs-success-states-selected",
         attributes: {
           category: "success",
           type: "_states",
@@ -7525,7 +7525,7 @@ export default {
         $value: "#FFFFFF",
         key: "{success.contrast}",
       },
-      name: "GsSuccessContrast",
+      name: "gs-success-contrast",
       attributes: {
         category: "success",
         type: "contrast",
@@ -7543,7 +7543,7 @@ export default {
         $value: "{green.900}",
         key: "{success.dark}",
       },
-      name: "GsSuccessDark",
+      name: "gs-success-dark",
       attributes: {
         category: "success",
         type: "dark",
@@ -7561,7 +7561,7 @@ export default {
         $value: "{green.500}",
         key: "{success.light}",
       },
-      name: "GsSuccessLight",
+      name: "gs-success-light",
       attributes: {
         category: "success",
         type: "light",
@@ -7579,7 +7579,7 @@ export default {
         $value: "{green.800}",
         key: "{success.main}",
       },
-      name: "GsSuccessMain",
+      name: "gs-success-main",
       attributes: {
         category: "success",
         type: "main",
@@ -7604,7 +7604,7 @@ export default {
             "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
           key: "{text._states.focus}",
         },
-        name: "GsTextStatesFocus",
+        name: "gs-text-states-focus",
         attributes: {
           category: "text",
           type: "_states",
@@ -7627,7 +7627,7 @@ export default {
             "Used for focus visible states. The token represents the value of focusVisibleOpacity (0.3 by default) of the main token.",
           key: "{text._states.focusVisible}",
         },
-        name: "GsTextStatesFocusVisible",
+        name: "gs-text-states-focus-visible",
         attributes: {
           category: "text",
           type: "_states",
@@ -7650,7 +7650,7 @@ export default {
             "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
           key: "{text._states.hover}",
         },
-        name: "GsTextStatesHover",
+        name: "gs-text-states-hover",
         attributes: {
           category: "text",
           type: "_states",
@@ -7673,7 +7673,7 @@ export default {
             "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
           key: "{text._states.selected}",
         },
-        name: "GsTextStatesSelected",
+        name: "gs-text-states-selected",
         attributes: {
           category: "text",
           type: "_states",
@@ -7696,7 +7696,7 @@ export default {
           "Reflects the text.disabled variable from the theme object",
         key: "{text.disabled}",
       },
-      name: "GsTextDisabled",
+      name: "gs-text-disabled",
       attributes: {
         category: "text",
         type: "disabled",
@@ -7717,7 +7717,7 @@ export default {
           "Reflects the text.primary variable from the theme object",
         key: "{text.primary}",
       },
-      name: "GsTextPrimary",
+      name: "gs-text-primary",
       attributes: {
         category: "text",
         type: "primary",
@@ -7739,7 +7739,7 @@ export default {
           "Reflects the text.secondary variable from the theme object",
         key: "{text.secondary}",
       },
-      name: "GsTextSecondary",
+      name: "gs-text-secondary",
       attributes: {
         category: "text",
         type: "secondary",
@@ -7760,7 +7760,7 @@ export default {
           $value: "#ef6c004d",
           key: "{warning._states.focusVisible}",
         },
-        name: "GsWarningStatesFocusVisible",
+        name: "gs-warning-states-focus-visible",
         attributes: {
           category: "warning",
           type: "_states",
@@ -7783,7 +7783,7 @@ export default {
             "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
           key: "{warning._states.hover}",
         },
-        name: "GsWarningStatesHover",
+        name: "gs-warning-states-hover",
         attributes: {
           category: "warning",
           type: "_states",
@@ -7806,7 +7806,7 @@ export default {
             "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
           key: "{warning._states.outlinedBorder}",
         },
-        name: "GsWarningStatesOutlinedBorder",
+        name: "gs-warning-states-outlined-border",
         attributes: {
           category: "warning",
           type: "_states",
@@ -7829,7 +7829,7 @@ export default {
             "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
           key: "{warning._states.selected}",
         },
-        name: "GsWarningStatesSelected",
+        name: "gs-warning-states-selected",
         attributes: {
           category: "warning",
           type: "_states",
@@ -7849,7 +7849,7 @@ export default {
         $value: "#FFFFFF",
         key: "{warning.contrast}",
       },
-      name: "GsWarningContrast",
+      name: "gs-warning-contrast",
       attributes: {
         category: "warning",
         type: "contrast",
@@ -7867,7 +7867,7 @@ export default {
         $value: "{orange.900}",
         key: "{warning.dark}",
       },
-      name: "GsWarningDark",
+      name: "gs-warning-dark",
       attributes: {
         category: "warning",
         type: "dark",
@@ -7885,7 +7885,7 @@ export default {
         $value: "{orange.500}",
         key: "{warning.light}",
       },
-      name: "GsWarningLight",
+      name: "gs-warning-light",
       attributes: {
         category: "warning",
         type: "light",
@@ -7903,7 +7903,7 @@ export default {
         $value: "{orange.800}",
         key: "{warning.main}",
       },
-      name: "GsWarningMain",
+      name: "gs-warning-main",
       attributes: {
         category: "warning",
         type: "main",
@@ -7922,7 +7922,7 @@ export default {
       $value: 4,
       key: "{borderRadius}",
     },
-    name: "GsBorderRadius",
+    name: "gs-border-radius",
     attributes: {
       category: "borderRadius",
     },
@@ -7939,7 +7939,7 @@ export default {
       $value: 0,
       key: "{none}",
     },
-    name: "GsNone",
+    name: "gs-none",
     attributes: {
       category: "none",
     },
@@ -7957,7 +7957,7 @@ export default {
         $value: 0,
         key: "{button.borderRadius}",
       },
-      name: "GsButtonBorderRadius",
+      name: "gs-button-border-radius",
       attributes: {
         category: "button",
         type: "borderRadius",
@@ -7975,7 +7975,7 @@ export default {
         $value: 0,
         key: "{button.borderWidth}",
       },
-      name: "GsButtonBorderWidth",
+      name: "gs-button-border-width",
       attributes: {
         category: "button",
         type: "borderWidth",
@@ -7994,7 +7994,7 @@ export default {
           $value: "{accent.default}",
           key: "{button.primary.background}",
         },
-        name: "GsButtonPrimaryBackground",
+        name: "gs-button-primary-background",
         attributes: {
           category: "button",
           type: "primary",
@@ -8013,7 +8013,7 @@ export default {
           $value: "{accent.onAccent}",
           key: "{button.primary.text}",
         },
-        name: "GsButtonPrimaryText",
+        name: "gs-button-primary-text",
         attributes: {
           category: "button",
           type: "primary",
@@ -8035,7 +8035,7 @@ export default {
         $value: "{bg.default}",
         key: "{card.background}",
       },
-      name: "GsCardBackground",
+      name: "gs-card-background",
       attributes: {
         category: "card",
         type: "background",
@@ -8053,7 +8053,7 @@ export default {
         $value: 0,
         key: "{card.borderRadius}",
       },
-      name: "GsCardBorderRadius",
+      name: "gs-card-border-radius",
       attributes: {
         category: "card",
         type: "borderRadius",
@@ -8071,7 +8071,7 @@ export default {
         $value: 0,
         key: "{card.padding}",
       },
-      name: "GsCardPadding",
+      name: "gs-card-padding",
       attributes: {
         category: "card",
         type: "padding",
