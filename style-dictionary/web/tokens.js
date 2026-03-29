@@ -7,7 +7,7 @@ export default {
     key: "{1}",
     $type: "number",
     $value: 8,
-    filePath: "design-tokens/token_spacing_Mode1.json",
+    filePath: "design-tokens/token_spacingMode1_spacingMode1.json",
     isSource: true,
     original: {
       $type: "number",
@@ -24,7 +24,7 @@ export default {
     key: "{2}",
     $type: "number",
     $value: 16,
-    filePath: "design-tokens/token_spacing_Mode1.json",
+    filePath: "design-tokens/token_spacingMode1_spacingMode1.json",
     isSource: true,
     original: {
       $type: "number",
@@ -41,7 +41,7 @@ export default {
     key: "{3}",
     $type: "number",
     $value: 24,
-    filePath: "design-tokens/token_spacing_Mode1.json",
+    filePath: "design-tokens/token_spacingMode1_spacingMode1.json",
     isSource: true,
     original: {
       $type: "number",
@@ -58,7 +58,7 @@ export default {
     key: "{4}",
     $type: "number",
     $value: 32,
-    filePath: "design-tokens/token_spacing_Mode1.json",
+    filePath: "design-tokens/token_spacingMode1_spacingMode1.json",
     isSource: true,
     original: {
       $type: "number",
@@ -75,7 +75,7 @@ export default {
     key: "{5}",
     $type: "number",
     $value: 40,
-    filePath: "design-tokens/token_spacing_Mode1.json",
+    filePath: "design-tokens/token_spacingMode1_spacingMode1.json",
     isSource: true,
     original: {
       $type: "number",
@@ -92,7 +92,7 @@ export default {
     key: "{6}",
     $type: "number",
     $value: 48,
-    filePath: "design-tokens/token_spacing_Mode1.json",
+    filePath: "design-tokens/token_spacingMode1_spacingMode1.json",
     isSource: true,
     original: {
       $type: "number",
@@ -109,7 +109,7 @@ export default {
     key: "{7}",
     $type: "number",
     $value: 56,
-    filePath: "design-tokens/token_spacing_Mode1.json",
+    filePath: "design-tokens/token_spacingMode1_spacingMode1.json",
     isSource: true,
     original: {
       $type: "number",
@@ -126,7 +126,7 @@ export default {
     key: "{8}",
     $type: "number",
     $value: 64,
-    filePath: "design-tokens/token_spacing_Mode1.json",
+    filePath: "design-tokens/token_spacingMode1_spacingMode1.json",
     isSource: true,
     original: {
       $type: "number",
@@ -143,7 +143,7 @@ export default {
     key: "{9}",
     $type: "number",
     $value: 72,
-    filePath: "design-tokens/token_spacing_Mode1.json",
+    filePath: "design-tokens/token_spacingMode1_spacingMode1.json",
     isSource: true,
     original: {
       $type: "number",
@@ -160,7 +160,7 @@ export default {
     key: "{10}",
     $type: "number",
     $value: 80,
-    filePath: "design-tokens/token_spacing_Mode1.json",
+    filePath: "design-tokens/token_spacingMode1_spacingMode1.json",
     isSource: true,
     original: {
       $type: "number",
@@ -177,7 +177,7 @@ export default {
     key: "{11}",
     $type: "number",
     $value: 88,
-    filePath: "design-tokens/token_spacing_Mode1.json",
+    filePath: "design-tokens/token_spacingMode1_spacingMode1.json",
     isSource: true,
     original: {
       $type: "number",
@@ -194,7 +194,7 @@ export default {
     key: "{12}",
     $type: "number",
     $value: 96,
-    filePath: "design-tokens/token_spacing_Mode1.json",
+    filePath: "design-tokens/token_spacingMode1_spacingMode1.json",
     isSource: true,
     original: {
       $type: "number",
@@ -218,34 +218,17 @@ export default {
       $value: "String value",
       key: "{String}",
     },
-    name: "GsString",
+    name: "gs-string",
     attributes: {
       category: "String",
     },
     path: ["String"],
   },
-  "font weight": {
-    key: "{font weight}",
-    $type: "number",
-    $value: 400,
-    filePath: "design-tokens/token_Test_Mode1.json",
-    isSource: true,
-    original: {
-      $type: "number",
-      $value: 400,
-      key: "{font weight}",
-    },
-    name: "GsFontWeight",
-    attributes: {
-      category: "font weight",
-    },
-    path: ["font weight"],
-  },
   lg: {
     key: "{lg}",
     $type: "number",
     $value: 1200,
-    filePath: "design-tokens/token_breakpoints_Mode1.json",
+    filePath: "design-tokens/token_breakpointsMode1_breakpointsMode1.json",
     isSource: true,
     original: {
       $type: "number",
@@ -262,7 +245,7 @@ export default {
     key: "{md}",
     $type: "number",
     $value: 900,
-    filePath: "design-tokens/token_breakpoints_Mode1.json",
+    filePath: "design-tokens/token_breakpointsMode1_breakpointsMode1.json",
     isSource: true,
     original: {
       $type: "number",
@@ -279,7 +262,7 @@ export default {
     key: "{sm}",
     $type: "number",
     $value: 600,
-    filePath: "design-tokens/token_breakpoints_Mode1.json",
+    filePath: "design-tokens/token_breakpointsMode1_breakpointsMode1.json",
     isSource: true,
     original: {
       $type: "number",
@@ -296,7 +279,7 @@ export default {
     key: "{xl}",
     $type: "number",
     $value: 1536,
-    filePath: "design-tokens/token_breakpoints_Mode1.json",
+    filePath: "design-tokens/token_breakpointsMode1_breakpointsMode1.json",
     isSource: true,
     original: {
       $type: "number",
@@ -313,7 +296,7 @@ export default {
     key: "{xs}",
     $type: "number",
     $value: 444,
-    filePath: "design-tokens/token_breakpoints_Mode1.json",
+    filePath: "design-tokens/token_breakpointsMode1_breakpointsMode1.json",
     isSource: true,
     original: {
       $type: "number",
@@ -337,7 +320,7 @@ export default {
       $value: "#174075",
       key: "{Accent_Earth}",
     },
-    name: "GsAccentEarth",
+    name: "gs-accent-earth",
     attributes: {
       category: "Accent_Earth",
     },
@@ -354,7 +337,7 @@ export default {
       $value: "#3B541D",
       key: "{Accent_Forest}",
     },
-    name: "GsAccentForest",
+    name: "gs-accent-forest",
     attributes: {
       category: "Accent_Forest",
     },
@@ -371,7 +354,7 @@ export default {
       $value: "#550000",
       key: "{Accent_Root}",
     },
-    name: "GsAccentRoot",
+    name: "gs-accent-root",
     attributes: {
       category: "Accent_Root",
     },
@@ -388,7 +371,7 @@ export default {
       $value: "#FFF8EB",
       key: "{Accent_Sand}",
     },
-    name: "GsAccentSand",
+    name: "gs-accent-sand",
     attributes: {
       category: "Accent_Sand",
     },
@@ -405,7 +388,7 @@ export default {
       $value: "#F4FAEB",
       key: "{Accent_Spring}",
     },
-    name: "GsAccentSpring",
+    name: "gs-accent-spring",
     attributes: {
       category: "Accent_Spring",
     },
@@ -422,7 +405,7 @@ export default {
       $value: "#0153BF",
       key: "{Accent_Water}",
     },
-    name: "GsAccentWater",
+    name: "gs-accent-water",
     attributes: {
       category: "Accent_Water",
     },
@@ -441,7 +424,7 @@ export default {
       $description: "Primary 2",
       key: "{Brand_Chlorophyll}",
     },
-    name: "GsBrandChlorophyll",
+    name: "gs-brand-chlorophyll",
     attributes: {
       category: "Brand_Chlorophyll",
     },
@@ -460,7 +443,7 @@ export default {
       $description: "Primary 1",
       key: "{Brand_Sprout}",
     },
-    name: "GsBrandSprout",
+    name: "gs-brand-sprout",
     attributes: {
       category: "Brand_Sprout",
     },
@@ -477,7 +460,7 @@ export default {
       $value: "#FFA500",
       key: "{Brand_Sunrise}",
     },
-    name: "GsBrandSunrise",
+    name: "gs-brand-sunrise",
     attributes: {
       category: "Brand_Sunrise",
     },
@@ -494,7 +477,7 @@ export default {
       $value: "#FF7A00",
       key: "{Brand_Sunset}",
     },
-    name: "GsBrandSunset",
+    name: "gs-brand-sunset",
     attributes: {
       category: "Brand_Sunset",
     },
@@ -511,7 +494,7 @@ export default {
       $value: "#F02D3A",
       key: "{Chart vs1}",
     },
-    name: "GsChartVs1",
+    name: "gs-chart-vs1",
     attributes: {
       category: "Chart vs1",
     },
@@ -528,7 +511,7 @@ export default {
       $value: "#5A985E",
       key: "{Chart vs10}",
     },
-    name: "GsChartVs10",
+    name: "gs-chart-vs10",
     attributes: {
       category: "Chart vs10",
     },
@@ -545,7 +528,7 @@ export default {
       $value: "#3BD1F2",
       key: "{Chart vs11}",
     },
-    name: "GsChartVs11",
+    name: "gs-chart-vs11",
     attributes: {
       category: "Chart vs11",
     },
@@ -562,7 +545,7 @@ export default {
       $value: "#E79C9C",
       key: "{Chart vs12}",
     },
-    name: "GsChartVs12",
+    name: "gs-chart-vs12",
     attributes: {
       category: "Chart vs12",
     },
@@ -579,7 +562,7 @@ export default {
       $value: "#006DCD",
       key: "{Chart vs2}",
     },
-    name: "GsChartVs2",
+    name: "gs-chart-vs2",
     attributes: {
       category: "Chart vs2",
     },
@@ -596,7 +579,7 @@ export default {
       $value: "#F0A331",
       key: "{Chart vs3}",
     },
-    name: "GsChartVs3",
+    name: "gs-chart-vs3",
     attributes: {
       category: "Chart vs3",
     },
@@ -613,7 +596,7 @@ export default {
       $value: "#61C9A8",
       key: "{Chart vs4}",
     },
-    name: "GsChartVs4",
+    name: "gs-chart-vs4",
     attributes: {
       category: "Chart vs4",
     },
@@ -630,7 +613,7 @@ export default {
       $value: "#B4436C",
       key: "{Chart vs5}",
     },
-    name: "GsChartVs5",
+    name: "gs-chart-vs5",
     attributes: {
       category: "Chart vs5",
     },
@@ -647,7 +630,7 @@ export default {
       $value: "#0988AC",
       key: "{Chart vs6}",
     },
-    name: "GsChartVs6",
+    name: "gs-chart-vs6",
     attributes: {
       category: "Chart vs6",
     },
@@ -664,7 +647,7 @@ export default {
       $value: "#7E1F86",
       key: "{Chart vs7}",
     },
-    name: "GsChartVs7",
+    name: "gs-chart-vs7",
     attributes: {
       category: "Chart vs7",
     },
@@ -681,7 +664,7 @@ export default {
       $value: "#97DB4F",
       key: "{Chart vs8}",
     },
-    name: "GsChartVs8",
+    name: "gs-chart-vs8",
     attributes: {
       category: "Chart vs8",
     },
@@ -698,7 +681,7 @@ export default {
       $value: "#9DA9BC",
       key: "{Chart vs9}",
     },
-    name: "GsChartVs9",
+    name: "gs-chart-vs9",
     attributes: {
       category: "Chart vs9",
     },
@@ -716,7 +699,7 @@ export default {
         $value: "Inter",
         key: "{fontFamilies.inter}",
       },
-      name: "GsFontFamiliesInter",
+      name: "gs-font-families-inter",
       attributes: {
         category: "fontFamilies",
         type: "inter",
@@ -734,7 +717,7 @@ export default {
         $value: "Montserrat",
         key: "{fontFamilies.montserrat}",
       },
-      name: "GsFontFamiliesMontserrat",
+      name: "gs-font-families-montserrat",
       attributes: {
         category: "fontFamilies",
         type: "montserrat",
@@ -752,7 +735,7 @@ export default {
         $value: "Roboto",
         key: "{fontFamilies.roboto}",
       },
-      name: "GsFontFamiliesRoboto",
+      name: "gs-font-families-roboto",
       attributes: {
         category: "fontFamilies",
         type: "roboto",
@@ -770,7 +753,7 @@ export default {
         $value: "Roboto Mono",
         key: "{fontFamilies.roboto-mono}",
       },
-      name: "GsFontFamiliesRobotoMono",
+      name: "gs-font-families-roboto-mono",
       attributes: {
         category: "fontFamilies",
         type: "roboto-mono",
@@ -790,7 +773,7 @@ export default {
         $value: 10,
         key: "{fontSize.0}",
       },
-      name: "GsFontSize0",
+      name: "gs-font-size-0",
       attributes: {
         category: "fontSize",
         type: "0",
@@ -808,7 +791,7 @@ export default {
         $value: 12,
         key: "{fontSize.1}",
       },
-      name: "GsFontSize1",
+      name: "gs-font-size-1",
       attributes: {
         category: "fontSize",
         type: "1",
@@ -826,7 +809,7 @@ export default {
         $value: 13,
         key: "{fontSize.2}",
       },
-      name: "GsFontSize2",
+      name: "gs-font-size-2",
       attributes: {
         category: "fontSize",
         type: "2",
@@ -844,7 +827,7 @@ export default {
         $value: 14,
         key: "{fontSize.3}",
       },
-      name: "GsFontSize3",
+      name: "gs-font-size-3",
       attributes: {
         category: "fontSize",
         type: "3",
@@ -862,7 +845,7 @@ export default {
         $value: 15,
         key: "{fontSize.4}",
       },
-      name: "GsFontSize4",
+      name: "gs-font-size-4",
       attributes: {
         category: "fontSize",
         type: "4",
@@ -880,7 +863,7 @@ export default {
         $value: 16,
         key: "{fontSize.5}",
       },
-      name: "GsFontSize5",
+      name: "gs-font-size-5",
       attributes: {
         category: "fontSize",
         type: "5",
@@ -898,7 +881,7 @@ export default {
         $value: 20,
         key: "{fontSize.6}",
       },
-      name: "GsFontSize6",
+      name: "gs-font-size-6",
       attributes: {
         category: "fontSize",
         type: "6",
@@ -916,7 +899,7 @@ export default {
         $value: 24,
         key: "{fontSize.7}",
       },
-      name: "GsFontSize7",
+      name: "gs-font-size-7",
       attributes: {
         category: "fontSize",
         type: "7",
@@ -934,7 +917,7 @@ export default {
         $value: 34,
         key: "{fontSize.8}",
       },
-      name: "GsFontSize8",
+      name: "gs-font-size-8",
       attributes: {
         category: "fontSize",
         type: "8",
@@ -952,7 +935,7 @@ export default {
         $value: 48,
         key: "{fontSize.9}",
       },
-      name: "GsFontSize9",
+      name: "gs-font-size-9",
       attributes: {
         category: "fontSize",
         type: "9",
@@ -970,7 +953,7 @@ export default {
         $value: 60,
         key: "{fontSize.10}",
       },
-      name: "GsFontSize10",
+      name: "gs-font-size-10",
       attributes: {
         category: "fontSize",
         type: "10",
@@ -988,7 +971,7 @@ export default {
         $value: 64,
         key: "{fontSize.11}",
       },
-      name: "GsFontSize11",
+      name: "gs-font-size-11",
       attributes: {
         category: "fontSize",
         type: "11",
@@ -1006,7 +989,7 @@ export default {
         $value: 96,
         key: "{fontSize.12}",
       },
-      name: "GsFontSize12",
+      name: "gs-font-size-12",
       attributes: {
         category: "fontSize",
         type: "12",
@@ -1026,7 +1009,7 @@ export default {
         $value: "Regular",
         key: "{fontWeights.inter-4}",
       },
-      name: "GsFontWeightsInter4",
+      name: "gs-font-weights-inter-4",
       attributes: {
         category: "fontWeights",
         type: "inter-4",
@@ -1044,7 +1027,7 @@ export default {
         $value: "Regular",
         key: "{fontWeights.montserrat-0}",
       },
-      name: "GsFontWeightsMontserrat0",
+      name: "gs-font-weights-montserrat-0",
       attributes: {
         category: "fontWeights",
         type: "montserrat-0",
@@ -1062,7 +1045,7 @@ export default {
         $value: "Light",
         key: "{fontWeights.roboto-1}",
       },
-      name: "GsFontWeightsRoboto1",
+      name: "gs-font-weights-roboto-1",
       attributes: {
         category: "fontWeights",
         type: "roboto-1",
@@ -1080,7 +1063,7 @@ export default {
         $value: "Regular",
         key: "{fontWeights.roboto-2}",
       },
-      name: "GsFontWeightsRoboto2",
+      name: "gs-font-weights-roboto-2",
       attributes: {
         category: "fontWeights",
         type: "roboto-2",
@@ -1098,7 +1081,7 @@ export default {
         $value: "Medium",
         key: "{fontWeights.roboto-3}",
       },
-      name: "GsFontWeightsRoboto3",
+      name: "gs-font-weights-roboto-3",
       attributes: {
         category: "fontWeights",
         type: "roboto-3",
@@ -1116,7 +1099,7 @@ export default {
         $value: "Medium",
         key: "{fontWeights.roboto-mono-5}",
       },
-      name: "GsFontWeightsRobotoMono5",
+      name: "gs-font-weights-roboto-mono-5",
       attributes: {
         category: "fontWeights",
         type: "roboto-mono-5",
@@ -1136,7 +1119,7 @@ export default {
         $value: -1.5,
         key: "{letterSpacing.1}",
       },
-      name: "GsLetterSpacing1",
+      name: "gs-letter-spacing-1",
       attributes: {
         category: "letterSpacing",
         type: "1",
@@ -1154,7 +1137,7 @@ export default {
         $value: -0.5,
         key: "{letterSpacing.2}",
       },
-      name: "GsLetterSpacing2",
+      name: "gs-letter-spacing-2",
       attributes: {
         category: "letterSpacing",
         type: "2",
@@ -1172,7 +1155,7 @@ export default {
         $value: 0,
         key: "{letterSpacing.3}",
       },
-      name: "GsLetterSpacing3",
+      name: "gs-letter-spacing-3",
       attributes: {
         category: "letterSpacing",
         type: "3",
@@ -1190,7 +1173,7 @@ export default {
         $value: 0.25,
         key: "{letterSpacing.4}",
       },
-      name: "GsLetterSpacing4",
+      name: "gs-letter-spacing-4",
       attributes: {
         category: "letterSpacing",
         type: "4",
@@ -1208,7 +1191,7 @@ export default {
         $value: 0.15,
         key: "{letterSpacing.5}",
       },
-      name: "GsLetterSpacing5",
+      name: "gs-letter-spacing-5",
       attributes: {
         category: "letterSpacing",
         type: "5",
@@ -1226,7 +1209,7 @@ export default {
         $value: 0.17,
         key: "{letterSpacing.6}",
       },
-      name: "GsLetterSpacing6",
+      name: "gs-letter-spacing-6",
       attributes: {
         category: "letterSpacing",
         type: "6",
@@ -1244,7 +1227,7 @@ export default {
         $value: 0.1,
         key: "{letterSpacing.7}",
       },
-      name: "GsLetterSpacing7",
+      name: "gs-letter-spacing-7",
       attributes: {
         category: "letterSpacing",
         type: "7",
@@ -1262,7 +1245,7 @@ export default {
         $value: 1,
         key: "{letterSpacing.8}",
       },
-      name: "GsLetterSpacing8",
+      name: "gs-letter-spacing-8",
       attributes: {
         category: "letterSpacing",
         type: "8",
@@ -1280,7 +1263,7 @@ export default {
         $value: 0.4,
         key: "{letterSpacing.9}",
       },
-      name: "GsLetterSpacing9",
+      name: "gs-letter-spacing-9",
       attributes: {
         category: "letterSpacing",
         type: "9",
@@ -1298,7 +1281,7 @@ export default {
         $value: 0.14,
         key: "{letterSpacing.10}",
       },
-      name: "GsLetterSpacing10",
+      name: "gs-letter-spacing-10",
       attributes: {
         category: "letterSpacing",
         type: "10",
@@ -1316,7 +1299,7 @@ export default {
         $value: 0.46,
         key: "{letterSpacing.11}",
       },
-      name: "GsLetterSpacing11",
+      name: "gs-letter-spacing-11",
       attributes: {
         category: "letterSpacing",
         type: "11",
@@ -1334,7 +1317,7 @@ export default {
         $value: 0.16,
         key: "{letterSpacing.12}",
       },
-      name: "GsLetterSpacing12",
+      name: "gs-letter-spacing-12",
       attributes: {
         category: "letterSpacing",
         type: "12",
@@ -1354,7 +1337,7 @@ export default {
         $value: 20,
         key: "{lineHeights.19}",
       },
-      name: "GsLineHeights19",
+      name: "gs-line-heights-19",
       attributes: {
         category: "lineHeights",
         type: "19",
@@ -1372,7 +1355,7 @@ export default {
         $value: 10,
         key: "{lineHeights.20}",
       },
-      name: "GsLineHeights20",
+      name: "gs-line-heights-20",
       attributes: {
         category: "lineHeights",
         type: "20",
@@ -1390,7 +1373,7 @@ export default {
         $value: 12,
         key: "{lineHeights.21}",
       },
-      name: "GsLineHeights21",
+      name: "gs-line-heights-21",
       attributes: {
         category: "lineHeights",
         type: "21",
@@ -1408,7 +1391,7 @@ export default {
         $value: 20,
         key: "{lineHeights.22}",
       },
-      name: "GsLineHeights22",
+      name: "gs-line-heights-22",
       attributes: {
         category: "lineHeights",
         type: "22",
@@ -1426,7 +1409,7 @@ export default {
         $value: 26,
         key: "{lineHeights.24}",
       },
-      name: "GsLineHeights24",
+      name: "gs-line-heights-24",
       attributes: {
         category: "lineHeights",
         type: "24",
@@ -1444,7 +1427,7 @@ export default {
         $value: 24,
         key: "{lineHeights.25}",
       },
-      name: "GsLineHeights25",
+      name: "gs-line-heights-25",
       attributes: {
         category: "lineHeights",
         type: "25",
@@ -1462,7 +1445,7 @@ export default {
         $value: 22,
         key: "{lineHeights.26}",
       },
-      name: "GsLineHeights26",
+      name: "gs-line-heights-26",
       attributes: {
         category: "lineHeights",
         type: "26",
@@ -1480,7 +1463,7 @@ export default {
         $value: 18,
         key: "{lineHeights.27}",
       },
-      name: "GsLineHeights27",
+      name: "gs-line-heights-27",
       attributes: {
         category: "lineHeights",
         type: "27",
@@ -1498,7 +1481,7 @@ export default {
         $value: 12,
         key: "{lineHeights.29}",
       },
-      name: "GsLineHeights29",
+      name: "gs-line-heights-29",
       attributes: {
         category: "lineHeights",
         type: "29",
@@ -1516,7 +1499,7 @@ export default {
         $value: 24,
         key: "{lineHeights.30}",
       },
-      name: "GsLineHeights30",
+      name: "gs-line-heights-30",
       attributes: {
         category: "lineHeights",
         type: "30",
@@ -1534,7 +1517,7 @@ export default {
         $value: 48,
         key: "{lineHeights.32}",
       },
-      name: "GsLineHeights32",
+      name: "gs-line-heights-32",
       attributes: {
         category: "lineHeights",
         type: "32",
@@ -1552,7 +1535,7 @@ export default {
         $value: 24,
         key: "{lineHeights.34}",
       },
-      name: "GsLineHeights34",
+      name: "gs-line-heights-34",
       attributes: {
         category: "lineHeights",
         type: "34",
@@ -1570,7 +1553,7 @@ export default {
         $value: 24,
         key: "{lineHeights.35}",
       },
-      name: "GsLineHeights35",
+      name: "gs-line-heights-35",
       attributes: {
         category: "lineHeights",
         type: "35",
@@ -1588,7 +1571,7 @@ export default {
         $value: 14,
         key: "{lineHeights.36}",
       },
-      name: "GsLineHeights36",
+      name: "gs-line-heights-36",
       attributes: {
         category: "lineHeights",
         type: "36",
@@ -1606,7 +1589,7 @@ export default {
         $value: 12,
         key: "{lineHeights.37}",
       },
-      name: "GsLineHeights37",
+      name: "gs-line-heights-37",
       attributes: {
         category: "lineHeights",
         type: "37",
@@ -1626,7 +1609,7 @@ export default {
         $value: 0,
         key: "{paragraphIndent.0}",
       },
-      name: "GsParagraphIndent0",
+      name: "gs-paragraph-indent-0",
       attributes: {
         category: "paragraphIndent",
         type: "0",
@@ -1646,12 +1629,6798 @@ export default {
         $value: 0,
         key: "{paragraphSpacing.0}",
       },
-      name: "GsParagraphSpacing0",
+      name: "gs-paragraph-spacing-0",
       attributes: {
         category: "paragraphSpacing",
         type: "0",
       },
       path: ["paragraphSpacing", "0"],
+    },
+  },
+  _components: {
+    alert: {
+      error: {
+        background: {
+          key: "{_components.alert.error.background}",
+          $type: "color",
+          $value: "#fdeded",
+          filePath: "design-tokens/token_paletteLight_paletteLight.json",
+          isSource: true,
+          original: {
+            $type: "color",
+            $value: "#FDEDED",
+            key: "{_components.alert.error.background}",
+          },
+          name: "gs-components-alert-error-background",
+          attributes: {
+            category: "_components",
+            type: "alert",
+            item: "error",
+            subitem: "background",
+          },
+          path: ["_components", "alert", "error", "background"],
+        },
+        color: {
+          key: "{_components.alert.error.color}",
+          $type: "color",
+          $value: "#5f2120",
+          filePath: "design-tokens/token_paletteLight_paletteLight.json",
+          isSource: true,
+          original: {
+            $type: "color",
+            $value: "#5F2120",
+            key: "{_components.alert.error.color}",
+          },
+          name: "gs-components-alert-error-color",
+          attributes: {
+            category: "_components",
+            type: "alert",
+            item: "error",
+            subitem: "color",
+          },
+          path: ["_components", "alert", "error", "color"],
+        },
+      },
+      info: {
+        background: {
+          key: "{_components.alert.info.background}",
+          $type: "color",
+          $value: "#e5f6fd",
+          filePath: "design-tokens/token_paletteLight_paletteLight.json",
+          isSource: true,
+          original: {
+            $type: "color",
+            $value: "#E5F6FD",
+            key: "{_components.alert.info.background}",
+          },
+          name: "gs-components-alert-info-background",
+          attributes: {
+            category: "_components",
+            type: "alert",
+            item: "info",
+            subitem: "background",
+          },
+          path: ["_components", "alert", "info", "background"],
+        },
+        color: {
+          key: "{_components.alert.info.color}",
+          $type: "color",
+          $value: "#014361",
+          filePath: "design-tokens/token_paletteLight_paletteLight.json",
+          isSource: true,
+          original: {
+            $type: "color",
+            $value: "#014361",
+            key: "{_components.alert.info.color}",
+          },
+          name: "gs-components-alert-info-color",
+          attributes: {
+            category: "_components",
+            type: "alert",
+            item: "info",
+            subitem: "color",
+          },
+          path: ["_components", "alert", "info", "color"],
+        },
+      },
+      success: {
+        background: {
+          key: "{_components.alert.success.background}",
+          $type: "color",
+          $value: "#edf7ed",
+          filePath: "design-tokens/token_paletteLight_paletteLight.json",
+          isSource: true,
+          original: {
+            $type: "color",
+            $value: "#EDF7ED",
+            key: "{_components.alert.success.background}",
+          },
+          name: "gs-components-alert-success-background",
+          attributes: {
+            category: "_components",
+            type: "alert",
+            item: "success",
+            subitem: "background",
+          },
+          path: ["_components", "alert", "success", "background"],
+        },
+        color: {
+          key: "{_components.alert.success.color}",
+          $type: "color",
+          $value: "#1e4620",
+          filePath: "design-tokens/token_paletteLight_paletteLight.json",
+          isSource: true,
+          original: {
+            $type: "color",
+            $value: "#1E4620",
+            key: "{_components.alert.success.color}",
+          },
+          name: "gs-components-alert-success-color",
+          attributes: {
+            category: "_components",
+            type: "alert",
+            item: "success",
+            subitem: "color",
+          },
+          path: ["_components", "alert", "success", "color"],
+        },
+      },
+      warning: {
+        background: {
+          key: "{_components.alert.warning.background}",
+          $type: "color",
+          $value: "#fff4e5",
+          filePath: "design-tokens/token_paletteLight_paletteLight.json",
+          isSource: true,
+          original: {
+            $type: "color",
+            $value: "#FFF4E5",
+            key: "{_components.alert.warning.background}",
+          },
+          name: "gs-components-alert-warning-background",
+          attributes: {
+            category: "_components",
+            type: "alert",
+            item: "warning",
+            subitem: "background",
+          },
+          path: ["_components", "alert", "warning", "background"],
+        },
+        color: {
+          key: "{_components.alert.warning.color}",
+          $type: "color",
+          $value: "#663c00",
+          filePath: "design-tokens/token_paletteLight_paletteLight.json",
+          isSource: true,
+          original: {
+            $type: "color",
+            $value: "#663C00",
+            key: "{_components.alert.warning.color}",
+          },
+          name: "gs-components-alert-warning-color",
+          attributes: {
+            category: "_components",
+            type: "alert",
+            item: "warning",
+            subitem: "color",
+          },
+          path: ["_components", "alert", "warning", "color"],
+        },
+      },
+    },
+    appBar: {
+      defaultFill: {
+        key: "{_components.appBar.defaultFill}",
+        $type: "color",
+        $value: "#f5f5f5",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{grey.100}",
+          key: "{_components.appBar.defaultFill}",
+        },
+        name: "gs-components-app-bar-default-fill",
+        attributes: {
+          category: "_components",
+          type: "appBar",
+          item: "defaultFill",
+        },
+        path: ["_components", "appBar", "defaultFill"],
+      },
+    },
+    avatar: {
+      fill: {
+        key: "{_components.avatar.fill}",
+        $type: "color",
+        $value: "#bdbdbd",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{grey.400}",
+          key: "{_components.avatar.fill}",
+        },
+        name: "gs-components-avatar-fill",
+        attributes: {
+          category: "_components",
+          type: "avatar",
+          item: "fill",
+        },
+        path: ["_components", "avatar", "fill"],
+      },
+    },
+    backdrop: {
+      fill: {
+        key: "{_components.backdrop.fill}",
+        $type: "color",
+        $value: "#00000080",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#00000080",
+          key: "{_components.backdrop.fill}",
+        },
+        name: "gs-components-backdrop-fill",
+        attributes: {
+          category: "_components",
+          type: "backdrop",
+          item: "fill",
+        },
+        path: ["_components", "backdrop", "fill"],
+      },
+    },
+    breadcrumbs: {
+      collapseFill: {
+        key: "{_components.breadcrumbs.collapseFill}",
+        $type: "color",
+        $value: "#f5f5f5",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{grey.100}",
+          key: "{_components.breadcrumbs.collapseFill}",
+        },
+        name: "gs-components-breadcrumbs-collapse-fill",
+        attributes: {
+          category: "_components",
+          type: "breadcrumbs",
+          item: "collapseFill",
+        },
+        path: ["_components", "breadcrumbs", "collapseFill"],
+      },
+    },
+    chip: {
+      defaultCloseFill: {
+        key: "{_components.chip.defaultCloseFill}",
+        $type: "color",
+        $value: "#000000",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#000000",
+          key: "{_components.chip.defaultCloseFill}",
+        },
+        name: "gs-components-chip-default-close-fill",
+        attributes: {
+          category: "_components",
+          type: "chip",
+          item: "defaultCloseFill",
+        },
+        path: ["_components", "chip", "defaultCloseFill"],
+      },
+      defaultEnabledBorder: {
+        key: "{_components.chip.defaultEnabledBorder}",
+        $type: "color",
+        $value: "#bdbdbd",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{grey.400}",
+          key: "{_components.chip.defaultEnabledBorder}",
+        },
+        name: "gs-components-chip-default-enabled-border",
+        attributes: {
+          category: "_components",
+          type: "chip",
+          item: "defaultEnabledBorder",
+        },
+        path: ["_components", "chip", "defaultEnabledBorder"],
+      },
+      defaultFocusFill: {
+        key: "{_components.chip.defaultFocusFill}",
+        $type: "color",
+        $value: "#00000033",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#00000033",
+          key: "{_components.chip.defaultFocusFill}",
+        },
+        name: "gs-components-chip-default-focus-fill",
+        attributes: {
+          category: "_components",
+          type: "chip",
+          item: "defaultFocusFill",
+        },
+        path: ["_components", "chip", "defaultFocusFill"],
+      },
+      defaultHoverFill: {
+        key: "{_components.chip.defaultHoverFill}",
+        $type: "color",
+        $value: "#0000001f",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#0000001f",
+          key: "{_components.chip.defaultHoverFill}",
+        },
+        name: "gs-components-chip-default-hover-fill",
+        attributes: {
+          category: "_components",
+          type: "chip",
+          item: "defaultHoverFill",
+        },
+        path: ["_components", "chip", "defaultHoverFill"],
+      },
+    },
+    input: {
+      filled: {
+        enabledFill: {
+          key: "{_components.input.filled.enabledFill}",
+          $type: "color",
+          $value: "#0000000f",
+          filePath: "design-tokens/token_paletteLight_paletteLight.json",
+          isSource: true,
+          original: {
+            $type: "color",
+            $value: "#0000000f",
+            key: "{_components.input.filled.enabledFill}",
+          },
+          name: "gs-components-input-filled-enabled-fill",
+          attributes: {
+            category: "_components",
+            type: "input",
+            item: "filled",
+            subitem: "enabledFill",
+          },
+          path: ["_components", "input", "filled", "enabledFill"],
+        },
+        hoverFill: {
+          key: "{_components.input.filled.hoverFill}",
+          $type: "color",
+          $value: "#00000017",
+          filePath: "design-tokens/token_paletteLight_paletteLight.json",
+          isSource: true,
+          original: {
+            $type: "color",
+            $value: "#00000017",
+            key: "{_components.input.filled.hoverFill}",
+          },
+          name: "gs-components-input-filled-hover-fill",
+          attributes: {
+            category: "_components",
+            type: "input",
+            item: "filled",
+            subitem: "hoverFill",
+          },
+          path: ["_components", "input", "filled", "hoverFill"],
+        },
+      },
+      outlined: {
+        enabledBorder: {
+          key: "{_components.input.outlined.enabledBorder}",
+          $type: "color",
+          $value: "#0000003b",
+          filePath: "design-tokens/token_paletteLight_paletteLight.json",
+          isSource: true,
+          original: {
+            $type: "color",
+            $value: "#0000003b",
+            key: "{_components.input.outlined.enabledBorder}",
+          },
+          name: "gs-components-input-outlined-enabled-border",
+          attributes: {
+            category: "_components",
+            type: "input",
+            item: "outlined",
+            subitem: "enabledBorder",
+          },
+          path: ["_components", "input", "outlined", "enabledBorder"],
+        },
+        hoverBorder: {
+          key: "{_components.input.outlined.hoverBorder}",
+          $type: "color",
+          $value: "#000000",
+          filePath: "design-tokens/token_paletteLight_paletteLight.json",
+          isSource: true,
+          original: {
+            $type: "color",
+            $value: "#000000",
+            key: "{_components.input.outlined.hoverBorder}",
+          },
+          name: "gs-components-input-outlined-hover-border",
+          attributes: {
+            category: "_components",
+            type: "input",
+            item: "outlined",
+            subitem: "hoverBorder",
+          },
+          path: ["_components", "input", "outlined", "hoverBorder"],
+        },
+      },
+      standard: {
+        enabledBorder: {
+          key: "{_components.input.standard.enabledBorder}",
+          $type: "color",
+          $value: "#0000006b",
+          filePath: "design-tokens/token_paletteLight_paletteLight.json",
+          isSource: true,
+          original: {
+            $type: "color",
+            $value: "#0000006b",
+            key: "{_components.input.standard.enabledBorder}",
+          },
+          name: "gs-components-input-standard-enabled-border",
+          attributes: {
+            category: "_components",
+            type: "input",
+            item: "standard",
+            subitem: "enabledBorder",
+          },
+          path: ["_components", "input", "standard", "enabledBorder"],
+        },
+        hoverBorder: {
+          key: "{_components.input.standard.hoverBorder}",
+          $type: "color",
+          $value: "#000000",
+          filePath: "design-tokens/token_paletteLight_paletteLight.json",
+          isSource: true,
+          original: {
+            $type: "color",
+            $value: "#000000",
+            key: "{_components.input.standard.hoverBorder}",
+          },
+          name: "gs-components-input-standard-hover-border",
+          attributes: {
+            category: "_components",
+            type: "input",
+            item: "standard",
+            subitem: "hoverBorder",
+          },
+          path: ["_components", "input", "standard", "hoverBorder"],
+        },
+      },
+    },
+    rating: {
+      activeFill: {
+        key: "{_components.rating.activeFill}",
+        $type: "color",
+        $value: "#ffb400",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#FFB400",
+          key: "{_components.rating.activeFill}",
+        },
+        name: "gs-components-rating-active-fill",
+        attributes: {
+          category: "_components",
+          type: "rating",
+          item: "activeFill",
+        },
+        path: ["_components", "rating", "activeFill"],
+      },
+      enabledBorder: {
+        key: "{_components.rating.enabledBorder}",
+        $type: "color",
+        $value: "#0000003b",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#0000003b",
+          key: "{_components.rating.enabledBorder}",
+        },
+        name: "gs-components-rating-enabled-border",
+        attributes: {
+          category: "_components",
+          type: "rating",
+          item: "enabledBorder",
+        },
+        path: ["_components", "rating", "enabledBorder"],
+      },
+    },
+    snackbar: {
+      fill: {
+        key: "{_components.snackbar.fill}",
+        $type: "color",
+        $value: "#323232",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#323232",
+          key: "{_components.snackbar.fill}",
+        },
+        name: "gs-components-snackbar-fill",
+        attributes: {
+          category: "_components",
+          type: "snackbar",
+          item: "fill",
+        },
+        path: ["_components", "snackbar", "fill"],
+      },
+    },
+    stepper: {
+      connector: {
+        key: "{_components.stepper.connector}",
+        $type: "color",
+        $value: "#bdbdbd",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{grey.400}",
+          key: "{_components.stepper.connector}",
+        },
+        name: "gs-components-stepper-connector",
+        attributes: {
+          category: "_components",
+          type: "stepper",
+          item: "connector",
+        },
+        path: ["_components", "stepper", "connector"],
+      },
+    },
+    switch: {
+      knobFillEnabled: {
+        key: "{_components.switch.knobFillEnabled}",
+        $type: "color",
+        $value: "#fafafa",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{grey.50}",
+          key: "{_components.switch.knobFillEnabled}",
+        },
+        name: "gs-components-switch-knob-fill-enabled",
+        attributes: {
+          category: "_components",
+          type: "switch",
+          item: "knobFillEnabled",
+        },
+        path: ["_components", "switch", "knobFillEnabled"],
+      },
+      knowFillDisabled: {
+        key: "{_components.switch.knowFillDisabled}",
+        $type: "color",
+        $value: "#f5f5f5",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{grey.100}",
+          key: "{_components.switch.knowFillDisabled}",
+        },
+        name: "gs-components-switch-know-fill-disabled",
+        attributes: {
+          category: "_components",
+          type: "switch",
+          item: "knowFillDisabled",
+        },
+        path: ["_components", "switch", "knowFillDisabled"],
+      },
+      slideFill: {
+        key: "{_components.switch.slideFill}",
+        $type: "color",
+        $value: "#000000",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#000000",
+          key: "{_components.switch.slideFill}",
+        },
+        name: "gs-components-switch-slide-fill",
+        attributes: {
+          category: "_components",
+          type: "switch",
+          item: "slideFill",
+        },
+        path: ["_components", "switch", "slideFill"],
+      },
+    },
+    tooltip: {
+      fill: {
+        key: "{_components.tooltip.fill}",
+        $type: "color",
+        $value: "#616161e6",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#616161e6",
+          key: "{_components.tooltip.fill}",
+        },
+        name: "gs-components-tooltip-fill",
+        attributes: {
+          category: "_components",
+          type: "tooltip",
+          item: "fill",
+        },
+        path: ["_components", "tooltip", "fill"],
+      },
+    },
+  },
+  _native: {
+    "scrollbar-bg": {
+      key: "{_native.scrollbar-bg}",
+      $type: "color",
+      $value: "#eeeeee",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "{grey.200}",
+        key: "{_native.scrollbar-bg}",
+      },
+      name: "gs-native-scrollbar-bg",
+      attributes: {
+        category: "_native",
+        type: "scrollbar-bg",
+      },
+      path: ["_native", "scrollbar-bg"],
+    },
+  },
+  action: {
+    active: {
+      key: "{action.active}",
+      $type: "color",
+      $value: "#2226298f",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#2226298f",
+        key: "{action.active}",
+      },
+      name: "gs-action-active",
+      attributes: {
+        category: "action",
+        type: "active",
+      },
+      path: ["action", "active"],
+    },
+    disabled: {
+      key: "{action.disabled}",
+      $type: "color",
+      $value: "#22262961",
+      $description:
+        "Reflects the action.disabled variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#22262961",
+        $description:
+          "Reflects the action.disabled variable from the theme object",
+        key: "{action.disabled}",
+      },
+      name: "gs-action-disabled",
+      attributes: {
+        category: "action",
+        type: "disabled",
+      },
+      path: ["action", "disabled"],
+    },
+    disabledBackground: {
+      key: "{action.disabledBackground}",
+      $type: "color",
+      $value: "#0000001f",
+      $description:
+        "Reflects the action.disabledBackground variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#0000001f",
+        $description:
+          "Reflects the action.disabledBackground variable from the theme object",
+        key: "{action.disabledBackground}",
+      },
+      name: "gs-action-disabled-background",
+      attributes: {
+        category: "action",
+        type: "disabledBackground",
+      },
+      path: ["action", "disabledBackground"],
+    },
+    focus: {
+      key: "{action.focus}",
+      $type: "color",
+      $value: "#2226291f",
+      $description: "Reflects the action.focus variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#2226291f",
+        $description:
+          "Reflects the action.focus variable from the theme object",
+        key: "{action.focus}",
+      },
+      name: "gs-action-focus",
+      attributes: {
+        category: "action",
+        type: "focus",
+      },
+      path: ["action", "focus"],
+    },
+    hover: {
+      key: "{action.hover}",
+      $type: "color",
+      $value: "#2226290a",
+      $description: "Reflects the action.hover variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#2226290a",
+        $description:
+          "Reflects the action.hover variable from the theme object",
+        key: "{action.hover}",
+      },
+      name: "gs-action-hover",
+      attributes: {
+        category: "action",
+        type: "hover",
+      },
+      path: ["action", "hover"],
+    },
+    selected: {
+      key: "{action.selected}",
+      $type: "color",
+      $value: "#22262914",
+      $description:
+        "Reflects the action.selected variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#22262914",
+        $description:
+          "Reflects the action.selected variable from the theme object",
+        key: "{action.selected}",
+      },
+      name: "gs-action-selected",
+      attributes: {
+        category: "action",
+        type: "selected",
+      },
+      path: ["action", "selected"],
+    },
+  },
+  background: {
+    default: {
+      key: "{background.default}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.default variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.default variable from the theme object",
+        key: "{background.default}",
+      },
+      name: "gs-background-default",
+      attributes: {
+        category: "background",
+        type: "default",
+      },
+      path: ["background", "default"],
+    },
+    "paper-elevation-0": {
+      key: "{background.paper-elevation-0}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-0}",
+      },
+      name: "gs-background-paper-elevation-0",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-0",
+      },
+      path: ["background", "paper-elevation-0"],
+    },
+    "paper-elevation-1": {
+      key: "{background.paper-elevation-1}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-1}",
+      },
+      name: "gs-background-paper-elevation-1",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-1",
+      },
+      path: ["background", "paper-elevation-1"],
+    },
+    "paper-elevation-10": {
+      key: "{background.paper-elevation-10}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-10}",
+      },
+      name: "gs-background-paper-elevation-10",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-10",
+      },
+      path: ["background", "paper-elevation-10"],
+    },
+    "paper-elevation-11": {
+      key: "{background.paper-elevation-11}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-11}",
+      },
+      name: "gs-background-paper-elevation-11",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-11",
+      },
+      path: ["background", "paper-elevation-11"],
+    },
+    "paper-elevation-12": {
+      key: "{background.paper-elevation-12}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-12}",
+      },
+      name: "gs-background-paper-elevation-12",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-12",
+      },
+      path: ["background", "paper-elevation-12"],
+    },
+    "paper-elevation-13": {
+      key: "{background.paper-elevation-13}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-13}",
+      },
+      name: "gs-background-paper-elevation-13",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-13",
+      },
+      path: ["background", "paper-elevation-13"],
+    },
+    "paper-elevation-14": {
+      key: "{background.paper-elevation-14}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-14}",
+      },
+      name: "gs-background-paper-elevation-14",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-14",
+      },
+      path: ["background", "paper-elevation-14"],
+    },
+    "paper-elevation-15": {
+      key: "{background.paper-elevation-15}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-15}",
+      },
+      name: "gs-background-paper-elevation-15",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-15",
+      },
+      path: ["background", "paper-elevation-15"],
+    },
+    "paper-elevation-16": {
+      key: "{background.paper-elevation-16}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-16}",
+      },
+      name: "gs-background-paper-elevation-16",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-16",
+      },
+      path: ["background", "paper-elevation-16"],
+    },
+    "paper-elevation-17": {
+      key: "{background.paper-elevation-17}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-17}",
+      },
+      name: "gs-background-paper-elevation-17",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-17",
+      },
+      path: ["background", "paper-elevation-17"],
+    },
+    "paper-elevation-18": {
+      key: "{background.paper-elevation-18}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-18}",
+      },
+      name: "gs-background-paper-elevation-18",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-18",
+      },
+      path: ["background", "paper-elevation-18"],
+    },
+    "paper-elevation-19": {
+      key: "{background.paper-elevation-19}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-19}",
+      },
+      name: "gs-background-paper-elevation-19",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-19",
+      },
+      path: ["background", "paper-elevation-19"],
+    },
+    "paper-elevation-2": {
+      key: "{background.paper-elevation-2}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-2}",
+      },
+      name: "gs-background-paper-elevation-2",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-2",
+      },
+      path: ["background", "paper-elevation-2"],
+    },
+    "paper-elevation-20": {
+      key: "{background.paper-elevation-20}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-20}",
+      },
+      name: "gs-background-paper-elevation-20",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-20",
+      },
+      path: ["background", "paper-elevation-20"],
+    },
+    "paper-elevation-21": {
+      key: "{background.paper-elevation-21}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-21}",
+      },
+      name: "gs-background-paper-elevation-21",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-21",
+      },
+      path: ["background", "paper-elevation-21"],
+    },
+    "paper-elevation-22": {
+      key: "{background.paper-elevation-22}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-22}",
+      },
+      name: "gs-background-paper-elevation-22",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-22",
+      },
+      path: ["background", "paper-elevation-22"],
+    },
+    "paper-elevation-23": {
+      key: "{background.paper-elevation-23}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-23}",
+      },
+      name: "gs-background-paper-elevation-23",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-23",
+      },
+      path: ["background", "paper-elevation-23"],
+    },
+    "paper-elevation-24": {
+      key: "{background.paper-elevation-24}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-24}",
+      },
+      name: "gs-background-paper-elevation-24",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-24",
+      },
+      path: ["background", "paper-elevation-24"],
+    },
+    "paper-elevation-3": {
+      key: "{background.paper-elevation-3}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-3}",
+      },
+      name: "gs-background-paper-elevation-3",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-3",
+      },
+      path: ["background", "paper-elevation-3"],
+    },
+    "paper-elevation-4": {
+      key: "{background.paper-elevation-4}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-4}",
+      },
+      name: "gs-background-paper-elevation-4",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-4",
+      },
+      path: ["background", "paper-elevation-4"],
+    },
+    "paper-elevation-5": {
+      key: "{background.paper-elevation-5}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-5}",
+      },
+      name: "gs-background-paper-elevation-5",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-5",
+      },
+      path: ["background", "paper-elevation-5"],
+    },
+    "paper-elevation-6": {
+      key: "{background.paper-elevation-6}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-6}",
+      },
+      name: "gs-background-paper-elevation-6",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-6",
+      },
+      path: ["background", "paper-elevation-6"],
+    },
+    "paper-elevation-7": {
+      key: "{background.paper-elevation-7}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-7}",
+      },
+      name: "gs-background-paper-elevation-7",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-7",
+      },
+      path: ["background", "paper-elevation-7"],
+    },
+    "paper-elevation-8": {
+      key: "{background.paper-elevation-8}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-8}",
+      },
+      name: "gs-background-paper-elevation-8",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-8",
+      },
+      path: ["background", "paper-elevation-8"],
+    },
+    "paper-elevation-9": {
+      key: "{background.paper-elevation-9}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the background.paper variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the background.paper variable from the theme object",
+        key: "{background.paper-elevation-9}",
+      },
+      name: "gs-background-paper-elevation-9",
+      attributes: {
+        category: "background",
+        type: "paper-elevation-9",
+      },
+      path: ["background", "paper-elevation-9"],
+    },
+    accent: {
+      active: {
+        key: "{background.accent.active}",
+        $type: "color",
+        $value: "#ef6c00",
+        $description: "Pressed state on accent elements",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{orange.800}",
+          $description: "Pressed state on accent elements",
+          key: "{background.accent.active}",
+        },
+        name: "gs-background-accent-active",
+        attributes: {
+          category: "background",
+          type: "accent",
+          item: "active",
+        },
+        path: ["background", "accent", "active"],
+      },
+      default: {
+        key: "{background.accent.default}",
+        $type: "color",
+        $value: "#fb8c00",
+        $description: "Secondary accent fills, promotional elements",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{orange.600}",
+          $description: "Secondary accent fills, promotional elements",
+          key: "{background.accent.default}",
+        },
+        name: "gs-background-accent-default",
+        attributes: {
+          category: "background",
+          type: "accent",
+          item: "default",
+        },
+        path: ["background", "accent", "default"],
+      },
+      disabled: {
+        key: "{background.accent.disabled}",
+        $type: "color",
+        $value: "#ffcc80",
+        $description: "Disabled accent element fill",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{orange.200}",
+          $description: "Disabled accent element fill",
+          key: "{background.accent.disabled}",
+        },
+        name: "gs-background-accent-disabled",
+        attributes: {
+          category: "background",
+          type: "accent",
+          item: "disabled",
+        },
+        path: ["background", "accent", "disabled"],
+      },
+      hover: {
+        key: "{background.accent.hover}",
+        $type: "color",
+        $value: "#f57c00",
+        $description: "Hover state on accent elements",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{orange.700}",
+          $description: "Hover state on accent elements",
+          key: "{background.accent.hover}",
+        },
+        name: "gs-background-accent-hover",
+        attributes: {
+          category: "background",
+          type: "accent",
+          item: "hover",
+        },
+        path: ["background", "accent", "hover"],
+      },
+      subtle: {
+        key: "{background.accent.subtle}",
+        $type: "color",
+        $value: "#fff3e0",
+        $description: "Light orange tint for accent surfaces",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{orange.50}",
+          $description: "Light orange tint for accent surfaces",
+          key: "{background.accent.subtle}",
+        },
+        name: "gs-background-accent-subtle",
+        attributes: {
+          category: "background",
+          type: "accent",
+          item: "subtle",
+        },
+        path: ["background", "accent", "subtle"],
+      },
+    },
+    base: {
+      container: {
+        key: "{background.base.container}",
+        $type: "color",
+        $value: "#fafafa",
+        $description: "Cards, panels, modals, drawers",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{neutral.50}",
+          $description: "Cards, panels, modals, drawers",
+          key: "{background.base.container}",
+        },
+        name: "gs-background-base-container",
+        attributes: {
+          category: "background",
+          type: "base",
+          item: "container",
+        },
+        path: ["background", "base", "container"],
+      },
+      default: {
+        key: "{background.base.default}",
+        $type: "color",
+        $value: "#ffffff",
+        $description: "App root, body background",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{base.white}",
+          $description: "App root, body background",
+          key: "{background.base.default}",
+        },
+        name: "gs-background-base-default",
+        attributes: {
+          category: "background",
+          type: "base",
+          item: "default",
+        },
+        path: ["background", "base", "default"],
+      },
+      overlay: {
+        key: "{background.base.overlay}",
+        $type: "color",
+        $value: "#00000066",
+        $description: "Scrim behind modals and drawers",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#00000066",
+          $description: "Scrim behind modals and drawers",
+          key: "{background.base.overlay}",
+        },
+        name: "gs-background-base-overlay",
+        attributes: {
+          category: "background",
+          type: "base",
+          item: "overlay",
+        },
+        path: ["background", "base", "overlay"],
+      },
+      subtle: {
+        key: "{background.base.subtle}",
+        $type: "color",
+        $value: "#f2f2f2",
+        $description: "Hover rows, inset sections, zebra stripes",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{neutral.100}",
+          $description: "Hover rows, inset sections, zebra stripes",
+          key: "{background.base.subtle}",
+        },
+        name: "gs-background-base-subtle",
+        attributes: {
+          category: "background",
+          type: "base",
+          item: "subtle",
+        },
+        path: ["background", "base", "subtle"],
+      },
+    },
+    brand: {
+      active: {
+        key: "{background.brand.active}",
+        $type: "color",
+        $value: "#2e7d32",
+        $description: "Pressed state on brand elements",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{green.800}",
+          $description: "Pressed state on brand elements",
+          key: "{background.brand.active}",
+        },
+        name: "gs-background-brand-active",
+        attributes: {
+          category: "background",
+          type: "brand",
+          item: "active",
+        },
+        path: ["background", "brand", "active"],
+      },
+      default: {
+        key: "{background.brand.default}",
+        $type: "color",
+        $value: "#43a047",
+        $description: "Primary brand button, strong brand fills",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{green.600}",
+          $description: "Primary brand button, strong brand fills",
+          key: "{background.brand.default}",
+        },
+        name: "gs-background-brand-default",
+        attributes: {
+          category: "background",
+          type: "brand",
+          item: "default",
+        },
+        path: ["background", "brand", "default"],
+      },
+      disabled: {
+        key: "{background.brand.disabled}",
+        $type: "color",
+        $value: "#a5d6a7",
+        $description: "Disabled brand button fill",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{green.200}",
+          $description: "Disabled brand button fill",
+          key: "{background.brand.disabled}",
+        },
+        name: "gs-background-brand-disabled",
+        attributes: {
+          category: "background",
+          type: "brand",
+          item: "disabled",
+        },
+        path: ["background", "brand", "disabled"],
+      },
+      hover: {
+        key: "{background.brand.hover}",
+        $type: "color",
+        $value: "#388e3c",
+        $description: "Hover state on brand elements",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{green.700}",
+          $description: "Hover state on brand elements",
+          key: "{background.brand.hover}",
+        },
+        name: "gs-background-brand-hover",
+        attributes: {
+          category: "background",
+          type: "brand",
+          item: "hover",
+        },
+        path: ["background", "brand", "hover"],
+      },
+      subtle: {
+        key: "{background.brand.subtle}",
+        $type: "color",
+        $value: "#e8f5e9",
+        $description: "Selected states, active nav tint",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{green.50}",
+          $description: "Selected states, active nav tint",
+          key: "{background.brand.subtle}",
+        },
+        name: "gs-background-brand-subtle",
+        attributes: {
+          category: "background",
+          type: "brand",
+          item: "subtle",
+        },
+        path: ["background", "brand", "subtle"],
+      },
+    },
+    error: {
+      emphasis: {
+        key: "{background.error.emphasis}",
+        $type: "color",
+        $value: "#f44336",
+        $description: "Critical error banner, system-wide alert",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{red.500}",
+          $description: "Critical error banner, system-wide alert",
+          key: "{background.error.emphasis}",
+        },
+        name: "gs-background-error-emphasis",
+        attributes: {
+          category: "background",
+          type: "error",
+          item: "emphasis",
+        },
+        path: ["background", "error", "emphasis"],
+      },
+      subtle: {
+        key: "{background.error.subtle}",
+        $type: "color",
+        $value: "#feebee",
+        $description: "Inline error alert, form field error bg",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{red.50}",
+          $description: "Inline error alert, form field error bg",
+          key: "{background.error.subtle}",
+        },
+        name: "gs-background-error-subtle",
+        attributes: {
+          category: "background",
+          type: "error",
+          item: "subtle",
+        },
+        path: ["background", "error", "subtle"],
+      },
+    },
+    info: {
+      emphasis: {
+        key: "{background.info.emphasis}",
+        $type: "color",
+        $value: "#2196f3",
+        $description: "Critical info banner, system-wide notice",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{blue.500}",
+          $description: "Critical info banner, system-wide notice",
+          key: "{background.info.emphasis}",
+        },
+        name: "gs-background-info-emphasis",
+        attributes: {
+          category: "background",
+          type: "info",
+          item: "emphasis",
+        },
+        path: ["background", "info", "emphasis"],
+      },
+      subtle: {
+        key: "{background.info.subtle}",
+        $type: "color",
+        $value: "#e3f2fd",
+        $description: "Inline informational alert, tooltip bg",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{blue.50}",
+          $description: "Inline informational alert, tooltip bg",
+          key: "{background.info.subtle}",
+        },
+        name: "gs-background-info-subtle",
+        attributes: {
+          category: "background",
+          type: "info",
+          item: "subtle",
+        },
+        path: ["background", "info", "subtle"],
+      },
+    },
+    success: {
+      emphasis: {
+        key: "{background.success.emphasis}",
+        $type: "color",
+        $value: "#12836d",
+        $description: "Critical success banner, system confirmation",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{emerald.500}",
+          $description: "Critical success banner, system confirmation",
+          key: "{background.success.emphasis}",
+        },
+        name: "gs-background-success-emphasis",
+        attributes: {
+          category: "background",
+          type: "success",
+          item: "emphasis",
+        },
+        path: ["background", "success", "emphasis"],
+      },
+      subtle: {
+        key: "{background.success.subtle}",
+        $type: "color",
+        $value: "#e8fcf7",
+        $description: "Inline confirmation, completed state bg",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{emerald.50}",
+          $description: "Inline confirmation, completed state bg",
+          key: "{background.success.subtle}",
+        },
+        name: "gs-background-success-subtle",
+        attributes: {
+          category: "background",
+          type: "success",
+          item: "subtle",
+        },
+        path: ["background", "success", "subtle"],
+      },
+    },
+    warning: {
+      emphasis: {
+        key: "{background.warning.emphasis}",
+        $type: "color",
+        $value: "#ffee58",
+        $description: "Critical warning banner like Uber surge pricing",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{yellow.400}",
+          $description: "Critical warning banner like Uber surge pricing",
+          key: "{background.warning.emphasis}",
+        },
+        name: "gs-background-warning-emphasis",
+        attributes: {
+          category: "background",
+          type: "warning",
+          item: "emphasis",
+        },
+        path: ["background", "warning", "emphasis"],
+      },
+      subtle: {
+        key: "{background.warning.subtle}",
+        $type: "color",
+        $value: "#fffde7",
+        $description: "Inline caution alert, advisory notice bg",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{yellow.50}",
+          $description: "Inline caution alert, advisory notice bg",
+          key: "{background.warning.subtle}",
+        },
+        name: "gs-background-warning-subtle",
+        attributes: {
+          category: "background",
+          type: "warning",
+          item: "subtle",
+        },
+        path: ["background", "warning", "subtle"],
+      },
+    },
+  },
+  common: {
+    black_states: {
+      focus: {
+        key: "{common.black_states.focus}",
+        $type: "color",
+        $value: "#2226291f",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#2226291f",
+          key: "{common.black_states.focus}",
+        },
+        name: "gs-common-black-states-focus",
+        attributes: {
+          category: "common",
+          type: "black_states",
+          item: "focus",
+        },
+        path: ["common", "black_states", "focus"],
+      },
+      focusVisible: {
+        key: "{common.black_states.focusVisible}",
+        $type: "color",
+        $value: "#2226294d",
+        $description:
+          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#2226294d",
+          $description:
+            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+          key: "{common.black_states.focusVisible}",
+        },
+        name: "gs-common-black-states-focus-visible",
+        attributes: {
+          category: "common",
+          type: "black_states",
+          item: "focusVisible",
+        },
+        path: ["common", "black_states", "focusVisible"],
+      },
+      hover: {
+        key: "{common.black_states.hover}",
+        $type: "color",
+        $value: "#2226290a",
+        $description:
+          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#2226290a",
+          $description:
+            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+          key: "{common.black_states.hover}",
+        },
+        name: "gs-common-black-states-hover",
+        attributes: {
+          category: "common",
+          type: "black_states",
+          item: "hover",
+        },
+        path: ["common", "black_states", "hover"],
+      },
+      main: {
+        key: "{common.black_states.main}",
+        $type: "color",
+        $value: "#222629",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#222629",
+          key: "{common.black_states.main}",
+        },
+        name: "gs-common-black-states-main",
+        attributes: {
+          category: "common",
+          type: "black_states",
+          item: "main",
+        },
+        path: ["common", "black_states", "main"],
+      },
+      outlinedBorder: {
+        key: "{common.black_states.outlinedBorder}",
+        $type: "color",
+        $value: "#22262980",
+        $description:
+          "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#22262980",
+          $description:
+            "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+          key: "{common.black_states.outlinedBorder}",
+        },
+        name: "gs-common-black-states-outlined-border",
+        attributes: {
+          category: "common",
+          type: "black_states",
+          item: "outlinedBorder",
+        },
+        path: ["common", "black_states", "outlinedBorder"],
+      },
+      selected: {
+        key: "{common.black_states.selected}",
+        $type: "color",
+        $value: "#22262914",
+        $description:
+          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#22262914",
+          $description:
+            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+          key: "{common.black_states.selected}",
+        },
+        name: "gs-common-black-states-selected",
+        attributes: {
+          category: "common",
+          type: "black_states",
+          item: "selected",
+        },
+        path: ["common", "black_states", "selected"],
+      },
+    },
+    white_states: {
+      focus: {
+        key: "{common.white_states.focus}",
+        $type: "color",
+        $value: "#ffffff1f",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#ffffff1f",
+          key: "{common.white_states.focus}",
+        },
+        name: "gs-common-white-states-focus",
+        attributes: {
+          category: "common",
+          type: "white_states",
+          item: "focus",
+        },
+        path: ["common", "white_states", "focus"],
+      },
+      focusVisible: {
+        key: "{common.white_states.focusVisible}",
+        $type: "color",
+        $value: "#ffffff4d",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#ffffff4d",
+          key: "{common.white_states.focusVisible}",
+        },
+        name: "gs-common-white-states-focus-visible",
+        attributes: {
+          category: "common",
+          type: "white_states",
+          item: "focusVisible",
+        },
+        path: ["common", "white_states", "focusVisible"],
+      },
+      hover: {
+        key: "{common.white_states.hover}",
+        $type: "color",
+        $value: "#ffffff0a",
+        $description:
+          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#ffffff0a",
+          $description:
+            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+          key: "{common.white_states.hover}",
+        },
+        name: "gs-common-white-states-hover",
+        attributes: {
+          category: "common",
+          type: "white_states",
+          item: "hover",
+        },
+        path: ["common", "white_states", "hover"],
+      },
+      main: {
+        key: "{common.white_states.main}",
+        $type: "color",
+        $value: "#ffffff",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#FFFFFF",
+          key: "{common.white_states.main}",
+        },
+        name: "gs-common-white-states-main",
+        attributes: {
+          category: "common",
+          type: "white_states",
+          item: "main",
+        },
+        path: ["common", "white_states", "main"],
+      },
+      outlinedBorder: {
+        key: "{common.white_states.outlinedBorder}",
+        $type: "color",
+        $value: "#ffffff80",
+        $description:
+          "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#ffffff80",
+          $description:
+            "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+          key: "{common.white_states.outlinedBorder}",
+        },
+        name: "gs-common-white-states-outlined-border",
+        attributes: {
+          category: "common",
+          type: "white_states",
+          item: "outlinedBorder",
+        },
+        path: ["common", "white_states", "outlinedBorder"],
+      },
+      selected: {
+        key: "{common.white_states.selected}",
+        $type: "color",
+        $value: "#ffffff14",
+        $description:
+          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#ffffff14",
+          $description:
+            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+          key: "{common.white_states.selected}",
+        },
+        name: "gs-common-white-states-selected",
+        attributes: {
+          category: "common",
+          type: "white_states",
+          item: "selected",
+        },
+        path: ["common", "white_states", "selected"],
+      },
+    },
+  },
+  divider: {
+    key: "{divider}",
+    $type: "color",
+    $value: "#2226291f",
+    $description: "Reflects the divider variable from the theme object",
+    filePath: "design-tokens/token_paletteLight_paletteLight.json",
+    isSource: true,
+    original: {
+      $type: "color",
+      $value: "#2226291f",
+      $description: "Reflects the divider variable from the theme object",
+      key: "{divider}",
+    },
+    name: "gs-divider",
+    attributes: {
+      category: "divider",
+    },
+    path: ["divider"],
+  },
+  elevation: {
+    outlined: {
+      key: "{elevation.outlined}",
+      $type: "color",
+      $value: "#e0e0e0",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#E0E0E0",
+        key: "{elevation.outlined}",
+      },
+      name: "gs-elevation-outlined",
+      attributes: {
+        category: "elevation",
+        type: "outlined",
+      },
+      path: ["elevation", "outlined"],
+    },
+  },
+  error: {
+    _states: {
+      focusVisible: {
+        key: "{error._states.focusVisible}",
+        $type: "color",
+        $value: "#d32f2f4d",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#d32f2f4d",
+          key: "{error._states.focusVisible}",
+        },
+        name: "gs-error-states-focus-visible",
+        attributes: {
+          category: "error",
+          type: "_states",
+          item: "focusVisible",
+        },
+        path: ["error", "_states", "focusVisible"],
+      },
+      hover: {
+        key: "{error._states.hover}",
+        $type: "color",
+        $value: "#d32f2f0a",
+        $description:
+          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#d32f2f0a",
+          $description:
+            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+          key: "{error._states.hover}",
+        },
+        name: "gs-error-states-hover",
+        attributes: {
+          category: "error",
+          type: "_states",
+          item: "hover",
+        },
+        path: ["error", "_states", "hover"],
+      },
+      outlinedBorder: {
+        key: "{error._states.outlinedBorder}",
+        $type: "color",
+        $value: "#d32f2f80",
+        $description:
+          "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#d32f2f80",
+          $description:
+            "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+          key: "{error._states.outlinedBorder}",
+        },
+        name: "gs-error-states-outlined-border",
+        attributes: {
+          category: "error",
+          type: "_states",
+          item: "outlinedBorder",
+        },
+        path: ["error", "_states", "outlinedBorder"],
+      },
+      selected: {
+        key: "{error._states.selected}",
+        $type: "color",
+        $value: "#d32f2f14",
+        $description:
+          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#d32f2f14",
+          $description:
+            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+          key: "{error._states.selected}",
+        },
+        name: "gs-error-states-selected",
+        attributes: {
+          category: "error",
+          type: "_states",
+          item: "selected",
+        },
+        path: ["error", "_states", "selected"],
+      },
+    },
+    contrast: {
+      key: "{error.contrast}",
+      $type: "color",
+      $value: "#ffffff",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        key: "{error.contrast}",
+      },
+      name: "gs-error-contrast",
+      attributes: {
+        category: "error",
+        type: "contrast",
+      },
+      path: ["error", "contrast"],
+    },
+    dark: {
+      key: "{error.dark}",
+      $type: "color",
+      $value: "#c62828",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "{red.800}",
+        key: "{error.dark}",
+      },
+      name: "gs-error-dark",
+      attributes: {
+        category: "error",
+        type: "dark",
+      },
+      path: ["error", "dark"],
+    },
+    light: {
+      key: "{error.light}",
+      $type: "color",
+      $value: "#ef5350",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "{red.400}",
+        key: "{error.light}",
+      },
+      name: "gs-error-light",
+      attributes: {
+        category: "error",
+        type: "light",
+      },
+      path: ["error", "light"],
+    },
+    main: {
+      key: "{error.main}",
+      $type: "color",
+      $value: "#d32f2f",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "{red.700}",
+        key: "{error.main}",
+      },
+      name: "gs-error-main",
+      attributes: {
+        category: "error",
+        type: "main",
+      },
+      path: ["error", "main"],
+    },
+  },
+  info: {
+    _states: {
+      focusVisible: {
+        key: "{info._states.focusVisible}",
+        $type: "color",
+        $value: "#0288d14d",
+        $description:
+          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#0288d14d",
+          $description:
+            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+          key: "{info._states.focusVisible}",
+        },
+        name: "gs-info-states-focus-visible",
+        attributes: {
+          category: "info",
+          type: "_states",
+          item: "focusVisible",
+        },
+        path: ["info", "_states", "focusVisible"],
+      },
+      hover: {
+        key: "{info._states.hover}",
+        $type: "color",
+        $value: "#0288d10a",
+        $description:
+          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#0288d10a",
+          $description:
+            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+          key: "{info._states.hover}",
+        },
+        name: "gs-info-states-hover",
+        attributes: {
+          category: "info",
+          type: "_states",
+          item: "hover",
+        },
+        path: ["info", "_states", "hover"],
+      },
+      outlinedBorder: {
+        key: "{info._states.outlinedBorder}",
+        $type: "color",
+        $value: "#0288d180",
+        $description:
+          "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#0288d180",
+          $description:
+            "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+          key: "{info._states.outlinedBorder}",
+        },
+        name: "gs-info-states-outlined-border",
+        attributes: {
+          category: "info",
+          type: "_states",
+          item: "outlinedBorder",
+        },
+        path: ["info", "_states", "outlinedBorder"],
+      },
+      selected: {
+        key: "{info._states.selected}",
+        $type: "color",
+        $value: "#0288d114",
+        $description:
+          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#0288d114",
+          $description:
+            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+          key: "{info._states.selected}",
+        },
+        name: "gs-info-states-selected",
+        attributes: {
+          category: "info",
+          type: "_states",
+          item: "selected",
+        },
+        path: ["info", "_states", "selected"],
+      },
+    },
+    contrast: {
+      key: "{info.contrast}",
+      $type: "color",
+      $value: "#ffffff",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        key: "{info.contrast}",
+      },
+      name: "gs-info-contrast",
+      attributes: {
+        category: "info",
+        type: "contrast",
+      },
+      path: ["info", "contrast"],
+    },
+    dark: {
+      key: "{info.dark}",
+      $type: "color",
+      $value: "#01579b",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "{lightBlue.900}",
+        key: "{info.dark}",
+      },
+      name: "gs-info-dark",
+      attributes: {
+        category: "info",
+        type: "dark",
+      },
+      path: ["info", "dark"],
+    },
+    light: {
+      key: "{info.light}",
+      $type: "color",
+      $value: "#03a9f4",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "{lightBlue.500}",
+        key: "{info.light}",
+      },
+      name: "gs-info-light",
+      attributes: {
+        category: "info",
+        type: "light",
+      },
+      path: ["info", "light"],
+    },
+    main: {
+      key: "{info.main}",
+      $type: "color",
+      $value: "#0288d1",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "{lightBlue.700}",
+        key: "{info.main}",
+      },
+      name: "gs-info-main",
+      attributes: {
+        category: "info",
+        type: "main",
+      },
+      path: ["info", "main"],
+    },
+  },
+  primary: {
+    _states: {
+      focus: {
+        key: "{primary._states.focus}",
+        $type: "color",
+        $value: "#61892f1f",
+        $description:
+          "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#61892f1f",
+          $description:
+            "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
+          key: "{primary._states.focus}",
+        },
+        name: "gs-primary-states-focus",
+        attributes: {
+          category: "primary",
+          type: "_states",
+          item: "focus",
+        },
+        path: ["primary", "_states", "focus"],
+      },
+      focusVisible: {
+        key: "{primary._states.focusVisible}",
+        $type: "color",
+        $value: "#61892f4d",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#61892f4d",
+          key: "{primary._states.focusVisible}",
+        },
+        name: "gs-primary-states-focus-visible",
+        attributes: {
+          category: "primary",
+          type: "_states",
+          item: "focusVisible",
+        },
+        path: ["primary", "_states", "focusVisible"],
+      },
+      hover: {
+        key: "{primary._states.hover}",
+        $type: "color",
+        $value: "#61892f0a",
+        $description:
+          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#61892f0a",
+          $description:
+            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+          key: "{primary._states.hover}",
+        },
+        name: "gs-primary-states-hover",
+        attributes: {
+          category: "primary",
+          type: "_states",
+          item: "hover",
+        },
+        path: ["primary", "_states", "hover"],
+      },
+      outlinedBorder: {
+        key: "{primary._states.outlinedBorder}",
+        $type: "color",
+        $value: "#61892f80",
+        $description:
+          "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#61892f80",
+          $description:
+            "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+          key: "{primary._states.outlinedBorder}",
+        },
+        name: "gs-primary-states-outlined-border",
+        attributes: {
+          category: "primary",
+          type: "_states",
+          item: "outlinedBorder",
+        },
+        path: ["primary", "_states", "outlinedBorder"],
+      },
+      selected: {
+        key: "{primary._states.selected}",
+        $type: "color",
+        $value: "#61892f14",
+        $description:
+          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#61892f14",
+          $description:
+            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+          key: "{primary._states.selected}",
+        },
+        name: "gs-primary-states-selected",
+        attributes: {
+          category: "primary",
+          type: "_states",
+          item: "selected",
+        },
+        path: ["primary", "_states", "selected"],
+      },
+    },
+    contrast: {
+      key: "{primary.contrast}",
+      $type: "color",
+      $value: "#ffffff",
+      $description:
+        "Reflects the primary.contrast variable from the theme object. Color that keeps a contrast ratio above AA when XX.main is used as a bg. color",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        $description:
+          "Reflects the primary.contrast variable from the theme object. Color that keeps a contrast ratio above AA when XX.main is used as a bg. color",
+        key: "{primary.contrast}",
+      },
+      name: "gs-primary-contrast",
+      attributes: {
+        category: "primary",
+        type: "contrast",
+      },
+      path: ["primary", "contrast"],
+    },
+    dark: {
+      key: "{primary.dark}",
+      $type: "color",
+      $value: "#86c232",
+      $description:
+        "Used for hover states. Reflects the primary.dark variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#86C232",
+        $description:
+          "Used for hover states. Reflects the primary.dark variable from the theme object",
+        key: "{primary.dark}",
+      },
+      name: "gs-primary-dark",
+      attributes: {
+        category: "primary",
+        type: "dark",
+      },
+      path: ["primary", "dark"],
+    },
+    light: {
+      key: "{primary.light}",
+      $type: "color",
+      $value: "#61892f",
+      $description: "Reflects the primary.light variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#61892F",
+        $description:
+          "Reflects the primary.light variable from the theme object",
+        key: "{primary.light}",
+      },
+      name: "gs-primary-light",
+      attributes: {
+        category: "primary",
+        type: "light",
+      },
+      path: ["primary", "light"],
+    },
+    main: {
+      key: "{primary.main}",
+      $type: "color",
+      $value: "#61892f",
+      $description: "Reflects the primary.main variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#61892F",
+        $description:
+          "Reflects the primary.main variable from the theme object",
+        key: "{primary.main}",
+      },
+      name: "gs-primary-main",
+      attributes: {
+        category: "primary",
+        type: "main",
+      },
+      path: ["primary", "main"],
+    },
+  },
+  secondary: {
+    _states: {
+      focus: {
+        key: "{secondary._states.focus}",
+        $type: "color",
+        $value: "#ffa5001f",
+        $description:
+          "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#ffa5001f",
+          $description:
+            "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
+          key: "{secondary._states.focus}",
+        },
+        name: "gs-secondary-states-focus",
+        attributes: {
+          category: "secondary",
+          type: "_states",
+          item: "focus",
+        },
+        path: ["secondary", "_states", "focus"],
+      },
+      focusVisible: {
+        key: "{secondary._states.focusVisible}",
+        $type: "color",
+        $value: "#ffa5004d",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#ffa5004d",
+          key: "{secondary._states.focusVisible}",
+        },
+        name: "gs-secondary-states-focus-visible",
+        attributes: {
+          category: "secondary",
+          type: "_states",
+          item: "focusVisible",
+        },
+        path: ["secondary", "_states", "focusVisible"],
+      },
+      hover: {
+        key: "{secondary._states.hover}",
+        $type: "color",
+        $value: "#ffa5000a",
+        $description:
+          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#ffa5000a",
+          $description:
+            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+          key: "{secondary._states.hover}",
+        },
+        name: "gs-secondary-states-hover",
+        attributes: {
+          category: "secondary",
+          type: "_states",
+          item: "hover",
+        },
+        path: ["secondary", "_states", "hover"],
+      },
+      outlinedBorder: {
+        key: "{secondary._states.outlinedBorder}",
+        $type: "color",
+        $value: "#ffa50080",
+        $description:
+          "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#ffa50080",
+          $description:
+            "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+          key: "{secondary._states.outlinedBorder}",
+        },
+        name: "gs-secondary-states-outlined-border",
+        attributes: {
+          category: "secondary",
+          type: "_states",
+          item: "outlinedBorder",
+        },
+        path: ["secondary", "_states", "outlinedBorder"],
+      },
+      selected: {
+        key: "{secondary._states.selected}",
+        $type: "color",
+        $value: "#ffa50014",
+        $description:
+          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#ffa50014",
+          $description:
+            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+          key: "{secondary._states.selected}",
+        },
+        name: "gs-secondary-states-selected",
+        attributes: {
+          category: "secondary",
+          type: "_states",
+          item: "selected",
+        },
+        path: ["secondary", "_states", "selected"],
+      },
+    },
+    contrast: {
+      key: "{secondary.contrast}",
+      $type: "color",
+      $value: "#222629",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#222629",
+        key: "{secondary.contrast}",
+      },
+      name: "gs-secondary-contrast",
+      attributes: {
+        category: "secondary",
+        type: "contrast",
+      },
+      path: ["secondary", "contrast"],
+    },
+    dark: {
+      key: "{secondary.dark}",
+      $type: "color",
+      $value: "#fff8eb",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFF8EB",
+        key: "{secondary.dark}",
+      },
+      name: "gs-secondary-dark",
+      attributes: {
+        category: "secondary",
+        type: "dark",
+      },
+      path: ["secondary", "dark"],
+    },
+    light: {
+      key: "{secondary.light}",
+      $type: "color",
+      $value: "#ff7a00",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FF7A00",
+        key: "{secondary.light}",
+      },
+      name: "gs-secondary-light",
+      attributes: {
+        category: "secondary",
+        type: "light",
+      },
+      path: ["secondary", "light"],
+    },
+    main: {
+      key: "{secondary.main}",
+      $type: "color",
+      $value: "#ffa500",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFA500",
+        key: "{secondary.main}",
+      },
+      name: "gs-secondary-main",
+      attributes: {
+        category: "secondary",
+        type: "main",
+      },
+      path: ["secondary", "main"],
+    },
+  },
+  success: {
+    _states: {
+      focusVisible: {
+        key: "{success._states.focusVisible}",
+        $type: "color",
+        $value: "#2e7d324d",
+        $description:
+          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#2e7d324d",
+          $description:
+            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+          key: "{success._states.focusVisible}",
+        },
+        name: "gs-success-states-focus-visible",
+        attributes: {
+          category: "success",
+          type: "_states",
+          item: "focusVisible",
+        },
+        path: ["success", "_states", "focusVisible"],
+      },
+      hover: {
+        key: "{success._states.hover}",
+        $type: "color",
+        $value: "#2e7d320a",
+        $description:
+          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#2e7d320a",
+          $description:
+            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+          key: "{success._states.hover}",
+        },
+        name: "gs-success-states-hover",
+        attributes: {
+          category: "success",
+          type: "_states",
+          item: "hover",
+        },
+        path: ["success", "_states", "hover"],
+      },
+      outlinedBorder: {
+        key: "{success._states.outlinedBorder}",
+        $type: "color",
+        $value: "#2e7d3280",
+        $description:
+          "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#2e7d3280",
+          $description:
+            "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+          key: "{success._states.outlinedBorder}",
+        },
+        name: "gs-success-states-outlined-border",
+        attributes: {
+          category: "success",
+          type: "_states",
+          item: "outlinedBorder",
+        },
+        path: ["success", "_states", "outlinedBorder"],
+      },
+      selected: {
+        key: "{success._states.selected}",
+        $type: "color",
+        $value: "#2e7d3214",
+        $description:
+          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#2e7d3214",
+          $description:
+            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+          key: "{success._states.selected}",
+        },
+        name: "gs-success-states-selected",
+        attributes: {
+          category: "success",
+          type: "_states",
+          item: "selected",
+        },
+        path: ["success", "_states", "selected"],
+      },
+    },
+    contrast: {
+      key: "{success.contrast}",
+      $type: "color",
+      $value: "#ffffff",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        key: "{success.contrast}",
+      },
+      name: "gs-success-contrast",
+      attributes: {
+        category: "success",
+        type: "contrast",
+      },
+      path: ["success", "contrast"],
+    },
+    dark: {
+      key: "{success.dark}",
+      $type: "color",
+      $value: "#1b5e20",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "{green.900}",
+        key: "{success.dark}",
+      },
+      name: "gs-success-dark",
+      attributes: {
+        category: "success",
+        type: "dark",
+      },
+      path: ["success", "dark"],
+    },
+    light: {
+      key: "{success.light}",
+      $type: "color",
+      $value: "#4caf50",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "{green.500}",
+        key: "{success.light}",
+      },
+      name: "gs-success-light",
+      attributes: {
+        category: "success",
+        type: "light",
+      },
+      path: ["success", "light"],
+    },
+    main: {
+      key: "{success.main}",
+      $type: "color",
+      $value: "#2e7d32",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "{green.800}",
+        key: "{success.main}",
+      },
+      name: "gs-success-main",
+      attributes: {
+        category: "success",
+        type: "main",
+      },
+      path: ["success", "main"],
+    },
+  },
+  text: {
+    _states: {
+      focus: {
+        key: "{text._states.focus}",
+        $type: "color",
+        $value: "#2226291f",
+        $description:
+          "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#2226291f",
+          $description:
+            "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
+          key: "{text._states.focus}",
+        },
+        name: "gs-text-states-focus",
+        attributes: {
+          category: "text",
+          type: "_states",
+          item: "focus",
+        },
+        path: ["text", "_states", "focus"],
+      },
+      focusVisible: {
+        key: "{text._states.focusVisible}",
+        $type: "color",
+        $value: "#2226294d",
+        $description:
+          "Used for focus visible states. The token represents the value of focusVisibleOpacity (0.3 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#2226294d",
+          $description:
+            "Used for focus visible states. The token represents the value of focusVisibleOpacity (0.3 by default) of the main token.",
+          key: "{text._states.focusVisible}",
+        },
+        name: "gs-text-states-focus-visible",
+        attributes: {
+          category: "text",
+          type: "_states",
+          item: "focusVisible",
+        },
+        path: ["text", "_states", "focusVisible"],
+      },
+      hover: {
+        key: "{text._states.hover}",
+        $type: "color",
+        $value: "#2226290a",
+        $description:
+          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#2226290a",
+          $description:
+            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+          key: "{text._states.hover}",
+        },
+        name: "gs-text-states-hover",
+        attributes: {
+          category: "text",
+          type: "_states",
+          item: "hover",
+        },
+        path: ["text", "_states", "hover"],
+      },
+      selected: {
+        key: "{text._states.selected}",
+        $type: "color",
+        $value: "#22262914",
+        $description:
+          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#22262914",
+          $description:
+            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+          key: "{text._states.selected}",
+        },
+        name: "gs-text-states-selected",
+        attributes: {
+          category: "text",
+          type: "_states",
+          item: "selected",
+        },
+        path: ["text", "_states", "selected"],
+      },
+    },
+    disabled: {
+      key: "{text.disabled}",
+      $type: "color",
+      $value: "#22262961",
+      $description: "Reflects the text.disabled variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#22262961",
+        $description:
+          "Reflects the text.disabled variable from the theme object",
+        key: "{text.disabled}",
+      },
+      name: "gs-text-disabled",
+      attributes: {
+        category: "text",
+        type: "disabled",
+      },
+      path: ["text", "disabled"],
+    },
+    primary: {
+      key: "{text.primary}",
+      $type: "color",
+      $value: "#222629de",
+      $description: "Reflects the text.primary variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#222629de",
+        $description:
+          "Reflects the text.primary variable from the theme object",
+        key: "{text.primary}",
+      },
+      name: "gs-text-primary",
+      attributes: {
+        category: "text",
+        type: "primary",
+      },
+      path: ["text", "primary"],
+    },
+    secondary: {
+      key: "{text.secondary}",
+      $type: "color",
+      $value: "#22262999",
+      $description:
+        "Reflects the text.secondary variable from the theme object",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#22262999",
+        $description:
+          "Reflects the text.secondary variable from the theme object",
+        key: "{text.secondary}",
+      },
+      name: "gs-text-secondary",
+      attributes: {
+        category: "text",
+        type: "secondary",
+      },
+      path: ["text", "secondary"],
+    },
+    accent: {
+      default: {
+        key: "{text.accent.default}",
+        $type: "color",
+        $value: "#fb8c00",
+        $description:
+          "Orange accent text, promotional labels, secondary brand moments",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{orange.600}",
+          $description:
+            "Orange accent text, promotional labels, secondary brand moments",
+          key: "{text.accent.default}",
+        },
+        name: "gs-text-accent-default",
+        attributes: {
+          category: "text",
+          type: "accent",
+          item: "default",
+        },
+        path: ["text", "accent", "default"],
+      },
+      "on-accent": {
+        key: "{text.accent.on-accent}",
+        $type: "color",
+        $value: "#6b2800",
+        $description: "Text on vivid orange fills, always dark for contrast",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#6B2800",
+          $description: "Text on vivid orange fills, always dark for contrast",
+          key: "{text.accent.on-accent}",
+        },
+        name: "gs-text-accent-on-accent",
+        attributes: {
+          category: "text",
+          type: "accent",
+          item: "on-accent",
+        },
+        path: ["text", "accent", "on-accent"],
+      },
+    },
+    base: {
+      disabled: {
+        key: "{text.base.disabled}",
+        $type: "color",
+        $value: "#d4d4d4",
+        $description: "Text inside disabled elements",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{neutral.300}",
+          $description: "Text inside disabled elements",
+          key: "{text.base.disabled}",
+        },
+        name: "gs-text-base-disabled",
+        attributes: {
+          category: "text",
+          type: "base",
+          item: "disabled",
+        },
+        path: ["text", "base", "disabled"],
+      },
+      inverse: {
+        key: "{text.base.inverse}",
+        $type: "color",
+        $value: "#ffffff",
+        $description:
+          "Text on dark or vivid colored fills, tooltips, bold banners, colored buttons",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{base.white}",
+          $description:
+            "Text on dark or vivid colored fills, tooltips, bold banners, colored buttons",
+          key: "{text.base.inverse}",
+        },
+        name: "gs-text-base-inverse",
+        attributes: {
+          category: "text",
+          type: "base",
+          item: "inverse",
+        },
+        path: ["text", "base", "inverse"],
+      },
+      placeholder: {
+        key: "{text.base.placeholder}",
+        $type: "color",
+        $value: "#ababab",
+        $description: "Placeholder text inside empty input fields",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{neutral.400}",
+          $description: "Placeholder text inside empty input fields",
+          key: "{text.base.placeholder}",
+        },
+        name: "gs-text-base-placeholder",
+        attributes: {
+          category: "text",
+          type: "base",
+          item: "placeholder",
+        },
+        path: ["text", "base", "placeholder"],
+      },
+      primary: {
+        key: "{text.base.primary}",
+        $type: "color",
+        $value: "#212121",
+        $description: "Headings, body copy, default labels, highest contrast",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{neutral.900}",
+          $description: "Headings, body copy, default labels, highest contrast",
+          key: "{text.base.primary}",
+        },
+        name: "gs-text-base-primary",
+        attributes: {
+          category: "text",
+          type: "base",
+          item: "primary",
+        },
+        path: ["text", "base", "primary"],
+      },
+      secondary: {
+        key: "{text.base.secondary}",
+        $type: "color",
+        $value: "#636363",
+        $description: "Supporting text, metadata, timestamps, medium emphasis",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{neutral.600}",
+          $description:
+            "Supporting text, metadata, timestamps, medium emphasis",
+          key: "{text.base.secondary}",
+        },
+        name: "gs-text-base-secondary",
+        attributes: {
+          category: "text",
+          type: "base",
+          item: "secondary",
+        },
+        path: ["text", "base", "secondary"],
+      },
+      tertiary: {
+        key: "{text.base.tertiary}",
+        $type: "color",
+        $value: "#ababab",
+        $description: "Hint text, helper labels, lowest emphasis copy",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{neutral.400}",
+          $description: "Hint text, helper labels, lowest emphasis copy",
+          key: "{text.base.tertiary}",
+        },
+        name: "gs-text-base-tertiary",
+        attributes: {
+          category: "text",
+          type: "base",
+          item: "tertiary",
+        },
+        path: ["text", "base", "tertiary"],
+      },
+    },
+    brand: {
+      default: {
+        key: "{text.brand.default}",
+        $type: "color",
+        $value: "#43a047",
+        $description: "Brand-colored text, active nav labels, branded emphasis",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{green.600}",
+          $description:
+            "Brand-colored text, active nav labels, branded emphasis",
+          key: "{text.brand.default}",
+        },
+        name: "gs-text-brand-default",
+        attributes: {
+          category: "text",
+          type: "brand",
+          item: "default",
+        },
+        path: ["text", "brand", "default"],
+      },
+      "on-brand": {
+        key: "{text.brand.on-brand}",
+        $type: "color",
+        $value: "#ffffff",
+        $description: "Text sitting directly on brand-colored fills",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{base.white}",
+          $description: "Text sitting directly on brand-colored fills",
+          key: "{text.brand.on-brand}",
+        },
+        name: "gs-text-brand-on-brand",
+        attributes: {
+          category: "text",
+          type: "brand",
+          item: "on-brand",
+        },
+        path: ["text", "brand", "on-brand"],
+      },
+    },
+    error: {
+      default: {
+        key: "{text.error.default}",
+        $type: "color",
+        $value: "#d32f2f",
+        $description:
+          "Error messages, form validation text, destructive action labels",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{red.700}",
+          $description:
+            "Error messages, form validation text, destructive action labels",
+          key: "{text.error.default}",
+        },
+        name: "gs-text-error-default",
+        attributes: {
+          category: "text",
+          type: "error",
+          item: "default",
+        },
+        path: ["text", "error", "default"],
+      },
+      "on-emphasis": {
+        key: "{text.error.on-emphasis}",
+        $type: "color",
+        $value: "#ffffff",
+        $description: "Text on vivid red bold banner",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{base.white}",
+          $description: "Text on vivid red bold banner",
+          key: "{text.error.on-emphasis}",
+        },
+        name: "gs-text-error-on-emphasis",
+        attributes: {
+          category: "text",
+          type: "error",
+          item: "on-emphasis",
+        },
+        path: ["text", "error", "on-emphasis"],
+      },
+    },
+    info: {
+      default: {
+        key: "{text.info.default}",
+        $type: "color",
+        $value: "#0057b2",
+        $description: "Informational copy inside info banners and tooltips",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{blue.700}",
+          $description: "Informational copy inside info banners and tooltips",
+          key: "{text.info.default}",
+        },
+        name: "gs-text-info-default",
+        attributes: {
+          category: "text",
+          type: "info",
+          item: "default",
+        },
+        path: ["text", "info", "default"],
+      },
+      "on-emphasis": {
+        key: "{text.info.on-emphasis}",
+        $type: "color",
+        $value: "#ffffff",
+        $description: "Text on vivid blue bold banner",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{base.white}",
+          $description: "Text on vivid blue bold banner",
+          key: "{text.info.on-emphasis}",
+        },
+        name: "gs-text-info-on-emphasis",
+        attributes: {
+          category: "text",
+          type: "info",
+          item: "on-emphasis",
+        },
+        path: ["text", "info", "on-emphasis"],
+      },
+    },
+    link: {
+      default: {
+        key: "{text.link.default}",
+        $type: "color",
+        $value: "#1e88e5",
+        $description: "Hyperlinks and inline interactive text",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{blue.600}",
+          $description: "Hyperlinks and inline interactive text",
+          key: "{text.link.default}",
+        },
+        name: "gs-text-link-default",
+        attributes: {
+          category: "text",
+          type: "link",
+          item: "default",
+        },
+        path: ["text", "link", "default"],
+      },
+      hover: {
+        key: "{text.link.hover}",
+        $type: "color",
+        $value: "#0057b2",
+        $description: "Link text on hover",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{blue.700}",
+          $description: "Link text on hover",
+          key: "{text.link.hover}",
+        },
+        name: "gs-text-link-hover",
+        attributes: {
+          category: "text",
+          type: "link",
+          item: "hover",
+        },
+        path: ["text", "link", "hover"],
+      },
+    },
+    success: {
+      default: {
+        key: "{text.success.default}",
+        $type: "color",
+        $value: "#0a6152",
+        $description:
+          "Confirmation copy, positive feedback on light or tinted backgrounds",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{emerald.600}",
+          $description:
+            "Confirmation copy, positive feedback on light or tinted backgrounds",
+          key: "{text.success.default}",
+        },
+        name: "gs-text-success-default",
+        attributes: {
+          category: "text",
+          type: "success",
+          item: "default",
+        },
+        path: ["text", "success", "default"],
+      },
+      "on-emphasis": {
+        key: "{text.success.on-emphasis}",
+        $type: "color",
+        $value: "#ffffff",
+        $description: "Text on vivid emerald bold banner",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{base.white}",
+          $description: "Text on vivid emerald bold banner",
+          key: "{text.success.on-emphasis}",
+        },
+        name: "gs-text-success-on-emphasis",
+        attributes: {
+          category: "text",
+          type: "success",
+          item: "on-emphasis",
+        },
+        path: ["text", "success", "on-emphasis"],
+      },
+    },
+    warning: {
+      default: {
+        key: "{text.warning.default}",
+        $type: "color",
+        $value: "#f9a825",
+        $description:
+          "Caution labels, advisory copy on light or yellow-tinted backgrounds",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{yellow.800}",
+          $description:
+            "Caution labels, advisory copy on light or yellow-tinted backgrounds",
+          key: "{text.warning.default}",
+        },
+        name: "gs-text-warning-default",
+        attributes: {
+          category: "text",
+          type: "warning",
+          item: "default",
+        },
+        path: ["text", "warning", "default"],
+      },
+      "on-emphasis": {
+        key: "{text.warning.on-emphasis}",
+        $type: "color",
+        $value: "#212121",
+        $description: "Text on vivid yellow bold banner",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{neutral.900}",
+          $description: "Text on vivid yellow bold banner",
+          key: "{text.warning.on-emphasis}",
+        },
+        name: "gs-text-warning-on-emphasis",
+        attributes: {
+          category: "text",
+          type: "warning",
+          item: "on-emphasis",
+        },
+        path: ["text", "warning", "on-emphasis"],
+      },
+    },
+  },
+  warning: {
+    _states: {
+      focusVisible: {
+        key: "{warning._states.focusVisible}",
+        $type: "color",
+        $value: "#ef6c004d",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#ef6c004d",
+          key: "{warning._states.focusVisible}",
+        },
+        name: "gs-warning-states-focus-visible",
+        attributes: {
+          category: "warning",
+          type: "_states",
+          item: "focusVisible",
+        },
+        path: ["warning", "_states", "focusVisible"],
+      },
+      hover: {
+        key: "{warning._states.hover}",
+        $type: "color",
+        $value: "#ef6c000a",
+        $description:
+          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#ef6c000a",
+          $description:
+            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+          key: "{warning._states.hover}",
+        },
+        name: "gs-warning-states-hover",
+        attributes: {
+          category: "warning",
+          type: "_states",
+          item: "hover",
+        },
+        path: ["warning", "_states", "hover"],
+      },
+      outlinedBorder: {
+        key: "{warning._states.outlinedBorder}",
+        $type: "color",
+        $value: "#ef6c0080",
+        $description:
+          "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#ef6c0080",
+          $description:
+            "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+          key: "{warning._states.outlinedBorder}",
+        },
+        name: "gs-warning-states-outlined-border",
+        attributes: {
+          category: "warning",
+          type: "_states",
+          item: "outlinedBorder",
+        },
+        path: ["warning", "_states", "outlinedBorder"],
+      },
+      selected: {
+        key: "{warning._states.selected}",
+        $type: "color",
+        $value: "#ef6c0014",
+        $description:
+          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        filePath: "design-tokens/token_paletteLight_paletteLight.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "#ef6c0014",
+          $description:
+            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+          key: "{warning._states.selected}",
+        },
+        name: "gs-warning-states-selected",
+        attributes: {
+          category: "warning",
+          type: "_states",
+          item: "selected",
+        },
+        path: ["warning", "_states", "selected"],
+      },
+    },
+    contrast: {
+      key: "{warning.contrast}",
+      $type: "color",
+      $value: "#ffffff",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        key: "{warning.contrast}",
+      },
+      name: "gs-warning-contrast",
+      attributes: {
+        category: "warning",
+        type: "contrast",
+      },
+      path: ["warning", "contrast"],
+    },
+    dark: {
+      key: "{warning.dark}",
+      $type: "color",
+      $value: "#e65100",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "{orange.900}",
+        key: "{warning.dark}",
+      },
+      name: "gs-warning-dark",
+      attributes: {
+        category: "warning",
+        type: "dark",
+      },
+      path: ["warning", "dark"],
+    },
+    light: {
+      key: "{warning.light}",
+      $type: "color",
+      $value: "#ff9800",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "{orange.500}",
+        key: "{warning.light}",
+      },
+      name: "gs-warning-light",
+      attributes: {
+        category: "warning",
+        type: "light",
+      },
+      path: ["warning", "light"],
+    },
+    main: {
+      key: "{warning.main}",
+      $type: "color",
+      $value: "#ef6c00",
+      filePath: "design-tokens/token_paletteLight_paletteLight.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "{orange.800}",
+        key: "{warning.main}",
+      },
+      name: "gs-warning-main",
+      attributes: {
+        category: "warning",
+        type: "main",
+      },
+      path: ["warning", "main"],
+    },
+  },
+  borderRadius: {
+    key: "{borderRadius}",
+    $type: "number",
+    $value: 4,
+    filePath: "design-tokens/token_shapeMode1_shapeMode1.json",
+    isSource: true,
+    original: {
+      $type: "number",
+      $value: 4,
+      key: "{borderRadius}",
+    },
+    name: "gs-border-radius",
+    attributes: {
+      category: "borderRadius",
+    },
+    path: ["borderRadius"],
+  },
+  none: {
+    key: "{none}",
+    $type: "number",
+    $value: 0,
+    filePath: "design-tokens/token_shapeMode1_shapeMode1.json",
+    isSource: true,
+    original: {
+      $type: "number",
+      $value: 0,
+      key: "{none}",
+    },
+    name: "gs-none",
+    attributes: {
+      category: "none",
+    },
+    path: ["none"],
+  },
+  button: {
+    borderRadius: {
+      key: "{button.borderRadius}",
+      $type: "number",
+      $value: 0,
+      filePath: "design-tokens/token_themetheme_themetheme.json",
+      isSource: true,
+      original: {
+        $type: "number",
+        $value: 0,
+        key: "{button.borderRadius}",
+      },
+      name: "gs-button-border-radius",
+      attributes: {
+        category: "button",
+        type: "borderRadius",
+      },
+      path: ["button", "borderRadius"],
+    },
+    borderWidth: {
+      key: "{button.borderWidth}",
+      $type: "number",
+      $value: 0,
+      filePath: "design-tokens/token_themetheme_themetheme.json",
+      isSource: true,
+      original: {
+        $type: "number",
+        $value: 0,
+        key: "{button.borderWidth}",
+      },
+      name: "gs-button-border-width",
+      attributes: {
+        category: "button",
+        type: "borderWidth",
+      },
+      path: ["button", "borderWidth"],
+    },
+    primary: {
+      background: {
+        key: "{button.primary.background}",
+        $type: "color",
+        $value: "#ffffff",
+        filePath: "design-tokens/token_themetheme_themetheme.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{accent.default}",
+          key: "{button.primary.background}",
+        },
+        name: "gs-button-primary-background",
+        attributes: {
+          category: "button",
+          type: "primary",
+          item: "background",
+        },
+        path: ["button", "primary", "background"],
+      },
+      text: {
+        key: "{button.primary.text}",
+        $type: "color",
+        $value: "#ffffff",
+        filePath: "design-tokens/token_themetheme_themetheme.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{accent.onAccent}",
+          key: "{button.primary.text}",
+        },
+        name: "gs-button-primary-text",
+        attributes: {
+          category: "button",
+          type: "primary",
+          item: "text",
+        },
+        path: ["button", "primary", "text"],
+      },
+    },
+  },
+  card: {
+    background: {
+      key: "{card.background}",
+      $type: "color",
+      $value: "#ffffff",
+      filePath: "design-tokens/token_themetheme_themetheme.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "{bg.default}",
+        key: "{card.background}",
+      },
+      name: "gs-card-background",
+      attributes: {
+        category: "card",
+        type: "background",
+      },
+      path: ["card", "background"],
+    },
+    borderRadius: {
+      key: "{card.borderRadius}",
+      $type: "number",
+      $value: 0,
+      filePath: "design-tokens/token_themetheme_themetheme.json",
+      isSource: true,
+      original: {
+        $type: "number",
+        $value: 0,
+        key: "{card.borderRadius}",
+      },
+      name: "gs-card-border-radius",
+      attributes: {
+        category: "card",
+        type: "borderRadius",
+      },
+      path: ["card", "borderRadius"],
+    },
+    padding: {
+      key: "{card.padding}",
+      $type: "number",
+      $value: 0,
+      filePath: "design-tokens/token_themetheme_themetheme.json",
+      isSource: true,
+      original: {
+        $type: "number",
+        $value: 0,
+        key: "{card.padding}",
+      },
+      name: "gs-card-padding",
+      attributes: {
+        category: "card",
+        type: "padding",
+      },
+      path: ["card", "padding"],
+    },
+  },
+  "font weight": {
+    key: "{font weight}",
+    $type: "number",
+    $value: 400,
+    filePath: "design-tokens/token_Test_Mode1.json",
+    isSource: true,
+    original: {
+      $type: "number",
+      $value: 400,
+      key: "{font weight}",
+    },
+    name: "gs-font-weight",
+    attributes: {
+      category: "font weight",
+    },
+    path: ["font weight"],
+  },
+  base: {
+    white: {
+      key: "{base.white}",
+      $type: "color",
+      $value: "#ffffff",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFFFF",
+        key: "{base.white}",
+      },
+      name: "gs-base-white",
+      attributes: {
+        category: "base",
+        type: "white",
+      },
+      path: ["base", "white"],
+    },
+  },
+  blue: {
+    50: {
+      key: "{blue.50}",
+      $type: "color",
+      $value: "#e3f2fd",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#E3F2FD",
+        key: "{blue.50}",
+      },
+      name: "gs-blue-50",
+      attributes: {
+        category: "blue",
+        type: "50",
+      },
+      path: ["blue", "50"],
+    },
+    100: {
+      key: "{blue.100}",
+      $type: "color",
+      $value: "#bbdefb",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#BBDEFB",
+        key: "{blue.100}",
+      },
+      name: "gs-blue-100",
+      attributes: {
+        category: "blue",
+        type: "100",
+      },
+      path: ["blue", "100"],
+    },
+    200: {
+      key: "{blue.200}",
+      $type: "color",
+      $value: "#90caf9",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#90CAF9",
+        key: "{blue.200}",
+      },
+      name: "gs-blue-200",
+      attributes: {
+        category: "blue",
+        type: "200",
+      },
+      path: ["blue", "200"],
+    },
+    300: {
+      key: "{blue.300}",
+      $type: "color",
+      $value: "#64b5f6",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#64B5F6",
+        key: "{blue.300}",
+      },
+      name: "gs-blue-300",
+      attributes: {
+        category: "blue",
+        type: "300",
+      },
+      path: ["blue", "300"],
+    },
+    400: {
+      key: "{blue.400}",
+      $type: "color",
+      $value: "#42a5f5",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#42A5F5",
+        key: "{blue.400}",
+      },
+      name: "gs-blue-400",
+      attributes: {
+        category: "blue",
+        type: "400",
+      },
+      path: ["blue", "400"],
+    },
+    500: {
+      key: "{blue.500}",
+      $type: "color",
+      $value: "#2196f3",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#2196F3",
+        key: "{blue.500}",
+      },
+      name: "gs-blue-500",
+      attributes: {
+        category: "blue",
+        type: "500",
+      },
+      path: ["blue", "500"],
+    },
+    600: {
+      key: "{blue.600}",
+      $type: "color",
+      $value: "#1e88e5",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#1E88E5",
+        key: "{blue.600}",
+      },
+      name: "gs-blue-600",
+      attributes: {
+        category: "blue",
+        type: "600",
+      },
+      path: ["blue", "600"],
+    },
+    700: {
+      key: "{blue.700}",
+      $type: "color",
+      $value: "#0057b2",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#0057B2",
+        key: "{blue.700}",
+      },
+      name: "gs-blue-700",
+      attributes: {
+        category: "blue",
+        type: "700",
+      },
+      path: ["blue", "700"],
+    },
+    800: {
+      key: "{blue.800}",
+      $type: "color",
+      $value: "#1565c0",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#1565C0",
+        key: "{blue.800}",
+      },
+      name: "gs-blue-800",
+      attributes: {
+        category: "blue",
+        type: "800",
+      },
+      path: ["blue", "800"],
+    },
+    900: {
+      key: "{blue.900}",
+      $type: "color",
+      $value: "#0d47a1",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#0D47A1",
+        key: "{blue.900}",
+      },
+      name: "gs-blue-900",
+      attributes: {
+        category: "blue",
+        type: "900",
+      },
+      path: ["blue", "900"],
+    },
+    A100: {
+      key: "{blue.A100}",
+      $type: "color",
+      $value: "#82b1ff",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#82B1FF",
+        key: "{blue.A100}",
+      },
+      name: "gs-blue-a100",
+      attributes: {
+        category: "blue",
+        type: "A100",
+      },
+      path: ["blue", "A100"],
+    },
+    A200: {
+      key: "{blue.A200}",
+      $type: "color",
+      $value: "#448aff",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#448AFF",
+        key: "{blue.A200}",
+      },
+      name: "gs-blue-a200",
+      attributes: {
+        category: "blue",
+        type: "A200",
+      },
+      path: ["blue", "A200"],
+    },
+    A400: {
+      key: "{blue.A400}",
+      $type: "color",
+      $value: "#2979ff",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#2979FF",
+        key: "{blue.A400}",
+      },
+      name: "gs-blue-a400",
+      attributes: {
+        category: "blue",
+        type: "A400",
+      },
+      path: ["blue", "A400"],
+    },
+    A700: {
+      key: "{blue.A700}",
+      $type: "color",
+      $value: "#2962ff",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#2962FF",
+        key: "{blue.A700}",
+      },
+      name: "gs-blue-a700",
+      attributes: {
+        category: "blue",
+        type: "A700",
+      },
+      path: ["blue", "A700"],
+    },
+  },
+  emerald: {
+    50: {
+      key: "{emerald.50}",
+      $type: "color",
+      $value: "#e8fcf7",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#E8FCF7",
+        key: "{emerald.50}",
+      },
+      name: "gs-emerald-50",
+      attributes: {
+        category: "emerald",
+        type: "50",
+      },
+      path: ["emerald", "50"],
+    },
+    100: {
+      key: "{emerald.100}",
+      $type: "color",
+      $value: "#bcf0e4",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#BCF0E4",
+        key: "{emerald.100}",
+      },
+      name: "gs-emerald-100",
+      attributes: {
+        category: "emerald",
+        type: "100",
+      },
+      path: ["emerald", "100"],
+    },
+    200: {
+      key: "{emerald.200}",
+      $type: "color",
+      $value: "#82deca",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#82DECA",
+        key: "{emerald.200}",
+      },
+      name: "gs-emerald-200",
+      attributes: {
+        category: "emerald",
+        type: "200",
+      },
+      path: ["emerald", "200"],
+    },
+    300: {
+      key: "{emerald.300}",
+      $type: "color",
+      $value: "#42c4ac",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#42C4AC",
+        key: "{emerald.300}",
+      },
+      name: "gs-emerald-300",
+      attributes: {
+        category: "emerald",
+        type: "300",
+      },
+      path: ["emerald", "300"],
+    },
+    400: {
+      key: "{emerald.400}",
+      $type: "color",
+      $value: "#1fa88e",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#1FA88E",
+        key: "{emerald.400}",
+      },
+      name: "gs-emerald-400",
+      attributes: {
+        category: "emerald",
+        type: "400",
+      },
+      path: ["emerald", "400"],
+    },
+    500: {
+      key: "{emerald.500}",
+      $type: "color",
+      $value: "#12836d",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#12836D",
+        key: "{emerald.500}",
+      },
+      name: "gs-emerald-500",
+      attributes: {
+        category: "emerald",
+        type: "500",
+      },
+      path: ["emerald", "500"],
+    },
+    600: {
+      key: "{emerald.600}",
+      $type: "color",
+      $value: "#0a6152",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#0A6152",
+        key: "{emerald.600}",
+      },
+      name: "gs-emerald-600",
+      attributes: {
+        category: "emerald",
+        type: "600",
+      },
+      path: ["emerald", "600"],
+    },
+    700: {
+      key: "{emerald.700}",
+      $type: "color",
+      $value: "#064438",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#064438",
+        key: "{emerald.700}",
+      },
+      name: "gs-emerald-700",
+      attributes: {
+        category: "emerald",
+        type: "700",
+      },
+      path: ["emerald", "700"],
+    },
+    800: {
+      key: "{emerald.800}",
+      $type: "color",
+      $value: "#022b23",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#022B23",
+        key: "{emerald.800}",
+      },
+      name: "gs-emerald-800",
+      attributes: {
+        category: "emerald",
+        type: "800",
+      },
+      path: ["emerald", "800"],
+    },
+    900: {
+      key: "{emerald.900}",
+      $type: "color",
+      $value: "#011512",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#011512",
+        key: "{emerald.900}",
+      },
+      name: "gs-emerald-900",
+      attributes: {
+        category: "emerald",
+        type: "900",
+      },
+      path: ["emerald", "900"],
+    },
+  },
+  green: {
+    50: {
+      key: "{green.50}",
+      $type: "color",
+      $value: "#e8f5e9",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#E8F5E9",
+        key: "{green.50}",
+      },
+      name: "gs-green-50",
+      attributes: {
+        category: "green",
+        type: "50",
+      },
+      path: ["green", "50"],
+    },
+    100: {
+      key: "{green.100}",
+      $type: "color",
+      $value: "#c8e6c9",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#C8E6C9",
+        key: "{green.100}",
+      },
+      name: "gs-green-100",
+      attributes: {
+        category: "green",
+        type: "100",
+      },
+      path: ["green", "100"],
+    },
+    200: {
+      key: "{green.200}",
+      $type: "color",
+      $value: "#a5d6a7",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#A5D6A7",
+        key: "{green.200}",
+      },
+      name: "gs-green-200",
+      attributes: {
+        category: "green",
+        type: "200",
+      },
+      path: ["green", "200"],
+    },
+    300: {
+      key: "{green.300}",
+      $type: "color",
+      $value: "#81c784",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#81C784",
+        key: "{green.300}",
+      },
+      name: "gs-green-300",
+      attributes: {
+        category: "green",
+        type: "300",
+      },
+      path: ["green", "300"],
+    },
+    400: {
+      key: "{green.400}",
+      $type: "color",
+      $value: "#66bb6a",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#66BB6A",
+        key: "{green.400}",
+      },
+      name: "gs-green-400",
+      attributes: {
+        category: "green",
+        type: "400",
+      },
+      path: ["green", "400"],
+    },
+    500: {
+      key: "{green.500}",
+      $type: "color",
+      $value: "#4caf50",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#4CAF50",
+        key: "{green.500}",
+      },
+      name: "gs-green-500",
+      attributes: {
+        category: "green",
+        type: "500",
+      },
+      path: ["green", "500"],
+    },
+    600: {
+      key: "{green.600}",
+      $type: "color",
+      $value: "#43a047",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#43A047",
+        key: "{green.600}",
+      },
+      name: "gs-green-600",
+      attributes: {
+        category: "green",
+        type: "600",
+      },
+      path: ["green", "600"],
+    },
+    700: {
+      key: "{green.700}",
+      $type: "color",
+      $value: "#388e3c",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#388E3C",
+        key: "{green.700}",
+      },
+      name: "gs-green-700",
+      attributes: {
+        category: "green",
+        type: "700",
+      },
+      path: ["green", "700"],
+    },
+    800: {
+      key: "{green.800}",
+      $type: "color",
+      $value: "#2e7d32",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#2E7D32",
+        key: "{green.800}",
+      },
+      name: "gs-green-800",
+      attributes: {
+        category: "green",
+        type: "800",
+      },
+      path: ["green", "800"],
+    },
+    900: {
+      key: "{green.900}",
+      $type: "color",
+      $value: "#1b5e20",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#1B5E20",
+        key: "{green.900}",
+      },
+      name: "gs-green-900",
+      attributes: {
+        category: "green",
+        type: "900",
+      },
+      path: ["green", "900"],
+    },
+    A100: {
+      key: "{green.A100}",
+      $type: "color",
+      $value: "#b9f6ca",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#B9F6CA",
+        key: "{green.A100}",
+      },
+      name: "gs-green-a100",
+      attributes: {
+        category: "green",
+        type: "A100",
+      },
+      path: ["green", "A100"],
+    },
+    A200: {
+      key: "{green.A200}",
+      $type: "color",
+      $value: "#69f0ae",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#69F0AE",
+        key: "{green.A200}",
+      },
+      name: "gs-green-a200",
+      attributes: {
+        category: "green",
+        type: "A200",
+      },
+      path: ["green", "A200"],
+    },
+    A400: {
+      key: "{green.A400}",
+      $type: "color",
+      $value: "#00e676",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#00E676",
+        key: "{green.A400}",
+      },
+      name: "gs-green-a400",
+      attributes: {
+        category: "green",
+        type: "A400",
+      },
+      path: ["green", "A400"],
+    },
+    A700: {
+      key: "{green.A700}",
+      $type: "color",
+      $value: "#00c853",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#00C853",
+        key: "{green.A700}",
+      },
+      name: "gs-green-a700",
+      attributes: {
+        category: "green",
+        type: "A700",
+      },
+      path: ["green", "A700"],
+    },
+  },
+  neutral: {
+    50: {
+      key: "{neutral.50}",
+      $type: "color",
+      $value: "#fafafa",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FAFAFA",
+        key: "{neutral.50}",
+      },
+      name: "gs-neutral-50",
+      attributes: {
+        category: "neutral",
+        type: "50",
+      },
+      path: ["neutral", "50"],
+    },
+    100: {
+      key: "{neutral.100}",
+      $type: "color",
+      $value: "#f2f2f2",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#F2F2F2",
+        key: "{neutral.100}",
+      },
+      name: "gs-neutral-100",
+      attributes: {
+        category: "neutral",
+        type: "100",
+      },
+      path: ["neutral", "100"],
+    },
+    200: {
+      key: "{neutral.200}",
+      $type: "color",
+      $value: "#e8e8e8",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#E8E8E8",
+        key: "{neutral.200}",
+      },
+      name: "gs-neutral-200",
+      attributes: {
+        category: "neutral",
+        type: "200",
+      },
+      path: ["neutral", "200"],
+    },
+    300: {
+      key: "{neutral.300}",
+      $type: "color",
+      $value: "#d4d4d4",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#D4D4D4",
+        key: "{neutral.300}",
+      },
+      name: "gs-neutral-300",
+      attributes: {
+        category: "neutral",
+        type: "300",
+      },
+      path: ["neutral", "300"],
+    },
+    400: {
+      key: "{neutral.400}",
+      $type: "color",
+      $value: "#ababab",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#ABABAB",
+        key: "{neutral.400}",
+      },
+      name: "gs-neutral-400",
+      attributes: {
+        category: "neutral",
+        type: "400",
+      },
+      path: ["neutral", "400"],
+    },
+    500: {
+      key: "{neutral.500}",
+      $type: "color",
+      $value: "#858585",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#858585",
+        key: "{neutral.500}",
+      },
+      name: "gs-neutral-500",
+      attributes: {
+        category: "neutral",
+        type: "500",
+      },
+      path: ["neutral", "500"],
+    },
+    600: {
+      key: "{neutral.600}",
+      $type: "color",
+      $value: "#636363",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#636363",
+        key: "{neutral.600}",
+      },
+      name: "gs-neutral-600",
+      attributes: {
+        category: "neutral",
+        type: "600",
+      },
+      path: ["neutral", "600"],
+    },
+    700: {
+      key: "{neutral.700}",
+      $type: "color",
+      $value: "#474747",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#474747",
+        key: "{neutral.700}",
+      },
+      name: "gs-neutral-700",
+      attributes: {
+        category: "neutral",
+        type: "700",
+      },
+      path: ["neutral", "700"],
+    },
+    800: {
+      key: "{neutral.800}",
+      $type: "color",
+      $value: "#2e2e2e",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#2E2E2E",
+        key: "{neutral.800}",
+      },
+      name: "gs-neutral-800",
+      attributes: {
+        category: "neutral",
+        type: "800",
+      },
+      path: ["neutral", "800"],
+    },
+    900: {
+      key: "{neutral.900}",
+      $type: "color",
+      $value: "#212121",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#212121",
+        key: "{neutral.900}",
+      },
+      name: "gs-neutral-900",
+      attributes: {
+        category: "neutral",
+        type: "900",
+      },
+      path: ["neutral", "900"],
+    },
+  },
+  orange: {
+    50: {
+      key: "{orange.50}",
+      $type: "color",
+      $value: "#fff3e0",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFF3E0",
+        key: "{orange.50}",
+      },
+      name: "gs-orange-50",
+      attributes: {
+        category: "orange",
+        type: "50",
+      },
+      path: ["orange", "50"],
+    },
+    100: {
+      key: "{orange.100}",
+      $type: "color",
+      $value: "#ffe0b2",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFE0B2",
+        key: "{orange.100}",
+      },
+      name: "gs-orange-100",
+      attributes: {
+        category: "orange",
+        type: "100",
+      },
+      path: ["orange", "100"],
+    },
+    200: {
+      key: "{orange.200}",
+      $type: "color",
+      $value: "#ffcc80",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFCC80",
+        key: "{orange.200}",
+      },
+      name: "gs-orange-200",
+      attributes: {
+        category: "orange",
+        type: "200",
+      },
+      path: ["orange", "200"],
+    },
+    300: {
+      key: "{orange.300}",
+      $type: "color",
+      $value: "#ffb74d",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFB74D",
+        key: "{orange.300}",
+      },
+      name: "gs-orange-300",
+      attributes: {
+        category: "orange",
+        type: "300",
+      },
+      path: ["orange", "300"],
+    },
+    400: {
+      key: "{orange.400}",
+      $type: "color",
+      $value: "#ffa726",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFA726",
+        key: "{orange.400}",
+      },
+      name: "gs-orange-400",
+      attributes: {
+        category: "orange",
+        type: "400",
+      },
+      path: ["orange", "400"],
+    },
+    500: {
+      key: "{orange.500}",
+      $type: "color",
+      $value: "#ff9800",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FF9800",
+        key: "{orange.500}",
+      },
+      name: "gs-orange-500",
+      attributes: {
+        category: "orange",
+        type: "500",
+      },
+      path: ["orange", "500"],
+    },
+    600: {
+      key: "{orange.600}",
+      $type: "color",
+      $value: "#fb8c00",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FB8C00",
+        key: "{orange.600}",
+      },
+      name: "gs-orange-600",
+      attributes: {
+        category: "orange",
+        type: "600",
+      },
+      path: ["orange", "600"],
+    },
+    700: {
+      key: "{orange.700}",
+      $type: "color",
+      $value: "#f57c00",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#F57C00",
+        key: "{orange.700}",
+      },
+      name: "gs-orange-700",
+      attributes: {
+        category: "orange",
+        type: "700",
+      },
+      path: ["orange", "700"],
+    },
+    800: {
+      key: "{orange.800}",
+      $type: "color",
+      $value: "#ef6c00",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#EF6C00",
+        key: "{orange.800}",
+      },
+      name: "gs-orange-800",
+      attributes: {
+        category: "orange",
+        type: "800",
+      },
+      path: ["orange", "800"],
+    },
+    900: {
+      key: "{orange.900}",
+      $type: "color",
+      $value: "#e65100",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#E65100",
+        key: "{orange.900}",
+      },
+      name: "gs-orange-900",
+      attributes: {
+        category: "orange",
+        type: "900",
+      },
+      path: ["orange", "900"],
+    },
+    950: {
+      key: "{orange.950}",
+      $type: "color",
+      $value: "#6b2800",
+      filePath: "design-tokens/token_color-primitive_Value.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#6B2800",
+        key: "{orange.950}",
+      },
+      name: "gs-orange-950",
+      attributes: {
+        category: "orange",
+        type: "950",
+      },
+      path: ["orange", "950"],
+    },
+    A100: {
+      key: "{orange.A100}",
+      $type: "color",
+      $value: "#ffd180",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFD180",
+        key: "{orange.A100}",
+      },
+      name: "gs-orange-a100",
+      attributes: {
+        category: "orange",
+        type: "A100",
+      },
+      path: ["orange", "A100"],
+    },
+    A200: {
+      key: "{orange.A200}",
+      $type: "color",
+      $value: "#ffab40",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFAB40",
+        key: "{orange.A200}",
+      },
+      name: "gs-orange-a200",
+      attributes: {
+        category: "orange",
+        type: "A200",
+      },
+      path: ["orange", "A200"],
+    },
+    A400: {
+      key: "{orange.A400}",
+      $type: "color",
+      $value: "#ff9100",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FF9100",
+        key: "{orange.A400}",
+      },
+      name: "gs-orange-a400",
+      attributes: {
+        category: "orange",
+        type: "A400",
+      },
+      path: ["orange", "A400"],
+    },
+    A700: {
+      key: "{orange.A700}",
+      $type: "color",
+      $value: "#ff6d00",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FF6D00",
+        key: "{orange.A700}",
+      },
+      name: "gs-orange-a700",
+      attributes: {
+        category: "orange",
+        type: "A700",
+      },
+      path: ["orange", "A700"],
+    },
+  },
+  purple: {
+    50: {
+      key: "{purple.50}",
+      $type: "color",
+      $value: "#f3e5f5",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#F3E5F5",
+        key: "{purple.50}",
+      },
+      name: "gs-purple-50",
+      attributes: {
+        category: "purple",
+        type: "50",
+      },
+      path: ["purple", "50"],
+    },
+    100: {
+      key: "{purple.100}",
+      $type: "color",
+      $value: "#e1bee7",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#E1BEE7",
+        key: "{purple.100}",
+      },
+      name: "gs-purple-100",
+      attributes: {
+        category: "purple",
+        type: "100",
+      },
+      path: ["purple", "100"],
+    },
+    200: {
+      key: "{purple.200}",
+      $type: "color",
+      $value: "#ce93d8",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#CE93D8",
+        key: "{purple.200}",
+      },
+      name: "gs-purple-200",
+      attributes: {
+        category: "purple",
+        type: "200",
+      },
+      path: ["purple", "200"],
+    },
+    300: {
+      key: "{purple.300}",
+      $type: "color",
+      $value: "#ba68c8",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#BA68C8",
+        key: "{purple.300}",
+      },
+      name: "gs-purple-300",
+      attributes: {
+        category: "purple",
+        type: "300",
+      },
+      path: ["purple", "300"],
+    },
+    400: {
+      key: "{purple.400}",
+      $type: "color",
+      $value: "#ab47bc",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#AB47BC",
+        key: "{purple.400}",
+      },
+      name: "gs-purple-400",
+      attributes: {
+        category: "purple",
+        type: "400",
+      },
+      path: ["purple", "400"],
+    },
+    500: {
+      key: "{purple.500}",
+      $type: "color",
+      $value: "#9c27b0",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#9C27B0",
+        key: "{purple.500}",
+      },
+      name: "gs-purple-500",
+      attributes: {
+        category: "purple",
+        type: "500",
+      },
+      path: ["purple", "500"],
+    },
+    600: {
+      key: "{purple.600}",
+      $type: "color",
+      $value: "#8e24aa",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#8E24AA",
+        key: "{purple.600}",
+      },
+      name: "gs-purple-600",
+      attributes: {
+        category: "purple",
+        type: "600",
+      },
+      path: ["purple", "600"],
+    },
+    700: {
+      key: "{purple.700}",
+      $type: "color",
+      $value: "#7b1fa2",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#7B1FA2",
+        key: "{purple.700}",
+      },
+      name: "gs-purple-700",
+      attributes: {
+        category: "purple",
+        type: "700",
+      },
+      path: ["purple", "700"],
+    },
+    800: {
+      key: "{purple.800}",
+      $type: "color",
+      $value: "#6a1b9a",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#6A1B9A",
+        key: "{purple.800}",
+      },
+      name: "gs-purple-800",
+      attributes: {
+        category: "purple",
+        type: "800",
+      },
+      path: ["purple", "800"],
+    },
+    900: {
+      key: "{purple.900}",
+      $type: "color",
+      $value: "#4a148c",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#4A148C",
+        key: "{purple.900}",
+      },
+      name: "gs-purple-900",
+      attributes: {
+        category: "purple",
+        type: "900",
+      },
+      path: ["purple", "900"],
+    },
+    A100: {
+      key: "{purple.A100}",
+      $type: "color",
+      $value: "#ea80fc",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#EA80FC",
+        key: "{purple.A100}",
+      },
+      name: "gs-purple-a100",
+      attributes: {
+        category: "purple",
+        type: "A100",
+      },
+      path: ["purple", "A100"],
+    },
+    A200: {
+      key: "{purple.A200}",
+      $type: "color",
+      $value: "#e040fb",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#E040FB",
+        key: "{purple.A200}",
+      },
+      name: "gs-purple-a200",
+      attributes: {
+        category: "purple",
+        type: "A200",
+      },
+      path: ["purple", "A200"],
+    },
+    A400: {
+      key: "{purple.A400}",
+      $type: "color",
+      $value: "#d500f9",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#D500F9",
+        key: "{purple.A400}",
+      },
+      name: "gs-purple-a400",
+      attributes: {
+        category: "purple",
+        type: "A400",
+      },
+      path: ["purple", "A400"],
+    },
+    A700: {
+      key: "{purple.A700}",
+      $type: "color",
+      $value: "#aa00ff",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#AA00FF",
+        key: "{purple.A700}",
+      },
+      name: "gs-purple-a700",
+      attributes: {
+        category: "purple",
+        type: "A700",
+      },
+      path: ["purple", "A700"],
+    },
+  },
+  red: {
+    50: {
+      key: "{red.50}",
+      $type: "color",
+      $value: "#feebee",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FEEBEE",
+        key: "{red.50}",
+      },
+      name: "gs-red-50",
+      attributes: {
+        category: "red",
+        type: "50",
+      },
+      path: ["red", "50"],
+    },
+    100: {
+      key: "{red.100}",
+      $type: "color",
+      $value: "#fecdd2",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FECDD2",
+        key: "{red.100}",
+      },
+      name: "gs-red-100",
+      attributes: {
+        category: "red",
+        type: "100",
+      },
+      path: ["red", "100"],
+    },
+    200: {
+      key: "{red.200}",
+      $type: "color",
+      $value: "#ef9a9a",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#EF9A9A",
+        key: "{red.200}",
+      },
+      name: "gs-red-200",
+      attributes: {
+        category: "red",
+        type: "200",
+      },
+      path: ["red", "200"],
+    },
+    300: {
+      key: "{red.300}",
+      $type: "color",
+      $value: "#e57373",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#E57373",
+        key: "{red.300}",
+      },
+      name: "gs-red-300",
+      attributes: {
+        category: "red",
+        type: "300",
+      },
+      path: ["red", "300"],
+    },
+    400: {
+      key: "{red.400}",
+      $type: "color",
+      $value: "#ef5350",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#EF5350",
+        key: "{red.400}",
+      },
+      name: "gs-red-400",
+      attributes: {
+        category: "red",
+        type: "400",
+      },
+      path: ["red", "400"],
+    },
+    500: {
+      key: "{red.500}",
+      $type: "color",
+      $value: "#f44336",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#F44336",
+        key: "{red.500}",
+      },
+      name: "gs-red-500",
+      attributes: {
+        category: "red",
+        type: "500",
+      },
+      path: ["red", "500"],
+    },
+    600: {
+      key: "{red.600}",
+      $type: "color",
+      $value: "#e53935",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#E53935",
+        key: "{red.600}",
+      },
+      name: "gs-red-600",
+      attributes: {
+        category: "red",
+        type: "600",
+      },
+      path: ["red", "600"],
+    },
+    700: {
+      key: "{red.700}",
+      $type: "color",
+      $value: "#d32f2f",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#D32F2F",
+        key: "{red.700}",
+      },
+      name: "gs-red-700",
+      attributes: {
+        category: "red",
+        type: "700",
+      },
+      path: ["red", "700"],
+    },
+    800: {
+      key: "{red.800}",
+      $type: "color",
+      $value: "#c62828",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#C62828",
+        key: "{red.800}",
+      },
+      name: "gs-red-800",
+      attributes: {
+        category: "red",
+        type: "800",
+      },
+      path: ["red", "800"],
+    },
+    900: {
+      key: "{red.900}",
+      $type: "color",
+      $value: "#b71c1c",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#B71C1C",
+        key: "{red.900}",
+      },
+      name: "gs-red-900",
+      attributes: {
+        category: "red",
+        type: "900",
+      },
+      path: ["red", "900"],
+    },
+    A100: {
+      key: "{red.A100}",
+      $type: "color",
+      $value: "#ff8a80",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FF8A80",
+        key: "{red.A100}",
+      },
+      name: "gs-red-a100",
+      attributes: {
+        category: "red",
+        type: "A100",
+      },
+      path: ["red", "A100"],
+    },
+    A200: {
+      key: "{red.A200}",
+      $type: "color",
+      $value: "#ff5252",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FF5252",
+        key: "{red.A200}",
+      },
+      name: "gs-red-a200",
+      attributes: {
+        category: "red",
+        type: "A200",
+      },
+      path: ["red", "A200"],
+    },
+    A400: {
+      key: "{red.A400}",
+      $type: "color",
+      $value: "#ff1744",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FF1744",
+        key: "{red.A400}",
+      },
+      name: "gs-red-a400",
+      attributes: {
+        category: "red",
+        type: "A400",
+      },
+      path: ["red", "A400"],
+    },
+    A700: {
+      key: "{red.A700}",
+      $type: "color",
+      $value: "#d50000",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#D50000",
+        key: "{red.A700}",
+      },
+      name: "gs-red-a700",
+      attributes: {
+        category: "red",
+        type: "A700",
+      },
+      path: ["red", "A700"],
+    },
+  },
+  yellow: {
+    50: {
+      key: "{yellow.50}",
+      $type: "color",
+      $value: "#fffde7",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFDE7",
+        key: "{yellow.50}",
+      },
+      name: "gs-yellow-50",
+      attributes: {
+        category: "yellow",
+        type: "50",
+      },
+      path: ["yellow", "50"],
+    },
+    100: {
+      key: "{yellow.100}",
+      $type: "color",
+      $value: "#fff9c4",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFF9C4",
+        key: "{yellow.100}",
+      },
+      name: "gs-yellow-100",
+      attributes: {
+        category: "yellow",
+        type: "100",
+      },
+      path: ["yellow", "100"],
+    },
+    200: {
+      key: "{yellow.200}",
+      $type: "color",
+      $value: "#fff59d",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFF59D",
+        key: "{yellow.200}",
+      },
+      name: "gs-yellow-200",
+      attributes: {
+        category: "yellow",
+        type: "200",
+      },
+      path: ["yellow", "200"],
+    },
+    300: {
+      key: "{yellow.300}",
+      $type: "color",
+      $value: "#fff176",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFF176",
+        key: "{yellow.300}",
+      },
+      name: "gs-yellow-300",
+      attributes: {
+        category: "yellow",
+        type: "300",
+      },
+      path: ["yellow", "300"],
+    },
+    400: {
+      key: "{yellow.400}",
+      $type: "color",
+      $value: "#ffee58",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFEE58",
+        key: "{yellow.400}",
+      },
+      name: "gs-yellow-400",
+      attributes: {
+        category: "yellow",
+        type: "400",
+      },
+      path: ["yellow", "400"],
+    },
+    500: {
+      key: "{yellow.500}",
+      $type: "color",
+      $value: "#ffeb3b",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFEB3B",
+        key: "{yellow.500}",
+      },
+      name: "gs-yellow-500",
+      attributes: {
+        category: "yellow",
+        type: "500",
+      },
+      path: ["yellow", "500"],
+    },
+    600: {
+      key: "{yellow.600}",
+      $type: "color",
+      $value: "#fdd835",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FDD835",
+        key: "{yellow.600}",
+      },
+      name: "gs-yellow-600",
+      attributes: {
+        category: "yellow",
+        type: "600",
+      },
+      path: ["yellow", "600"],
+    },
+    700: {
+      key: "{yellow.700}",
+      $type: "color",
+      $value: "#fbc02d",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FBC02D",
+        key: "{yellow.700}",
+      },
+      name: "gs-yellow-700",
+      attributes: {
+        category: "yellow",
+        type: "700",
+      },
+      path: ["yellow", "700"],
+    },
+    800: {
+      key: "{yellow.800}",
+      $type: "color",
+      $value: "#f9a825",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#F9A825",
+        key: "{yellow.800}",
+      },
+      name: "gs-yellow-800",
+      attributes: {
+        category: "yellow",
+        type: "800",
+      },
+      path: ["yellow", "800"],
+    },
+    900: {
+      key: "{yellow.900}",
+      $type: "color",
+      $value: "#f57f17",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#F57F17",
+        key: "{yellow.900}",
+      },
+      name: "gs-yellow-900",
+      attributes: {
+        category: "yellow",
+        type: "900",
+      },
+      path: ["yellow", "900"],
+    },
+    A100: {
+      key: "{yellow.A100}",
+      $type: "color",
+      $value: "#ffff8d",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFF8D",
+        key: "{yellow.A100}",
+      },
+      name: "gs-yellow-a100",
+      attributes: {
+        category: "yellow",
+        type: "A100",
+      },
+      path: ["yellow", "A100"],
+    },
+    A200: {
+      key: "{yellow.A200}",
+      $type: "color",
+      $value: "#ffff00",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFFF00",
+        key: "{yellow.A200}",
+      },
+      name: "gs-yellow-a200",
+      attributes: {
+        category: "yellow",
+        type: "A200",
+      },
+      path: ["yellow", "A200"],
+    },
+    A400: {
+      key: "{yellow.A400}",
+      $type: "color",
+      $value: "#ffea00",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFEA00",
+        key: "{yellow.A400}",
+      },
+      name: "gs-yellow-a400",
+      attributes: {
+        category: "yellow",
+        type: "A400",
+      },
+      path: ["yellow", "A400"],
+    },
+    A700: {
+      key: "{yellow.A700}",
+      $type: "color",
+      $value: "#ffd600",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
+      isSource: true,
+      original: {
+        $type: "color",
+        $value: "#FFD600",
+        key: "{yellow.A700}",
+      },
+      name: "gs-yellow-a700",
+      attributes: {
+        category: "yellow",
+        type: "A700",
+      },
+      path: ["yellow", "A700"],
+    },
+  },
+  border: {
+    accent: {
+      default: {
+        key: "{border.accent.default}",
+        $type: "color",
+        $value: "#fb8c00",
+        $description:
+          "Accent outlined component borders for promotional elements",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{orange.600}",
+          $description:
+            "Accent outlined component borders for promotional elements",
+          key: "{border.accent.default}",
+        },
+        name: "gs-border-accent-default",
+        attributes: {
+          category: "border",
+          type: "accent",
+          item: "default",
+        },
+        path: ["border", "accent", "default"],
+      },
+      subtle: {
+        key: "{border.accent.subtle}",
+        $type: "color",
+        $value: "#ffcc80",
+        $description: "For callouts",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{orange.200}",
+          $description: "For callouts",
+          key: "{border.accent.subtle}",
+        },
+        name: "gs-border-accent-subtle",
+        attributes: {
+          category: "border",
+          type: "accent",
+          item: "subtle",
+        },
+        path: ["border", "accent", "subtle"],
+      },
+    },
+    base: {
+      default: {
+        key: "{border.base.default}",
+        $type: "color",
+        $value: "#d4d4d4",
+        $description: "Standard border for cards, inputs, containers",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{neutral.300}",
+          $description: "Standard border for cards, inputs, containers",
+          key: "{border.base.default}",
+        },
+        name: "gs-border-base-default",
+        attributes: {
+          category: "border",
+          type: "base",
+          item: "default",
+        },
+        path: ["border", "base", "default"],
+      },
+      disabled: {
+        key: "{border.base.disabled}",
+        $type: "color",
+        $value: "#e8e8e8",
+        $description:
+          "Border for disabled inputs and non-interactive form controls",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{neutral.200}",
+          $description:
+            "Border for disabled inputs and non-interactive form controls",
+          key: "{border.base.disabled}",
+        },
+        name: "gs-border-base-disabled",
+        attributes: {
+          category: "border",
+          type: "base",
+          item: "disabled",
+        },
+        path: ["border", "base", "disabled"],
+      },
+      divider: {
+        key: "{border.base.divider}",
+        $type: "color",
+        $value: "#f2f2f2",
+        $description: "Section separators, list item dividers",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{neutral.100}",
+          $description: "Section separators, list item dividers",
+          key: "{border.base.divider}",
+        },
+        name: "gs-border-base-divider",
+        attributes: {
+          category: "border",
+          type: "base",
+          item: "divider",
+        },
+        path: ["border", "base", "divider"],
+      },
+      strong: {
+        key: "{border.base.strong}",
+        $type: "color",
+        $value: "#858585",
+        $description:
+          "Emphasized border for active inputs, hover states, selected neutral items",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{neutral.500}",
+          $description:
+            "Emphasized border for active inputs, hover states, selected neutral items",
+          key: "{border.base.strong}",
+        },
+        name: "gs-border-base-strong",
+        attributes: {
+          category: "border",
+          type: "base",
+          item: "strong",
+        },
+        path: ["border", "base", "strong"],
+      },
+    },
+    brand: {
+      default: {
+        key: "{border.brand.default}",
+        $type: "color",
+        $value: "#43a047",
+        $description:
+          "Selected cards, active tabs, brand-accented component borders",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{green.600}",
+          $description:
+            "Selected cards, active tabs, brand-accented component borders",
+          key: "{border.brand.default}",
+        },
+        name: "gs-border-brand-default",
+        attributes: {
+          category: "border",
+          type: "brand",
+          item: "default",
+        },
+        path: ["border", "brand", "default"],
+      },
+      subtle: {
+        key: "{border.brand.subtle}",
+        $type: "color",
+        $value: "#a5d6a7",
+        $description: "For callouts and highlighted sections",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{green.200}",
+          $description: "For callouts and highlighted sections",
+          key: "{border.brand.subtle}",
+        },
+        name: "gs-border-brand-subtle",
+        attributes: {
+          category: "border",
+          type: "brand",
+          item: "subtle",
+        },
+        path: ["border", "brand", "subtle"],
+      },
+    },
+    error: {
+      default: {
+        key: "{border.error.default}",
+        $type: "color",
+        $value: "#ef9a9a",
+        $description:
+          "Inline error states, invalid inputs, error alert components",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{red.200}",
+          $description:
+            "Inline error states, invalid inputs, error alert components",
+          key: "{border.error.default}",
+        },
+        name: "gs-border-error-default",
+        attributes: {
+          category: "border",
+          type: "error",
+          item: "default",
+        },
+        path: ["border", "error", "default"],
+      },
+      emphasis: {
+        key: "{border.error.emphasis}",
+        $type: "color",
+        $value: "#d32f2f",
+        $description:
+          "Critical error banners, system-wide alerts, destructive dialogs",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{red.700}",
+          $description:
+            "Critical error banners, system-wide alerts, destructive dialogs",
+          key: "{border.error.emphasis}",
+        },
+        name: "gs-border-error-emphasis",
+        attributes: {
+          category: "border",
+          type: "error",
+          item: "emphasis",
+        },
+        path: ["border", "error", "emphasis"],
+      },
+    },
+    info: {
+      default: {
+        key: "{border.info.default}",
+        $type: "color",
+        $value: "#90caf9",
+        $description: "Inline informational alerts and tooltip components",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{blue.200}",
+          $description: "Inline informational alerts and tooltip components",
+          key: "{border.info.default}",
+        },
+        name: "gs-border-info-default",
+        attributes: {
+          category: "border",
+          type: "info",
+          item: "default",
+        },
+        path: ["border", "info", "default"],
+      },
+      emphasis: {
+        key: "{border.info.emphasis}",
+        $type: "color",
+        $value: "#1e88e5",
+        $description: "Critical informational banners and system-wide notices",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{blue.600}",
+          $description:
+            "Critical informational banners and system-wide notices",
+          key: "{border.info.emphasis}",
+        },
+        name: "gs-border-info-emphasis",
+        attributes: {
+          category: "border",
+          type: "info",
+          item: "emphasis",
+        },
+        path: ["border", "info", "emphasis"],
+      },
+    },
+    success: {
+      default: {
+        key: "{border.success.default}",
+        $type: "color",
+        $value: "#82deca",
+        $description: "Inline confirmation alerts and success input states",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{emerald.200}",
+          $description: "Inline confirmation alerts and success input states",
+          key: "{border.success.default}",
+        },
+        name: "gs-border-success-default",
+        attributes: {
+          category: "border",
+          type: "success",
+          item: "default",
+        },
+        path: ["border", "success", "default"],
+      },
+      emphasis: {
+        key: "{border.success.emphasis}",
+        $type: "color",
+        $value: "#0a6152",
+        $description: "Critical success banners and system confirmations",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{emerald.600}",
+          $description: "Critical success banners and system confirmations",
+          key: "{border.success.emphasis}",
+        },
+        name: "gs-border-success-emphasis",
+        attributes: {
+          category: "border",
+          type: "success",
+          item: "emphasis",
+        },
+        path: ["border", "success", "emphasis"],
+      },
+    },
+    warning: {
+      default: {
+        key: "{border.warning.default}",
+        $type: "color",
+        $value: "#fff59d",
+        $description: "Inline caution alerts and advisory input states",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{yellow.200}",
+          $description: "Inline caution alerts and advisory input states",
+          key: "{border.warning.default}",
+        },
+        name: "gs-border-warning-default",
+        attributes: {
+          category: "border",
+          type: "warning",
+          item: "default",
+        },
+        path: ["border", "warning", "default"],
+      },
+      emphasis: {
+        key: "{border.warning.emphasis}",
+        $type: "color",
+        $value: "#fbc02d",
+        $description:
+          "Critical warning banners and system-wide caution notices",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{yellow.700}",
+          $description:
+            "Critical warning banners and system-wide caution notices",
+          key: "{border.warning.emphasis}",
+        },
+        name: "gs-border-warning-emphasis",
+        attributes: {
+          category: "border",
+          type: "warning",
+          item: "emphasis",
+        },
+        path: ["border", "warning", "emphasis"],
+      },
+    },
+  },
+  component: {
+    button: {
+      primary: {
+        filled: {
+          background: {
+            default: {
+              key: "{component.button.primary.filled.background.default}",
+              $type: "color",
+              $value: "#ffffff",
+              filePath: "design-tokens/token_color_Light.json",
+              isSource: true,
+              original: {
+                $type: "color",
+                $value: "#FFFFFF",
+                key: "{component.button.primary.filled.background.default}",
+              },
+              name: "gs-component-button-primary-filled-background-default",
+              attributes: {
+                category: "component",
+                type: "button",
+                item: "primary",
+                subitem: "filled",
+                state: "background",
+              },
+              path: [
+                "component",
+                "button",
+                "primary",
+                "filled",
+                "background",
+                "default",
+              ],
+            },
+          },
+        },
+      },
+    },
+  },
+  icon: {
+    accent: {
+      default: {
+        key: "{icon.accent.default}",
+        $type: "color",
+        $value: "#ef6c00",
+        $description: "Accent icons",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{orange.800}",
+          $description: "Accent icons",
+          key: "{icon.accent.default}",
+        },
+        name: "gs-icon-accent-default",
+        attributes: {
+          category: "icon",
+          type: "accent",
+          item: "default",
+        },
+        path: ["icon", "accent", "default"],
+      },
+      "on-accent": {
+        key: "{icon.accent.on-accent}",
+        $type: "color",
+        $value: "#6b2800",
+        $description: "Icon on accent fill",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{orange.950}",
+          $description: "Icon on accent fill",
+          key: "{icon.accent.on-accent}",
+        },
+        name: "gs-icon-accent-on-accent",
+        attributes: {
+          category: "icon",
+          type: "accent",
+          item: "on-accent",
+        },
+        path: ["icon", "accent", "on-accent"],
+      },
+    },
+    base: {
+      default: {
+        key: "{icon.base.default}",
+        $type: "color",
+        $value: "#474747",
+        $description: "Primary standalone icons, icon buttons",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{neutral.700}",
+          $description: "Primary standalone icons, icon buttons",
+          key: "{icon.base.default}",
+        },
+        name: "gs-icon-base-default",
+        attributes: {
+          category: "icon",
+          type: "base",
+          item: "default",
+        },
+        path: ["icon", "base", "default"],
+      },
+      disabled: {
+        key: "{icon.base.disabled}",
+        $type: "color",
+        $value: "#d4d4d4",
+        $description:
+          "Icons inside disabled buttons and non-interactive elements",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{neutral.300}",
+          $description:
+            "Icons inside disabled buttons and non-interactive elements",
+          key: "{icon.base.disabled}",
+        },
+        name: "gs-icon-base-disabled",
+        attributes: {
+          category: "icon",
+          type: "base",
+          item: "disabled",
+        },
+        path: ["icon", "base", "disabled"],
+      },
+      inverse: {
+        key: "{icon.base.inverse}",
+        $type: "color",
+        $value: "#ffffff",
+        $description:
+          "Icons on dark or colored fills, tooltips, filled buttons",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{base.white}",
+          $description:
+            "Icons on dark or colored fills, tooltips, filled buttons",
+          key: "{icon.base.inverse}",
+        },
+        name: "gs-icon-base-inverse",
+        attributes: {
+          category: "icon",
+          type: "base",
+          item: "inverse",
+        },
+        path: ["icon", "base", "inverse"],
+      },
+      secondary: {
+        key: "{icon.base.secondary}",
+        $type: "color",
+        $value: "#858585",
+        $description:
+          "Supporting icons next to secondary text, inactive nav icons",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{neutral.500}",
+          $description:
+            "Supporting icons next to secondary text, inactive nav icons",
+          key: "{icon.base.secondary}",
+        },
+        name: "gs-icon-base-secondary",
+        attributes: {
+          category: "icon",
+          type: "base",
+          item: "secondary",
+        },
+        path: ["icon", "base", "secondary"],
+      },
+      subtle: {
+        key: "{icon.base.subtle}",
+        $type: "color",
+        $value: "#ababab",
+        $description: "Decorative icons, placeholder icons, lowest emphasis",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{neutral.400}",
+          $description: "Decorative icons, placeholder icons, lowest emphasis",
+          key: "{icon.base.subtle}",
+        },
+        name: "gs-icon-base-subtle",
+        attributes: {
+          category: "icon",
+          type: "base",
+          item: "subtle",
+        },
+        path: ["icon", "base", "subtle"],
+      },
+    },
+    brand: {
+      default: {
+        key: "{icon.brand.default}",
+        $type: "color",
+        $value: "#43a047",
+        $description: "Brand-colored icons, active nav icons",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{green.600}",
+          $description: "Brand-colored icons, active nav icons",
+          key: "{icon.brand.default}",
+        },
+        name: "gs-icon-brand-default",
+        attributes: {
+          category: "icon",
+          type: "brand",
+          item: "default",
+        },
+        path: ["icon", "brand", "default"],
+      },
+      "on-brand": {
+        key: "{icon.brand.on-brand}",
+        $type: "color",
+        $value: "#ffffff",
+        $description: "Icons on brand fill",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{base.white}",
+          $description: "Icons on brand fill",
+          key: "{icon.brand.on-brand}",
+        },
+        name: "gs-icon-brand-on-brand",
+        attributes: {
+          category: "icon",
+          type: "brand",
+          item: "on-brand",
+        },
+        path: ["icon", "brand", "on-brand"],
+      },
+    },
+    error: {
+      default: {
+        key: "{icon.error.default}",
+        $type: "color",
+        $value: "#d32f2f",
+        $description: "Error icons, destructive action indicators",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{red.700}",
+          $description: "Error icons, destructive action indicators",
+          key: "{icon.error.default}",
+        },
+        name: "gs-icon-error-default",
+        attributes: {
+          category: "icon",
+          type: "error",
+          item: "default",
+        },
+        path: ["icon", "error", "default"],
+      },
+      "on-emphasis": {
+        key: "{icon.error.on-emphasis}",
+        $type: "color",
+        $value: "#ffffff",
+        $description: "Icons on error fill",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{base.white}",
+          $description: "Icons on error fill",
+          key: "{icon.error.on-emphasis}",
+        },
+        name: "gs-icon-error-on-emphasis",
+        attributes: {
+          category: "icon",
+          type: "error",
+          item: "on-emphasis",
+        },
+        path: ["icon", "error", "on-emphasis"],
+      },
+    },
+    info: {
+      default: {
+        key: "{icon.info.default}",
+        $type: "color",
+        $value: "#0057b2",
+        $description: "Info icons, tooltip triggers, system status indicators",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{blue.700}",
+          $description:
+            "Info icons, tooltip triggers, system status indicators",
+          key: "{icon.info.default}",
+        },
+        name: "gs-icon-info-default",
+        attributes: {
+          category: "icon",
+          type: "info",
+          item: "default",
+        },
+        path: ["icon", "info", "default"],
+      },
+      "on-emphasis": {
+        key: "{icon.info.on-emphasis}",
+        $type: "color",
+        $value: "#ffffff",
+        $description: "Icon of info fill",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{base.white}",
+          $description: "Icon of info fill",
+          key: "{icon.info.on-emphasis}",
+        },
+        name: "gs-icon-info-on-emphasis",
+        attributes: {
+          category: "icon",
+          type: "info",
+          item: "on-emphasis",
+        },
+        path: ["icon", "info", "on-emphasis"],
+      },
+    },
+    link: {
+      default: {
+        key: "{icon.link.default}",
+        $type: "color",
+        $value: "#1e88e5",
+        $description: "Icons alongside or inside hyperlinks",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{blue.600}",
+          $description: "Icons alongside or inside hyperlinks",
+          key: "{icon.link.default}",
+        },
+        name: "gs-icon-link-default",
+        attributes: {
+          category: "icon",
+          type: "link",
+          item: "default",
+        },
+        path: ["icon", "link", "default"],
+      },
+    },
+    success: {
+      default: {
+        key: "{icon.success.default}",
+        $type: "color",
+        $value: "#0a6152",
+        $description: "Positive status indicators",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{emerald.600}",
+          $description: "Positive status indicators",
+          key: "{icon.success.default}",
+        },
+        name: "gs-icon-success-default",
+        attributes: {
+          category: "icon",
+          type: "success",
+          item: "default",
+        },
+        path: ["icon", "success", "default"],
+      },
+      "on-emphasis": {
+        key: "{icon.success.on-emphasis}",
+        $type: "color",
+        $value: "#ffffff",
+        $description: "Icon of success fill",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{base.white}",
+          $description: "Icon of success fill",
+          key: "{icon.success.on-emphasis}",
+        },
+        name: "gs-icon-success-on-emphasis",
+        attributes: {
+          category: "icon",
+          type: "success",
+          item: "on-emphasis",
+        },
+        path: ["icon", "success", "on-emphasis"],
+      },
+    },
+    warning: {
+      default: {
+        key: "{icon.warning.default}",
+        $type: "color",
+        $value: "#f9a825",
+        $description: "Caution icons, advisory indicators",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{yellow.800}",
+          $description: "Caution icons, advisory indicators",
+          key: "{icon.warning.default}",
+        },
+        name: "gs-icon-warning-default",
+        attributes: {
+          category: "icon",
+          type: "warning",
+          item: "default",
+        },
+        path: ["icon", "warning", "default"],
+      },
+      "on-emphasis": {
+        key: "{icon.warning.on-emphasis}",
+        $type: "color",
+        $value: "#212121",
+        $description: "Icon on warning fill",
+        filePath: "design-tokens/token_color_Light.json",
+        isSource: true,
+        original: {
+          $type: "color",
+          $value: "{neutral.900}",
+          $description: "Icon on warning fill",
+          key: "{icon.warning.on-emphasis}",
+        },
+        name: "gs-icon-warning-on-emphasis",
+        attributes: {
+          category: "icon",
+          type: "warning",
+          item: "on-emphasis",
+        },
+        path: ["icon", "warning", "on-emphasis"],
+      },
     },
   },
   accent: {
@@ -1847,7 +8616,8 @@ export default {
       key: "{amber.50}",
       $type: "color",
       $value: "#fff8e1",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -1865,7 +8635,8 @@ export default {
       key: "{amber.100}",
       $type: "color",
       $value: "#ffecb3",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -1883,7 +8654,8 @@ export default {
       key: "{amber.200}",
       $type: "color",
       $value: "#ffe082",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -1901,7 +8673,8 @@ export default {
       key: "{amber.300}",
       $type: "color",
       $value: "#ffd54f",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -1919,7 +8692,8 @@ export default {
       key: "{amber.400}",
       $type: "color",
       $value: "#ffca28",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -1937,7 +8711,8 @@ export default {
       key: "{amber.500}",
       $type: "color",
       $value: "#ffc107",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -1955,7 +8730,8 @@ export default {
       key: "{amber.600}",
       $type: "color",
       $value: "#ffb300",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -1973,7 +8749,8 @@ export default {
       key: "{amber.700}",
       $type: "color",
       $value: "#ffa000",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -1991,7 +8768,8 @@ export default {
       key: "{amber.800}",
       $type: "color",
       $value: "#ff8f00",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2009,7 +8787,8 @@ export default {
       key: "{amber.900}",
       $type: "color",
       $value: "#ff6f00",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2027,7 +8806,8 @@ export default {
       key: "{amber.A100}",
       $type: "color",
       $value: "#ffe57f",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2045,7 +8825,8 @@ export default {
       key: "{amber.A200}",
       $type: "color",
       $value: "#ffd740",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2063,7 +8844,8 @@ export default {
       key: "{amber.A400}",
       $type: "color",
       $value: "#ffc400",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2081,7 +8863,8 @@ export default {
       key: "{amber.A700}",
       $type: "color",
       $value: "#ffab00",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2096,266 +8879,13 @@ export default {
       path: ["amber", "A700"],
     },
   },
-  blue: {
-    50: {
-      key: "{blue.50}",
-      $type: "color",
-      $value: "#e3f2fd",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#E3F2FD",
-        key: "{blue.50}",
-      },
-      name: "gs-blue-50",
-      attributes: {
-        category: "blue",
-        type: "50",
-      },
-      path: ["blue", "50"],
-    },
-    100: {
-      key: "{blue.100}",
-      $type: "color",
-      $value: "#bbdefb",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#BBDEFB",
-        key: "{blue.100}",
-      },
-      name: "gs-blue-100",
-      attributes: {
-        category: "blue",
-        type: "100",
-      },
-      path: ["blue", "100"],
-    },
-    200: {
-      key: "{blue.200}",
-      $type: "color",
-      $value: "#90caf9",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#90CAF9",
-        key: "{blue.200}",
-      },
-      name: "gs-blue-200",
-      attributes: {
-        category: "blue",
-        type: "200",
-      },
-      path: ["blue", "200"],
-    },
-    300: {
-      key: "{blue.300}",
-      $type: "color",
-      $value: "#64b5f6",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#64B5F6",
-        key: "{blue.300}",
-      },
-      name: "gs-blue-300",
-      attributes: {
-        category: "blue",
-        type: "300",
-      },
-      path: ["blue", "300"],
-    },
-    400: {
-      key: "{blue.400}",
-      $type: "color",
-      $value: "#42a5f5",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#42A5F5",
-        key: "{blue.400}",
-      },
-      name: "gs-blue-400",
-      attributes: {
-        category: "blue",
-        type: "400",
-      },
-      path: ["blue", "400"],
-    },
-    500: {
-      key: "{blue.500}",
-      $type: "color",
-      $value: "#2196f3",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#2196F3",
-        key: "{blue.500}",
-      },
-      name: "gs-blue-500",
-      attributes: {
-        category: "blue",
-        type: "500",
-      },
-      path: ["blue", "500"],
-    },
-    600: {
-      key: "{blue.600}",
-      $type: "color",
-      $value: "#1e88e5",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#1E88E5",
-        key: "{blue.600}",
-      },
-      name: "gs-blue-600",
-      attributes: {
-        category: "blue",
-        type: "600",
-      },
-      path: ["blue", "600"],
-    },
-    700: {
-      key: "{blue.700}",
-      $type: "color",
-      $value: "#0057b2",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#0057B2",
-        key: "{blue.700}",
-      },
-      name: "gs-blue-700",
-      attributes: {
-        category: "blue",
-        type: "700",
-      },
-      path: ["blue", "700"],
-    },
-    800: {
-      key: "{blue.800}",
-      $type: "color",
-      $value: "#1565c0",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#1565C0",
-        key: "{blue.800}",
-      },
-      name: "gs-blue-800",
-      attributes: {
-        category: "blue",
-        type: "800",
-      },
-      path: ["blue", "800"],
-    },
-    900: {
-      key: "{blue.900}",
-      $type: "color",
-      $value: "#0d47a1",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#0D47A1",
-        key: "{blue.900}",
-      },
-      name: "gs-blue-900",
-      attributes: {
-        category: "blue",
-        type: "900",
-      },
-      path: ["blue", "900"],
-    },
-    A100: {
-      key: "{blue.A100}",
-      $type: "color",
-      $value: "#82b1ff",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#82B1FF",
-        key: "{blue.A100}",
-      },
-      name: "gs-blue-a100",
-      attributes: {
-        category: "blue",
-        type: "A100",
-      },
-      path: ["blue", "A100"],
-    },
-    A200: {
-      key: "{blue.A200}",
-      $type: "color",
-      $value: "#448aff",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#448AFF",
-        key: "{blue.A200}",
-      },
-      name: "gs-blue-a200",
-      attributes: {
-        category: "blue",
-        type: "A200",
-      },
-      path: ["blue", "A200"],
-    },
-    A400: {
-      key: "{blue.A400}",
-      $type: "color",
-      $value: "#2979ff",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#2979FF",
-        key: "{blue.A400}",
-      },
-      name: "gs-blue-a400",
-      attributes: {
-        category: "blue",
-        type: "A400",
-      },
-      path: ["blue", "A400"],
-    },
-    A700: {
-      key: "{blue.A700}",
-      $type: "color",
-      $value: "#2962ff",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#2962FF",
-        key: "{blue.A700}",
-      },
-      name: "gs-blue-a700",
-      attributes: {
-        category: "blue",
-        type: "A700",
-      },
-      path: ["blue", "A700"],
-    },
-  },
   blueGrey: {
     50: {
       key: "{blueGrey.50}",
       $type: "color",
       $value: "#eceff1",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2373,7 +8903,8 @@ export default {
       key: "{blueGrey.100}",
       $type: "color",
       $value: "#cfd8dc",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2391,7 +8922,8 @@ export default {
       key: "{blueGrey.200}",
       $type: "color",
       $value: "#b0bec5",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2409,7 +8941,8 @@ export default {
       key: "{blueGrey.300}",
       $type: "color",
       $value: "#90a4ae",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2427,7 +8960,8 @@ export default {
       key: "{blueGrey.400}",
       $type: "color",
       $value: "#78909c",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2445,7 +8979,8 @@ export default {
       key: "{blueGrey.500}",
       $type: "color",
       $value: "#607d8b",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2463,7 +8998,8 @@ export default {
       key: "{blueGrey.600}",
       $type: "color",
       $value: "#546e7a",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2481,7 +9017,8 @@ export default {
       key: "{blueGrey.700}",
       $type: "color",
       $value: "#455a64",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2499,7 +9036,8 @@ export default {
       key: "{blueGrey.800}",
       $type: "color",
       $value: "#37474f",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2517,7 +9055,8 @@ export default {
       key: "{blueGrey.900}",
       $type: "color",
       $value: "#263238",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2535,7 +9074,8 @@ export default {
       key: "{blueGrey.A100}",
       $type: "color",
       $value: "#cfd8dc",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2553,7 +9093,8 @@ export default {
       key: "{blueGrey.A200}",
       $type: "color",
       $value: "#b0bec5",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2571,7 +9112,8 @@ export default {
       key: "{blueGrey.A400}",
       $type: "color",
       $value: "#78909c",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2589,7 +9131,8 @@ export default {
       key: "{blueGrey.A700}",
       $type: "color",
       $value: "#455a64",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2609,7 +9152,8 @@ export default {
       key: "{cyan.50}",
       $type: "color",
       $value: "#e0f7fa",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2627,7 +9171,8 @@ export default {
       key: "{cyan.100}",
       $type: "color",
       $value: "#b2ebf2",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2645,7 +9190,8 @@ export default {
       key: "{cyan.200}",
       $type: "color",
       $value: "#80deea",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2663,7 +9209,8 @@ export default {
       key: "{cyan.300}",
       $type: "color",
       $value: "#4dd0e1",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2681,7 +9228,8 @@ export default {
       key: "{cyan.400}",
       $type: "color",
       $value: "#26c6da",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2699,7 +9247,8 @@ export default {
       key: "{cyan.500}",
       $type: "color",
       $value: "#00bcd4",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2717,7 +9266,8 @@ export default {
       key: "{cyan.600}",
       $type: "color",
       $value: "#00acc1",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2735,7 +9285,8 @@ export default {
       key: "{cyan.700}",
       $type: "color",
       $value: "#0097a7",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2753,7 +9304,8 @@ export default {
       key: "{cyan.800}",
       $type: "color",
       $value: "#00838f",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2771,7 +9323,8 @@ export default {
       key: "{cyan.900}",
       $type: "color",
       $value: "#006064",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2789,7 +9342,8 @@ export default {
       key: "{cyan.A100}",
       $type: "color",
       $value: "#84ffff",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2807,7 +9361,8 @@ export default {
       key: "{cyan.A200}",
       $type: "color",
       $value: "#18ffff",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2825,7 +9380,8 @@ export default {
       key: "{cyan.A400}",
       $type: "color",
       $value: "#00e5ff",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2843,7 +9399,8 @@ export default {
       key: "{cyan.A700}",
       $type: "color",
       $value: "#00b8d4",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2863,7 +9420,8 @@ export default {
       key: "{deepOrange.50}",
       $type: "color",
       $value: "#fbe9e7",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2881,7 +9439,8 @@ export default {
       key: "{deepOrange.100}",
       $type: "color",
       $value: "#ffccbc",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2899,7 +9458,8 @@ export default {
       key: "{deepOrange.200}",
       $type: "color",
       $value: "#ffab91",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2917,7 +9477,8 @@ export default {
       key: "{deepOrange.300}",
       $type: "color",
       $value: "#ff8a65",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2935,7 +9496,8 @@ export default {
       key: "{deepOrange.400}",
       $type: "color",
       $value: "#ff7043",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2953,7 +9515,8 @@ export default {
       key: "{deepOrange.500}",
       $type: "color",
       $value: "#ff5722",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2971,7 +9534,8 @@ export default {
       key: "{deepOrange.600}",
       $type: "color",
       $value: "#f4511e",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -2989,7 +9553,8 @@ export default {
       key: "{deepOrange.700}",
       $type: "color",
       $value: "#e64a19",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3007,7 +9572,8 @@ export default {
       key: "{deepOrange.800}",
       $type: "color",
       $value: "#d84315",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3025,7 +9591,8 @@ export default {
       key: "{deepOrange.900}",
       $type: "color",
       $value: "#bf360c",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3043,7 +9610,8 @@ export default {
       key: "{deepOrange.A100}",
       $type: "color",
       $value: "#ff9e80",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3061,7 +9629,8 @@ export default {
       key: "{deepOrange.A200}",
       $type: "color",
       $value: "#ff6e40",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3079,7 +9648,8 @@ export default {
       key: "{deepOrange.A400}",
       $type: "color",
       $value: "#ff3d00",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3097,7 +9667,8 @@ export default {
       key: "{deepOrange.A700}",
       $type: "color",
       $value: "#dd2c00",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3117,7 +9688,8 @@ export default {
       key: "{deepPurple.50}",
       $type: "color",
       $value: "#ede7f6",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3135,7 +9707,8 @@ export default {
       key: "{deepPurple.100}",
       $type: "color",
       $value: "#d1c4e9",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3153,7 +9726,8 @@ export default {
       key: "{deepPurple.200}",
       $type: "color",
       $value: "#b39ddb",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3171,7 +9745,8 @@ export default {
       key: "{deepPurple.300}",
       $type: "color",
       $value: "#9575cd",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3189,7 +9764,8 @@ export default {
       key: "{deepPurple.400}",
       $type: "color",
       $value: "#7e57c2",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3207,7 +9783,8 @@ export default {
       key: "{deepPurple.500}",
       $type: "color",
       $value: "#673ab7",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3225,7 +9802,8 @@ export default {
       key: "{deepPurple.600}",
       $type: "color",
       $value: "#5e35b1",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3243,7 +9821,8 @@ export default {
       key: "{deepPurple.700}",
       $type: "color",
       $value: "#512da8",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3261,7 +9840,8 @@ export default {
       key: "{deepPurple.800}",
       $type: "color",
       $value: "#4527a0",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3279,7 +9859,8 @@ export default {
       key: "{deepPurple.900}",
       $type: "color",
       $value: "#311b92",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3297,7 +9878,8 @@ export default {
       key: "{deepPurple.A100}",
       $type: "color",
       $value: "#b388ff",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3315,7 +9897,8 @@ export default {
       key: "{deepPurple.A200}",
       $type: "color",
       $value: "#7c4dff",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3333,7 +9916,8 @@ export default {
       key: "{deepPurple.A400}",
       $type: "color",
       $value: "#651fff",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3351,7 +9935,8 @@ export default {
       key: "{deepPurple.A700}",
       $type: "color",
       $value: "#6200ea",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3366,266 +9951,13 @@ export default {
       path: ["deepPurple", "A700"],
     },
   },
-  green: {
-    50: {
-      key: "{green.50}",
-      $type: "color",
-      $value: "#e8f5e9",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#E8F5E9",
-        key: "{green.50}",
-      },
-      name: "gs-green-50",
-      attributes: {
-        category: "green",
-        type: "50",
-      },
-      path: ["green", "50"],
-    },
-    100: {
-      key: "{green.100}",
-      $type: "color",
-      $value: "#c8e6c9",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#C8E6C9",
-        key: "{green.100}",
-      },
-      name: "gs-green-100",
-      attributes: {
-        category: "green",
-        type: "100",
-      },
-      path: ["green", "100"],
-    },
-    200: {
-      key: "{green.200}",
-      $type: "color",
-      $value: "#a5d6a7",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#A5D6A7",
-        key: "{green.200}",
-      },
-      name: "gs-green-200",
-      attributes: {
-        category: "green",
-        type: "200",
-      },
-      path: ["green", "200"],
-    },
-    300: {
-      key: "{green.300}",
-      $type: "color",
-      $value: "#81c784",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#81C784",
-        key: "{green.300}",
-      },
-      name: "gs-green-300",
-      attributes: {
-        category: "green",
-        type: "300",
-      },
-      path: ["green", "300"],
-    },
-    400: {
-      key: "{green.400}",
-      $type: "color",
-      $value: "#66bb6a",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#66BB6A",
-        key: "{green.400}",
-      },
-      name: "gs-green-400",
-      attributes: {
-        category: "green",
-        type: "400",
-      },
-      path: ["green", "400"],
-    },
-    500: {
-      key: "{green.500}",
-      $type: "color",
-      $value: "#4caf50",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#4CAF50",
-        key: "{green.500}",
-      },
-      name: "gs-green-500",
-      attributes: {
-        category: "green",
-        type: "500",
-      },
-      path: ["green", "500"],
-    },
-    600: {
-      key: "{green.600}",
-      $type: "color",
-      $value: "#43a047",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#43A047",
-        key: "{green.600}",
-      },
-      name: "gs-green-600",
-      attributes: {
-        category: "green",
-        type: "600",
-      },
-      path: ["green", "600"],
-    },
-    700: {
-      key: "{green.700}",
-      $type: "color",
-      $value: "#388e3c",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#388E3C",
-        key: "{green.700}",
-      },
-      name: "gs-green-700",
-      attributes: {
-        category: "green",
-        type: "700",
-      },
-      path: ["green", "700"],
-    },
-    800: {
-      key: "{green.800}",
-      $type: "color",
-      $value: "#2e7d32",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#2E7D32",
-        key: "{green.800}",
-      },
-      name: "gs-green-800",
-      attributes: {
-        category: "green",
-        type: "800",
-      },
-      path: ["green", "800"],
-    },
-    900: {
-      key: "{green.900}",
-      $type: "color",
-      $value: "#1b5e20",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#1B5E20",
-        key: "{green.900}",
-      },
-      name: "gs-green-900",
-      attributes: {
-        category: "green",
-        type: "900",
-      },
-      path: ["green", "900"],
-    },
-    A100: {
-      key: "{green.A100}",
-      $type: "color",
-      $value: "#b9f6ca",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#B9F6CA",
-        key: "{green.A100}",
-      },
-      name: "gs-green-a100",
-      attributes: {
-        category: "green",
-        type: "A100",
-      },
-      path: ["green", "A100"],
-    },
-    A200: {
-      key: "{green.A200}",
-      $type: "color",
-      $value: "#69f0ae",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#69F0AE",
-        key: "{green.A200}",
-      },
-      name: "gs-green-a200",
-      attributes: {
-        category: "green",
-        type: "A200",
-      },
-      path: ["green", "A200"],
-    },
-    A400: {
-      key: "{green.A400}",
-      $type: "color",
-      $value: "#00e676",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#00E676",
-        key: "{green.A400}",
-      },
-      name: "gs-green-a400",
-      attributes: {
-        category: "green",
-        type: "A400",
-      },
-      path: ["green", "A400"],
-    },
-    A700: {
-      key: "{green.A700}",
-      $type: "color",
-      $value: "#00c853",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#00C853",
-        key: "{green.A700}",
-      },
-      name: "gs-green-a700",
-      attributes: {
-        category: "green",
-        type: "A700",
-      },
-      path: ["green", "A700"],
-    },
-  },
   grey: {
     50: {
       key: "{grey.50}",
       $type: "color",
       $value: "#fafafa",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3643,7 +9975,8 @@ export default {
       key: "{grey.100}",
       $type: "color",
       $value: "#f5f5f5",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3661,7 +9994,8 @@ export default {
       key: "{grey.200}",
       $type: "color",
       $value: "#eeeeee",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3679,7 +10013,8 @@ export default {
       key: "{grey.300}",
       $type: "color",
       $value: "#e0e0e0",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3697,7 +10032,8 @@ export default {
       key: "{grey.400}",
       $type: "color",
       $value: "#bdbdbd",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3715,7 +10051,8 @@ export default {
       key: "{grey.500}",
       $type: "color",
       $value: "#9e9e9e",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3733,7 +10070,8 @@ export default {
       key: "{grey.600}",
       $type: "color",
       $value: "#757575",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3751,7 +10089,8 @@ export default {
       key: "{grey.700}",
       $type: "color",
       $value: "#616161",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3769,7 +10108,8 @@ export default {
       key: "{grey.800}",
       $type: "color",
       $value: "#424242",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3787,7 +10127,8 @@ export default {
       key: "{grey.900}",
       $type: "color",
       $value: "#212121",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3805,7 +10146,8 @@ export default {
       key: "{grey.A100}",
       $type: "color",
       $value: "#f5f5f5",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3823,7 +10165,8 @@ export default {
       key: "{grey.A200}",
       $type: "color",
       $value: "#eeeeee",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3841,7 +10184,8 @@ export default {
       key: "{grey.A400}",
       $type: "color",
       $value: "#bdbdbd",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3859,7 +10203,8 @@ export default {
       key: "{grey.A700}",
       $type: "color",
       $value: "#616161",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3879,7 +10224,8 @@ export default {
       key: "{indigo.50}",
       $type: "color",
       $value: "#e8eaf6",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3897,7 +10243,8 @@ export default {
       key: "{indigo.100}",
       $type: "color",
       $value: "#c5cae9",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3915,7 +10262,8 @@ export default {
       key: "{indigo.200}",
       $type: "color",
       $value: "#9fa8da",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3933,7 +10281,8 @@ export default {
       key: "{indigo.300}",
       $type: "color",
       $value: "#7986cb",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3951,7 +10300,8 @@ export default {
       key: "{indigo.400}",
       $type: "color",
       $value: "#5c6bc0",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3969,7 +10319,8 @@ export default {
       key: "{indigo.500}",
       $type: "color",
       $value: "#3f51b5",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -3987,7 +10338,8 @@ export default {
       key: "{indigo.600}",
       $type: "color",
       $value: "#3949ab",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4005,7 +10357,8 @@ export default {
       key: "{indigo.700}",
       $type: "color",
       $value: "#303f9f",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4023,7 +10376,8 @@ export default {
       key: "{indigo.800}",
       $type: "color",
       $value: "#283593",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4041,7 +10395,8 @@ export default {
       key: "{indigo.900}",
       $type: "color",
       $value: "#1a237e",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4059,7 +10414,8 @@ export default {
       key: "{indigo.A100}",
       $type: "color",
       $value: "#8c9eff",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4077,7 +10433,8 @@ export default {
       key: "{indigo.A200}",
       $type: "color",
       $value: "#536dfe",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4095,7 +10452,8 @@ export default {
       key: "{indigo.A400}",
       $type: "color",
       $value: "#3d5afe",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4113,7 +10471,8 @@ export default {
       key: "{indigo.A700}",
       $type: "color",
       $value: "#304ffe",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4133,7 +10492,8 @@ export default {
       key: "{lightBlue.50}",
       $type: "color",
       $value: "#e1f5fe",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4151,7 +10511,8 @@ export default {
       key: "{lightBlue.100}",
       $type: "color",
       $value: "#b3e5fc",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4169,7 +10530,8 @@ export default {
       key: "{lightBlue.200}",
       $type: "color",
       $value: "#81d4fa",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4187,7 +10549,8 @@ export default {
       key: "{lightBlue.300}",
       $type: "color",
       $value: "#4fc3f7",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4205,7 +10568,8 @@ export default {
       key: "{lightBlue.400}",
       $type: "color",
       $value: "#29b6f6",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4223,7 +10587,8 @@ export default {
       key: "{lightBlue.500}",
       $type: "color",
       $value: "#03a9f4",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4241,7 +10606,8 @@ export default {
       key: "{lightBlue.600}",
       $type: "color",
       $value: "#039be5",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4259,7 +10625,8 @@ export default {
       key: "{lightBlue.700}",
       $type: "color",
       $value: "#0288d1",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4277,7 +10644,8 @@ export default {
       key: "{lightBlue.800}",
       $type: "color",
       $value: "#0277bd",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4295,7 +10663,8 @@ export default {
       key: "{lightBlue.900}",
       $type: "color",
       $value: "#01579b",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4313,7 +10682,8 @@ export default {
       key: "{lightBlue.A100}",
       $type: "color",
       $value: "#80d8ff",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4331,7 +10701,8 @@ export default {
       key: "{lightBlue.A200}",
       $type: "color",
       $value: "#40c4ff",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4349,7 +10720,8 @@ export default {
       key: "{lightBlue.A400}",
       $type: "color",
       $value: "#00b0ff",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4367,7 +10739,8 @@ export default {
       key: "{lightBlue.A700}",
       $type: "color",
       $value: "#0091ea",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4387,7 +10760,8 @@ export default {
       key: "{lightGreen.50}",
       $type: "color",
       $value: "#f1f8e9",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4405,7 +10779,8 @@ export default {
       key: "{lightGreen.100}",
       $type: "color",
       $value: "#dcedc8",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4423,7 +10798,8 @@ export default {
       key: "{lightGreen.200}",
       $type: "color",
       $value: "#c5e1a5",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4441,7 +10817,8 @@ export default {
       key: "{lightGreen.300}",
       $type: "color",
       $value: "#aed581",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4459,7 +10836,8 @@ export default {
       key: "{lightGreen.400}",
       $type: "color",
       $value: "#8bc34a",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4477,7 +10855,8 @@ export default {
       key: "{lightGreen.500}",
       $type: "color",
       $value: "#8bc34a",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4495,7 +10874,8 @@ export default {
       key: "{lightGreen.600}",
       $type: "color",
       $value: "#7cb342",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4513,7 +10893,8 @@ export default {
       key: "{lightGreen.700}",
       $type: "color",
       $value: "#689f38",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4531,7 +10912,8 @@ export default {
       key: "{lightGreen.800}",
       $type: "color",
       $value: "#558b2f",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4549,7 +10931,8 @@ export default {
       key: "{lightGreen.900}",
       $type: "color",
       $value: "#33691e",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4567,7 +10950,8 @@ export default {
       key: "{lightGreen.A100}",
       $type: "color",
       $value: "#ccff90",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4585,7 +10969,8 @@ export default {
       key: "{lightGreen.A200}",
       $type: "color",
       $value: "#b2ff59",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4603,7 +10988,8 @@ export default {
       key: "{lightGreen.A400}",
       $type: "color",
       $value: "#76ff03",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4621,7 +11007,8 @@ export default {
       key: "{lightGreen.A700}",
       $type: "color",
       $value: "#64dd17",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4641,7 +11028,8 @@ export default {
       key: "{lime.50}",
       $type: "color",
       $value: "#f9fbe7",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4659,7 +11047,8 @@ export default {
       key: "{lime.100}",
       $type: "color",
       $value: "#f0f4c3",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4677,7 +11066,8 @@ export default {
       key: "{lime.200}",
       $type: "color",
       $value: "#e6ee9c",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4695,7 +11085,8 @@ export default {
       key: "{lime.300}",
       $type: "color",
       $value: "#dce775",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4713,7 +11104,8 @@ export default {
       key: "{lime.400}",
       $type: "color",
       $value: "#d4e157",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4731,7 +11123,8 @@ export default {
       key: "{lime.500}",
       $type: "color",
       $value: "#cddc39",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4749,7 +11142,8 @@ export default {
       key: "{lime.600}",
       $type: "color",
       $value: "#c0ca33",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4767,7 +11161,8 @@ export default {
       key: "{lime.700}",
       $type: "color",
       $value: "#afb42b",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4785,7 +11180,8 @@ export default {
       key: "{lime.800}",
       $type: "color",
       $value: "#9e9d24",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4803,7 +11199,8 @@ export default {
       key: "{lime.900}",
       $type: "color",
       $value: "#827717",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4821,7 +11218,8 @@ export default {
       key: "{lime.A100}",
       $type: "color",
       $value: "#f4ff81",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4839,7 +11237,8 @@ export default {
       key: "{lime.A200}",
       $type: "color",
       $value: "#eeff41",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4857,7 +11256,8 @@ export default {
       key: "{lime.A400}",
       $type: "color",
       $value: "#c6ff00",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4875,7 +11275,8 @@ export default {
       key: "{lime.A700}",
       $type: "color",
       $value: "#aeea00",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -4890,266 +11291,13 @@ export default {
       path: ["lime", "A700"],
     },
   },
-  orange: {
-    50: {
-      key: "{orange.50}",
-      $type: "color",
-      $value: "#fff3e0",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFF3E0",
-        key: "{orange.50}",
-      },
-      name: "gs-orange-50",
-      attributes: {
-        category: "orange",
-        type: "50",
-      },
-      path: ["orange", "50"],
-    },
-    100: {
-      key: "{orange.100}",
-      $type: "color",
-      $value: "#ffe0b2",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFE0B2",
-        key: "{orange.100}",
-      },
-      name: "gs-orange-100",
-      attributes: {
-        category: "orange",
-        type: "100",
-      },
-      path: ["orange", "100"],
-    },
-    200: {
-      key: "{orange.200}",
-      $type: "color",
-      $value: "#ffcc80",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFCC80",
-        key: "{orange.200}",
-      },
-      name: "gs-orange-200",
-      attributes: {
-        category: "orange",
-        type: "200",
-      },
-      path: ["orange", "200"],
-    },
-    300: {
-      key: "{orange.300}",
-      $type: "color",
-      $value: "#ffb74d",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFB74D",
-        key: "{orange.300}",
-      },
-      name: "gs-orange-300",
-      attributes: {
-        category: "orange",
-        type: "300",
-      },
-      path: ["orange", "300"],
-    },
-    400: {
-      key: "{orange.400}",
-      $type: "color",
-      $value: "#ffa726",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFA726",
-        key: "{orange.400}",
-      },
-      name: "gs-orange-400",
-      attributes: {
-        category: "orange",
-        type: "400",
-      },
-      path: ["orange", "400"],
-    },
-    500: {
-      key: "{orange.500}",
-      $type: "color",
-      $value: "#ff9800",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FF9800",
-        key: "{orange.500}",
-      },
-      name: "gs-orange-500",
-      attributes: {
-        category: "orange",
-        type: "500",
-      },
-      path: ["orange", "500"],
-    },
-    600: {
-      key: "{orange.600}",
-      $type: "color",
-      $value: "#fb8c00",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FB8C00",
-        key: "{orange.600}",
-      },
-      name: "gs-orange-600",
-      attributes: {
-        category: "orange",
-        type: "600",
-      },
-      path: ["orange", "600"],
-    },
-    700: {
-      key: "{orange.700}",
-      $type: "color",
-      $value: "#f57c00",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#F57C00",
-        key: "{orange.700}",
-      },
-      name: "gs-orange-700",
-      attributes: {
-        category: "orange",
-        type: "700",
-      },
-      path: ["orange", "700"],
-    },
-    800: {
-      key: "{orange.800}",
-      $type: "color",
-      $value: "#ef6c00",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#EF6C00",
-        key: "{orange.800}",
-      },
-      name: "gs-orange-800",
-      attributes: {
-        category: "orange",
-        type: "800",
-      },
-      path: ["orange", "800"],
-    },
-    900: {
-      key: "{orange.900}",
-      $type: "color",
-      $value: "#e65100",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#E65100",
-        key: "{orange.900}",
-      },
-      name: "gs-orange-900",
-      attributes: {
-        category: "orange",
-        type: "900",
-      },
-      path: ["orange", "900"],
-    },
-    A100: {
-      key: "{orange.A100}",
-      $type: "color",
-      $value: "#ffd180",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFD180",
-        key: "{orange.A100}",
-      },
-      name: "gs-orange-a100",
-      attributes: {
-        category: "orange",
-        type: "A100",
-      },
-      path: ["orange", "A100"],
-    },
-    A200: {
-      key: "{orange.A200}",
-      $type: "color",
-      $value: "#ffab40",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFAB40",
-        key: "{orange.A200}",
-      },
-      name: "gs-orange-a200",
-      attributes: {
-        category: "orange",
-        type: "A200",
-      },
-      path: ["orange", "A200"],
-    },
-    A400: {
-      key: "{orange.A400}",
-      $type: "color",
-      $value: "#ff9100",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FF9100",
-        key: "{orange.A400}",
-      },
-      name: "gs-orange-a400",
-      attributes: {
-        category: "orange",
-        type: "A400",
-      },
-      path: ["orange", "A400"],
-    },
-    A700: {
-      key: "{orange.A700}",
-      $type: "color",
-      $value: "#ff6d00",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FF6D00",
-        key: "{orange.A700}",
-      },
-      name: "gs-orange-a700",
-      attributes: {
-        category: "orange",
-        type: "A700",
-      },
-      path: ["orange", "A700"],
-    },
-  },
   pink: {
     50: {
       key: "{pink.50}",
       $type: "color",
       $value: "#fce4ec",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5167,7 +11315,8 @@ export default {
       key: "{pink.100}",
       $type: "color",
       $value: "#f8bbd0",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5185,7 +11334,8 @@ export default {
       key: "{pink.200}",
       $type: "color",
       $value: "#f48fb1",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5203,7 +11353,8 @@ export default {
       key: "{pink.300}",
       $type: "color",
       $value: "#f06292",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5221,7 +11372,8 @@ export default {
       key: "{pink.400}",
       $type: "color",
       $value: "#ec407a",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5239,7 +11391,8 @@ export default {
       key: "{pink.500}",
       $type: "color",
       $value: "#e91e63",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5257,7 +11410,8 @@ export default {
       key: "{pink.600}",
       $type: "color",
       $value: "#d81b60",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5275,7 +11429,8 @@ export default {
       key: "{pink.700}",
       $type: "color",
       $value: "#c2185b",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5293,7 +11448,8 @@ export default {
       key: "{pink.800}",
       $type: "color",
       $value: "#ad1457",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5311,7 +11467,8 @@ export default {
       key: "{pink.900}",
       $type: "color",
       $value: "#880e4f",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5329,7 +11486,8 @@ export default {
       key: "{pink.A100}",
       $type: "color",
       $value: "#ff80ab",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5347,7 +11505,8 @@ export default {
       key: "{pink.A200}",
       $type: "color",
       $value: "#ff4081",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5365,7 +11524,8 @@ export default {
       key: "{pink.A400}",
       $type: "color",
       $value: "#f50057",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5383,7 +11543,8 @@ export default {
       key: "{pink.A700}",
       $type: "color",
       $value: "#c51162",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5398,520 +11559,13 @@ export default {
       path: ["pink", "A700"],
     },
   },
-  purple: {
-    50: {
-      key: "{purple.50}",
-      $type: "color",
-      $value: "#f3e5f5",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#F3E5F5",
-        key: "{purple.50}",
-      },
-      name: "gs-purple-50",
-      attributes: {
-        category: "purple",
-        type: "50",
-      },
-      path: ["purple", "50"],
-    },
-    100: {
-      key: "{purple.100}",
-      $type: "color",
-      $value: "#e1bee7",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#E1BEE7",
-        key: "{purple.100}",
-      },
-      name: "gs-purple-100",
-      attributes: {
-        category: "purple",
-        type: "100",
-      },
-      path: ["purple", "100"],
-    },
-    200: {
-      key: "{purple.200}",
-      $type: "color",
-      $value: "#ce93d8",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#CE93D8",
-        key: "{purple.200}",
-      },
-      name: "gs-purple-200",
-      attributes: {
-        category: "purple",
-        type: "200",
-      },
-      path: ["purple", "200"],
-    },
-    300: {
-      key: "{purple.300}",
-      $type: "color",
-      $value: "#ba68c8",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#BA68C8",
-        key: "{purple.300}",
-      },
-      name: "gs-purple-300",
-      attributes: {
-        category: "purple",
-        type: "300",
-      },
-      path: ["purple", "300"],
-    },
-    400: {
-      key: "{purple.400}",
-      $type: "color",
-      $value: "#ab47bc",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#AB47BC",
-        key: "{purple.400}",
-      },
-      name: "gs-purple-400",
-      attributes: {
-        category: "purple",
-        type: "400",
-      },
-      path: ["purple", "400"],
-    },
-    500: {
-      key: "{purple.500}",
-      $type: "color",
-      $value: "#9c27b0",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#9C27B0",
-        key: "{purple.500}",
-      },
-      name: "gs-purple-500",
-      attributes: {
-        category: "purple",
-        type: "500",
-      },
-      path: ["purple", "500"],
-    },
-    600: {
-      key: "{purple.600}",
-      $type: "color",
-      $value: "#8e24aa",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#8E24AA",
-        key: "{purple.600}",
-      },
-      name: "gs-purple-600",
-      attributes: {
-        category: "purple",
-        type: "600",
-      },
-      path: ["purple", "600"],
-    },
-    700: {
-      key: "{purple.700}",
-      $type: "color",
-      $value: "#7b1fa2",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#7B1FA2",
-        key: "{purple.700}",
-      },
-      name: "gs-purple-700",
-      attributes: {
-        category: "purple",
-        type: "700",
-      },
-      path: ["purple", "700"],
-    },
-    800: {
-      key: "{purple.800}",
-      $type: "color",
-      $value: "#6a1b9a",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#6A1B9A",
-        key: "{purple.800}",
-      },
-      name: "gs-purple-800",
-      attributes: {
-        category: "purple",
-        type: "800",
-      },
-      path: ["purple", "800"],
-    },
-    900: {
-      key: "{purple.900}",
-      $type: "color",
-      $value: "#4a148c",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#4A148C",
-        key: "{purple.900}",
-      },
-      name: "gs-purple-900",
-      attributes: {
-        category: "purple",
-        type: "900",
-      },
-      path: ["purple", "900"],
-    },
-    A100: {
-      key: "{purple.A100}",
-      $type: "color",
-      $value: "#ea80fc",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#EA80FC",
-        key: "{purple.A100}",
-      },
-      name: "gs-purple-a100",
-      attributes: {
-        category: "purple",
-        type: "A100",
-      },
-      path: ["purple", "A100"],
-    },
-    A200: {
-      key: "{purple.A200}",
-      $type: "color",
-      $value: "#e040fb",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#E040FB",
-        key: "{purple.A200}",
-      },
-      name: "gs-purple-a200",
-      attributes: {
-        category: "purple",
-        type: "A200",
-      },
-      path: ["purple", "A200"],
-    },
-    A400: {
-      key: "{purple.A400}",
-      $type: "color",
-      $value: "#d500f9",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#D500F9",
-        key: "{purple.A400}",
-      },
-      name: "gs-purple-a400",
-      attributes: {
-        category: "purple",
-        type: "A400",
-      },
-      path: ["purple", "A400"],
-    },
-    A700: {
-      key: "{purple.A700}",
-      $type: "color",
-      $value: "#aa00ff",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#AA00FF",
-        key: "{purple.A700}",
-      },
-      name: "gs-purple-a700",
-      attributes: {
-        category: "purple",
-        type: "A700",
-      },
-      path: ["purple", "A700"],
-    },
-  },
-  red: {
-    50: {
-      key: "{red.50}",
-      $type: "color",
-      $value: "#feebee",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FEEBEE",
-        key: "{red.50}",
-      },
-      name: "gs-red-50",
-      attributes: {
-        category: "red",
-        type: "50",
-      },
-      path: ["red", "50"],
-    },
-    100: {
-      key: "{red.100}",
-      $type: "color",
-      $value: "#fecdd2",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FECDD2",
-        key: "{red.100}",
-      },
-      name: "gs-red-100",
-      attributes: {
-        category: "red",
-        type: "100",
-      },
-      path: ["red", "100"],
-    },
-    200: {
-      key: "{red.200}",
-      $type: "color",
-      $value: "#ef9a9a",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#EF9A9A",
-        key: "{red.200}",
-      },
-      name: "gs-red-200",
-      attributes: {
-        category: "red",
-        type: "200",
-      },
-      path: ["red", "200"],
-    },
-    300: {
-      key: "{red.300}",
-      $type: "color",
-      $value: "#e57373",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#E57373",
-        key: "{red.300}",
-      },
-      name: "gs-red-300",
-      attributes: {
-        category: "red",
-        type: "300",
-      },
-      path: ["red", "300"],
-    },
-    400: {
-      key: "{red.400}",
-      $type: "color",
-      $value: "#ef5350",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#EF5350",
-        key: "{red.400}",
-      },
-      name: "gs-red-400",
-      attributes: {
-        category: "red",
-        type: "400",
-      },
-      path: ["red", "400"],
-    },
-    500: {
-      key: "{red.500}",
-      $type: "color",
-      $value: "#f44336",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#F44336",
-        key: "{red.500}",
-      },
-      name: "gs-red-500",
-      attributes: {
-        category: "red",
-        type: "500",
-      },
-      path: ["red", "500"],
-    },
-    600: {
-      key: "{red.600}",
-      $type: "color",
-      $value: "#e53935",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#E53935",
-        key: "{red.600}",
-      },
-      name: "gs-red-600",
-      attributes: {
-        category: "red",
-        type: "600",
-      },
-      path: ["red", "600"],
-    },
-    700: {
-      key: "{red.700}",
-      $type: "color",
-      $value: "#d32f2f",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#D32F2F",
-        key: "{red.700}",
-      },
-      name: "gs-red-700",
-      attributes: {
-        category: "red",
-        type: "700",
-      },
-      path: ["red", "700"],
-    },
-    800: {
-      key: "{red.800}",
-      $type: "color",
-      $value: "#c62828",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#C62828",
-        key: "{red.800}",
-      },
-      name: "gs-red-800",
-      attributes: {
-        category: "red",
-        type: "800",
-      },
-      path: ["red", "800"],
-    },
-    900: {
-      key: "{red.900}",
-      $type: "color",
-      $value: "#b71c1c",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#B71C1C",
-        key: "{red.900}",
-      },
-      name: "gs-red-900",
-      attributes: {
-        category: "red",
-        type: "900",
-      },
-      path: ["red", "900"],
-    },
-    A100: {
-      key: "{red.A100}",
-      $type: "color",
-      $value: "#ff8a80",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FF8A80",
-        key: "{red.A100}",
-      },
-      name: "gs-red-a100",
-      attributes: {
-        category: "red",
-        type: "A100",
-      },
-      path: ["red", "A100"],
-    },
-    A200: {
-      key: "{red.A200}",
-      $type: "color",
-      $value: "#ff5252",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FF5252",
-        key: "{red.A200}",
-      },
-      name: "gs-red-a200",
-      attributes: {
-        category: "red",
-        type: "A200",
-      },
-      path: ["red", "A200"],
-    },
-    A400: {
-      key: "{red.A400}",
-      $type: "color",
-      $value: "#ff1744",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FF1744",
-        key: "{red.A400}",
-      },
-      name: "gs-red-a400",
-      attributes: {
-        category: "red",
-        type: "A400",
-      },
-      path: ["red", "A400"],
-    },
-    A700: {
-      key: "{red.A700}",
-      $type: "color",
-      $value: "#d50000",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#D50000",
-        key: "{red.A700}",
-      },
-      name: "gs-red-a700",
-      attributes: {
-        category: "red",
-        type: "A700",
-      },
-      path: ["red", "A700"],
-    },
-  },
   teal: {
     50: {
       key: "{teal.50}",
       $type: "color",
       $value: "#e0f2f1",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5929,7 +11583,8 @@ export default {
       key: "{teal.100}",
       $type: "color",
       $value: "#b2dfdb",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5947,7 +11602,8 @@ export default {
       key: "{teal.200}",
       $type: "color",
       $value: "#80cbc4",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5965,7 +11621,8 @@ export default {
       key: "{teal.300}",
       $type: "color",
       $value: "#4db6ac",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -5983,7 +11640,8 @@ export default {
       key: "{teal.400}",
       $type: "color",
       $value: "#26a69a",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -6001,7 +11659,8 @@ export default {
       key: "{teal.500}",
       $type: "color",
       $value: "#009688",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -6019,7 +11678,8 @@ export default {
       key: "{teal.600}",
       $type: "color",
       $value: "#00897b",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -6037,7 +11697,8 @@ export default {
       key: "{teal.700}",
       $type: "color",
       $value: "#00796b",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -6055,7 +11716,8 @@ export default {
       key: "{teal.800}",
       $type: "color",
       $value: "#00695c",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -6073,7 +11735,8 @@ export default {
       key: "{teal.900}",
       $type: "color",
       $value: "#004d40",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -6091,7 +11754,8 @@ export default {
       key: "{teal.A100}",
       $type: "color",
       $value: "#a7ffeb",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -6109,7 +11773,8 @@ export default {
       key: "{teal.A200}",
       $type: "color",
       $value: "#64ffda",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -6127,7 +11792,8 @@ export default {
       key: "{teal.A400}",
       $type: "color",
       $value: "#1de9b6",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -6145,7 +11811,8 @@ export default {
       key: "{teal.A700}",
       $type: "color",
       $value: "#00bfa5",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
+      filePath:
+        "design-tokens/token_materialcolorsMode1_materialcolorsMode1.json",
       isSource: true,
       original: {
         $type: "color",
@@ -6158,3287 +11825,6 @@ export default {
         type: "A700",
       },
       path: ["teal", "A700"],
-    },
-  },
-  yellow: {
-    50: {
-      key: "{yellow.50}",
-      $type: "color",
-      $value: "#fffde7",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFDE7",
-        key: "{yellow.50}",
-      },
-      name: "gs-yellow-50",
-      attributes: {
-        category: "yellow",
-        type: "50",
-      },
-      path: ["yellow", "50"],
-    },
-    100: {
-      key: "{yellow.100}",
-      $type: "color",
-      $value: "#fff9c4",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFF9C4",
-        key: "{yellow.100}",
-      },
-      name: "gs-yellow-100",
-      attributes: {
-        category: "yellow",
-        type: "100",
-      },
-      path: ["yellow", "100"],
-    },
-    200: {
-      key: "{yellow.200}",
-      $type: "color",
-      $value: "#fff59d",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFF59D",
-        key: "{yellow.200}",
-      },
-      name: "gs-yellow-200",
-      attributes: {
-        category: "yellow",
-        type: "200",
-      },
-      path: ["yellow", "200"],
-    },
-    300: {
-      key: "{yellow.300}",
-      $type: "color",
-      $value: "#fff176",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFF176",
-        key: "{yellow.300}",
-      },
-      name: "gs-yellow-300",
-      attributes: {
-        category: "yellow",
-        type: "300",
-      },
-      path: ["yellow", "300"],
-    },
-    400: {
-      key: "{yellow.400}",
-      $type: "color",
-      $value: "#ffee58",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFEE58",
-        key: "{yellow.400}",
-      },
-      name: "gs-yellow-400",
-      attributes: {
-        category: "yellow",
-        type: "400",
-      },
-      path: ["yellow", "400"],
-    },
-    500: {
-      key: "{yellow.500}",
-      $type: "color",
-      $value: "#ffeb3b",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFEB3B",
-        key: "{yellow.500}",
-      },
-      name: "gs-yellow-500",
-      attributes: {
-        category: "yellow",
-        type: "500",
-      },
-      path: ["yellow", "500"],
-    },
-    600: {
-      key: "{yellow.600}",
-      $type: "color",
-      $value: "#fdd835",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FDD835",
-        key: "{yellow.600}",
-      },
-      name: "gs-yellow-600",
-      attributes: {
-        category: "yellow",
-        type: "600",
-      },
-      path: ["yellow", "600"],
-    },
-    700: {
-      key: "{yellow.700}",
-      $type: "color",
-      $value: "#fbc02d",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FBC02D",
-        key: "{yellow.700}",
-      },
-      name: "gs-yellow-700",
-      attributes: {
-        category: "yellow",
-        type: "700",
-      },
-      path: ["yellow", "700"],
-    },
-    800: {
-      key: "{yellow.800}",
-      $type: "color",
-      $value: "#f9a825",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#F9A825",
-        key: "{yellow.800}",
-      },
-      name: "gs-yellow-800",
-      attributes: {
-        category: "yellow",
-        type: "800",
-      },
-      path: ["yellow", "800"],
-    },
-    900: {
-      key: "{yellow.900}",
-      $type: "color",
-      $value: "#f57f17",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#F57F17",
-        key: "{yellow.900}",
-      },
-      name: "gs-yellow-900",
-      attributes: {
-        category: "yellow",
-        type: "900",
-      },
-      path: ["yellow", "900"],
-    },
-    A100: {
-      key: "{yellow.A100}",
-      $type: "color",
-      $value: "#ffff8d",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFF8D",
-        key: "{yellow.A100}",
-      },
-      name: "gs-yellow-a100",
-      attributes: {
-        category: "yellow",
-        type: "A100",
-      },
-      path: ["yellow", "A100"],
-    },
-    A200: {
-      key: "{yellow.A200}",
-      $type: "color",
-      $value: "#ffff00",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFF00",
-        key: "{yellow.A200}",
-      },
-      name: "gs-yellow-a200",
-      attributes: {
-        category: "yellow",
-        type: "A200",
-      },
-      path: ["yellow", "A200"],
-    },
-    A400: {
-      key: "{yellow.A400}",
-      $type: "color",
-      $value: "#ffea00",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFEA00",
-        key: "{yellow.A400}",
-      },
-      name: "gs-yellow-a400",
-      attributes: {
-        category: "yellow",
-        type: "A400",
-      },
-      path: ["yellow", "A400"],
-    },
-    A700: {
-      key: "{yellow.A700}",
-      $type: "color",
-      $value: "#ffd600",
-      filePath: "design-tokens/token_materialcolors_Mode1.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFD600",
-        key: "{yellow.A700}",
-      },
-      name: "gs-yellow-a700",
-      attributes: {
-        category: "yellow",
-        type: "A700",
-      },
-      path: ["yellow", "A700"],
-    },
-  },
-  _components: {
-    alert: {
-      error: {
-        background: {
-          key: "{_components.alert.error.background}",
-          $type: "color",
-          $value: "#fdeded",
-          filePath: "design-tokens/token_palette_Light.json",
-          isSource: true,
-          original: {
-            $type: "color",
-            $value: "#FDEDED",
-            key: "{_components.alert.error.background}",
-          },
-          name: "gs-components-alert-error-background",
-          attributes: {
-            category: "_components",
-            type: "alert",
-            item: "error",
-            subitem: "background",
-          },
-          path: ["_components", "alert", "error", "background"],
-        },
-        color: {
-          key: "{_components.alert.error.color}",
-          $type: "color",
-          $value: "#5f2120",
-          filePath: "design-tokens/token_palette_Light.json",
-          isSource: true,
-          original: {
-            $type: "color",
-            $value: "#5F2120",
-            key: "{_components.alert.error.color}",
-          },
-          name: "gs-components-alert-error-color",
-          attributes: {
-            category: "_components",
-            type: "alert",
-            item: "error",
-            subitem: "color",
-          },
-          path: ["_components", "alert", "error", "color"],
-        },
-      },
-      info: {
-        background: {
-          key: "{_components.alert.info.background}",
-          $type: "color",
-          $value: "#e5f6fd",
-          filePath: "design-tokens/token_palette_Light.json",
-          isSource: true,
-          original: {
-            $type: "color",
-            $value: "#E5F6FD",
-            key: "{_components.alert.info.background}",
-          },
-          name: "gs-components-alert-info-background",
-          attributes: {
-            category: "_components",
-            type: "alert",
-            item: "info",
-            subitem: "background",
-          },
-          path: ["_components", "alert", "info", "background"],
-        },
-        color: {
-          key: "{_components.alert.info.color}",
-          $type: "color",
-          $value: "#014361",
-          filePath: "design-tokens/token_palette_Light.json",
-          isSource: true,
-          original: {
-            $type: "color",
-            $value: "#014361",
-            key: "{_components.alert.info.color}",
-          },
-          name: "gs-components-alert-info-color",
-          attributes: {
-            category: "_components",
-            type: "alert",
-            item: "info",
-            subitem: "color",
-          },
-          path: ["_components", "alert", "info", "color"],
-        },
-      },
-      success: {
-        background: {
-          key: "{_components.alert.success.background}",
-          $type: "color",
-          $value: "#edf7ed",
-          filePath: "design-tokens/token_palette_Light.json",
-          isSource: true,
-          original: {
-            $type: "color",
-            $value: "#EDF7ED",
-            key: "{_components.alert.success.background}",
-          },
-          name: "gs-components-alert-success-background",
-          attributes: {
-            category: "_components",
-            type: "alert",
-            item: "success",
-            subitem: "background",
-          },
-          path: ["_components", "alert", "success", "background"],
-        },
-        color: {
-          key: "{_components.alert.success.color}",
-          $type: "color",
-          $value: "#1e4620",
-          filePath: "design-tokens/token_palette_Light.json",
-          isSource: true,
-          original: {
-            $type: "color",
-            $value: "#1E4620",
-            key: "{_components.alert.success.color}",
-          },
-          name: "gs-components-alert-success-color",
-          attributes: {
-            category: "_components",
-            type: "alert",
-            item: "success",
-            subitem: "color",
-          },
-          path: ["_components", "alert", "success", "color"],
-        },
-      },
-      warning: {
-        background: {
-          key: "{_components.alert.warning.background}",
-          $type: "color",
-          $value: "#fff4e5",
-          filePath: "design-tokens/token_palette_Light.json",
-          isSource: true,
-          original: {
-            $type: "color",
-            $value: "#FFF4E5",
-            key: "{_components.alert.warning.background}",
-          },
-          name: "gs-components-alert-warning-background",
-          attributes: {
-            category: "_components",
-            type: "alert",
-            item: "warning",
-            subitem: "background",
-          },
-          path: ["_components", "alert", "warning", "background"],
-        },
-        color: {
-          key: "{_components.alert.warning.color}",
-          $type: "color",
-          $value: "#663c00",
-          filePath: "design-tokens/token_palette_Light.json",
-          isSource: true,
-          original: {
-            $type: "color",
-            $value: "#663C00",
-            key: "{_components.alert.warning.color}",
-          },
-          name: "gs-components-alert-warning-color",
-          attributes: {
-            category: "_components",
-            type: "alert",
-            item: "warning",
-            subitem: "color",
-          },
-          path: ["_components", "alert", "warning", "color"],
-        },
-      },
-    },
-    appBar: {
-      defaultFill: {
-        key: "{_components.appBar.defaultFill}",
-        $type: "color",
-        $value: "#f5f5f5",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "{grey.100}",
-          key: "{_components.appBar.defaultFill}",
-        },
-        name: "gs-components-app-bar-default-fill",
-        attributes: {
-          category: "_components",
-          type: "appBar",
-          item: "defaultFill",
-        },
-        path: ["_components", "appBar", "defaultFill"],
-      },
-    },
-    avatar: {
-      fill: {
-        key: "{_components.avatar.fill}",
-        $type: "color",
-        $value: "#bdbdbd",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "{grey.400}",
-          key: "{_components.avatar.fill}",
-        },
-        name: "gs-components-avatar-fill",
-        attributes: {
-          category: "_components",
-          type: "avatar",
-          item: "fill",
-        },
-        path: ["_components", "avatar", "fill"],
-      },
-    },
-    backdrop: {
-      fill: {
-        key: "{_components.backdrop.fill}",
-        $type: "color",
-        $value: "#00000080",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#00000080",
-          key: "{_components.backdrop.fill}",
-        },
-        name: "gs-components-backdrop-fill",
-        attributes: {
-          category: "_components",
-          type: "backdrop",
-          item: "fill",
-        },
-        path: ["_components", "backdrop", "fill"],
-      },
-    },
-    breadcrumbs: {
-      collapseFill: {
-        key: "{_components.breadcrumbs.collapseFill}",
-        $type: "color",
-        $value: "#f5f5f5",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "{grey.100}",
-          key: "{_components.breadcrumbs.collapseFill}",
-        },
-        name: "gs-components-breadcrumbs-collapse-fill",
-        attributes: {
-          category: "_components",
-          type: "breadcrumbs",
-          item: "collapseFill",
-        },
-        path: ["_components", "breadcrumbs", "collapseFill"],
-      },
-    },
-    chip: {
-      defaultCloseFill: {
-        key: "{_components.chip.defaultCloseFill}",
-        $type: "color",
-        $value: "#000000",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#000000",
-          key: "{_components.chip.defaultCloseFill}",
-        },
-        name: "gs-components-chip-default-close-fill",
-        attributes: {
-          category: "_components",
-          type: "chip",
-          item: "defaultCloseFill",
-        },
-        path: ["_components", "chip", "defaultCloseFill"],
-      },
-      defaultEnabledBorder: {
-        key: "{_components.chip.defaultEnabledBorder}",
-        $type: "color",
-        $value: "#bdbdbd",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "{grey.400}",
-          key: "{_components.chip.defaultEnabledBorder}",
-        },
-        name: "gs-components-chip-default-enabled-border",
-        attributes: {
-          category: "_components",
-          type: "chip",
-          item: "defaultEnabledBorder",
-        },
-        path: ["_components", "chip", "defaultEnabledBorder"],
-      },
-      defaultFocusFill: {
-        key: "{_components.chip.defaultFocusFill}",
-        $type: "color",
-        $value: "#00000033",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#00000033",
-          key: "{_components.chip.defaultFocusFill}",
-        },
-        name: "gs-components-chip-default-focus-fill",
-        attributes: {
-          category: "_components",
-          type: "chip",
-          item: "defaultFocusFill",
-        },
-        path: ["_components", "chip", "defaultFocusFill"],
-      },
-      defaultHoverFill: {
-        key: "{_components.chip.defaultHoverFill}",
-        $type: "color",
-        $value: "#0000001f",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#0000001f",
-          key: "{_components.chip.defaultHoverFill}",
-        },
-        name: "gs-components-chip-default-hover-fill",
-        attributes: {
-          category: "_components",
-          type: "chip",
-          item: "defaultHoverFill",
-        },
-        path: ["_components", "chip", "defaultHoverFill"],
-      },
-    },
-    input: {
-      filled: {
-        enabledFill: {
-          key: "{_components.input.filled.enabledFill}",
-          $type: "color",
-          $value: "#0000000f",
-          filePath: "design-tokens/token_palette_Light.json",
-          isSource: true,
-          original: {
-            $type: "color",
-            $value: "#0000000f",
-            key: "{_components.input.filled.enabledFill}",
-          },
-          name: "gs-components-input-filled-enabled-fill",
-          attributes: {
-            category: "_components",
-            type: "input",
-            item: "filled",
-            subitem: "enabledFill",
-          },
-          path: ["_components", "input", "filled", "enabledFill"],
-        },
-        hoverFill: {
-          key: "{_components.input.filled.hoverFill}",
-          $type: "color",
-          $value: "#00000017",
-          filePath: "design-tokens/token_palette_Light.json",
-          isSource: true,
-          original: {
-            $type: "color",
-            $value: "#00000017",
-            key: "{_components.input.filled.hoverFill}",
-          },
-          name: "gs-components-input-filled-hover-fill",
-          attributes: {
-            category: "_components",
-            type: "input",
-            item: "filled",
-            subitem: "hoverFill",
-          },
-          path: ["_components", "input", "filled", "hoverFill"],
-        },
-      },
-      outlined: {
-        enabledBorder: {
-          key: "{_components.input.outlined.enabledBorder}",
-          $type: "color",
-          $value: "#0000003b",
-          filePath: "design-tokens/token_palette_Light.json",
-          isSource: true,
-          original: {
-            $type: "color",
-            $value: "#0000003b",
-            key: "{_components.input.outlined.enabledBorder}",
-          },
-          name: "gs-components-input-outlined-enabled-border",
-          attributes: {
-            category: "_components",
-            type: "input",
-            item: "outlined",
-            subitem: "enabledBorder",
-          },
-          path: ["_components", "input", "outlined", "enabledBorder"],
-        },
-        hoverBorder: {
-          key: "{_components.input.outlined.hoverBorder}",
-          $type: "color",
-          $value: "#000000",
-          filePath: "design-tokens/token_palette_Light.json",
-          isSource: true,
-          original: {
-            $type: "color",
-            $value: "#000000",
-            key: "{_components.input.outlined.hoverBorder}",
-          },
-          name: "gs-components-input-outlined-hover-border",
-          attributes: {
-            category: "_components",
-            type: "input",
-            item: "outlined",
-            subitem: "hoverBorder",
-          },
-          path: ["_components", "input", "outlined", "hoverBorder"],
-        },
-      },
-      standard: {
-        enabledBorder: {
-          key: "{_components.input.standard.enabledBorder}",
-          $type: "color",
-          $value: "#0000006b",
-          filePath: "design-tokens/token_palette_Light.json",
-          isSource: true,
-          original: {
-            $type: "color",
-            $value: "#0000006b",
-            key: "{_components.input.standard.enabledBorder}",
-          },
-          name: "gs-components-input-standard-enabled-border",
-          attributes: {
-            category: "_components",
-            type: "input",
-            item: "standard",
-            subitem: "enabledBorder",
-          },
-          path: ["_components", "input", "standard", "enabledBorder"],
-        },
-        hoverBorder: {
-          key: "{_components.input.standard.hoverBorder}",
-          $type: "color",
-          $value: "#000000",
-          filePath: "design-tokens/token_palette_Light.json",
-          isSource: true,
-          original: {
-            $type: "color",
-            $value: "#000000",
-            key: "{_components.input.standard.hoverBorder}",
-          },
-          name: "gs-components-input-standard-hover-border",
-          attributes: {
-            category: "_components",
-            type: "input",
-            item: "standard",
-            subitem: "hoverBorder",
-          },
-          path: ["_components", "input", "standard", "hoverBorder"],
-        },
-      },
-    },
-    rating: {
-      activeFill: {
-        key: "{_components.rating.activeFill}",
-        $type: "color",
-        $value: "#ffb400",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#FFB400",
-          key: "{_components.rating.activeFill}",
-        },
-        name: "gs-components-rating-active-fill",
-        attributes: {
-          category: "_components",
-          type: "rating",
-          item: "activeFill",
-        },
-        path: ["_components", "rating", "activeFill"],
-      },
-      enabledBorder: {
-        key: "{_components.rating.enabledBorder}",
-        $type: "color",
-        $value: "#0000003b",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#0000003b",
-          key: "{_components.rating.enabledBorder}",
-        },
-        name: "gs-components-rating-enabled-border",
-        attributes: {
-          category: "_components",
-          type: "rating",
-          item: "enabledBorder",
-        },
-        path: ["_components", "rating", "enabledBorder"],
-      },
-    },
-    snackbar: {
-      fill: {
-        key: "{_components.snackbar.fill}",
-        $type: "color",
-        $value: "#323232",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#323232",
-          key: "{_components.snackbar.fill}",
-        },
-        name: "gs-components-snackbar-fill",
-        attributes: {
-          category: "_components",
-          type: "snackbar",
-          item: "fill",
-        },
-        path: ["_components", "snackbar", "fill"],
-      },
-    },
-    stepper: {
-      connector: {
-        key: "{_components.stepper.connector}",
-        $type: "color",
-        $value: "#bdbdbd",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "{grey.400}",
-          key: "{_components.stepper.connector}",
-        },
-        name: "gs-components-stepper-connector",
-        attributes: {
-          category: "_components",
-          type: "stepper",
-          item: "connector",
-        },
-        path: ["_components", "stepper", "connector"],
-      },
-    },
-    switch: {
-      knobFillEnabled: {
-        key: "{_components.switch.knobFillEnabled}",
-        $type: "color",
-        $value: "#fafafa",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "{grey.50}",
-          key: "{_components.switch.knobFillEnabled}",
-        },
-        name: "gs-components-switch-knob-fill-enabled",
-        attributes: {
-          category: "_components",
-          type: "switch",
-          item: "knobFillEnabled",
-        },
-        path: ["_components", "switch", "knobFillEnabled"],
-      },
-      knowFillDisabled: {
-        key: "{_components.switch.knowFillDisabled}",
-        $type: "color",
-        $value: "#f5f5f5",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "{grey.100}",
-          key: "{_components.switch.knowFillDisabled}",
-        },
-        name: "gs-components-switch-know-fill-disabled",
-        attributes: {
-          category: "_components",
-          type: "switch",
-          item: "knowFillDisabled",
-        },
-        path: ["_components", "switch", "knowFillDisabled"],
-      },
-      slideFill: {
-        key: "{_components.switch.slideFill}",
-        $type: "color",
-        $value: "#000000",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#000000",
-          key: "{_components.switch.slideFill}",
-        },
-        name: "gs-components-switch-slide-fill",
-        attributes: {
-          category: "_components",
-          type: "switch",
-          item: "slideFill",
-        },
-        path: ["_components", "switch", "slideFill"],
-      },
-    },
-    tooltip: {
-      fill: {
-        key: "{_components.tooltip.fill}",
-        $type: "color",
-        $value: "#616161e6",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#616161e6",
-          key: "{_components.tooltip.fill}",
-        },
-        name: "gs-components-tooltip-fill",
-        attributes: {
-          category: "_components",
-          type: "tooltip",
-          item: "fill",
-        },
-        path: ["_components", "tooltip", "fill"],
-      },
-    },
-  },
-  _native: {
-    "scrollbar-bg": {
-      key: "{_native.scrollbar-bg}",
-      $type: "color",
-      $value: "#eeeeee",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "{grey.200}",
-        key: "{_native.scrollbar-bg}",
-      },
-      name: "gs-native-scrollbar-bg",
-      attributes: {
-        category: "_native",
-        type: "scrollbar-bg",
-      },
-      path: ["_native", "scrollbar-bg"],
-    },
-  },
-  action: {
-    active: {
-      key: "{action.active}",
-      $type: "color",
-      $value: "#2226298f",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#2226298f",
-        key: "{action.active}",
-      },
-      name: "gs-action-active",
-      attributes: {
-        category: "action",
-        type: "active",
-      },
-      path: ["action", "active"],
-    },
-    disabled: {
-      key: "{action.disabled}",
-      $type: "color",
-      $value: "#22262961",
-      $description:
-        "Reflects the action.disabled variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#22262961",
-        $description:
-          "Reflects the action.disabled variable from the theme object",
-        key: "{action.disabled}",
-      },
-      name: "gs-action-disabled",
-      attributes: {
-        category: "action",
-        type: "disabled",
-      },
-      path: ["action", "disabled"],
-    },
-    disabledBackground: {
-      key: "{action.disabledBackground}",
-      $type: "color",
-      $value: "#0000001f",
-      $description:
-        "Reflects the action.disabledBackground variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#0000001f",
-        $description:
-          "Reflects the action.disabledBackground variable from the theme object",
-        key: "{action.disabledBackground}",
-      },
-      name: "gs-action-disabled-background",
-      attributes: {
-        category: "action",
-        type: "disabledBackground",
-      },
-      path: ["action", "disabledBackground"],
-    },
-    focus: {
-      key: "{action.focus}",
-      $type: "color",
-      $value: "#2226291f",
-      $description: "Reflects the action.focus variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#2226291f",
-        $description:
-          "Reflects the action.focus variable from the theme object",
-        key: "{action.focus}",
-      },
-      name: "gs-action-focus",
-      attributes: {
-        category: "action",
-        type: "focus",
-      },
-      path: ["action", "focus"],
-    },
-    hover: {
-      key: "{action.hover}",
-      $type: "color",
-      $value: "#2226290a",
-      $description: "Reflects the action.hover variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#2226290a",
-        $description:
-          "Reflects the action.hover variable from the theme object",
-        key: "{action.hover}",
-      },
-      name: "gs-action-hover",
-      attributes: {
-        category: "action",
-        type: "hover",
-      },
-      path: ["action", "hover"],
-    },
-    selected: {
-      key: "{action.selected}",
-      $type: "color",
-      $value: "#22262914",
-      $description:
-        "Reflects the action.selected variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#22262914",
-        $description:
-          "Reflects the action.selected variable from the theme object",
-        key: "{action.selected}",
-      },
-      name: "gs-action-selected",
-      attributes: {
-        category: "action",
-        type: "selected",
-      },
-      path: ["action", "selected"],
-    },
-  },
-  background: {
-    default: {
-      key: "{background.default}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.default variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.default variable from the theme object",
-        key: "{background.default}",
-      },
-      name: "gs-background-default",
-      attributes: {
-        category: "background",
-        type: "default",
-      },
-      path: ["background", "default"],
-    },
-    "paper-elevation-0": {
-      key: "{background.paper-elevation-0}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-0}",
-      },
-      name: "gs-background-paper-elevation-0",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-0",
-      },
-      path: ["background", "paper-elevation-0"],
-    },
-    "paper-elevation-1": {
-      key: "{background.paper-elevation-1}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-1}",
-      },
-      name: "gs-background-paper-elevation-1",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-1",
-      },
-      path: ["background", "paper-elevation-1"],
-    },
-    "paper-elevation-10": {
-      key: "{background.paper-elevation-10}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-10}",
-      },
-      name: "gs-background-paper-elevation-10",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-10",
-      },
-      path: ["background", "paper-elevation-10"],
-    },
-    "paper-elevation-11": {
-      key: "{background.paper-elevation-11}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-11}",
-      },
-      name: "gs-background-paper-elevation-11",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-11",
-      },
-      path: ["background", "paper-elevation-11"],
-    },
-    "paper-elevation-12": {
-      key: "{background.paper-elevation-12}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-12}",
-      },
-      name: "gs-background-paper-elevation-12",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-12",
-      },
-      path: ["background", "paper-elevation-12"],
-    },
-    "paper-elevation-13": {
-      key: "{background.paper-elevation-13}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-13}",
-      },
-      name: "gs-background-paper-elevation-13",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-13",
-      },
-      path: ["background", "paper-elevation-13"],
-    },
-    "paper-elevation-14": {
-      key: "{background.paper-elevation-14}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-14}",
-      },
-      name: "gs-background-paper-elevation-14",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-14",
-      },
-      path: ["background", "paper-elevation-14"],
-    },
-    "paper-elevation-15": {
-      key: "{background.paper-elevation-15}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-15}",
-      },
-      name: "gs-background-paper-elevation-15",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-15",
-      },
-      path: ["background", "paper-elevation-15"],
-    },
-    "paper-elevation-16": {
-      key: "{background.paper-elevation-16}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-16}",
-      },
-      name: "gs-background-paper-elevation-16",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-16",
-      },
-      path: ["background", "paper-elevation-16"],
-    },
-    "paper-elevation-17": {
-      key: "{background.paper-elevation-17}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-17}",
-      },
-      name: "gs-background-paper-elevation-17",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-17",
-      },
-      path: ["background", "paper-elevation-17"],
-    },
-    "paper-elevation-18": {
-      key: "{background.paper-elevation-18}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-18}",
-      },
-      name: "gs-background-paper-elevation-18",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-18",
-      },
-      path: ["background", "paper-elevation-18"],
-    },
-    "paper-elevation-19": {
-      key: "{background.paper-elevation-19}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-19}",
-      },
-      name: "gs-background-paper-elevation-19",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-19",
-      },
-      path: ["background", "paper-elevation-19"],
-    },
-    "paper-elevation-2": {
-      key: "{background.paper-elevation-2}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-2}",
-      },
-      name: "gs-background-paper-elevation-2",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-2",
-      },
-      path: ["background", "paper-elevation-2"],
-    },
-    "paper-elevation-20": {
-      key: "{background.paper-elevation-20}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-20}",
-      },
-      name: "gs-background-paper-elevation-20",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-20",
-      },
-      path: ["background", "paper-elevation-20"],
-    },
-    "paper-elevation-21": {
-      key: "{background.paper-elevation-21}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-21}",
-      },
-      name: "gs-background-paper-elevation-21",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-21",
-      },
-      path: ["background", "paper-elevation-21"],
-    },
-    "paper-elevation-22": {
-      key: "{background.paper-elevation-22}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-22}",
-      },
-      name: "gs-background-paper-elevation-22",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-22",
-      },
-      path: ["background", "paper-elevation-22"],
-    },
-    "paper-elevation-23": {
-      key: "{background.paper-elevation-23}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-23}",
-      },
-      name: "gs-background-paper-elevation-23",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-23",
-      },
-      path: ["background", "paper-elevation-23"],
-    },
-    "paper-elevation-24": {
-      key: "{background.paper-elevation-24}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-24}",
-      },
-      name: "gs-background-paper-elevation-24",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-24",
-      },
-      path: ["background", "paper-elevation-24"],
-    },
-    "paper-elevation-3": {
-      key: "{background.paper-elevation-3}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-3}",
-      },
-      name: "gs-background-paper-elevation-3",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-3",
-      },
-      path: ["background", "paper-elevation-3"],
-    },
-    "paper-elevation-4": {
-      key: "{background.paper-elevation-4}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-4}",
-      },
-      name: "gs-background-paper-elevation-4",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-4",
-      },
-      path: ["background", "paper-elevation-4"],
-    },
-    "paper-elevation-5": {
-      key: "{background.paper-elevation-5}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-5}",
-      },
-      name: "gs-background-paper-elevation-5",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-5",
-      },
-      path: ["background", "paper-elevation-5"],
-    },
-    "paper-elevation-6": {
-      key: "{background.paper-elevation-6}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-6}",
-      },
-      name: "gs-background-paper-elevation-6",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-6",
-      },
-      path: ["background", "paper-elevation-6"],
-    },
-    "paper-elevation-7": {
-      key: "{background.paper-elevation-7}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-7}",
-      },
-      name: "gs-background-paper-elevation-7",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-7",
-      },
-      path: ["background", "paper-elevation-7"],
-    },
-    "paper-elevation-8": {
-      key: "{background.paper-elevation-8}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-8}",
-      },
-      name: "gs-background-paper-elevation-8",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-8",
-      },
-      path: ["background", "paper-elevation-8"],
-    },
-    "paper-elevation-9": {
-      key: "{background.paper-elevation-9}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the background.paper variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the background.paper variable from the theme object",
-        key: "{background.paper-elevation-9}",
-      },
-      name: "gs-background-paper-elevation-9",
-      attributes: {
-        category: "background",
-        type: "paper-elevation-9",
-      },
-      path: ["background", "paper-elevation-9"],
-    },
-  },
-  common: {
-    black_states: {
-      focus: {
-        key: "{common.black_states.focus}",
-        $type: "color",
-        $value: "#2226291f",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#2226291f",
-          key: "{common.black_states.focus}",
-        },
-        name: "gs-common-black-states-focus",
-        attributes: {
-          category: "common",
-          type: "black_states",
-          item: "focus",
-        },
-        path: ["common", "black_states", "focus"],
-      },
-      focusVisible: {
-        key: "{common.black_states.focusVisible}",
-        $type: "color",
-        $value: "#2226294d",
-        $description:
-          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#2226294d",
-          $description:
-            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-          key: "{common.black_states.focusVisible}",
-        },
-        name: "gs-common-black-states-focus-visible",
-        attributes: {
-          category: "common",
-          type: "black_states",
-          item: "focusVisible",
-        },
-        path: ["common", "black_states", "focusVisible"],
-      },
-      hover: {
-        key: "{common.black_states.hover}",
-        $type: "color",
-        $value: "#2226290a",
-        $description:
-          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#2226290a",
-          $description:
-            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-          key: "{common.black_states.hover}",
-        },
-        name: "gs-common-black-states-hover",
-        attributes: {
-          category: "common",
-          type: "black_states",
-          item: "hover",
-        },
-        path: ["common", "black_states", "hover"],
-      },
-      main: {
-        key: "{common.black_states.main}",
-        $type: "color",
-        $value: "#222629",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#222629",
-          key: "{common.black_states.main}",
-        },
-        name: "gs-common-black-states-main",
-        attributes: {
-          category: "common",
-          type: "black_states",
-          item: "main",
-        },
-        path: ["common", "black_states", "main"],
-      },
-      outlinedBorder: {
-        key: "{common.black_states.outlinedBorder}",
-        $type: "color",
-        $value: "#22262980",
-        $description:
-          "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#22262980",
-          $description:
-            "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
-          key: "{common.black_states.outlinedBorder}",
-        },
-        name: "gs-common-black-states-outlined-border",
-        attributes: {
-          category: "common",
-          type: "black_states",
-          item: "outlinedBorder",
-        },
-        path: ["common", "black_states", "outlinedBorder"],
-      },
-      selected: {
-        key: "{common.black_states.selected}",
-        $type: "color",
-        $value: "#22262914",
-        $description:
-          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#22262914",
-          $description:
-            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-          key: "{common.black_states.selected}",
-        },
-        name: "gs-common-black-states-selected",
-        attributes: {
-          category: "common",
-          type: "black_states",
-          item: "selected",
-        },
-        path: ["common", "black_states", "selected"],
-      },
-    },
-    white_states: {
-      focus: {
-        key: "{common.white_states.focus}",
-        $type: "color",
-        $value: "#ffffff1f",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#ffffff1f",
-          key: "{common.white_states.focus}",
-        },
-        name: "gs-common-white-states-focus",
-        attributes: {
-          category: "common",
-          type: "white_states",
-          item: "focus",
-        },
-        path: ["common", "white_states", "focus"],
-      },
-      focusVisible: {
-        key: "{common.white_states.focusVisible}",
-        $type: "color",
-        $value: "#ffffff4d",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#ffffff4d",
-          key: "{common.white_states.focusVisible}",
-        },
-        name: "gs-common-white-states-focus-visible",
-        attributes: {
-          category: "common",
-          type: "white_states",
-          item: "focusVisible",
-        },
-        path: ["common", "white_states", "focusVisible"],
-      },
-      hover: {
-        key: "{common.white_states.hover}",
-        $type: "color",
-        $value: "#ffffff0a",
-        $description:
-          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#ffffff0a",
-          $description:
-            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-          key: "{common.white_states.hover}",
-        },
-        name: "gs-common-white-states-hover",
-        attributes: {
-          category: "common",
-          type: "white_states",
-          item: "hover",
-        },
-        path: ["common", "white_states", "hover"],
-      },
-      main: {
-        key: "{common.white_states.main}",
-        $type: "color",
-        $value: "#ffffff",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#FFFFFF",
-          key: "{common.white_states.main}",
-        },
-        name: "gs-common-white-states-main",
-        attributes: {
-          category: "common",
-          type: "white_states",
-          item: "main",
-        },
-        path: ["common", "white_states", "main"],
-      },
-      outlinedBorder: {
-        key: "{common.white_states.outlinedBorder}",
-        $type: "color",
-        $value: "#ffffff80",
-        $description:
-          "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#ffffff80",
-          $description:
-            "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
-          key: "{common.white_states.outlinedBorder}",
-        },
-        name: "gs-common-white-states-outlined-border",
-        attributes: {
-          category: "common",
-          type: "white_states",
-          item: "outlinedBorder",
-        },
-        path: ["common", "white_states", "outlinedBorder"],
-      },
-      selected: {
-        key: "{common.white_states.selected}",
-        $type: "color",
-        $value: "#ffffff14",
-        $description:
-          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#ffffff14",
-          $description:
-            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-          key: "{common.white_states.selected}",
-        },
-        name: "gs-common-white-states-selected",
-        attributes: {
-          category: "common",
-          type: "white_states",
-          item: "selected",
-        },
-        path: ["common", "white_states", "selected"],
-      },
-    },
-  },
-  divider: {
-    key: "{divider}",
-    $type: "color",
-    $value: "#2226291f",
-    $description: "Reflects the divider variable from the theme object",
-    filePath: "design-tokens/token_palette_Light.json",
-    isSource: true,
-    original: {
-      $type: "color",
-      $value: "#2226291f",
-      $description: "Reflects the divider variable from the theme object",
-      key: "{divider}",
-    },
-    name: "gs-divider",
-    attributes: {
-      category: "divider",
-    },
-    path: ["divider"],
-  },
-  elevation: {
-    outlined: {
-      key: "{elevation.outlined}",
-      $type: "color",
-      $value: "#e0e0e0",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#E0E0E0",
-        key: "{elevation.outlined}",
-      },
-      name: "gs-elevation-outlined",
-      attributes: {
-        category: "elevation",
-        type: "outlined",
-      },
-      path: ["elevation", "outlined"],
-    },
-  },
-  error: {
-    _states: {
-      focusVisible: {
-        key: "{error._states.focusVisible}",
-        $type: "color",
-        $value: "#d32f2f4d",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#d32f2f4d",
-          key: "{error._states.focusVisible}",
-        },
-        name: "gs-error-states-focus-visible",
-        attributes: {
-          category: "error",
-          type: "_states",
-          item: "focusVisible",
-        },
-        path: ["error", "_states", "focusVisible"],
-      },
-      hover: {
-        key: "{error._states.hover}",
-        $type: "color",
-        $value: "#d32f2f0a",
-        $description:
-          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#d32f2f0a",
-          $description:
-            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-          key: "{error._states.hover}",
-        },
-        name: "gs-error-states-hover",
-        attributes: {
-          category: "error",
-          type: "_states",
-          item: "hover",
-        },
-        path: ["error", "_states", "hover"],
-      },
-      outlinedBorder: {
-        key: "{error._states.outlinedBorder}",
-        $type: "color",
-        $value: "#d32f2f80",
-        $description:
-          "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#d32f2f80",
-          $description:
-            "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
-          key: "{error._states.outlinedBorder}",
-        },
-        name: "gs-error-states-outlined-border",
-        attributes: {
-          category: "error",
-          type: "_states",
-          item: "outlinedBorder",
-        },
-        path: ["error", "_states", "outlinedBorder"],
-      },
-      selected: {
-        key: "{error._states.selected}",
-        $type: "color",
-        $value: "#d32f2f14",
-        $description:
-          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#d32f2f14",
-          $description:
-            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-          key: "{error._states.selected}",
-        },
-        name: "gs-error-states-selected",
-        attributes: {
-          category: "error",
-          type: "_states",
-          item: "selected",
-        },
-        path: ["error", "_states", "selected"],
-      },
-    },
-    contrast: {
-      key: "{error.contrast}",
-      $type: "color",
-      $value: "#ffffff",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        key: "{error.contrast}",
-      },
-      name: "gs-error-contrast",
-      attributes: {
-        category: "error",
-        type: "contrast",
-      },
-      path: ["error", "contrast"],
-    },
-    dark: {
-      key: "{error.dark}",
-      $type: "color",
-      $value: "#c62828",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "{red.800}",
-        key: "{error.dark}",
-      },
-      name: "gs-error-dark",
-      attributes: {
-        category: "error",
-        type: "dark",
-      },
-      path: ["error", "dark"],
-    },
-    light: {
-      key: "{error.light}",
-      $type: "color",
-      $value: "#ef5350",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "{red.400}",
-        key: "{error.light}",
-      },
-      name: "gs-error-light",
-      attributes: {
-        category: "error",
-        type: "light",
-      },
-      path: ["error", "light"],
-    },
-    main: {
-      key: "{error.main}",
-      $type: "color",
-      $value: "#d32f2f",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "{red.700}",
-        key: "{error.main}",
-      },
-      name: "gs-error-main",
-      attributes: {
-        category: "error",
-        type: "main",
-      },
-      path: ["error", "main"],
-    },
-  },
-  info: {
-    _states: {
-      focusVisible: {
-        key: "{info._states.focusVisible}",
-        $type: "color",
-        $value: "#0288d14d",
-        $description:
-          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#0288d14d",
-          $description:
-            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-          key: "{info._states.focusVisible}",
-        },
-        name: "gs-info-states-focus-visible",
-        attributes: {
-          category: "info",
-          type: "_states",
-          item: "focusVisible",
-        },
-        path: ["info", "_states", "focusVisible"],
-      },
-      hover: {
-        key: "{info._states.hover}",
-        $type: "color",
-        $value: "#0288d10a",
-        $description:
-          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#0288d10a",
-          $description:
-            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-          key: "{info._states.hover}",
-        },
-        name: "gs-info-states-hover",
-        attributes: {
-          category: "info",
-          type: "_states",
-          item: "hover",
-        },
-        path: ["info", "_states", "hover"],
-      },
-      outlinedBorder: {
-        key: "{info._states.outlinedBorder}",
-        $type: "color",
-        $value: "#0288d180",
-        $description:
-          "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#0288d180",
-          $description:
-            "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
-          key: "{info._states.outlinedBorder}",
-        },
-        name: "gs-info-states-outlined-border",
-        attributes: {
-          category: "info",
-          type: "_states",
-          item: "outlinedBorder",
-        },
-        path: ["info", "_states", "outlinedBorder"],
-      },
-      selected: {
-        key: "{info._states.selected}",
-        $type: "color",
-        $value: "#0288d114",
-        $description:
-          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#0288d114",
-          $description:
-            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-          key: "{info._states.selected}",
-        },
-        name: "gs-info-states-selected",
-        attributes: {
-          category: "info",
-          type: "_states",
-          item: "selected",
-        },
-        path: ["info", "_states", "selected"],
-      },
-    },
-    contrast: {
-      key: "{info.contrast}",
-      $type: "color",
-      $value: "#ffffff",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        key: "{info.contrast}",
-      },
-      name: "gs-info-contrast",
-      attributes: {
-        category: "info",
-        type: "contrast",
-      },
-      path: ["info", "contrast"],
-    },
-    dark: {
-      key: "{info.dark}",
-      $type: "color",
-      $value: "#01579b",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "{lightBlue.900}",
-        key: "{info.dark}",
-      },
-      name: "gs-info-dark",
-      attributes: {
-        category: "info",
-        type: "dark",
-      },
-      path: ["info", "dark"],
-    },
-    light: {
-      key: "{info.light}",
-      $type: "color",
-      $value: "#03a9f4",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "{lightBlue.500}",
-        key: "{info.light}",
-      },
-      name: "gs-info-light",
-      attributes: {
-        category: "info",
-        type: "light",
-      },
-      path: ["info", "light"],
-    },
-    main: {
-      key: "{info.main}",
-      $type: "color",
-      $value: "#0288d1",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "{lightBlue.700}",
-        key: "{info.main}",
-      },
-      name: "gs-info-main",
-      attributes: {
-        category: "info",
-        type: "main",
-      },
-      path: ["info", "main"],
-    },
-  },
-  primary: {
-    _states: {
-      focus: {
-        key: "{primary._states.focus}",
-        $type: "color",
-        $value: "#61892f1f",
-        $description:
-          "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#61892f1f",
-          $description:
-            "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
-          key: "{primary._states.focus}",
-        },
-        name: "gs-primary-states-focus",
-        attributes: {
-          category: "primary",
-          type: "_states",
-          item: "focus",
-        },
-        path: ["primary", "_states", "focus"],
-      },
-      focusVisible: {
-        key: "{primary._states.focusVisible}",
-        $type: "color",
-        $value: "#61892f4d",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#61892f4d",
-          key: "{primary._states.focusVisible}",
-        },
-        name: "gs-primary-states-focus-visible",
-        attributes: {
-          category: "primary",
-          type: "_states",
-          item: "focusVisible",
-        },
-        path: ["primary", "_states", "focusVisible"],
-      },
-      hover: {
-        key: "{primary._states.hover}",
-        $type: "color",
-        $value: "#61892f0a",
-        $description:
-          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#61892f0a",
-          $description:
-            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-          key: "{primary._states.hover}",
-        },
-        name: "gs-primary-states-hover",
-        attributes: {
-          category: "primary",
-          type: "_states",
-          item: "hover",
-        },
-        path: ["primary", "_states", "hover"],
-      },
-      outlinedBorder: {
-        key: "{primary._states.outlinedBorder}",
-        $type: "color",
-        $value: "#61892f80",
-        $description:
-          "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#61892f80",
-          $description:
-            "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
-          key: "{primary._states.outlinedBorder}",
-        },
-        name: "gs-primary-states-outlined-border",
-        attributes: {
-          category: "primary",
-          type: "_states",
-          item: "outlinedBorder",
-        },
-        path: ["primary", "_states", "outlinedBorder"],
-      },
-      selected: {
-        key: "{primary._states.selected}",
-        $type: "color",
-        $value: "#61892f14",
-        $description:
-          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#61892f14",
-          $description:
-            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-          key: "{primary._states.selected}",
-        },
-        name: "gs-primary-states-selected",
-        attributes: {
-          category: "primary",
-          type: "_states",
-          item: "selected",
-        },
-        path: ["primary", "_states", "selected"],
-      },
-    },
-    contrast: {
-      key: "{primary.contrast}",
-      $type: "color",
-      $value: "#ffffff",
-      $description:
-        "Reflects the primary.contrast variable from the theme object. Color that keeps a contrast ratio above AA when XX.main is used as a bg. color",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        $description:
-          "Reflects the primary.contrast variable from the theme object. Color that keeps a contrast ratio above AA when XX.main is used as a bg. color",
-        key: "{primary.contrast}",
-      },
-      name: "gs-primary-contrast",
-      attributes: {
-        category: "primary",
-        type: "contrast",
-      },
-      path: ["primary", "contrast"],
-    },
-    dark: {
-      key: "{primary.dark}",
-      $type: "color",
-      $value: "#86c232",
-      $description:
-        "Used for hover states. Reflects the primary.dark variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#86C232",
-        $description:
-          "Used for hover states. Reflects the primary.dark variable from the theme object",
-        key: "{primary.dark}",
-      },
-      name: "gs-primary-dark",
-      attributes: {
-        category: "primary",
-        type: "dark",
-      },
-      path: ["primary", "dark"],
-    },
-    light: {
-      key: "{primary.light}",
-      $type: "color",
-      $value: "#61892f",
-      $description: "Reflects the primary.light variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#61892F",
-        $description:
-          "Reflects the primary.light variable from the theme object",
-        key: "{primary.light}",
-      },
-      name: "gs-primary-light",
-      attributes: {
-        category: "primary",
-        type: "light",
-      },
-      path: ["primary", "light"],
-    },
-    main: {
-      key: "{primary.main}",
-      $type: "color",
-      $value: "#61892f",
-      $description: "Reflects the primary.main variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#61892F",
-        $description:
-          "Reflects the primary.main variable from the theme object",
-        key: "{primary.main}",
-      },
-      name: "gs-primary-main",
-      attributes: {
-        category: "primary",
-        type: "main",
-      },
-      path: ["primary", "main"],
-    },
-  },
-  secondary: {
-    _states: {
-      focus: {
-        key: "{secondary._states.focus}",
-        $type: "color",
-        $value: "#ffa5001f",
-        $description:
-          "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#ffa5001f",
-          $description:
-            "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
-          key: "{secondary._states.focus}",
-        },
-        name: "gs-secondary-states-focus",
-        attributes: {
-          category: "secondary",
-          type: "_states",
-          item: "focus",
-        },
-        path: ["secondary", "_states", "focus"],
-      },
-      focusVisible: {
-        key: "{secondary._states.focusVisible}",
-        $type: "color",
-        $value: "#ffa5004d",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#ffa5004d",
-          key: "{secondary._states.focusVisible}",
-        },
-        name: "gs-secondary-states-focus-visible",
-        attributes: {
-          category: "secondary",
-          type: "_states",
-          item: "focusVisible",
-        },
-        path: ["secondary", "_states", "focusVisible"],
-      },
-      hover: {
-        key: "{secondary._states.hover}",
-        $type: "color",
-        $value: "#ffa5000a",
-        $description:
-          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#ffa5000a",
-          $description:
-            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-          key: "{secondary._states.hover}",
-        },
-        name: "gs-secondary-states-hover",
-        attributes: {
-          category: "secondary",
-          type: "_states",
-          item: "hover",
-        },
-        path: ["secondary", "_states", "hover"],
-      },
-      outlinedBorder: {
-        key: "{secondary._states.outlinedBorder}",
-        $type: "color",
-        $value: "#ffa50080",
-        $description:
-          "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#ffa50080",
-          $description:
-            "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
-          key: "{secondary._states.outlinedBorder}",
-        },
-        name: "gs-secondary-states-outlined-border",
-        attributes: {
-          category: "secondary",
-          type: "_states",
-          item: "outlinedBorder",
-        },
-        path: ["secondary", "_states", "outlinedBorder"],
-      },
-      selected: {
-        key: "{secondary._states.selected}",
-        $type: "color",
-        $value: "#ffa50014",
-        $description:
-          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#ffa50014",
-          $description:
-            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-          key: "{secondary._states.selected}",
-        },
-        name: "gs-secondary-states-selected",
-        attributes: {
-          category: "secondary",
-          type: "_states",
-          item: "selected",
-        },
-        path: ["secondary", "_states", "selected"],
-      },
-    },
-    contrast: {
-      key: "{secondary.contrast}",
-      $type: "color",
-      $value: "#222629",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#222629",
-        key: "{secondary.contrast}",
-      },
-      name: "gs-secondary-contrast",
-      attributes: {
-        category: "secondary",
-        type: "contrast",
-      },
-      path: ["secondary", "contrast"],
-    },
-    dark: {
-      key: "{secondary.dark}",
-      $type: "color",
-      $value: "#fff8eb",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFF8EB",
-        key: "{secondary.dark}",
-      },
-      name: "gs-secondary-dark",
-      attributes: {
-        category: "secondary",
-        type: "dark",
-      },
-      path: ["secondary", "dark"],
-    },
-    light: {
-      key: "{secondary.light}",
-      $type: "color",
-      $value: "#ff7a00",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FF7A00",
-        key: "{secondary.light}",
-      },
-      name: "gs-secondary-light",
-      attributes: {
-        category: "secondary",
-        type: "light",
-      },
-      path: ["secondary", "light"],
-    },
-    main: {
-      key: "{secondary.main}",
-      $type: "color",
-      $value: "#ffa500",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFA500",
-        key: "{secondary.main}",
-      },
-      name: "gs-secondary-main",
-      attributes: {
-        category: "secondary",
-        type: "main",
-      },
-      path: ["secondary", "main"],
-    },
-  },
-  success: {
-    _states: {
-      focusVisible: {
-        key: "{success._states.focusVisible}",
-        $type: "color",
-        $value: "#2e7d324d",
-        $description:
-          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#2e7d324d",
-          $description:
-            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-          key: "{success._states.focusVisible}",
-        },
-        name: "gs-success-states-focus-visible",
-        attributes: {
-          category: "success",
-          type: "_states",
-          item: "focusVisible",
-        },
-        path: ["success", "_states", "focusVisible"],
-      },
-      hover: {
-        key: "{success._states.hover}",
-        $type: "color",
-        $value: "#2e7d320a",
-        $description:
-          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#2e7d320a",
-          $description:
-            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-          key: "{success._states.hover}",
-        },
-        name: "gs-success-states-hover",
-        attributes: {
-          category: "success",
-          type: "_states",
-          item: "hover",
-        },
-        path: ["success", "_states", "hover"],
-      },
-      outlinedBorder: {
-        key: "{success._states.outlinedBorder}",
-        $type: "color",
-        $value: "#2e7d3280",
-        $description:
-          "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#2e7d3280",
-          $description:
-            "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
-          key: "{success._states.outlinedBorder}",
-        },
-        name: "gs-success-states-outlined-border",
-        attributes: {
-          category: "success",
-          type: "_states",
-          item: "outlinedBorder",
-        },
-        path: ["success", "_states", "outlinedBorder"],
-      },
-      selected: {
-        key: "{success._states.selected}",
-        $type: "color",
-        $value: "#2e7d3214",
-        $description:
-          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#2e7d3214",
-          $description:
-            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-          key: "{success._states.selected}",
-        },
-        name: "gs-success-states-selected",
-        attributes: {
-          category: "success",
-          type: "_states",
-          item: "selected",
-        },
-        path: ["success", "_states", "selected"],
-      },
-    },
-    contrast: {
-      key: "{success.contrast}",
-      $type: "color",
-      $value: "#ffffff",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        key: "{success.contrast}",
-      },
-      name: "gs-success-contrast",
-      attributes: {
-        category: "success",
-        type: "contrast",
-      },
-      path: ["success", "contrast"],
-    },
-    dark: {
-      key: "{success.dark}",
-      $type: "color",
-      $value: "#1b5e20",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "{green.900}",
-        key: "{success.dark}",
-      },
-      name: "gs-success-dark",
-      attributes: {
-        category: "success",
-        type: "dark",
-      },
-      path: ["success", "dark"],
-    },
-    light: {
-      key: "{success.light}",
-      $type: "color",
-      $value: "#4caf50",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "{green.500}",
-        key: "{success.light}",
-      },
-      name: "gs-success-light",
-      attributes: {
-        category: "success",
-        type: "light",
-      },
-      path: ["success", "light"],
-    },
-    main: {
-      key: "{success.main}",
-      $type: "color",
-      $value: "#2e7d32",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "{green.800}",
-        key: "{success.main}",
-      },
-      name: "gs-success-main",
-      attributes: {
-        category: "success",
-        type: "main",
-      },
-      path: ["success", "main"],
-    },
-  },
-  text: {
-    _states: {
-      focus: {
-        key: "{text._states.focus}",
-        $type: "color",
-        $value: "#2226291f",
-        $description:
-          "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#2226291f",
-          $description:
-            "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
-          key: "{text._states.focus}",
-        },
-        name: "gs-text-states-focus",
-        attributes: {
-          category: "text",
-          type: "_states",
-          item: "focus",
-        },
-        path: ["text", "_states", "focus"],
-      },
-      focusVisible: {
-        key: "{text._states.focusVisible}",
-        $type: "color",
-        $value: "#2226294d",
-        $description:
-          "Used for focus visible states. The token represents the value of focusVisibleOpacity (0.3 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#2226294d",
-          $description:
-            "Used for focus visible states. The token represents the value of focusVisibleOpacity (0.3 by default) of the main token.",
-          key: "{text._states.focusVisible}",
-        },
-        name: "gs-text-states-focus-visible",
-        attributes: {
-          category: "text",
-          type: "_states",
-          item: "focusVisible",
-        },
-        path: ["text", "_states", "focusVisible"],
-      },
-      hover: {
-        key: "{text._states.hover}",
-        $type: "color",
-        $value: "#2226290a",
-        $description:
-          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#2226290a",
-          $description:
-            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-          key: "{text._states.hover}",
-        },
-        name: "gs-text-states-hover",
-        attributes: {
-          category: "text",
-          type: "_states",
-          item: "hover",
-        },
-        path: ["text", "_states", "hover"],
-      },
-      selected: {
-        key: "{text._states.selected}",
-        $type: "color",
-        $value: "#22262914",
-        $description:
-          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#22262914",
-          $description:
-            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-          key: "{text._states.selected}",
-        },
-        name: "gs-text-states-selected",
-        attributes: {
-          category: "text",
-          type: "_states",
-          item: "selected",
-        },
-        path: ["text", "_states", "selected"],
-      },
-    },
-    disabled: {
-      key: "{text.disabled}",
-      $type: "color",
-      $value: "#22262961",
-      $description: "Reflects the text.disabled variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#22262961",
-        $description:
-          "Reflects the text.disabled variable from the theme object",
-        key: "{text.disabled}",
-      },
-      name: "gs-text-disabled",
-      attributes: {
-        category: "text",
-        type: "disabled",
-      },
-      path: ["text", "disabled"],
-    },
-    primary: {
-      key: "{text.primary}",
-      $type: "color",
-      $value: "#222629de",
-      $description: "Reflects the text.primary variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#222629de",
-        $description:
-          "Reflects the text.primary variable from the theme object",
-        key: "{text.primary}",
-      },
-      name: "gs-text-primary",
-      attributes: {
-        category: "text",
-        type: "primary",
-      },
-      path: ["text", "primary"],
-    },
-    secondary: {
-      key: "{text.secondary}",
-      $type: "color",
-      $value: "#22262999",
-      $description:
-        "Reflects the text.secondary variable from the theme object",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#22262999",
-        $description:
-          "Reflects the text.secondary variable from the theme object",
-        key: "{text.secondary}",
-      },
-      name: "gs-text-secondary",
-      attributes: {
-        category: "text",
-        type: "secondary",
-      },
-      path: ["text", "secondary"],
-    },
-  },
-  warning: {
-    _states: {
-      focusVisible: {
-        key: "{warning._states.focusVisible}",
-        $type: "color",
-        $value: "#ef6c004d",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#ef6c004d",
-          key: "{warning._states.focusVisible}",
-        },
-        name: "gs-warning-states-focus-visible",
-        attributes: {
-          category: "warning",
-          type: "_states",
-          item: "focusVisible",
-        },
-        path: ["warning", "_states", "focusVisible"],
-      },
-      hover: {
-        key: "{warning._states.hover}",
-        $type: "color",
-        $value: "#ef6c000a",
-        $description:
-          "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#ef6c000a",
-          $description:
-            "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
-          key: "{warning._states.hover}",
-        },
-        name: "gs-warning-states-hover",
-        attributes: {
-          category: "warning",
-          type: "_states",
-          item: "hover",
-        },
-        path: ["warning", "_states", "hover"],
-      },
-      outlinedBorder: {
-        key: "{warning._states.outlinedBorder}",
-        $type: "color",
-        $value: "#ef6c0080",
-        $description:
-          "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#ef6c0080",
-          $description:
-            "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
-          key: "{warning._states.outlinedBorder}",
-        },
-        name: "gs-warning-states-outlined-border",
-        attributes: {
-          category: "warning",
-          type: "_states",
-          item: "outlinedBorder",
-        },
-        path: ["warning", "_states", "outlinedBorder"],
-      },
-      selected: {
-        key: "{warning._states.selected}",
-        $type: "color",
-        $value: "#ef6c0014",
-        $description:
-          "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-        filePath: "design-tokens/token_palette_Light.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "#ef6c0014",
-          $description:
-            "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
-          key: "{warning._states.selected}",
-        },
-        name: "gs-warning-states-selected",
-        attributes: {
-          category: "warning",
-          type: "_states",
-          item: "selected",
-        },
-        path: ["warning", "_states", "selected"],
-      },
-    },
-    contrast: {
-      key: "{warning.contrast}",
-      $type: "color",
-      $value: "#ffffff",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "#FFFFFF",
-        key: "{warning.contrast}",
-      },
-      name: "gs-warning-contrast",
-      attributes: {
-        category: "warning",
-        type: "contrast",
-      },
-      path: ["warning", "contrast"],
-    },
-    dark: {
-      key: "{warning.dark}",
-      $type: "color",
-      $value: "#e65100",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "{orange.900}",
-        key: "{warning.dark}",
-      },
-      name: "gs-warning-dark",
-      attributes: {
-        category: "warning",
-        type: "dark",
-      },
-      path: ["warning", "dark"],
-    },
-    light: {
-      key: "{warning.light}",
-      $type: "color",
-      $value: "#ff9800",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "{orange.500}",
-        key: "{warning.light}",
-      },
-      name: "gs-warning-light",
-      attributes: {
-        category: "warning",
-        type: "light",
-      },
-      path: ["warning", "light"],
-    },
-    main: {
-      key: "{warning.main}",
-      $type: "color",
-      $value: "#ef6c00",
-      filePath: "design-tokens/token_palette_Light.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "{orange.800}",
-        key: "{warning.main}",
-      },
-      name: "gs-warning-main",
-      attributes: {
-        category: "warning",
-        type: "main",
-      },
-      path: ["warning", "main"],
-    },
-  },
-  borderRadius: {
-    key: "{borderRadius}",
-    $type: "number",
-    $value: 4,
-    filePath: "design-tokens/token_shape_Mode1.json",
-    isSource: true,
-    original: {
-      $type: "number",
-      $value: 4,
-      key: "{borderRadius}",
-    },
-    name: "gs-border-radius",
-    attributes: {
-      category: "borderRadius",
-    },
-    path: ["borderRadius"],
-  },
-  none: {
-    key: "{none}",
-    $type: "number",
-    $value: 0,
-    filePath: "design-tokens/token_shape_Mode1.json",
-    isSource: true,
-    original: {
-      $type: "number",
-      $value: 0,
-      key: "{none}",
-    },
-    name: "gs-none",
-    attributes: {
-      category: "none",
-    },
-    path: ["none"],
-  },
-  button: {
-    borderRadius: {
-      key: "{button.borderRadius}",
-      $type: "number",
-      $value: 0,
-      filePath: "design-tokens/token_themetheme_themetheme.json",
-      isSource: true,
-      original: {
-        $type: "number",
-        $value: 0,
-        key: "{button.borderRadius}",
-      },
-      name: "gs-button-border-radius",
-      attributes: {
-        category: "button",
-        type: "borderRadius",
-      },
-      path: ["button", "borderRadius"],
-    },
-    borderWidth: {
-      key: "{button.borderWidth}",
-      $type: "number",
-      $value: 0,
-      filePath: "design-tokens/token_themetheme_themetheme.json",
-      isSource: true,
-      original: {
-        $type: "number",
-        $value: 0,
-        key: "{button.borderWidth}",
-      },
-      name: "gs-button-border-width",
-      attributes: {
-        category: "button",
-        type: "borderWidth",
-      },
-      path: ["button", "borderWidth"],
-    },
-    primary: {
-      background: {
-        key: "{button.primary.background}",
-        $type: "color",
-        $value: "#ffffff",
-        filePath: "design-tokens/token_themetheme_themetheme.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "{accent.default}",
-          key: "{button.primary.background}",
-        },
-        name: "gs-button-primary-background",
-        attributes: {
-          category: "button",
-          type: "primary",
-          item: "background",
-        },
-        path: ["button", "primary", "background"],
-      },
-      text: {
-        key: "{button.primary.text}",
-        $type: "color",
-        $value: "#ffffff",
-        filePath: "design-tokens/token_themetheme_themetheme.json",
-        isSource: true,
-        original: {
-          $type: "color",
-          $value: "{accent.onAccent}",
-          key: "{button.primary.text}",
-        },
-        name: "gs-button-primary-text",
-        attributes: {
-          category: "button",
-          type: "primary",
-          item: "text",
-        },
-        path: ["button", "primary", "text"],
-      },
-    },
-  },
-  card: {
-    background: {
-      key: "{card.background}",
-      $type: "color",
-      $value: "#ffffff",
-      filePath: "design-tokens/token_themetheme_themetheme.json",
-      isSource: true,
-      original: {
-        $type: "color",
-        $value: "{bg.default}",
-        key: "{card.background}",
-      },
-      name: "gs-card-background",
-      attributes: {
-        category: "card",
-        type: "background",
-      },
-      path: ["card", "background"],
-    },
-    borderRadius: {
-      key: "{card.borderRadius}",
-      $type: "number",
-      $value: 0,
-      filePath: "design-tokens/token_themetheme_themetheme.json",
-      isSource: true,
-      original: {
-        $type: "number",
-        $value: 0,
-        key: "{card.borderRadius}",
-      },
-      name: "gs-card-border-radius",
-      attributes: {
-        category: "card",
-        type: "borderRadius",
-      },
-      path: ["card", "borderRadius"],
-    },
-    padding: {
-      key: "{card.padding}",
-      $type: "number",
-      $value: 0,
-      filePath: "design-tokens/token_themetheme_themetheme.json",
-      isSource: true,
-      original: {
-        $type: "number",
-        $value: 0,
-        key: "{card.padding}",
-      },
-      name: "gs-card-padding",
-      attributes: {
-        category: "card",
-        type: "padding",
-      },
-      path: ["card", "padding"],
     },
   },
 };
