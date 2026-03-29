@@ -1,0 +1,36 @@
+{
+  "button": {
+    "borderRadius": {
+      "$type": "number",
+      "$value": 0
+    },
+    "borderWidth": {
+      "$type": "number",
+      "$value": 0
+    },
+    "primary": {
+      "background": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      }
+    }
+  },
+  "card": {
+    "background": {
+      "$type": "color",
+      "$value": "#FFFFFF"
+    },
+    "borderRadius": {
+      "$type": "number",
+      "$value": 0
+    },
+    "padding": {
+      "$type": "number",
+      "$value": 0
+    }
+  }
+}
