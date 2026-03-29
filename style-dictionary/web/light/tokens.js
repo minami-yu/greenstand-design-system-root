@@ -10,7 +10,7 @@ export default {
         $type: "color",
         $value: "#ffffff",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -32,7 +32,7 @@ export default {
         $type: "color",
         $value: "#e3f2fd",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -52,7 +52,7 @@ export default {
         $type: "color",
         $value: "#bbdefb",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -72,7 +72,7 @@ export default {
         $type: "color",
         $value: "#90caf9",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -92,7 +92,7 @@ export default {
         $type: "color",
         $value: "#64b5f6",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -112,7 +112,7 @@ export default {
         $type: "color",
         $value: "#42a5f5",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -132,7 +132,7 @@ export default {
         $type: "color",
         $value: "#2196f3",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -152,7 +152,7 @@ export default {
         $type: "color",
         $value: "#1976d2",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -172,7 +172,7 @@ export default {
         $type: "color",
         $value: "#1565c0",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -192,7 +192,7 @@ export default {
         $type: "color",
         $value: "#0d47a1",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -212,7 +212,7 @@ export default {
         $type: "color",
         $value: "#072d6b",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -234,7 +234,7 @@ export default {
         $type: "color",
         $value: "#e8fcf7",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -254,7 +254,7 @@ export default {
         $type: "color",
         $value: "#bcf0e4",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -274,7 +274,7 @@ export default {
         $type: "color",
         $value: "#82deca",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -294,7 +294,7 @@ export default {
         $type: "color",
         $value: "#42c4ac",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -314,7 +314,7 @@ export default {
         $type: "color",
         $value: "#1fa88e",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -334,7 +334,7 @@ export default {
         $type: "color",
         $value: "#12836d",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -354,7 +354,7 @@ export default {
         $type: "color",
         $value: "#0a6152",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -374,7 +374,7 @@ export default {
         $type: "color",
         $value: "#064438",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -394,7 +394,7 @@ export default {
         $type: "color",
         $value: "#022b23",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -414,7 +414,7 @@ export default {
         $type: "color",
         $value: "#011512",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -436,7 +436,7 @@ export default {
         $type: "color",
         $value: "#eef8e6",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -456,7 +456,7 @@ export default {
         $type: "color",
         $value: "#d4f0b0",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -476,7 +476,7 @@ export default {
         $type: "color",
         $value: "#a8dc6e",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -497,7 +497,7 @@ export default {
         $value: "#86c232",
         $description: "Logo color",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -518,7 +518,7 @@ export default {
         $type: "color",
         $value: "#6aae28",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -538,7 +538,7 @@ export default {
         $type: "color",
         $value: "#52a320",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -558,7 +558,7 @@ export default {
         $type: "color",
         $value: "#3a7d12",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -578,7 +578,7 @@ export default {
         $type: "color",
         $value: "#295c0a",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -598,7 +598,7 @@ export default {
         $type: "color",
         $value: "#1a3d04",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -618,7 +618,7 @@ export default {
         $type: "color",
         $value: "#0d2001",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -640,7 +640,7 @@ export default {
         $type: "color",
         $value: "#fafafa",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -660,7 +660,7 @@ export default {
         $type: "color",
         $value: "#f2f2f2",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -680,7 +680,7 @@ export default {
         $type: "color",
         $value: "#e8e8e8",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -700,7 +700,7 @@ export default {
         $type: "color",
         $value: "#d4d4d4",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -720,7 +720,7 @@ export default {
         $type: "color",
         $value: "#ababab",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -740,7 +740,7 @@ export default {
         $type: "color",
         $value: "#858585",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -760,7 +760,7 @@ export default {
         $type: "color",
         $value: "#636363",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -780,7 +780,7 @@ export default {
         $type: "color",
         $value: "#474747",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -800,7 +800,7 @@ export default {
         $type: "color",
         $value: "#2e2e2e",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -820,7 +820,7 @@ export default {
         $type: "color",
         $value: "#212121",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -842,7 +842,7 @@ export default {
         $type: "color",
         $value: "#fff8ee",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -862,7 +862,7 @@ export default {
         $type: "color",
         $value: "#ffecd0",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -882,7 +882,7 @@ export default {
         $type: "color",
         $value: "#ffd599",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -902,7 +902,7 @@ export default {
         $type: "color",
         $value: "#ffba5c",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -922,7 +922,7 @@ export default {
         $type: "color",
         $value: "#ffa503",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -942,7 +942,7 @@ export default {
         $type: "color",
         $value: "#ff8c03",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -962,7 +962,7 @@ export default {
         $type: "color",
         $value: "#ff7b02",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -982,7 +982,7 @@ export default {
         $type: "color",
         $value: "#e56200",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1002,7 +1002,7 @@ export default {
         $type: "color",
         $value: "#c44d01",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1022,7 +1022,7 @@ export default {
         $type: "color",
         $value: "#963a00",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1042,7 +1042,7 @@ export default {
         $type: "color",
         $value: "#6b2800",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1064,7 +1064,7 @@ export default {
         $type: "color",
         $value: "#f5eefe",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1084,7 +1084,7 @@ export default {
         $type: "color",
         $value: "#e4d0fc",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1104,7 +1104,7 @@ export default {
         $type: "color",
         $value: "#c9a8f8",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1124,7 +1124,7 @@ export default {
         $type: "color",
         $value: "#aa7ef3",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1144,7 +1144,7 @@ export default {
         $type: "color",
         $value: "#8b5ce8",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1164,7 +1164,7 @@ export default {
         $type: "color",
         $value: "#7040d4",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1184,7 +1184,7 @@ export default {
         $type: "color",
         $value: "#5a2ebf",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1204,7 +1204,7 @@ export default {
         $type: "color",
         $value: "#421fa0",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1224,7 +1224,7 @@ export default {
         $type: "color",
         $value: "#2f1178",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1244,7 +1244,7 @@ export default {
         $type: "color",
         $value: "#1a0850",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1266,7 +1266,7 @@ export default {
         $type: "color",
         $value: "#fff0ee",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1286,7 +1286,7 @@ export default {
         $type: "color",
         $value: "#ffd5cf",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1306,7 +1306,7 @@ export default {
         $type: "color",
         $value: "#ffaa9f",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1326,7 +1326,7 @@ export default {
         $type: "color",
         $value: "#f47066",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1346,7 +1346,7 @@ export default {
         $type: "color",
         $value: "#e04535",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1366,7 +1366,7 @@ export default {
         $type: "color",
         $value: "#c42020",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1386,7 +1386,7 @@ export default {
         $type: "color",
         $value: "#a01a1a",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1406,7 +1406,7 @@ export default {
         $type: "color",
         $value: "#7a1212",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1426,7 +1426,7 @@ export default {
         $type: "color",
         $value: "#560c0c",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1446,7 +1446,7 @@ export default {
         $type: "color",
         $value: "#450700",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1468,7 +1468,7 @@ export default {
         $type: "color",
         $value: "#fffef0",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1488,7 +1488,7 @@ export default {
         $type: "color",
         $value: "#fffbd1",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1508,7 +1508,7 @@ export default {
         $type: "color",
         $value: "#fff69a",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1528,7 +1528,7 @@ export default {
         $type: "color",
         $value: "#ffed4a",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1548,7 +1548,7 @@ export default {
         $type: "color",
         $value: "#ffe005",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1568,7 +1568,7 @@ export default {
         $type: "color",
         $value: "#eeca02",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1588,7 +1588,7 @@ export default {
         $type: "color",
         $value: "#d4a800",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1608,7 +1608,7 @@ export default {
         $type: "color",
         $value: "#b08202",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1628,7 +1628,7 @@ export default {
         $type: "color",
         $value: "#7a5900",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1648,7 +1648,7 @@ export default {
         $type: "color",
         $value: "#4b3300",
         filePath:
-          "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-base_value.json",
+          "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-base_Value.json",
         isSource: true,
         original: {
           $type: "color",
@@ -1672,7 +1672,7 @@ export default {
           $value: "#c44d01",
           $description: "Pressed state on accent elements",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -1695,7 +1695,7 @@ export default {
           $value: "#ff7b02",
           $description: "Secondary accent fills, promotional elements",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -1718,7 +1718,7 @@ export default {
           $value: "#ffd599",
           $description: "Disabled accent element fill",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -1741,7 +1741,7 @@ export default {
           $value: "#e56200",
           $description: "Hover state on accent elements",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -1764,7 +1764,7 @@ export default {
           $value: "#fff8ee",
           $description: "Light orange tint for accent surfaces",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -1789,7 +1789,7 @@ export default {
           $value: "#fafafa",
           $description: "Cards, panels, modals, drawers",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -1812,7 +1812,7 @@ export default {
           $value: "#ffffff",
           $description: "App root, body background",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -1835,7 +1835,7 @@ export default {
           $value: "#00000066",
           $description: "Scrim behind modals and drawers",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -1858,7 +1858,7 @@ export default {
           $value: "#f2f2f2",
           $description: "Hover rows, inset sections, zebra stripes",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -1883,7 +1883,7 @@ export default {
           $value: "#1a3d04",
           $description: "Pressed state on brand elements",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -1906,7 +1906,7 @@ export default {
           $value: "#3a7d12",
           $description: "Primary brand button, strong brand fills",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -1929,7 +1929,7 @@ export default {
           $value: "#d4d4d4",
           $description: "Disabled brand button fill",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -1952,7 +1952,7 @@ export default {
           $value: "#295c0a",
           $description: "Hover state on brand elements",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -1975,7 +1975,7 @@ export default {
           $value: "#eef8e6",
           $description: "Selected states, active nav tint",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2000,7 +2000,7 @@ export default {
           $value: "#c42020",
           $description: "Critical error banner, system-wide alert",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2023,7 +2023,7 @@ export default {
           $value: "#fff0ee",
           $description: "Inline error alert, form field error bg",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2048,7 +2048,7 @@ export default {
           $value: "#2196f3",
           $description: "Critical info banner, system-wide notice",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2071,7 +2071,7 @@ export default {
           $value: "#e3f2fd",
           $description: "Inline informational alert, tooltip bg",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2096,7 +2096,7 @@ export default {
           $value: "#12836d",
           $description: "Critical success banner, system confirmation",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2119,7 +2119,7 @@ export default {
           $value: "#e8fcf7",
           $description: "Inline confirmation, completed state bg",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2144,7 +2144,7 @@ export default {
           $value: "#ffe005",
           $description: "Critical warning banner like Uber surge pricing",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2167,7 +2167,7 @@ export default {
           $value: "#fffef0",
           $description: "Inline caution alert, advisory notice bg",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2195,7 +2195,7 @@ export default {
           $description:
             "Accent outlined component borders for promotional elements",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2219,7 +2219,7 @@ export default {
           $value: "#ffd599",
           $description: "For callouts",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2244,7 +2244,7 @@ export default {
           $value: "#d4d4d4",
           $description: "Standard border for cards, inputs, containers",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2268,7 +2268,7 @@ export default {
           $description:
             "Border for disabled inputs and non-interactive form controls",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2292,7 +2292,7 @@ export default {
           $value: "#f2f2f2",
           $description: "Section separators, list item dividers",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2316,7 +2316,7 @@ export default {
           $description:
             "Emphasized border for active inputs, hover states, selected neutral items",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2343,7 +2343,7 @@ export default {
           $description:
             "Selected cards, active tabs, brand-accented component borders",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2367,7 +2367,7 @@ export default {
           $value: "#a8dc6e",
           $description: "For callouts and highlighted sections",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2393,7 +2393,7 @@ export default {
           $description:
             "Inline error states, invalid inputs, error alert components",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2418,7 +2418,7 @@ export default {
           $description:
             "Critical error banners, system-wide alerts, destructive dialogs",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2444,7 +2444,7 @@ export default {
           $value: "#90caf9",
           $description: "Inline informational alerts and tooltip components",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2468,7 +2468,7 @@ export default {
           $description:
             "Critical informational banners and system-wide notices",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2494,7 +2494,7 @@ export default {
           $value: "#82deca",
           $description: "Inline confirmation alerts and success input states",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2517,7 +2517,7 @@ export default {
           $value: "#0a6152",
           $description: "Critical success banners and system confirmations",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2542,7 +2542,7 @@ export default {
           $value: "#fff69a",
           $description: "Inline caution alerts and advisory input states",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2566,7 +2566,7 @@ export default {
           $description:
             "Critical warning banners and system-wide caution notices",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2594,7 +2594,7 @@ export default {
           $value: "#c44d01",
           $description: "Accent icons",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2617,7 +2617,7 @@ export default {
           $value: "#6b2800",
           $description: "Icon on accent fill",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2642,7 +2642,7 @@ export default {
           $value: "#474747",
           $description: "Primary standalone icons, icon buttons",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2666,7 +2666,7 @@ export default {
           $description:
             "Icons inside disabled buttons and non-interactive elements",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2691,7 +2691,7 @@ export default {
           $description:
             "Icons on dark or colored fills, tooltips, filled buttons",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2716,7 +2716,7 @@ export default {
           $description:
             "Supporting icons next to secondary text, inactive nav icons",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2740,7 +2740,7 @@ export default {
           $value: "#ababab",
           $description: "Decorative icons, placeholder icons, lowest emphasis",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2766,7 +2766,7 @@ export default {
           $value: "#3a7d12",
           $description: "Brand-colored icons, active nav icons",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2789,7 +2789,7 @@ export default {
           $value: "#ffffff",
           $description: "Icons on brand fill",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2814,7 +2814,7 @@ export default {
           $value: "#7a1212",
           $description: "Error icons, destructive action indicators",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2837,7 +2837,7 @@ export default {
           $value: "#ffffff",
           $description: "Icons on error fill",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2863,7 +2863,7 @@ export default {
           $description:
             "Info icons, tooltip triggers, system status indicators",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2887,7 +2887,7 @@ export default {
           $value: "#ffffff",
           $description: "Icon of info fill",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2912,7 +2912,7 @@ export default {
           $value: "#1976d2",
           $description: "Icons alongside or inside hyperlinks",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2937,7 +2937,7 @@ export default {
           $value: "#0a6152",
           $description: "Positive status indicators",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2960,7 +2960,7 @@ export default {
           $value: "#ffffff",
           $description: "Icon of success fill",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -2985,7 +2985,7 @@ export default {
           $value: "#7a5900",
           $description: "Caution icons, advisory indicators",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3008,7 +3008,7 @@ export default {
           $value: "#212121",
           $description: "Icon on warning fill",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3036,7 +3036,7 @@ export default {
           $description:
             "Orange accent text, promotional labels, secondary brand moments",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3060,7 +3060,7 @@ export default {
           $value: "#6b2800",
           $description: "Text on vivid orange fills, always dark for contrast",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3086,7 +3086,7 @@ export default {
           $value: "#d4d4d4",
           $description: "Text inside disabled elements",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3110,7 +3110,7 @@ export default {
           $description:
             "Text on dark or vivid colored fills, tooltips, bold banners, colored buttons",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3134,7 +3134,7 @@ export default {
           $value: "#ababab",
           $description: "Placeholder text inside empty input fields",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3157,7 +3157,7 @@ export default {
           $value: "#212121",
           $description: "Headings, body copy, default labels, highest contrast",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3182,7 +3182,7 @@ export default {
           $description:
             "Supporting text, metadata, timestamps, medium emphasis",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3206,7 +3206,7 @@ export default {
           $value: "#ababab",
           $description: "Hint text, helper labels, lowest emphasis copy",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3232,7 +3232,7 @@ export default {
           $description:
             "Brand-colored text, active nav labels, branded emphasis",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3256,7 +3256,7 @@ export default {
           $value: "#ffffff",
           $description: "Text sitting directly on brand-colored fills",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3282,7 +3282,7 @@ export default {
           $description:
             "Error messages, form validation text, destructive action labels",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3306,7 +3306,7 @@ export default {
           $value: "#ffffff",
           $description: "Text on vivid red bold banner",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3331,7 +3331,7 @@ export default {
           $value: "#1565c0",
           $description: "Informational copy inside info banners and tooltips",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3354,7 +3354,7 @@ export default {
           $value: "#ffffff",
           $description: "Text on vivid blue bold banner",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3379,7 +3379,7 @@ export default {
           $value: "#1976d2",
           $description: "Hyperlinks and inline interactive text",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3402,7 +3402,7 @@ export default {
           $value: "#1565c0",
           $description: "Link text on hover",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3428,7 +3428,7 @@ export default {
           $description:
             "Confirmation copy, positive feedback on light or tinted backgrounds",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3452,7 +3452,7 @@ export default {
           $value: "#ffffff",
           $description: "Text on vivid emerald bold banner",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3478,7 +3478,7 @@ export default {
           $description:
             "Caution labels, advisory copy on light or yellow-tinted backgrounds",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3502,7 +3502,7 @@ export default {
           $value: "#212121",
           $description: "Text on vivid yellow bold banner",
           filePath:
-            "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
+            "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-semantic_light.json",
           isSource: true,
           original: {
             $type: "color",
@@ -3527,7 +3527,7 @@ export default {
     $type: "color",
     $value: "#3a7d12",
     filePath:
-      "/Users/yuriminami/Documents/Git/greenstand-design-system-root/design-tokens/token_color-component_value.json",
+      "/home/runner/work/greenstand-design-system-root/greenstand-design-system-root/design-tokens/token_color-component_value.json",
     isSource: true,
     original: {
       $type: "color",
