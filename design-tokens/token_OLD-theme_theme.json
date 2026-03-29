@@ -11,18 +11,18 @@
     "primary": {
       "background": {
         "$type": "color",
-        "$value": "{accent.default}"
+        "$value": "#FFFFFF"
       },
       "text": {
         "$type": "color",
-        "$value": "{accent.onAccent}"
+        "$value": "#FFFFFF"
       }
     }
   },
   "card": {
     "background": {
       "$type": "color",
-      "$value": "{bg.default}"
+      "$value": "#FFFFFF"
     },
     "borderRadius": {
       "$type": "number",

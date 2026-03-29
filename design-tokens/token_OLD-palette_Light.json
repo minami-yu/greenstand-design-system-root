@@ -45,13 +45,13 @@
     "appBar": {
       "defaultFill": {
         "$type": "color",
-        "$value": "{grey.100}"
+        "$value": "#F5F5F5"
       }
     },
     "avatar": {
       "fill": {
         "$type": "color",
-        "$value": "{grey.400}"
+        "$value": "#BDBDBD"
       }
     },
     "backdrop": {
@@ -63,7 +63,7 @@
     "breadcrumbs": {
       "collapseFill": {
         "$type": "color",
-        "$value": "{grey.100}"
+        "$value": "#F5F5F5"
       }
     },
     "chip": {
@@ -73,7 +73,7 @@
       },
       "defaultEnabledBorder": {
         "$type": "color",
-        "$value": "{grey.400}"
+        "$value": "#BDBDBD"
       },
       "defaultFocusFill": {
         "$type": "color",
@@ -135,17 +135,17 @@
     "stepper": {
       "connector": {
         "$type": "color",
-        "$value": "{grey.400}"
+        "$value": "#BDBDBD"
       }
     },
     "switch": {
       "knobFillEnabled": {
         "$type": "color",
-        "$value": "{grey.50}"
+        "$value": "#FAFAFA"
       },
       "knowFillDisabled": {
         "$type": "color",
-        "$value": "{grey.100}"
+        "$value": "#F5F5F5"
       },
       "slideFill": {
         "$type": "color",
@@ -162,7 +162,7 @@
   "_native": {
     "scrollbar-bg": {
       "$type": "color",
-      "$value": "{grey.200}"
+      "$value": "#EEEEEE"
     }
   },
   "action": {
@@ -428,15 +428,15 @@
     },
     "dark": {
       "$type": "color",
-      "$value": "{red.800}"
+      "$value": "#C62828"
     },
     "light": {
       "$type": "color",
-      "$value": "{red.400}"
+      "$value": "#EF5350"
     },
     "main": {
       "$type": "color",
-      "$value": "{red.700}"
+      "$value": "#D32F2F"
     }
   },
   "info": {
@@ -468,15 +468,15 @@
     },
     "dark": {
       "$type": "color",
-      "$value": "{lightBlue.900}"
+      "$value": "#01579B"
     },
     "light": {
       "$type": "color",
-      "$value": "{lightBlue.500}"
+      "$value": "#03A9F4"
     },
     "main": {
       "$type": "color",
-      "$value": "{lightBlue.700}"
+      "$value": "#0288D1"
     }
   },
   "primary": {
@@ -600,15 +600,15 @@
     },
     "dark": {
       "$type": "color",
-      "$value": "{green.900}"
+      "$value": "#1B5E20"
     },
     "light": {
       "$type": "color",
-      "$value": "{green.500}"
+      "$value": "#4CAF50"
     },
     "main": {
       "$type": "color",
-      "$value": "{green.800}"
+      "$value": "#2E7D32"
     }
   },
   "text": {
@@ -678,15 +678,15 @@
     },
     "dark": {
       "$type": "color",
-      "$value": "{orange.900}"
+      "$value": "#E65100"
     },
     "light": {
       "$type": "color",
-      "$value": "{orange.500}"
+      "$value": "#FF9800"
     },
     "main": {
       "$type": "color",
-      "$value": "{orange.800}"
+      "$value": "#EF6C00"
     }
   }
 }
