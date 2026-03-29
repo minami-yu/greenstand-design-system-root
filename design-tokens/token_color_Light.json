@@ -62,7 +62,7 @@
       },
       "disabled": {
         "$type": "color",
-        "$value": "{green.200}",
+        "$value": "{neutral.300}",
         "$description": "Disabled brand button fill"
       },
       "hover": {
@@ -228,7 +228,7 @@
           "background": {
             "default": {
               "$type": "color",
-              "$value": "#FFFFFF"
+              "$value": "{background.brand.default}"
             }
           }
         }
