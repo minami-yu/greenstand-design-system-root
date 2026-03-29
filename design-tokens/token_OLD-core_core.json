@@ -1,0 +1,314 @@
+{
+  "Accent_Earth": {
+    "$type": "color",
+    "$value": "#174075"
+  },
+  "Accent_Forest": {
+    "$type": "color",
+    "$value": "#3B541D"
+  },
+  "Accent_Root": {
+    "$type": "color",
+    "$value": "#550000"
+  },
+  "Accent_Sand": {
+    "$type": "color",
+    "$value": "#FFF8EB"
+  },
+  "Accent_Spring": {
+    "$type": "color",
+    "$value": "#F4FAEB"
+  },
+  "Accent_Water": {
+    "$type": "color",
+    "$value": "#0153BF"
+  },
+  "Brand_Chlorophyll": {
+    "$type": "color",
+    "$value": "#61892F",
+    "$description": "Primary 2"
+  },
+  "Brand_Sprout": {
+    "$type": "color",
+    "$value": "#86C232",
+    "$description": "Primary 1"
+  },
+  "Brand_Sunrise": {
+    "$type": "color",
+    "$value": "#FFA500"
+  },
+  "Brand_Sunset": {
+    "$type": "color",
+    "$value": "#FF7A00"
+  },
+  "Chart vs1": {
+    "$type": "color",
+    "$value": "#F02D3A"
+  },
+  "Chart vs10": {
+    "$type": "color",
+    "$value": "#5A985E"
+  },
+  "Chart vs11": {
+    "$type": "color",
+    "$value": "#3BD1F2"
+  },
+  "Chart vs12": {
+    "$type": "color",
+    "$value": "#E79C9C"
+  },
+  "Chart vs2": {
+    "$type": "color",
+    "$value": "#006DCD"
+  },
+  "Chart vs3": {
+    "$type": "color",
+    "$value": "#F0A331"
+  },
+  "Chart vs4": {
+    "$type": "color",
+    "$value": "#61C9A8"
+  },
+  "Chart vs5": {
+    "$type": "color",
+    "$value": "#B4436C"
+  },
+  "Chart vs6": {
+    "$type": "color",
+    "$value": "#0988AC"
+  },
+  "Chart vs7": {
+    "$type": "color",
+    "$value": "#7E1F86"
+  },
+  "Chart vs8": {
+    "$type": "color",
+    "$value": "#97DB4F"
+  },
+  "Chart vs9": {
+    "$type": "color",
+    "$value": "#9DA9BC"
+  },
+  "fontFamilies": {
+    "inter": {
+      "$type": "string",
+      "$value": "Inter"
+    },
+    "montserrat": {
+      "$type": "string",
+      "$value": "Montserrat"
+    },
+    "roboto": {
+      "$type": "string",
+      "$value": "Roboto"
+    },
+    "roboto-mono": {
+      "$type": "string",
+      "$value": "Roboto Mono"
+    }
+  },
+  "fontSize": {
+    "0": {
+      "$type": "number",
+      "$value": 10
+    },
+    "1": {
+      "$type": "number",
+      "$value": 12
+    },
+    "10": {
+      "$type": "number",
+      "$value": 60
+    },
+    "11": {
+      "$type": "number",
+      "$value": 64
+    },
+    "12": {
+      "$type": "number",
+      "$value": 96
+    },
+    "2": {
+      "$type": "number",
+      "$value": 13
+    },
+    "3": {
+      "$type": "number",
+      "$value": 14
+    },
+    "4": {
+      "$type": "number",
+      "$value": 15
+    },
+    "5": {
+      "$type": "number",
+      "$value": 16
+    },
+    "6": {
+      "$type": "number",
+      "$value": 20
+    },
+    "7": {
+      "$type": "number",
+      "$value": 24
+    },
+    "8": {
+      "$type": "number",
+      "$value": 34
+    },
+    "9": {
+      "$type": "number",
+      "$value": 48
+    }
+  },
+  "fontWeights": {
+    "inter-4": {
+      "$type": "string",
+      "$value": "Regular"
+    },
+    "montserrat-0": {
+      "$type": "string",
+      "$value": "Regular"
+    },
+    "roboto-1": {
+      "$type": "string",
+      "$value": "Light"
+    },
+    "roboto-2": {
+      "$type": "string",
+      "$value": "Regular"
+    },
+    "roboto-3": {
+      "$type": "string",
+      "$value": "Medium"
+    },
+    "roboto-mono-5": {
+      "$type": "string",
+      "$value": "Medium"
+    }
+  },
+  "letterSpacing": {
+    "1": {
+      "$type": "number",
+      "$value": -1.5
+    },
+    "10": {
+      "$type": "number",
+      "$value": 0.14
+    },
+    "11": {
+      "$type": "number",
+      "$value": 0.46
+    },
+    "12": {
+      "$type": "number",
+      "$value": 0.16
+    },
+    "2": {
+      "$type": "number",
+      "$value": -0.5
+    },
+    "3": {
+      "$type": "number",
+      "$value": 0
+    },
+    "4": {
+      "$type": "number",
+      "$value": 0.25
+    },
+    "5": {
+      "$type": "number",
+      "$value": 0.15
+    },
+    "6": {
+      "$type": "number",
+      "$value": 0.17
+    },
+    "7": {
+      "$type": "number",
+      "$value": 0.1
+    },
+    "8": {
+      "$type": "number",
+      "$value": 1
+    },
+    "9": {
+      "$type": "number",
+      "$value": 0.4
+    }
+  },
+  "lineHeights": {
+    "19": {
+      "$type": "number",
+      "$value": 20
+    },
+    "20": {
+      "$type": "number",
+      "$value": 10
+    },
+    "21": {
+      "$type": "number",
+      "$value": 12
+    },
+    "22": {
+      "$type": "number",
+      "$value": 20
+    },
+    "24": {
+      "$type": "number",
+      "$value": 26
+    },
+    "25": {
+      "$type": "number",
+      "$value": 24
+    },
+    "26": {
+      "$type": "number",
+      "$value": 22
+    },
+    "27": {
+      "$type": "number",
+      "$value": 18
+    },
+    "29": {
+      "$type": "number",
+      "$value": 12
+    },
+    "30": {
+      "$type": "number",
+      "$value": 24
+    },
+    "32": {
+      "$type": "number",
+      "$value": 48
+    },
+    "34": {
+      "$type": "number",
+      "$value": 24
+    },
+    "35": {
+      "$type": "number",
+      "$value": 24
+    },
+    "36": {
+      "$type": "number",
+      "$value": 14
+    },
+    "37": {
+      "$type": "number",
+      "$value": 12
+    }
+  },
+  "paragraphIndent": {
+    "0": {
+      "$type": "number",
+      "$value": 0
+    }
+  },
+  "paragraphSpacing": {
+    "0": {
+      "$type": "number",
+      "$value": 0
+    }
+  }
+}
