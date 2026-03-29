@@ -1,7 +1,6 @@
 
 // Do not edit directly, this file was auto-generated.
 
-<<<<<<< HEAD
 $gs-1: 8;
 $gs-2: 16;
 $gs-3: 24;
@@ -19,268 +18,80 @@ $gs-md: 900;
 $gs-sm: 600;
 $gs-xl: 1536;
 $gs-xs: 444;
-$gs-accent-bg: #ffffff;
-$gs-accent-default: #ffffff;
-$gs-accent-on-accent: #ffffff;
-$gs-bg-default: #ffffff;
-$gs-bg-muted: #ffffff;
-$gs-bg-subtle: #ffffff;
-$gs-fg-default: #ffffff;
-$gs-fg-muted: #ffffff;
-$gs-fg-subtle: #ffffff;
-$gs-shadows-default: #ffffff;
-$gs-amber-50: #fff8e1;
-$gs-amber-100: #ffecb3;
-$gs-amber-200: #ffe082;
-$gs-amber-300: #ffd54f;
-$gs-amber-400: #ffca28;
-$gs-amber-500: #ffc107;
-$gs-amber-600: #ffb300;
-$gs-amber-700: #ffa000;
-$gs-amber-800: #ff8f00;
-$gs-amber-900: #ff6f00;
-$gs-amber-a100: #ffe57f;
-$gs-amber-a200: #ffd740;
-$gs-amber-a400: #ffc400;
-$gs-amber-a700: #ffab00;
-$gs-blue-50: #e3f2fd;
-$gs-blue-100: #bbdefb;
-$gs-blue-200: #90caf9;
-$gs-blue-300: #64b5f6;
-$gs-blue-400: #42a5f5;
-$gs-blue-500: #2196f3;
-$gs-blue-600: #1e88e5;
-$gs-blue-700: #0057b2;
-$gs-blue-800: #1565c0;
-$gs-blue-900: #0d47a1;
-$gs-blue-a100: #82b1ff;
-$gs-blue-a200: #448aff;
-$gs-blue-a400: #2979ff;
-$gs-blue-a700: #2962ff;
-$gs-blue-grey-50: #eceff1;
-$gs-blue-grey-100: #cfd8dc;
-$gs-blue-grey-200: #b0bec5;
-$gs-blue-grey-300: #90a4ae;
-$gs-blue-grey-400: #78909c;
-$gs-blue-grey-500: #607d8b;
-$gs-blue-grey-600: #546e7a;
-$gs-blue-grey-700: #455a64;
-$gs-blue-grey-800: #37474f;
-$gs-blue-grey-900: #263238;
-$gs-blue-grey-a100: #cfd8dc;
-$gs-blue-grey-a200: #b0bec5;
-$gs-blue-grey-a400: #78909c;
-$gs-blue-grey-a700: #455a64;
-$gs-cyan-50: #e0f7fa;
-$gs-cyan-100: #b2ebf2;
-$gs-cyan-200: #80deea;
-$gs-cyan-300: #4dd0e1;
-$gs-cyan-400: #26c6da;
-$gs-cyan-500: #00bcd4;
-$gs-cyan-600: #00acc1;
-$gs-cyan-700: #0097a7;
-$gs-cyan-800: #00838f;
-$gs-cyan-900: #006064;
-$gs-cyan-a100: #84ffff;
-$gs-cyan-a200: #18ffff;
-$gs-cyan-a400: #00e5ff;
-$gs-cyan-a700: #00b8d4;
-$gs-deep-orange-50: #fbe9e7;
-$gs-deep-orange-100: #ffccbc;
-$gs-deep-orange-200: #ffab91;
-$gs-deep-orange-300: #ff8a65;
-$gs-deep-orange-400: #ff7043;
-$gs-deep-orange-500: #ff5722;
-$gs-deep-orange-600: #f4511e;
-$gs-deep-orange-700: #e64a19;
-$gs-deep-orange-800: #d84315;
-$gs-deep-orange-900: #bf360c;
-$gs-deep-orange-a100: #ff9e80;
-$gs-deep-orange-a200: #ff6e40;
-$gs-deep-orange-a400: #ff3d00;
-$gs-deep-orange-a700: #dd2c00;
-$gs-deep-purple-50: #ede7f6;
-$gs-deep-purple-100: #d1c4e9;
-$gs-deep-purple-200: #b39ddb;
-$gs-deep-purple-300: #9575cd;
-$gs-deep-purple-400: #7e57c2;
-$gs-deep-purple-500: #673ab7;
-$gs-deep-purple-600: #5e35b1;
-$gs-deep-purple-700: #512da8;
-$gs-deep-purple-800: #4527a0;
-$gs-deep-purple-900: #311b92;
-$gs-deep-purple-a100: #b388ff;
-$gs-deep-purple-a200: #7c4dff;
-$gs-deep-purple-a400: #651fff;
-$gs-deep-purple-a700: #6200ea;
-$gs-green-50: #e8f5e9;
-$gs-green-100: #c8e6c9;
-$gs-green-200: #a5d6a7;
-$gs-green-300: #81c784;
-$gs-green-400: #66bb6a;
-$gs-green-500: #4caf50;
-$gs-green-600: #43a047;
-$gs-green-700: #388e3c;
-$gs-green-800: #2e7d32;
-$gs-green-900: #1b5e20;
-$gs-green-a100: #b9f6ca;
-$gs-green-a200: #69f0ae;
-$gs-green-a400: #00e676;
-$gs-green-a700: #00c853;
-$gs-grey-50: #fafafa;
-$gs-grey-100: #f5f5f5;
-$gs-grey-200: #eeeeee;
-$gs-grey-300: #e0e0e0;
-$gs-grey-400: #bdbdbd;
-$gs-grey-500: #9e9e9e;
-$gs-grey-600: #757575;
-$gs-grey-700: #616161;
-$gs-grey-800: #424242;
-$gs-grey-900: #212121;
-$gs-grey-a100: #f5f5f5;
-$gs-grey-a200: #eeeeee;
-$gs-grey-a400: #bdbdbd;
-$gs-grey-a700: #616161;
-$gs-indigo-50: #e8eaf6;
-$gs-indigo-100: #c5cae9;
-$gs-indigo-200: #9fa8da;
-$gs-indigo-300: #7986cb;
-$gs-indigo-400: #5c6bc0;
-$gs-indigo-500: #3f51b5;
-$gs-indigo-600: #3949ab;
-$gs-indigo-700: #303f9f;
-$gs-indigo-800: #283593;
-$gs-indigo-900: #1a237e;
-$gs-indigo-a100: #8c9eff;
-$gs-indigo-a200: #536dfe;
-$gs-indigo-a400: #3d5afe;
-$gs-indigo-a700: #304ffe;
-$gs-light-blue-50: #e1f5fe;
-$gs-light-blue-100: #b3e5fc;
-$gs-light-blue-200: #81d4fa;
-$gs-light-blue-300: #4fc3f7;
-$gs-light-blue-400: #29b6f6;
-$gs-light-blue-500: #03a9f4;
-$gs-light-blue-600: #039be5;
-$gs-light-blue-700: #0288d1;
-$gs-light-blue-800: #0277bd;
-$gs-light-blue-900: #01579b;
-$gs-light-blue-a100: #80d8ff;
-$gs-light-blue-a200: #40c4ff;
-$gs-light-blue-a400: #00b0ff;
-$gs-light-blue-a700: #0091ea;
-$gs-light-green-50: #f1f8e9;
-$gs-light-green-100: #dcedc8;
-$gs-light-green-200: #c5e1a5;
-$gs-light-green-300: #aed581;
-$gs-light-green-400: #8bc34a;
-$gs-light-green-500: #8bc34a;
-$gs-light-green-600: #7cb342;
-$gs-light-green-700: #689f38;
-$gs-light-green-800: #558b2f;
-$gs-light-green-900: #33691e;
-$gs-light-green-a100: #ccff90;
-$gs-light-green-a200: #b2ff59;
-$gs-light-green-a400: #76ff03;
-$gs-light-green-a700: #64dd17;
-$gs-lime-50: #f9fbe7;
-$gs-lime-100: #f0f4c3;
-$gs-lime-200: #e6ee9c;
-$gs-lime-300: #dce775;
-$gs-lime-400: #d4e157;
-$gs-lime-500: #cddc39;
-$gs-lime-600: #c0ca33;
-$gs-lime-700: #afb42b;
-$gs-lime-800: #9e9d24;
-$gs-lime-900: #827717;
-$gs-lime-a100: #f4ff81;
-$gs-lime-a200: #eeff41;
-$gs-lime-a400: #c6ff00;
-$gs-lime-a700: #aeea00;
-$gs-orange-50: #fff3e0;
-$gs-orange-100: #ffe0b2;
-$gs-orange-200: #ffcc80;
-$gs-orange-300: #ffb74d;
-$gs-orange-400: #ffa726;
-$gs-orange-500: #ff9800;
-$gs-orange-600: #fb8c00;
-$gs-orange-700: #f57c00;
-$gs-orange-800: #ef6c00;
-$gs-orange-900: #e65100;
-$gs-orange-a100: #ffd180;
-$gs-orange-a200: #ffab40;
-$gs-orange-a400: #ff9100;
-$gs-orange-a700: #ff6d00;
-$gs-pink-50: #fce4ec;
-$gs-pink-100: #f8bbd0;
-$gs-pink-200: #f48fb1;
-$gs-pink-300: #f06292;
-$gs-pink-400: #ec407a;
-$gs-pink-500: #e91e63;
-$gs-pink-600: #d81b60;
-$gs-pink-700: #c2185b;
-$gs-pink-800: #ad1457;
-$gs-pink-900: #880e4f;
-$gs-pink-a100: #ff80ab;
-$gs-pink-a200: #ff4081;
-$gs-pink-a400: #f50057;
-$gs-pink-a700: #c51162;
-$gs-purple-50: #f3e5f5;
-$gs-purple-100: #e1bee7;
-$gs-purple-200: #ce93d8;
-$gs-purple-300: #ba68c8;
-$gs-purple-400: #ab47bc;
-$gs-purple-500: #9c27b0;
-$gs-purple-600: #8e24aa;
-$gs-purple-700: #7b1fa2;
-$gs-purple-800: #6a1b9a;
-$gs-purple-900: #4a148c;
-$gs-purple-a100: #ea80fc;
-$gs-purple-a200: #e040fb;
-$gs-purple-a400: #d500f9;
-$gs-purple-a700: #aa00ff;
-$gs-red-50: #feebee;
-$gs-red-100: #fecdd2;
-$gs-red-200: #ef9a9a;
-$gs-red-300: #e57373;
-$gs-red-400: #ef5350;
-$gs-red-500: #f44336;
-$gs-red-600: #e53935;
-$gs-red-700: #d32f2f;
-$gs-red-800: #c62828;
-$gs-red-900: #b71c1c;
-$gs-red-a100: #ff8a80;
-$gs-red-a200: #ff5252;
-$gs-red-a400: #ff1744;
-$gs-red-a700: #d50000;
-$gs-teal-50: #e0f2f1;
-$gs-teal-100: #b2dfdb;
-$gs-teal-200: #80cbc4;
-$gs-teal-300: #4db6ac;
-$gs-teal-400: #26a69a;
-$gs-teal-500: #009688;
-$gs-teal-600: #00897b;
-$gs-teal-700: #00796b;
-$gs-teal-800: #00695c;
-$gs-teal-900: #004d40;
-$gs-teal-a100: #a7ffeb;
-$gs-teal-a200: #64ffda;
-$gs-teal-a400: #1de9b6;
-$gs-teal-a700: #00bfa5;
-$gs-yellow-50: #fffde7;
-$gs-yellow-100: #fff9c4;
-$gs-yellow-200: #fff59d;
-$gs-yellow-300: #fff176;
-$gs-yellow-400: #ffee58;
-$gs-yellow-500: #ffeb3b;
-$gs-yellow-600: #fdd835;
-$gs-yellow-700: #fbc02d;
-$gs-yellow-800: #f9a825;
-$gs-yellow-900: #f57f17;
-$gs-yellow-a100: #ffff8d;
-$gs-yellow-a200: #ffff00;
-$gs-yellow-a400: #ffea00;
-$gs-yellow-a700: #ffd600;
+$gs-accent-earth: #174075;
+$gs-accent-forest: #3b541d;
+$gs-accent-root: #550000;
+$gs-accent-sand: #fff8eb;
+$gs-accent-spring: #f4faeb;
+$gs-accent-water: #0153bf;
+$gs-brand-chlorophyll: #61892f; // Primary 2
+$gs-brand-sprout: #86c232; // Primary 1
+$gs-brand-sunrise: #ffa500;
+$gs-brand-sunset: #ff7a00;
+$gs-chart-vs1: #f02d3a;
+$gs-chart-vs10: #5a985e;
+$gs-chart-vs11: #3bd1f2;
+$gs-chart-vs12: #e79c9c;
+$gs-chart-vs2: #006dcd;
+$gs-chart-vs3: #f0a331;
+$gs-chart-vs4: #61c9a8;
+$gs-chart-vs5: #b4436c;
+$gs-chart-vs6: #0988ac;
+$gs-chart-vs7: #7e1f86;
+$gs-chart-vs8: #97db4f;
+$gs-chart-vs9: #9da9bc;
+$gs-font-families-inter: Inter;
+$gs-font-families-montserrat: Montserrat;
+$gs-font-families-roboto: Roboto;
+$gs-font-families-roboto-mono: Roboto Mono;
+$gs-font-size-0: 10;
+$gs-font-size-1: 12;
+$gs-font-size-2: 13;
+$gs-font-size-3: 14;
+$gs-font-size-4: 15;
+$gs-font-size-5: 16;
+$gs-font-size-6: 20;
+$gs-font-size-7: 24;
+$gs-font-size-8: 34;
+$gs-font-size-9: 48;
+$gs-font-size-10: 60;
+$gs-font-size-11: 64;
+$gs-font-size-12: 96;
+$gs-font-weights-inter-4: Regular;
+$gs-font-weights-montserrat-0: Regular;
+$gs-font-weights-roboto-1: Light;
+$gs-font-weights-roboto-2: Regular;
+$gs-font-weights-roboto-3: Medium;
+$gs-font-weights-roboto-mono-5: Medium;
+$gs-letter-spacing-1: -1.5;
+$gs-letter-spacing-2: -0.5;
+$gs-letter-spacing-3: 0;
+$gs-letter-spacing-4: 0.25;
+$gs-letter-spacing-5: 0.15;
+$gs-letter-spacing-6: 0.17;
+$gs-letter-spacing-7: 0.1;
+$gs-letter-spacing-8: 1;
+$gs-letter-spacing-9: 0.4;
+$gs-letter-spacing-10: 0.14;
+$gs-letter-spacing-11: 0.46;
+$gs-letter-spacing-12: 0.16;
+$gs-line-heights-19: 20;
+$gs-line-heights-20: 10;
+$gs-line-heights-21: 12;
+$gs-line-heights-22: 20;
+$gs-line-heights-24: 26;
+$gs-line-heights-25: 24;
+$gs-line-heights-26: 22;
+$gs-line-heights-27: 18;
+$gs-line-heights-29: 12;
+$gs-line-heights-30: 24;
+$gs-line-heights-32: 48;
+$gs-line-heights-34: 24;
+$gs-line-heights-35: 24;
+$gs-line-heights-36: 14;
+$gs-line-heights-37: 12;
+$gs-paragraph-indent-0: 0;
+$gs-paragraph-spacing-0: 0;
 $gs-components-alert-error-background: #fdeded;
 $gs-components-alert-error-color: #5f2120;
 $gs-components-alert-info-background: #e5f6fd;
@@ -289,8 +100,12 @@ $gs-components-alert-success-background: #edf7ed;
 $gs-components-alert-success-color: #1e4620;
 $gs-components-alert-warning-background: #fff4e5;
 $gs-components-alert-warning-color: #663c00;
+$gs-components-app-bar-default-fill: #f5f5f5;
+$gs-components-avatar-fill: #bdbdbd;
 $gs-components-backdrop-fill: #00000080;
+$gs-components-breadcrumbs-collapse-fill: #f5f5f5;
 $gs-components-chip-default-close-fill: #000000;
+$gs-components-chip-default-enabled-border: #bdbdbd;
 $gs-components-chip-default-focus-fill: #00000033;
 $gs-components-chip-default-hover-fill: #0000001f;
 $gs-components-input-filled-enabled-fill: #0000000f;
@@ -302,8 +117,12 @@ $gs-components-input-standard-hover-border: #000000;
 $gs-components-rating-active-fill: #ffb400;
 $gs-components-rating-enabled-border: #0000003b;
 $gs-components-snackbar-fill: #323232;
+$gs-components-stepper-connector: #bdbdbd;
+$gs-components-switch-knob-fill-enabled: #fafafa;
+$gs-components-switch-know-fill-disabled: #f5f5f5;
 $gs-components-switch-slide-fill: #000000;
 $gs-components-tooltip-fill: #616161e6;
+$gs-native-scrollbar-bg: #eeeeee;
 $gs-action-active: #2226298f;
 $gs-action-disabled: #22262961; // Reflects the action.disabled variable from the theme object
 $gs-action-disabled-background: #0000001f; // Reflects the action.disabledBackground variable from the theme object
@@ -336,6 +155,7 @@ $gs-background-paper-elevation-6: #ffffff; // Reflects the background.paper vari
 $gs-background-paper-elevation-7: #ffffff; // Reflects the background.paper variable from the theme object
 $gs-background-paper-elevation-8: #ffffff; // Reflects the background.paper variable from the theme object
 $gs-background-paper-elevation-9: #ffffff; // Reflects the background.paper variable from the theme object
+$gs-background-base-overlay: #00000066; // Scrim behind modals and drawers
 $gs-common-black-states-focus: #2226291f;
 $gs-common-black-states-focus-visible: #2226294d; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
 $gs-common-black-states-hover: #2226290a; // Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.
@@ -355,11 +175,17 @@ $gs-error-states-hover: #d32f2f0a; // Used for hover states. The token represent
 $gs-error-states-outlined-border: #d32f2f80; // Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.
 $gs-error-states-selected: #d32f2f14; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
 $gs-error-contrast: #ffffff;
+$gs-error-dark: #c62828;
+$gs-error-light: #ef5350;
+$gs-error-main: #d32f2f;
 $gs-info-states-focus-visible: #0288d14d; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
 $gs-info-states-hover: #0288d10a; // Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.
 $gs-info-states-outlined-border: #0288d180; // Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.
 $gs-info-states-selected: #0288d114; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
 $gs-info-contrast: #ffffff;
+$gs-info-dark: #01579b;
+$gs-info-light: #03a9f4;
+$gs-info-main: #0288d1;
 $gs-primary-states-focus: #61892f1f; // Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.
 $gs-primary-states-focus-visible: #61892f4d;
 $gs-primary-states-hover: #61892f0a; // Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.
@@ -383,6 +209,9 @@ $gs-success-states-hover: #2e7d320a; // Used for hover states. The token represe
 $gs-success-states-outlined-border: #2e7d3280; // Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.
 $gs-success-states-selected: #2e7d3214; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
 $gs-success-contrast: #ffffff;
+$gs-success-dark: #1b5e20;
+$gs-success-light: #4caf50;
+$gs-success-main: #2e7d32;
 $gs-text-states-focus: #2226291f; // Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.
 $gs-text-states-focus-visible: #2226294d; // Used for focus visible states. The token represents the value of focusVisibleOpacity (0.3 by default) of the main token.
 $gs-text-states-hover: #2226290a; // Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.
@@ -390,537 +219,178 @@ $gs-text-states-selected: #22262914; // Used for selected states. The token repr
 $gs-text-disabled: #22262961; // Reflects the text.disabled variable from the theme object
 $gs-text-primary: #222629de; // Reflects the text.primary variable from the theme object
 $gs-text-secondary: #22262999; // Reflects the text.secondary variable from the theme object
+$gs-text-accent-on-accent: #6b2800; // Text on vivid orange fills, always dark for contrast
 $gs-warning-states-focus-visible: #ef6c004d;
 $gs-warning-states-hover: #ef6c000a; // Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.
 $gs-warning-states-outlined-border: #ef6c0080; // Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.
 $gs-warning-states-selected: #ef6c0014; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
 $gs-warning-contrast: #ffffff;
+$gs-warning-dark: #e65100;
+$gs-warning-light: #ff9800;
+$gs-warning-main: #ef6c00;
 $gs-border-radius: 4;
 $gs-none: 0;
 $gs-button-border-radius: 0;
 $gs-button-border-width: 0;
+$gs-button-primary-background: #ffffff;
+$gs-button-primary-text: #ffffff;
+$gs-card-background: #ffffff;
 $gs-card-border-radius: 0;
 $gs-card-padding: 0;
-$gs-components-app-bar-default-fill: $gs-grey-100;
-$gs-components-avatar-fill: $gs-grey-400;
-$gs-components-breadcrumbs-collapse-fill: $gs-grey-100;
-$gs-components-chip-default-enabled-border: $gs-grey-400;
-$gs-components-stepper-connector: $gs-grey-400;
-$gs-components-switch-knob-fill-enabled: $gs-grey-50;
-$gs-components-switch-know-fill-disabled: $gs-grey-100;
-$gs-native-scrollbar-bg: $gs-grey-200;
-$gs-error-dark: $gs-red-800;
-$gs-error-light: $gs-red-400;
-$gs-error-main: $gs-red-700;
-$gs-info-dark: $gs-light-blue-900;
-$gs-info-light: $gs-light-blue-500;
-$gs-info-main: $gs-light-blue-700;
-$gs-success-dark: $gs-green-900;
-$gs-success-light: $gs-green-500;
-$gs-success-main: $gs-green-800;
-$gs-warning-dark: $gs-orange-900;
-$gs-warning-light: $gs-orange-500;
-$gs-warning-main: $gs-orange-800;
-$gs-button-primary-background: $gs-accent-default;
-$gs-button-primary-text: $gs-accent-on-accent;
-$gs-card-background: $gs-bg-default;
-=======
-$Gs1: 8;
-$Gs2: 16;
-$Gs3: 24;
-$Gs4: 32;
-$Gs5: 40;
-$Gs6: 48;
-$Gs7: 56;
-$Gs8: 64;
-$Gs9: 72;
-$Gs10: 80;
-$Gs11: 88;
-$Gs12: 96;
-$GsString: String value;
-$GsFontWeight: 400;
-$GsLg: 1200;
-$GsMd: 900;
-$GsSm: 600;
-$GsXl: 1536;
-$GsXs: 444;
-$GsAccentEarth: #174075;
-$GsAccentForest: #3b541d;
-$GsAccentRoot: #550000;
-$GsAccentSand: #fff8eb;
-$GsAccentSpring: #f4faeb;
-$GsAccentWater: #0153bf;
-$GsBrandChlorophyll: #61892f; // Primary 2
-$GsBrandSprout: #86c232; // Primary 1
-$GsBrandSunrise: #ffa500;
-$GsBrandSunset: #ff7a00;
-$GsChartVs1: #f02d3a;
-$GsChartVs10: #5a985e;
-$GsChartVs11: #3bd1f2;
-$GsChartVs12: #e79c9c;
-$GsChartVs2: #006dcd;
-$GsChartVs3: #f0a331;
-$GsChartVs4: #61c9a8;
-$GsChartVs5: #b4436c;
-$GsChartVs6: #0988ac;
-$GsChartVs7: #7e1f86;
-$GsChartVs8: #97db4f;
-$GsChartVs9: #9da9bc;
-$GsFontFamiliesInter: Inter;
-$GsFontFamiliesMontserrat: Montserrat;
-$GsFontFamiliesRoboto: Roboto;
-$GsFontFamiliesRobotoMono: Roboto Mono;
-$GsFontSize0: 10;
-$GsFontSize1: 12;
-$GsFontSize2: 13;
-$GsFontSize3: 14;
-$GsFontSize4: 15;
-$GsFontSize5: 16;
-$GsFontSize6: 20;
-$GsFontSize7: 24;
-$GsFontSize8: 34;
-$GsFontSize9: 48;
-$GsFontSize10: 60;
-$GsFontSize11: 64;
-$GsFontSize12: 96;
-$GsFontWeightsInter4: Regular;
-$GsFontWeightsMontserrat0: Regular;
-$GsFontWeightsRoboto1: Light;
-$GsFontWeightsRoboto2: Regular;
-$GsFontWeightsRoboto3: Medium;
-$GsFontWeightsRobotoMono5: Medium;
-$GsLetterSpacing1: -1.5;
-$GsLetterSpacing2: -0.5;
-$GsLetterSpacing3: 0;
-$GsLetterSpacing4: 0.25;
-$GsLetterSpacing5: 0.15;
-$GsLetterSpacing6: 0.17;
-$GsLetterSpacing7: 0.1;
-$GsLetterSpacing8: 1;
-$GsLetterSpacing9: 0.4;
-$GsLetterSpacing10: 0.14;
-$GsLetterSpacing11: 0.46;
-$GsLetterSpacing12: 0.16;
-$GsLineHeights19: 20;
-$GsLineHeights20: 10;
-$GsLineHeights21: 12;
-$GsLineHeights22: 20;
-$GsLineHeights24: 26;
-$GsLineHeights25: 24;
-$GsLineHeights26: 22;
-$GsLineHeights27: 18;
-$GsLineHeights29: 12;
-$GsLineHeights30: 24;
-$GsLineHeights32: 48;
-$GsLineHeights34: 24;
-$GsLineHeights35: 24;
-$GsLineHeights36: 14;
-$GsLineHeights37: 12;
-$GsParagraphIndent0: 0;
-$GsParagraphSpacing0: 0;
-$GsAccentBg: #ffffff;
-$GsAccentDefault: #ffffff;
-$GsAccentOnAccent: #ffffff;
-$GsBgDefault: #ffffff;
-$GsBgMuted: #ffffff;
-$GsBgSubtle: #ffffff;
-$GsFgDefault: #ffffff;
-$GsFgMuted: #ffffff;
-$GsFgSubtle: #ffffff;
-$GsShadowsDefault: #ffffff;
-$GsAmber50: #fff8e1;
-$GsAmber100: #ffecb3;
-$GsAmber200: #ffe082;
-$GsAmber300: #ffd54f;
-$GsAmber400: #ffca28;
-$GsAmber500: #ffc107;
-$GsAmber600: #ffb300;
-$GsAmber700: #ffa000;
-$GsAmber800: #ff8f00;
-$GsAmber900: #ff6f00;
-$GsAmberA100: #ffe57f;
-$GsAmberA200: #ffd740;
-$GsAmberA400: #ffc400;
-$GsAmberA700: #ffab00;
-$GsBlue50: #e3f2fd;
-$GsBlue100: #bbdefb;
-$GsBlue200: #90caf9;
-$GsBlue300: #64b5f6;
-$GsBlue400: #42a5f5;
-$GsBlue500: #2196f3;
-$GsBlue600: #1e88e5;
-$GsBlue700: #0057b2;
-$GsBlue800: #1565c0;
-$GsBlue900: #0d47a1;
-$GsBlueA100: #82b1ff;
-$GsBlueA200: #448aff;
-$GsBlueA400: #2979ff;
-$GsBlueA700: #2962ff;
-$GsBlueGrey50: #eceff1;
-$GsBlueGrey100: #cfd8dc;
-$GsBlueGrey200: #b0bec5;
-$GsBlueGrey300: #90a4ae;
-$GsBlueGrey400: #78909c;
-$GsBlueGrey500: #607d8b;
-$GsBlueGrey600: #546e7a;
-$GsBlueGrey700: #455a64;
-$GsBlueGrey800: #37474f;
-$GsBlueGrey900: #263238;
-$GsBlueGreyA100: #cfd8dc;
-$GsBlueGreyA200: #b0bec5;
-$GsBlueGreyA400: #78909c;
-$GsBlueGreyA700: #455a64;
-$GsCyan50: #e0f7fa;
-$GsCyan100: #b2ebf2;
-$GsCyan200: #80deea;
-$GsCyan300: #4dd0e1;
-$GsCyan400: #26c6da;
-$GsCyan500: #00bcd4;
-$GsCyan600: #00acc1;
-$GsCyan700: #0097a7;
-$GsCyan800: #00838f;
-$GsCyan900: #006064;
-$GsCyanA100: #84ffff;
-$GsCyanA200: #18ffff;
-$GsCyanA400: #00e5ff;
-$GsCyanA700: #00b8d4;
-$GsDeepOrange50: #fbe9e7;
-$GsDeepOrange100: #ffccbc;
-$GsDeepOrange200: #ffab91;
-$GsDeepOrange300: #ff8a65;
-$GsDeepOrange400: #ff7043;
-$GsDeepOrange500: #ff5722;
-$GsDeepOrange600: #f4511e;
-$GsDeepOrange700: #e64a19;
-$GsDeepOrange800: #d84315;
-$GsDeepOrange900: #bf360c;
-$GsDeepOrangeA100: #ff9e80;
-$GsDeepOrangeA200: #ff6e40;
-$GsDeepOrangeA400: #ff3d00;
-$GsDeepOrangeA700: #dd2c00;
-$GsDeepPurple50: #ede7f6;
-$GsDeepPurple100: #d1c4e9;
-$GsDeepPurple200: #b39ddb;
-$GsDeepPurple300: #9575cd;
-$GsDeepPurple400: #7e57c2;
-$GsDeepPurple500: #673ab7;
-$GsDeepPurple600: #5e35b1;
-$GsDeepPurple700: #512da8;
-$GsDeepPurple800: #4527a0;
-$GsDeepPurple900: #311b92;
-$GsDeepPurpleA100: #b388ff;
-$GsDeepPurpleA200: #7c4dff;
-$GsDeepPurpleA400: #651fff;
-$GsDeepPurpleA700: #6200ea;
-$GsGreen50: #e8f5e9;
-$GsGreen100: #c8e6c9;
-$GsGreen200: #a5d6a7;
-$GsGreen300: #81c784;
-$GsGreen400: #66bb6a;
-$GsGreen500: #4caf50;
-$GsGreen600: #43a047;
-$GsGreen700: #388e3c;
-$GsGreen800: #2e7d32;
-$GsGreen900: #1b5e20;
-$GsGreenA100: #b9f6ca;
-$GsGreenA200: #69f0ae;
-$GsGreenA400: #00e676;
-$GsGreenA700: #00c853;
-$GsGrey50: #fafafa;
-$GsGrey100: #f5f5f5;
-$GsGrey200: #eeeeee;
-$GsGrey300: #e0e0e0;
-$GsGrey400: #bdbdbd;
-$GsGrey500: #9e9e9e;
-$GsGrey600: #757575;
-$GsGrey700: #616161;
-$GsGrey800: #424242;
-$GsGrey900: #212121;
-$GsGreyA100: #f5f5f5;
-$GsGreyA200: #eeeeee;
-$GsGreyA400: #bdbdbd;
-$GsGreyA700: #616161;
-$GsIndigo50: #e8eaf6;
-$GsIndigo100: #c5cae9;
-$GsIndigo200: #9fa8da;
-$GsIndigo300: #7986cb;
-$GsIndigo400: #5c6bc0;
-$GsIndigo500: #3f51b5;
-$GsIndigo600: #3949ab;
-$GsIndigo700: #303f9f;
-$GsIndigo800: #283593;
-$GsIndigo900: #1a237e;
-$GsIndigoA100: #8c9eff;
-$GsIndigoA200: #536dfe;
-$GsIndigoA400: #3d5afe;
-$GsIndigoA700: #304ffe;
-$GsLightBlue50: #e1f5fe;
-$GsLightBlue100: #b3e5fc;
-$GsLightBlue200: #81d4fa;
-$GsLightBlue300: #4fc3f7;
-$GsLightBlue400: #29b6f6;
-$GsLightBlue500: #03a9f4;
-$GsLightBlue600: #039be5;
-$GsLightBlue700: #0288d1;
-$GsLightBlue800: #0277bd;
-$GsLightBlue900: #01579b;
-$GsLightBlueA100: #80d8ff;
-$GsLightBlueA200: #40c4ff;
-$GsLightBlueA400: #00b0ff;
-$GsLightBlueA700: #0091ea;
-$GsLightGreen50: #f1f8e9;
-$GsLightGreen100: #dcedc8;
-$GsLightGreen200: #c5e1a5;
-$GsLightGreen300: #aed581;
-$GsLightGreen400: #8bc34a;
-$GsLightGreen500: #8bc34a;
-$GsLightGreen600: #7cb342;
-$GsLightGreen700: #689f38;
-$GsLightGreen800: #558b2f;
-$GsLightGreen900: #33691e;
-$GsLightGreenA100: #ccff90;
-$GsLightGreenA200: #b2ff59;
-$GsLightGreenA400: #76ff03;
-$GsLightGreenA700: #64dd17;
-$GsLime50: #f9fbe7;
-$GsLime100: #f0f4c3;
-$GsLime200: #e6ee9c;
-$GsLime300: #dce775;
-$GsLime400: #d4e157;
-$GsLime500: #cddc39;
-$GsLime600: #c0ca33;
-$GsLime700: #afb42b;
-$GsLime800: #9e9d24;
-$GsLime900: #827717;
-$GsLimeA100: #f4ff81;
-$GsLimeA200: #eeff41;
-$GsLimeA400: #c6ff00;
-$GsLimeA700: #aeea00;
-$GsOrange50: #fff3e0;
-$GsOrange100: #ffe0b2;
-$GsOrange200: #ffcc80;
-$GsOrange300: #ffb74d;
-$GsOrange400: #ffa726;
-$GsOrange500: #ff9800;
-$GsOrange600: #fb8c00;
-$GsOrange700: #f57c00;
-$GsOrange800: #ef6c00;
-$GsOrange900: #e65100;
-$GsOrangeA100: #ffd180;
-$GsOrangeA200: #ffab40;
-$GsOrangeA400: #ff9100;
-$GsOrangeA700: #ff6d00;
-$GsPink50: #fce4ec;
-$GsPink100: #f8bbd0;
-$GsPink200: #f48fb1;
-$GsPink300: #f06292;
-$GsPink400: #ec407a;
-$GsPink500: #e91e63;
-$GsPink600: #d81b60;
-$GsPink700: #c2185b;
-$GsPink800: #ad1457;
-$GsPink900: #880e4f;
-$GsPinkA100: #ff80ab;
-$GsPinkA200: #ff4081;
-$GsPinkA400: #f50057;
-$GsPinkA700: #c51162;
-$GsPurple50: #f3e5f5;
-$GsPurple100: #e1bee7;
-$GsPurple200: #ce93d8;
-$GsPurple300: #ba68c8;
-$GsPurple400: #ab47bc;
-$GsPurple500: #9c27b0;
-$GsPurple600: #8e24aa;
-$GsPurple700: #7b1fa2;
-$GsPurple800: #6a1b9a;
-$GsPurple900: #4a148c;
-$GsPurpleA100: #ea80fc;
-$GsPurpleA200: #e040fb;
-$GsPurpleA400: #d500f9;
-$GsPurpleA700: #aa00ff;
-$GsRed50: #feebee;
-$GsRed100: #fecdd2;
-$GsRed200: #ef9a9a;
-$GsRed300: #e57373;
-$GsRed400: #ef5350;
-$GsRed500: #f44336;
-$GsRed600: #e53935;
-$GsRed700: #d32f2f;
-$GsRed800: #c62828;
-$GsRed900: #b71c1c;
-$GsRedA100: #ff8a80;
-$GsRedA200: #ff5252;
-$GsRedA400: #ff1744;
-$GsRedA700: #d50000;
-$GsTeal50: #e0f2f1;
-$GsTeal100: #b2dfdb;
-$GsTeal200: #80cbc4;
-$GsTeal300: #4db6ac;
-$GsTeal400: #26a69a;
-$GsTeal500: #009688;
-$GsTeal600: #00897b;
-$GsTeal700: #00796b;
-$GsTeal800: #00695c;
-$GsTeal900: #004d40;
-$GsTealA100: #a7ffeb;
-$GsTealA200: #64ffda;
-$GsTealA400: #1de9b6;
-$GsTealA700: #00bfa5;
-$GsYellow50: #fffde7;
-$GsYellow100: #fff9c4;
-$GsYellow200: #fff59d;
-$GsYellow300: #fff176;
-$GsYellow400: #ffee58;
-$GsYellow500: #ffeb3b;
-$GsYellow600: #fdd835;
-$GsYellow700: #fbc02d;
-$GsYellow800: #f9a825;
-$GsYellow900: #f57f17;
-$GsYellowA100: #ffff8d;
-$GsYellowA200: #ffff00;
-$GsYellowA400: #ffea00;
-$GsYellowA700: #ffd600;
-$GsComponentsAlertErrorBackground: #fdeded;
-$GsComponentsAlertErrorColor: #5f2120;
-$GsComponentsAlertInfoBackground: #e5f6fd;
-$GsComponentsAlertInfoColor: #014361;
-$GsComponentsAlertSuccessBackground: #edf7ed;
-$GsComponentsAlertSuccessColor: #1e4620;
-$GsComponentsAlertWarningBackground: #fff4e5;
-$GsComponentsAlertWarningColor: #663c00;
-$GsComponentsBackdropFill: #00000080;
-$GsComponentsChipDefaultCloseFill: #000000;
-$GsComponentsChipDefaultFocusFill: #00000033;
-$GsComponentsChipDefaultHoverFill: #0000001f;
-$GsComponentsInputFilledEnabledFill: #0000000f;
-$GsComponentsInputFilledHoverFill: #00000017;
-$GsComponentsInputOutlinedEnabledBorder: #0000003b;
-$GsComponentsInputOutlinedHoverBorder: #000000;
-$GsComponentsInputStandardEnabledBorder: #0000006b;
-$GsComponentsInputStandardHoverBorder: #000000;
-$GsComponentsRatingActiveFill: #ffb400;
-$GsComponentsRatingEnabledBorder: #0000003b;
-$GsComponentsSnackbarFill: #323232;
-$GsComponentsSwitchSlideFill: #000000;
-$GsComponentsTooltipFill: #616161e6;
-$GsActionActive: #2226298f;
-$GsActionDisabled: #22262961; // Reflects the action.disabled variable from the theme object
-$GsActionDisabledBackground: #0000001f; // Reflects the action.disabledBackground variable from the theme object
-$GsActionFocus: #2226291f; // Reflects the action.focus variable from the theme object
-$GsActionHover: #2226290a; // Reflects the action.hover variable from the theme object
-$GsActionSelected: #22262914; // Reflects the action.selected variable from the theme object
-$GsBackgroundDefault: #ffffff; // Reflects the background.default variable from the theme object
-$GsBackgroundPaperElevation0: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation1: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation10: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation11: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation12: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation13: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation14: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation15: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation16: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation17: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation18: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation19: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation2: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation20: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation21: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation22: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation23: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation24: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation3: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation4: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation5: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation6: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation7: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation8: #ffffff; // Reflects the background.paper variable from the theme object
-$GsBackgroundPaperElevation9: #ffffff; // Reflects the background.paper variable from the theme object
-$GsCommonBlackStatesFocus: #2226291f;
-$GsCommonBlackStatesFocusVisible: #2226294d; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
-$GsCommonBlackStatesHover: #2226290a; // Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.
-$GsCommonBlackStatesMain: #222629;
-$GsCommonBlackStatesOutlinedBorder: #22262980; // Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.
-$GsCommonBlackStatesSelected: #22262914; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
-$GsCommonWhiteStatesFocus: #ffffff1f;
-$GsCommonWhiteStatesFocusVisible: #ffffff4d;
-$GsCommonWhiteStatesHover: #ffffff0a; // Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.
-$GsCommonWhiteStatesMain: #ffffff;
-$GsCommonWhiteStatesOutlinedBorder: #ffffff80; // Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.
-$GsCommonWhiteStatesSelected: #ffffff14; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
-$GsDivider: #2226291f; // Reflects the divider variable from the theme object
-$GsElevationOutlined: #e0e0e0;
-$GsErrorStatesFocusVisible: #d32f2f4d;
-$GsErrorStatesHover: #d32f2f0a; // Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.
-$GsErrorStatesOutlinedBorder: #d32f2f80; // Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.
-$GsErrorStatesSelected: #d32f2f14; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
-$GsErrorContrast: #ffffff;
-$GsInfoStatesFocusVisible: #0288d14d; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
-$GsInfoStatesHover: #0288d10a; // Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.
-$GsInfoStatesOutlinedBorder: #0288d180; // Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.
-$GsInfoStatesSelected: #0288d114; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
-$GsInfoContrast: #ffffff;
-$GsPrimaryStatesFocus: #61892f1f; // Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.
-$GsPrimaryStatesFocusVisible: #61892f4d;
-$GsPrimaryStatesHover: #61892f0a; // Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.
-$GsPrimaryStatesOutlinedBorder: #61892f80; // Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.
-$GsPrimaryStatesSelected: #61892f14; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
-$GsPrimaryContrast: #ffffff; // Reflects the primary.contrast variable from the theme object. Color that keeps a contrast ratio above AA when XX.main is used as a bg. color
-$GsPrimaryDark: #86c232; // Used for hover states. Reflects the primary.dark variable from the theme object
-$GsPrimaryLight: #61892f; // Reflects the primary.light variable from the theme object
-$GsPrimaryMain: #61892f; // Reflects the primary.main variable from the theme object
-$GsSecondaryStatesFocus: #ffa5001f; // Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.
-$GsSecondaryStatesFocusVisible: #ffa5004d;
-$GsSecondaryStatesHover: #ffa5000a; // Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.
-$GsSecondaryStatesOutlinedBorder: #ffa50080; // Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.
-$GsSecondaryStatesSelected: #ffa50014; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
-$GsSecondaryContrast: #222629;
-$GsSecondaryDark: #fff8eb;
-$GsSecondaryLight: #ff7a00;
-$GsSecondaryMain: #ffa500;
-$GsSuccessStatesFocusVisible: #2e7d324d; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
-$GsSuccessStatesHover: #2e7d320a; // Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.
-$GsSuccessStatesOutlinedBorder: #2e7d3280; // Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.
-$GsSuccessStatesSelected: #2e7d3214; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
-$GsSuccessContrast: #ffffff;
-$GsTextStatesFocus: #2226291f; // Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.
-$GsTextStatesFocusVisible: #2226294d; // Used for focus visible states. The token represents the value of focusVisibleOpacity (0.3 by default) of the main token.
-$GsTextStatesHover: #2226290a; // Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.
-$GsTextStatesSelected: #22262914; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
-$GsTextDisabled: #22262961; // Reflects the text.disabled variable from the theme object
-$GsTextPrimary: #222629de; // Reflects the text.primary variable from the theme object
-$GsTextSecondary: #22262999; // Reflects the text.secondary variable from the theme object
-$GsWarningStatesFocusVisible: #ef6c004d;
-$GsWarningStatesHover: #ef6c000a; // Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.
-$GsWarningStatesOutlinedBorder: #ef6c0080; // Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.
-$GsWarningStatesSelected: #ef6c0014; // Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.
-$GsWarningContrast: #ffffff;
-$GsBorderRadius: 4;
-$GsNone: 0;
-$GsButtonBorderRadius: 0;
-$GsButtonBorderWidth: 0;
-$GsCardBorderRadius: 0;
-$GsCardPadding: 0;
-$GsComponentsAppBarDefaultFill: $GsGrey100;
-$GsComponentsAvatarFill: $GsGrey400;
-$GsComponentsBreadcrumbsCollapseFill: $GsGrey100;
-$GsComponentsChipDefaultEnabledBorder: $GsGrey400;
-$GsComponentsStepperConnector: $GsGrey400;
-$GsComponentsSwitchKnobFillEnabled: $GsGrey50;
-$GsComponentsSwitchKnowFillDisabled: $GsGrey100;
-$GsNativeScrollbarBg: $GsGrey200;
-$GsErrorDark: $GsRed800;
-$GsErrorLight: $GsRed400;
-$GsErrorMain: $GsRed700;
-$GsInfoDark: $GsLightBlue900;
-$GsInfoLight: $GsLightBlue500;
-$GsInfoMain: $GsLightBlue700;
-$GsSuccessDark: $GsGreen900;
-$GsSuccessLight: $GsGreen500;
-$GsSuccessMain: $GsGreen800;
-$GsWarningDark: $GsOrange900;
-$GsWarningLight: $GsOrange500;
-$GsWarningMain: $GsOrange800;
-$GsButtonPrimaryBackground: $GsAccentDefault;
-$GsButtonPrimaryText: $GsAccentOnAccent;
-$GsCardBackground: $GsBgDefault;
->>>>>>> 319bf3786fee6fe35c844bde11bdc8dc34ef8f95
+$gs-base-white: #ffffff;
+$gs-blue-50: #e3f2fd;
+$gs-blue-100: #bbdefb;
+$gs-blue-200: #90caf9;
+$gs-blue-300: #64b5f6;
+$gs-blue-400: #42a5f5;
+$gs-blue-500: #2196f3;
+$gs-blue-600: #1976d2;
+$gs-blue-700: #1565c0;
+$gs-blue-800: #0d47a1;
+$gs-blue-900: #072d6b;
+$gs-emerald-50: #e8fcf7;
+$gs-emerald-100: #bcf0e4;
+$gs-emerald-200: #82deca;
+$gs-emerald-300: #42c4ac;
+$gs-emerald-400: #1fa88e;
+$gs-emerald-500: #12836d;
+$gs-emerald-600: #0a6152;
+$gs-emerald-700: #064438;
+$gs-emerald-800: #022b23;
+$gs-emerald-900: #011512;
+$gs-green-50: #eef8e6;
+$gs-green-100: #d4f0b0;
+$gs-green-200: #a8dc6e;
+$gs-green-300: #86c232; // Logo color
+$gs-green-400: #6aae28;
+$gs-green-500: #52a320;
+$gs-green-600: #3a7d12;
+$gs-green-700: #295c0a;
+$gs-green-800: #1a3d04;
+$gs-green-900: #0d2001;
+$gs-neutral-50: #fafafa;
+$gs-neutral-100: #f2f2f2;
+$gs-neutral-200: #e8e8e8;
+$gs-neutral-300: #d4d4d4;
+$gs-neutral-400: #ababab;
+$gs-neutral-500: #858585;
+$gs-neutral-600: #636363;
+$gs-neutral-700: #474747;
+$gs-neutral-800: #2e2e2e;
+$gs-neutral-900: #212121;
+$gs-orange-50: #fff8ee;
+$gs-orange-100: #ffecd0;
+$gs-orange-200: #ffd599;
+$gs-orange-300: #ffba5c;
+$gs-orange-400: #ffa503;
+$gs-orange-500: #ff8c03;
+$gs-orange-600: #ff7b02;
+$gs-orange-700: #e56200;
+$gs-orange-800: #c44d01;
+$gs-orange-900: #963a00;
+$gs-orange-950: #6b2800;
+$gs-purple-50: #f5eefe;
+$gs-purple-100: #e4d0fc;
+$gs-purple-200: #c9a8f8;
+$gs-purple-300: #aa7ef3;
+$gs-purple-400: #8b5ce8;
+$gs-purple-500: #7040d4;
+$gs-purple-600: #5a2ebf;
+$gs-purple-700: #421fa0;
+$gs-purple-800: #2f1178;
+$gs-purple-900: #1a0850;
+$gs-red-50: #fff0ee;
+$gs-red-100: #ffd5cf;
+$gs-red-200: #ffaa9f;
+$gs-red-300: #f47066;
+$gs-red-400: #e04535;
+$gs-red-500: #c42020;
+$gs-red-600: #a01a1a;
+$gs-red-700: #7a1212;
+$gs-red-800: #560c0c;
+$gs-red-900: #450700;
+$gs-yellow-50: #fffef0;
+$gs-yellow-100: #fffbd1;
+$gs-yellow-200: #fff69a;
+$gs-yellow-300: #ffed4a;
+$gs-yellow-400: #ffe005;
+$gs-yellow-500: #eeca02;
+$gs-yellow-600: #d4a800;
+$gs-yellow-700: #b08202;
+$gs-yellow-800: #7a5900;
+$gs-yellow-900: #4b3300;
+$gs-component-button-primary-filled-background-default: #ffffff;
+$gs-background-accent-active: $gs-orange-800; // Pressed state on accent elements
+$gs-background-accent-default: $gs-orange-600; // Secondary accent fills, promotional elements
+$gs-background-accent-disabled: $gs-orange-200; // Disabled accent element fill
+$gs-background-accent-hover: $gs-orange-700; // Hover state on accent elements
+$gs-background-accent-subtle: $gs-orange-50; // Light orange tint for accent surfaces
+$gs-background-base-container: $gs-neutral-50; // Cards, panels, modals, drawers
+$gs-background-base-default: $gs-base-white; // App root, body background
+$gs-background-base-subtle: $gs-neutral-100; // Hover rows, inset sections, zebra stripes
+$gs-background-brand-active: $gs-green-800; // Pressed state on brand elements
+$gs-background-brand-default: $gs-green-600; // Primary brand button, strong brand fills
+$gs-background-brand-disabled: $gs-green-200; // Disabled brand button fill
+$gs-background-brand-hover: $gs-green-700; // Hover state on brand elements
+$gs-background-brand-subtle: $gs-green-50; // Selected states, active nav tint
+$gs-background-error-emphasis: $gs-red-500; // Critical error banner, system-wide alert
+$gs-background-error-subtle: $gs-red-50; // Inline error alert, form field error bg
+$gs-background-info-emphasis: $gs-blue-500; // Critical info banner, system-wide notice
+$gs-background-info-subtle: $gs-blue-50; // Inline informational alert, tooltip bg
+$gs-background-success-emphasis: $gs-emerald-500; // Critical success banner, system confirmation
+$gs-background-success-subtle: $gs-emerald-50; // Inline confirmation, completed state bg
+$gs-background-warning-emphasis: $gs-yellow-400; // Critical warning banner like Uber surge pricing
+$gs-background-warning-subtle: $gs-yellow-50; // Inline caution alert, advisory notice bg
+$gs-text-accent-default: $gs-orange-600; // Orange accent text, promotional labels, secondary brand moments
+$gs-text-base-disabled: $gs-neutral-300; // Text inside disabled elements
+$gs-text-base-inverse: $gs-base-white; // Text on dark or vivid colored fills, tooltips, bold banners, colored buttons
+$gs-text-base-placeholder: $gs-neutral-400; // Placeholder text inside empty input fields
+$gs-text-base-primary: $gs-neutral-900; // Headings, body copy, default labels, highest contrast
+$gs-text-base-secondary: $gs-neutral-600; // Supporting text, metadata, timestamps, medium emphasis
+$gs-text-base-tertiary: $gs-neutral-400; // Hint text, helper labels, lowest emphasis copy
+$gs-text-brand-default: $gs-green-600; // Brand-colored text, active nav labels, branded emphasis
+$gs-text-brand-on-brand: $gs-base-white; // Text sitting directly on brand-colored fills
+$gs-text-error-default: $gs-red-700; // Error messages, form validation text, destructive action labels
+$gs-text-error-on-emphasis: $gs-base-white; // Text on vivid red bold banner
+$gs-text-info-default: $gs-blue-700; // Informational copy inside info banners and tooltips
+$gs-text-info-on-emphasis: $gs-base-white; // Text on vivid blue bold banner
+$gs-text-link-default: $gs-blue-600; // Hyperlinks and inline interactive text
+$gs-text-link-hover: $gs-blue-700; // Link text on hover
+$gs-text-success-default: $gs-emerald-600; // Confirmation copy, positive feedback on light or tinted backgrounds
+$gs-text-success-on-emphasis: $gs-base-white; // Text on vivid emerald bold banner
+$gs-text-warning-default: $gs-yellow-800; // Caution labels, advisory copy on light or yellow-tinted backgrounds
+$gs-text-warning-on-emphasis: $gs-neutral-900; // Text on vivid yellow bold banner
+$gs-border-accent-default: $gs-orange-600; // Accent outlined component borders for promotional elements
+$gs-border-accent-subtle: $gs-orange-200; // For callouts
+$gs-border-base-default: $gs-neutral-300; // Standard border for cards, inputs, containers
+$gs-border-base-disabled: $gs-neutral-200; // Border for disabled inputs and non-interactive form controls
+$gs-border-base-divider: $gs-neutral-100; // Section separators, list item dividers
+$gs-border-base-strong: $gs-neutral-500; // Emphasized border for active inputs, hover states, selected neutral items
+$gs-border-brand-default: $gs-green-600; // Selected cards, active tabs, brand-accented component borders
+$gs-border-brand-subtle: $gs-green-200; // For callouts and highlighted sections
+$gs-border-error-default: $gs-red-200; // Inline error states, invalid inputs, error alert components
+$gs-border-error-emphasis: $gs-red-700; // Critical error banners, system-wide alerts, destructive dialogs
+$gs-border-info-default: $gs-blue-200; // Inline informational alerts and tooltip components
+$gs-border-info-emphasis: $gs-blue-600; // Critical informational banners and system-wide notices
+$gs-border-success-default: $gs-emerald-200; // Inline confirmation alerts and success input states
+$gs-border-success-emphasis: $gs-emerald-600; // Critical success banners and system confirmations
+$gs-border-warning-default: $gs-yellow-200; // Inline caution alerts and advisory input states
+$gs-border-warning-emphasis: $gs-yellow-700; // Critical warning banners and system-wide caution notices
+$gs-icon-accent-default: $gs-orange-800; // Accent icons
+$gs-icon-accent-on-accent: $gs-orange-950; // Icon on accent fill
+$gs-icon-base-default: $gs-neutral-700; // Primary standalone icons, icon buttons
+$gs-icon-base-disabled: $gs-neutral-300; // Icons inside disabled buttons and non-interactive elements
+$gs-icon-base-inverse: $gs-base-white; // Icons on dark or colored fills, tooltips, filled buttons
+$gs-icon-base-secondary: $gs-neutral-500; // Supporting icons next to secondary text, inactive nav icons
+$gs-icon-base-subtle: $gs-neutral-400; // Decorative icons, placeholder icons, lowest emphasis
+$gs-icon-brand-default: $gs-green-600; // Brand-colored icons, active nav icons
+$gs-icon-brand-on-brand: $gs-base-white; // Icons on brand fill
+$gs-icon-error-default: $gs-red-700; // Error icons, destructive action indicators
+$gs-icon-error-on-emphasis: $gs-base-white; // Icons on error fill
+$gs-icon-info-default: $gs-blue-700; // Info icons, tooltip triggers, system status indicators
+$gs-icon-info-on-emphasis: $gs-base-white; // Icon of info fill
+$gs-icon-link-default: $gs-blue-600; // Icons alongside or inside hyperlinks
+$gs-icon-success-default: $gs-emerald-600; // Positive status indicators
+$gs-icon-success-on-emphasis: $gs-base-white; // Icon of success fill
+$gs-icon-warning-default: $gs-yellow-800; // Caution icons, advisory indicators
+$gs-icon-warning-on-emphasis: $gs-neutral-900; // Icon on warning fill
