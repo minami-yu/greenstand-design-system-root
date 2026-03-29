@@ -1,9 +1,23 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import StyleDictionary from 'style-dictionary';
+import { transforms } from 'style-dictionary/enums';
 
 const repoRoot = process.cwd();
 const manifestPath = path.join(repoRoot, 'style-dictionary.config.json');
+const webKebabTransformGroup = 'greenstand/web-kebab';
+
+const {
+  attributeCti,
+  nameKebab,
+  sizeRem,
+  colorHex
+} = transforms;
+
+StyleDictionary.registerTransformGroup({
+  name: webKebabTransformGroup,
+  transforms: [attributeCti, nameKebab, sizeRem, colorHex]
+});
 
 function toPosixPath(filePath) {
   return filePath.split(path.sep).join(path.posix.sep);
@@ -15,7 +29,7 @@ function createPlatformConfig({ buildPath, prefix, androidCompose }) {
   return {
     platforms: {
       web: {
-        transformGroup: 'js',
+        transformGroup: webKebabTransformGroup,
         buildPath: `${baseDir}/web/`,
         files: [
           {
