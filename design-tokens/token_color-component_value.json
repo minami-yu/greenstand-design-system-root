@@ -1,6 +1,0 @@
-{
-  "Color": {
-    "$type": "color",
-    "$value": "{color.background.brand.default}"
-  }
-}

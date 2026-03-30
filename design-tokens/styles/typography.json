@@ -1,0 +1,169 @@
+{
+  "text-style": {
+    "display-l": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.title}",
+        "fontSize": "{font.size.4xl}",
+        "fontWeight": "{font.weight.light}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      },
+      "$description": "Hero headline for onboarding screens, empty states, and success moments."
+    },
+    "display-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.title}",
+        "fontSize": "{font.size.3xl}",
+        "fontWeight": "{font.weight.light}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      },
+      "$description": "Secondary hero text for feature highlights and full-screen modal titles."
+    },
+    "heading-l": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.title}",
+        "fontSize": "{font.size.2xl}",
+        "fontWeight": "{font.weight.semibold}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      },
+      "$description": "Page title, the primary heading at the top of a screen or modal."
+    },
+    "heading-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.title}",
+        "fontSize": "{font.size.xl}",
+        "fontWeight": "{font.weight.semibold}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      },
+      "$description": "Section header, groups related content within a page."
+    },
+    "heading-s": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.title}",
+        "fontSize": "{font.size.lg}",
+        "fontWeight": "{font.weight.semibold}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      },
+      "$description": "Card title, list section header, or small grouping label."
+    },
+    "pragraph-l": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.md}",
+        "fontWeight": "{font.weight.regular}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      },
+      "$description": "Primary body text for descriptions, instructions, and onboarding copy."
+    },
+    "pragraph-l-strong": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.md}",
+        "fontWeight": "{font.weight.medium}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      },
+      "$description": "Emphasized body text, key sentence or price that needs to stand out."
+    },
+    "pragraph-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.sm}",
+        "fontWeight": "{font.weight.regular}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      },
+      "$description": "Secondary description, supporting text below a heading or list item title."
+    },
+    "pragraph-m-strong": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.sm}",
+        "fontWeight": "{font.weight.medium}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      },
+      "$description": "Key value or status within a secondary description that needs emphasis."
+    },
+    "pragraph-s": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.xs}",
+        "fontWeight": "{font.weight.regular}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      },
+      "$description": "Fine print, timestamps, disclaimers, and meta info."
+    },
+    "label-l": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.md}",
+        "fontWeight": "{font.weight.medium}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      },
+      "$description": "Primary button text, main nav items, and input field text."
+    },
+    "label-l-strong": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.md}",
+        "fontWeight": "{font.weight.semibold}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      },
+      "$description": "Active or selected state, nav item, focused input, or high-emphasis button."
+    },
+    "label-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.sm}",
+        "fontWeight": "{font.weight.medium}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      },
+      "$description": "Form labels, secondary buttons, tab labels, and badge text."
+    },
+    "label-m-strong": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.sm}",
+        "fontWeight": "{font.weight.semibold}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      },
+      "$description": "Active tab, selected list item, or table column header."
+    },
+    "label-s": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.xs}",
+        "fontWeight": "{font.weight.medium}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      },
+      "$description": "Helper text, error messages, tooltips, and overline tags."
+    }
+  }
+}
