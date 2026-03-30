@@ -1,0 +1,224 @@
+{
+  "color": {
+    "shadow": {
+      "sm": {
+        "$type": "color",
+        "$value": "#00000014"
+      },
+      "md": {
+        "$type": "color",
+        "$value": "#0000001A"
+      },
+      "lg": {
+        "$type": "color",
+        "$value": "#00000026"
+      }
+    }
+  },
+  "elevation": {
+    "sm": {
+      "layer-1": {
+        "color": {
+          "$type": "color",
+          "$value": "{color.shadow.sm}"
+        },
+        "offset-x": {
+          "$type": "number",
+          "$value": 0
+        },
+        "offset-y": {
+          "$type": "number",
+          "$value": "{size.depth.025}"
+        },
+        "blur": {
+          "$type": "number",
+          "$value": "{size.blur.800}"
+        },
+        "spread": {
+          "$type": "number",
+          "$value": 0
+        }
+      },
+      "layer-2": {
+        "color": {
+          "$type": "color",
+          "$value": "{color.shadow.lg}"
+        },
+        "offset-x": {
+          "$type": "number",
+          "$value": 0
+        },
+        "offset-y": {
+          "$type": "number",
+          "$value": "{size.depth.050}"
+        },
+        "blur": {
+          "$type": "number",
+          "$value": "{size.blur.100}"
+        },
+        "spread": {
+          "$type": "number",
+          "$value": 0
+        }
+      },
+      "layer-3": {
+        "color": {
+          "$type": "color",
+          "$value": "{color.shadow.md}"
+        },
+        "offset-x": {
+          "$type": "number",
+          "$value": 0
+        },
+        "offset-y": {
+          "$type": "number",
+          "$value": "{size.depth.025}"
+        },
+        "blur": {
+          "$type": "number",
+          "$value": "{size.blur.400}"
+        },
+        "spread": {
+          "$type": "number",
+          "$value": 0
+        }
+      }
+    },
+    "md": {
+      "layer-1": {
+        "color": {
+          "$type": "color",
+          "$value": "{color.shadow.sm}"
+        },
+        "offset-x": {
+          "$type": "number",
+          "$value": 0
+        },
+        "offset-y": {
+          "$type": "number",
+          "$value": "{size.depth.025}"
+        },
+        "blur": {
+          "$type": "number",
+          "$value": "{size.blur.800}"
+        },
+        "spread": {
+          "$type": "number",
+          "$value": 0
+        }
+      },
+      "layer-2": {
+        "color": {
+          "$type": "color",
+          "$value": "{color.shadow.md}"
+        },
+        "offset-x": {
+          "$type": "number",
+          "$value": 0
+        },
+        "offset-y": {
+          "$type": "number",
+          "$value": "{size.depth.050}"
+        },
+        "blur": {
+          "$type": "number",
+          "$value": "{size.blur.400}"
+        },
+        "spread": {
+          "$type": "number",
+          "$value": 0
+        }
+      },
+      "layer-3": {
+        "color": {
+          "$type": "color",
+          "$value": "{color.shadow.md}"
+        },
+        "offset-x": {
+          "$type": "number",
+          "$value": 0
+        },
+        "offset-y": {
+          "$type": "number",
+          "$value": "{size.depth.050}"
+        },
+        "blur": {
+          "$type": "number",
+          "$value": "{size.blur.600}"
+        },
+        "spread": {
+          "$type": "number",
+          "$value": 0
+        }
+      }
+    },
+    "lg": {
+      "layer-1": {
+        "color": {
+          "$type": "color",
+          "$value": "{color.shadow.sm}"
+        },
+        "offset-x": {
+          "$type": "number",
+          "$value": 0
+        },
+        "offset-y": {
+          "$type": "number",
+          "$value": "{size.depth.050}"
+        },
+        "blur": {
+          "$type": "number",
+          "$value": "{size.blur.600}"
+        },
+        "spread": {
+          "$type": "number",
+          "$value": 0
+        }
+      },
+      "layer-2": {
+        "color": {
+          "$type": "color",
+          "$value": "{color.shadow.md}"
+        },
+        "offset-x": {
+          "$type": "number",
+          "$value": 0
+        },
+        "offset-y": {
+          "$type": "number",
+          "$value": "{size.depth.200}"
+        },
+        "blur": {
+          "$type": "number",
+          "$value": "{size.blur.1600}"
+        },
+        "spread": {
+          "$type": "number",
+          "$value": 0
+        }
+      },
+      "layer-3": {
+        "color": {
+          "$type": "color",
+          "$value": "{color.shadow.md}"
+        },
+        "offset-x": {
+          "$type": "number",
+          "$value": 0
+        },
+        "offset-y": {
+          "$type": "number",
+          "$value": "{size.depth.100}"
+        },
+        "blur": {
+          "$type": "number",
+          "$value": "{size.blur.1200}"
+        },
+        "spread": {
+          "$type": "number",
+          "$value": 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "text-style": {
+    "display-l": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.title}",
+        "$description": "Hero headline for onboarding screens, empty states, and success moments."
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.4xl}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.light}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "display-m": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.title}",
+        "$description": "Secondary hero text for feature highlights and full-screen modal titles."
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.3xl}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.light}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "heading-l": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.title}",
+        "$description": "Page title, the primary heading at the top of a screen or modal."
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.2xl}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.semibold}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "heading-m": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.title}",
+        "$description": "Section header, groups related content within a page."
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.xl}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.semibold}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "heading-s": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.title}",
+        "$description": "Card title, list section header, or small grouping label."
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.lg}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.semibold}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "pragraph-l": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}",
+        "$description": "Primary body text for descriptions, instructions, and onboarding copy."
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.md}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.regular}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "pragraph-l-strong": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}",
+        "$description": "Emphasized body text, key sentence or price that needs to stand out."
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.md}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.medium}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "pragraph-m": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}",
+        "$description": "Secondary description, supporting text below a heading or list item title."
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.sm}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.regular}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "pragraph-m-strong": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}",
+        "$description": "Key value or status within a secondary description that needs emphasis."
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.sm}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.medium}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "pragraph-s": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}",
+        "$description": "Fine print, timestamps, disclaimers, and meta info."
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.xs}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.regular}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "label-l": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}",
+        "$description": "Primary button text, main nav items, and input field text."
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.md}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.medium}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "label-l-strong": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}",
+        "$description": "Active or selected state, nav item, focused input, or high-emphasis button."
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.md}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.semibold}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "label-m": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}",
+        "$description": "Form labels, secondary buttons, tab labels, and badge text."
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.sm}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.medium}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "label-m-strong": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}",
+        "$description": "Active tab, selected list item, or table column header."
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.sm}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.semibold}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "label-s": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}",
+        "$description": "Helper text, error messages, tooltips, and overline tags."
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.xs}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.medium}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    }
+  }
+}

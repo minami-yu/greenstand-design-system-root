@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "build:tokens": "node scripts/build-tokens.js",
+    "build:tokens": "node scripts/style-dictionary-build-tokens.js",
     "sync:figma": "npx skills add firebenders/sync-figma-token-skill@sync-figma-token -y",
     "sync-skills": "npm run sync:figma"
   },
