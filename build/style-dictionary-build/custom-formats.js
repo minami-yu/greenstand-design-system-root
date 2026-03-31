@@ -17,7 +17,7 @@ function formatTypographyCssClasses({ dictionary, file }) {
     const letterSpacing = `${formatNumber(parsePercent(resolveTokenValue(dictionary.tokens, properties['letter-spacing'].original.$value)))}em`;
 
     return [
-      `.gs-typography-${styleName} {`,
+      `.typography-${styleName} {`,
       `  font-family: var(--${properties['font-family'].name});`,
       `  font-size: calc(var(--${properties['font-size'].name}) * 1px);`,
       `  font-weight: var(--${properties['font-weight'].name});`,
@@ -56,7 +56,7 @@ function formatElevationCssClasses({ dictionary, file }) {
     });
 
     return [
-      `.gs-elevation-${elevationName} {`,
+      `.elevation-${elevationName} {`,
       `  box-shadow: ${shadowLayers.join(', ')};`,
       '}'
     ].join('\n');
@@ -131,7 +131,7 @@ function formatTypographyAndroidXml({ dictionary }) {
     const letterSpacing = parsePercent(resolveTokenValue(dictionary.tokens, properties['letter-spacing'].$value));
 
     return [
-      `  <style name="GsTypography${toPascalCase(styleName)}">`,
+      `  <style name="Typography${toPascalCase(styleName)}">`,
       `    <item name="android:fontFamily">${fontFamily}</item>`,
       `    <item name="android:textSize">${formatNumber(fontSize)}sp</item>`,
       `    <item name="android:textFontWeight">${formatNumber(fontWeight)}</item>`,
@@ -150,6 +150,149 @@ function formatTypographyAndroidXml({ dictionary }) {
     '<resources>',
     ...styleBlocks,
     '</resources>',
+    ''
+  ].join('\n');
+}
+
+// Serializes JS literals for generated React Native token modules.
+function formatJsLiteral(value) {
+  if (typeof value === 'string') {
+    return JSON.stringify(value);
+  }
+
+  if (typeof value === 'number' || typeof value === 'boolean') {
+    return String(value);
+  }
+
+  if (value === null) {
+    return 'null';
+  }
+
+  if (Array.isArray(value)) {
+    return `[${value.map((item) => formatJsLiteral(item)).join(', ')}]`;
+  }
+
+  if (typeof value === 'object') {
+    return `{ ${Object.entries(value).map(([key, item]) => `${key}: ${formatJsLiteral(item)}`).join(', ')} }`;
+  }
+
+  return JSON.stringify(value);
+}
+
+// Builds a flat TypeScript token map for React Native-friendly primitive bundles.
+function formatReactNativeModule({ dictionary, file, options }) {
+  const moduleName = options.moduleName;
+  const tokenEntries = dictionary.allTokens.map((token) => `  ${token.name}: ${formatJsLiteral(token.$value ?? token.value)}`);
+
+  return [
+    '/**',
+    ` * ${file.destination}`,
+    ' * Do not edit directly, this file was auto-generated.',
+    ' */',
+    '',
+    `export const ${moduleName} = {`,
+    tokenEntries.join(',\n'),
+    '} as const;',
+    '',
+    `export default ${moduleName};`,
+    ''
+  ].join('\n');
+}
+
+// Builds structured text styles that can be consumed directly in React Native.
+function formatReactNativeTypography({ dictionary, file, options }) {
+  const moduleName = options.moduleName;
+  const textStyles = dictionary.tokens['text-style'] || {};
+  const styleEntries = Object.entries(textStyles).map(([styleName, properties]) => {
+    const fontFamily = resolveTokenValue(dictionary.tokens, properties['font-family'].$value);
+    const fontSize = Number(resolveTokenValue(dictionary.tokens, properties['font-size'].$value));
+    const fontWeight = String(Number(resolveTokenValue(dictionary.tokens, properties['font-weight'].$value)));
+    const lineHeight = fontSize * parsePercent(resolveTokenValue(dictionary.tokens, properties['line-height'].$value));
+    const letterSpacing = fontSize * parsePercent(resolveTokenValue(dictionary.tokens, properties['letter-spacing'].$value));
+
+    return [
+      `  ${toCamelCase(styleName)}: {`,
+      `    fontFamily: ${JSON.stringify(fontFamily)},`,
+      `    fontSize: ${formatNumber(fontSize)},`,
+      `    fontWeight: ${JSON.stringify(fontWeight)},`,
+      `    lineHeight: ${formatNumber(lineHeight)},`,
+      `    letterSpacing: ${formatNumber(letterSpacing)}`,
+      '  }'
+    ].join('\n');
+  });
+
+  return [
+    '/**',
+    ` * ${file.destination}`,
+    ' * Do not edit directly, this file was auto-generated.',
+    ' */',
+    '',
+    'export type ReactNativeTypographyStyle = {',
+    '  fontFamily: string;',
+    '  fontSize: number;',
+    '  fontWeight: string;',
+    '  lineHeight: number;',
+    '  letterSpacing: number;',
+    '};',
+    '',
+    `export const ${moduleName} = {`,
+    styleEntries.join(',\n'),
+    '} as const satisfies Record<string, ReactNativeTypographyStyle>;',
+    '',
+    `export default ${moduleName};`,
+    ''
+  ].join('\n');
+}
+
+// Builds structured elevation layer data without collapsing multi-shadow tokens.
+function formatReactNativeElevation({ dictionary, file, options }) {
+  const moduleName = options.moduleName;
+  const elevationStyles = dictionary.tokens.elevation || {};
+  const styleEntries = Object.entries(elevationStyles).map(([elevationName, layers]) => {
+    const layerEntries = Object.values(layers).map((layer) => (
+      [
+        '      {',
+        `        color: ${formatJsLiteral(resolveTokenValue(dictionary.tokens, layer.color.$value))},`,
+        `        offsetX: ${formatNumber(Number(resolveTokenValue(dictionary.tokens, layer['offset-x'].$value)))},`,
+        `        offsetY: ${formatNumber(Number(resolveTokenValue(dictionary.tokens, layer['offset-y'].$value)))},`,
+        `        blur: ${formatNumber(Number(resolveTokenValue(dictionary.tokens, layer.blur.$value)))},`,
+        `        spread: ${formatNumber(Number(resolveTokenValue(dictionary.tokens, layer.spread.$value)))}`,
+        '      }'
+      ].join('\n')
+    ));
+
+    return [
+      `  ${toCamelCase(elevationName)}: {`,
+      '    layers: [',
+      layerEntries.join(',\n'),
+      '    ]',
+      '  }'
+    ].join('\n');
+  });
+
+  return [
+    '/**',
+    ` * ${file.destination}`,
+    ' * Do not edit directly, this file was auto-generated.',
+    ' */',
+    '',
+    'export type ReactNativeElevationLayer = {',
+    '  color: string;',
+    '  offsetX: number;',
+    '  offsetY: number;',
+    '  blur: number;',
+    '  spread: number;',
+    '};',
+    '',
+    'export type ReactNativeElevationStyle = {',
+    '  layers: ReactNativeElevationLayer[];',
+    '};',
+    '',
+    `export const ${moduleName} = {`,
+    styleEntries.join(',\n'),
+    '} as const satisfies Record<string, ReactNativeElevationStyle>;',
+    '',
+    `export default ${moduleName};`,
     ''
   ].join('\n');
 }
@@ -174,5 +317,20 @@ export function registerCustomFormats() {
   StyleDictionary.registerFormat({
     name: 'greenstand/android-typography-xml',
     format: formatTypographyAndroidXml
+  });
+
+  StyleDictionary.registerFormat({
+    name: 'greenstand/react-native-module',
+    format: formatReactNativeModule
+  });
+
+  StyleDictionary.registerFormat({
+    name: 'greenstand/react-native-typography',
+    format: formatReactNativeTypography
+  });
+
+  StyleDictionary.registerFormat({
+    name: 'greenstand/react-native-elevation',
+    format: formatReactNativeElevation
   });
 }

@@ -4,105 +4,105 @@
   Do not edit directly, this file was auto-generated.
 -->
 <resources>
-  <style name="GsTypographyDisplayL">
+  <style name="TypographyDisplayL">
     <item name="android:fontFamily">Montserrat</item>
     <item name="android:textSize">28sp</item>
     <item name="android:textFontWeight">300</item>
     <item name="android:lineHeight">39.2sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="GsTypographyDisplayM">
+  <style name="TypographyDisplayM">
     <item name="android:fontFamily">Montserrat</item>
     <item name="android:textSize">24sp</item>
     <item name="android:textFontWeight">300</item>
     <item name="android:lineHeight">33.6sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="GsTypographyHeadingL">
+  <style name="TypographyHeadingL">
     <item name="android:fontFamily">Montserrat</item>
     <item name="android:textSize">22sp</item>
     <item name="android:textFontWeight">600</item>
     <item name="android:lineHeight">30.8sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="GsTypographyHeadingM">
+  <style name="TypographyHeadingM">
     <item name="android:fontFamily">Montserrat</item>
     <item name="android:textSize">20sp</item>
     <item name="android:textFontWeight">600</item>
     <item name="android:lineHeight">28sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="GsTypographyHeadingS">
+  <style name="TypographyHeadingS">
     <item name="android:fontFamily">Montserrat</item>
     <item name="android:textSize">18sp</item>
     <item name="android:textFontWeight">600</item>
     <item name="android:lineHeight">25.2sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="GsTypographyPragraphL">
+  <style name="TypographyPragraphL">
     <item name="android:fontFamily">Roboto</item>
     <item name="android:textSize">16sp</item>
     <item name="android:textFontWeight">400</item>
     <item name="android:lineHeight">22.4sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="GsTypographyPragraphLStrong">
+  <style name="TypographyPragraphLStrong">
     <item name="android:fontFamily">Roboto</item>
     <item name="android:textSize">16sp</item>
     <item name="android:textFontWeight">500</item>
     <item name="android:lineHeight">22.4sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="GsTypographyPragraphM">
+  <style name="TypographyPragraphM">
     <item name="android:fontFamily">Roboto</item>
     <item name="android:textSize">14sp</item>
     <item name="android:textFontWeight">400</item>
     <item name="android:lineHeight">19.6sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="GsTypographyPragraphMStrong">
+  <style name="TypographyPragraphMStrong">
     <item name="android:fontFamily">Roboto</item>
     <item name="android:textSize">14sp</item>
     <item name="android:textFontWeight">500</item>
     <item name="android:lineHeight">19.6sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="GsTypographyPragraphS">
+  <style name="TypographyPragraphS">
     <item name="android:fontFamily">Roboto</item>
     <item name="android:textSize">12sp</item>
     <item name="android:textFontWeight">400</item>
     <item name="android:lineHeight">16.8sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="GsTypographyLabelL">
+  <style name="TypographyLabelL">
     <item name="android:fontFamily">Roboto</item>
     <item name="android:textSize">16sp</item>
     <item name="android:textFontWeight">500</item>
     <item name="android:lineHeight">22.4sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="GsTypographyLabelLStrong">
+  <style name="TypographyLabelLStrong">
     <item name="android:fontFamily">Roboto</item>
     <item name="android:textSize">16sp</item>
     <item name="android:textFontWeight">600</item>
     <item name="android:lineHeight">22.4sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="GsTypographyLabelM">
+  <style name="TypographyLabelM">
     <item name="android:fontFamily">Roboto</item>
     <item name="android:textSize">14sp</item>
     <item name="android:textFontWeight">500</item>
     <item name="android:lineHeight">19.6sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="GsTypographyLabelMStrong">
+  <style name="TypographyLabelMStrong">
     <item name="android:fontFamily">Roboto</item>
     <item name="android:textSize">14sp</item>
     <item name="android:textFontWeight">600</item>
     <item name="android:lineHeight">19.6sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="GsTypographyLabelS">
+  <style name="TypographyLabelS">
     <item name="android:fontFamily">Roboto</item>
     <item name="android:textSize">12sp</item>
     <item name="android:textFontWeight">500</item>

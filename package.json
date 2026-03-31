@@ -1,11 +1,19 @@
 {
   "name": "greenstand-design-system",
+  "private": true,
   "version": "1.0.0",
   "description": "Design system basics for Greenstand products",
   "type": "module",
   "main": "index.js",
+  "workspaces": [
+    "react-native-app"
+  ],
   "scripts": {
-    "build:tokens": "node scripts/style-dictionary-build-tokens.js",
+    "build:tokens": "node build/style-dictionary-build-tokens.js",
+    "mobile": "npm run start -w react-native-app",
+    "mobile:android": "npm run android -w react-native-app",
+    "mobile:ios": "npm run ios -w react-native-app",
+    "mobile:web": "npm run web -w react-native-app",
     "sync:figma": "npx skills add firebenders/sync-figma-token-skill@sync-figma-token -y",
     "sync-skills": "npm run sync:figma"
   },

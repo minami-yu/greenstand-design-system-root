@@ -34,19 +34,21 @@ For the step 1 there are 2 ways to do
 
 ## Style Dictionary
 ### About style dictionary
-- Build entrypoint lives at `scripts/style-dictionary-build-tokens.js`
-- Build helpers live under `scripts/style-dictionary-build/`
-- Outputs are written to `style-dictionary/web`, `style-dictionary/android`, and `style-dictionary/ios`
-- Source mapping lives in `style-dictionary.config.json` under `sources`
-- Source globs in `style-dictionary.config.json` are informational for repo layout, but the actual build uses `sources` for explicit file mapping
+- Build entrypoint lives at `build/style-dictionary-build-tokens.js`
+- Build helpers live under `build/style-dictionary-build/`
+- Build manifest lives at `build/style-dictionary.config.json`
+- Outputs are written under `style-dictionary/` using `build/style-dictionary.config.json > platformBuildPaths`
+- Default generated outputs go to `style-dictionary/web`, `style-dictionary/android`, `style-dictionary/ios`, and `style-dictionary/react-native`
+- Source mapping lives in `build/style-dictionary.config.json` under `sources`
+- Source globs in `build/style-dictionary.config.json` are informational for repo layout, but the actual build uses `sources` for explicit file mapping
 
 ### Build requirements
 - Variable token files must live under `design-tokens/variables`
 - Style token files must live under `design-tokens/styles`
-- The files referenced in `style-dictionary.config.json > sources` must exist
+- The files referenced in `build/style-dictionary.config.json > sources` must exist
 - Each configured source file must be valid JSON
 
-Required `sources` keys in `style-dictionary.config.json`:
+Required `sources` keys in `build/style-dictionary.config.json`:
 - `colorBase`
 - `colorLight`
 - `colorDark`
@@ -74,7 +76,8 @@ Generated outputs:
 - `typography-mobile` and `typography-desktop` are generated separately per platform
 - `elevation-light` and `elevation-dark` are generated separately per platform
 - Web typography and elevation outputs merge variables and helper classes into a single CSS file
+- React Native outputs are generated as `.ts` modules plus `style-dictionary/react-native/index.ts`
 
 Notes:
-- If a source file is renamed, update `style-dictionary.config.json > sources`
-- If a source file’s structure changes, update the validator and the generated source preparation in `scripts/style-dictionary-build/pipeline.js`
+- If a source file is renamed, update `build/style-dictionary.config.json > sources`
+- If a source file’s structure changes, update the validator and the generated source preparation in `build/style-dictionary-build/pipeline.js`
