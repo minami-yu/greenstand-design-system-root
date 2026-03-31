@@ -12,12 +12,16 @@ Overall thre are 2 steps
 
 ### Step 1
 For the step 1 there are 2 ways to do
-#### Option1: use FigmaMCP
+#### Option1: use FigmaMCP (not recommended)
 - run the prompt in "prompts/fetch-figma-design.md'
 - make sure to check the JSON file to see it actually reflect the change as is.
 
-#### Option2: manual upload
+#### Option2: manual upload (recommended)
 - export variables files via Zeroheight and locate under design-tokens/styles folder
+-- run Zeroheight plugin in Figma
+-- sync variables
+-- go to Zeroheight from the link icon
+-- export JSON files
 - manually edit styles, which are located under the variables folder.
 
 
