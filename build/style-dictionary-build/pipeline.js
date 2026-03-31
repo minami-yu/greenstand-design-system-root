@@ -1,7 +1,14 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import StyleDictionary from 'style-dictionary';
-import { repoRoot, toPascalCase, toPosixPath } from './shared.js';
+import { repoRoot, toCamelCase, toPascalCase, toPosixPath } from './shared.js';
+
+const defaultPlatformBuildPaths = {
+  web: 'web',
+  android: 'android',
+  ios: 'ios',
+  reactNative: 'react-native'
+};
 
 // Reads a JSON token file from disk.
 async function readJsonFile(filePath) {
@@ -16,15 +23,20 @@ async function writeGeneratedTokenFile(filePath, contents) {
 }
 
 // Removes previous generated artifacts so obsolete files do not survive build shape changes.
-export async function prepareBuildDirectory(buildPath) {
+export async function prepareBuildDirectory(buildPath, platformBuildPaths = {}) {
   await fs.rm(buildPath, { recursive: true, force: true });
   await fs.mkdir(buildPath, { recursive: true });
+  await Promise.all(Object.values({
+    ...defaultPlatformBuildPaths,
+    ...platformBuildPaths
+  }).map((platformPath) => fs.mkdir(path.join(buildPath, platformPath), { recursive: true })));
 }
 
 // Merges a helper CSS file into the main bundle file so web outputs stay single-file.
-export async function mergeWebCssFile(buildPath, primaryFileName, helperFileName) {
-  const primaryPath = path.join(buildPath, 'web', primaryFileName);
-  const helperPath = path.join(buildPath, 'web', helperFileName);
+export async function mergeWebCssFile(buildPath, platformBuildPaths, primaryFileName, helperFileName) {
+  const webBuildPath = platformBuildPaths.web || defaultPlatformBuildPaths.web;
+  const primaryPath = path.join(buildPath, webBuildPath, primaryFileName);
+  const helperPath = path.join(buildPath, webBuildPath, helperFileName);
   const [primaryCss, helperCss] = await Promise.all([
     fs.readFile(primaryPath, 'utf8'),
     fs.readFile(helperPath, 'utf8')
@@ -35,6 +47,21 @@ export async function mergeWebCssFile(buildPath, primaryFileName, helperFileName
 
   await fs.writeFile(primaryPath, `${primaryCss.trimEnd()}\n\n${cleanedHelperCss}\n`);
   await fs.rm(helperPath, { force: true });
+}
+
+// Builds an index module for React Native consumers.
+export async function writeReactNativeIndex(buildPath, platformBuildPaths, bundleNames) {
+  const reactNativeBuildPath = platformBuildPaths.reactNative || defaultPlatformBuildPaths.reactNative;
+  const indexPath = path.join(buildPath, reactNativeBuildPath, 'index.ts');
+  const lines = bundleNames.flatMap((bundleName) => {
+    const moduleName = toCamelCase(bundleName);
+    return [
+      `export { ${moduleName} } from './${bundleName}';`,
+      `export { default as ${moduleName}Default } from './${bundleName}';`
+    ];
+  });
+
+  await fs.writeFile(indexPath, `${lines.join('\n')}\n`);
 }
 
 // Converts a typography composite token into primitive alias-backed token properties.
@@ -288,8 +315,18 @@ export function createBundleDefinitions(sourceConfig, generatedSources) {
 }
 
 // Builds the Style Dictionary config for one named bundle across web, iOS, and Android.
-export function createPlatformConfig({ buildPath, prefix, bundleName, webTransformGroup }) {
+export function createPlatformConfig({
+  buildPath,
+  platformBuildPaths = {},
+  prefix,
+  bundleName,
+  webTransformGroup
+}) {
   const baseDir = toPosixPath(buildPath);
+  const resolvedPlatformBuildPaths = {
+    ...defaultPlatformBuildPaths,
+    ...platformBuildPaths
+  };
   const isTypographyBundle = bundleName.startsWith('typography-');
   const isElevationBundle = bundleName.startsWith('elevation-');
 
@@ -297,7 +334,7 @@ export function createPlatformConfig({ buildPath, prefix, bundleName, webTransfo
     platforms: {
       web: {
         transformGroup: webTransformGroup,
-        buildPath: `${baseDir}/web/`,
+        buildPath: `${baseDir}/${toPosixPath(resolvedPlatformBuildPaths.web)}/`,
         files: isTypographyBundle
           ? [
               {
@@ -340,7 +377,7 @@ export function createPlatformConfig({ buildPath, prefix, bundleName, webTransfo
       android: {
         prefix,
         transformGroup: 'android',
-        buildPath: `${baseDir}/android/`,
+        buildPath: `${baseDir}/${toPosixPath(resolvedPlatformBuildPaths.android)}/`,
         files: [
           {
             destination: `${bundleName}.xml`,
@@ -351,7 +388,7 @@ export function createPlatformConfig({ buildPath, prefix, bundleName, webTransfo
       ios: {
         prefix,
         transformGroup: 'ios-swift',
-        buildPath: `${baseDir}/ios/`,
+        buildPath: `${baseDir}/${toPosixPath(resolvedPlatformBuildPaths.ios)}/`,
         files: [
           {
             destination: `${bundleName}.swift`,
@@ -361,17 +398,43 @@ export function createPlatformConfig({ buildPath, prefix, bundleName, webTransfo
             }
           }
         ]
+      },
+      reactNative: {
+        prefix,
+        transformGroup: 'react-native',
+        buildPath: `${baseDir}/${toPosixPath(resolvedPlatformBuildPaths.reactNative)}/`,
+        files: [
+          {
+            destination: `${bundleName}.ts`,
+            format: isTypographyBundle
+              ? 'greenstand/react-native-typography'
+              : isElevationBundle
+                ? 'greenstand/react-native-elevation'
+                : 'greenstand/react-native-module',
+            options: {
+              moduleName: toCamelCase(bundleName)
+            }
+          }
+        ]
       }
     }
   };
 }
 
 // Builds one named bundle from an explicit source list.
-export async function buildBundle({ buildPath, prefix, source, bundleName, webTransformGroup }) {
+export async function buildBundle({
+  buildPath,
+  platformBuildPaths,
+  prefix,
+  source,
+  bundleName,
+  webTransformGroup
+}) {
   const dictionary = new StyleDictionary({
     source,
     ...createPlatformConfig({
       buildPath,
+      platformBuildPaths,
       prefix,
       bundleName,
       webTransformGroup

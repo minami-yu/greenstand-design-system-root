@@ -8,7 +8,8 @@ import {
   mergeWebCssFile,
   prepareBuildDirectory,
   prepareGeneratedSources,
-  validateConfiguredSources
+  validateConfiguredSources,
+  writeReactNativeIndex
 } from './style-dictionary-build/pipeline.js';
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -47,12 +48,24 @@ function validateManifest(manifest) {
   ];
 
   if (!manifest.sources) {
-    throw new Error('style-dictionary.config.json must define a top-level "sources" object for the token build.');
+    throw new Error('build/style-dictionary.config.json must define a top-level "sources" object for the token build.');
   }
 
   for (const sourceKey of requiredSourceKeys) {
     if (!manifest.sources[sourceKey]) {
-      throw new Error(`style-dictionary.config.json is missing sources.${sourceKey}`);
+      throw new Error(`build/style-dictionary.config.json is missing sources.${sourceKey}`);
+    }
+  }
+
+  if (manifest.platformBuildPaths !== undefined) {
+    if (typeof manifest.platformBuildPaths !== 'object' || Array.isArray(manifest.platformBuildPaths)) {
+      throw new Error('build/style-dictionary.config.json "platformBuildPaths" must be an object when provided.');
+    }
+
+    for (const [platformName, platformPath] of Object.entries(manifest.platformBuildPaths)) {
+      if (typeof platformPath !== 'string' || platformPath.trim() === '') {
+        throw new Error(`build/style-dictionary.config.json platformBuildPaths.${platformName} must be a non-empty string.`);
+      }
     }
   }
 }
@@ -61,11 +74,14 @@ function validateManifest(manifest) {
 async function main() {
   const manifest = await loadManifest();
   const buildPath = path.join(repoRoot, manifest.buildPath);
-  const prefix = manifest.prefix || 'token';
+  const platformBuildPaths = manifest.platformBuildPaths || {};
+  const prefix = typeof manifest.prefix === 'string' && manifest.prefix.trim() !== ''
+    ? manifest.prefix
+    : undefined;
 
   validateManifest(manifest);
   await validateConfiguredSources(manifest.sources);
-  await prepareBuildDirectory(buildPath);
+  await prepareBuildDirectory(buildPath, platformBuildPaths);
 
   const generatedSources = await prepareGeneratedSources(buildPath, manifest.sources);
   const bundles = createBundleDefinitions(manifest.sources, generatedSources);
@@ -73,6 +89,7 @@ async function main() {
   for (const bundle of bundles) {
     await buildBundle({
       buildPath,
+      platformBuildPaths,
       prefix,
       source: bundle.source,
       bundleName: bundle.name,
@@ -80,9 +97,11 @@ async function main() {
     });
 
     if (bundle.name.startsWith('typography-') || bundle.name.startsWith('elevation-')) {
-      await mergeWebCssFile(buildPath, `${bundle.name}.css`, `${bundle.name}-classes.css`);
+      await mergeWebCssFile(buildPath, platformBuildPaths, `${bundle.name}.css`, `${bundle.name}-classes.css`);
     }
   }
+
+  await writeReactNativeIndex(buildPath, platformBuildPaths, bundles.map((bundle) => bundle.name));
 }
 
 main().catch((error) => {

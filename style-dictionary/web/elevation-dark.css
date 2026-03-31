@@ -3,104 +3,104 @@
  */
 
 :root {
-  --gs-size-blur-100: 1;
-  --gs-size-blur-200: 2;
-  --gs-size-blur-400: 4;
-  --gs-size-blur-600: 6;
-  --gs-size-blur-800: 8;
-  --gs-size-blur-1200: 12;
-  --gs-size-blur-1600: 16;
-  --gs-size-depth-0: 0;
-  --gs-size-depth-100: 4;
-  --gs-size-depth-200: 8;
-  --gs-size-depth-400: 16;
-  --gs-size-depth-025: 1;
-  --gs-size-depth-050: 2;
-  --gs-size-icon-2xl: 40; /** extra large icon. Onboarding illustrations. */
-  --gs-size-icon-lg: 24; /** standard icon. Tab bar, toolbar, card actions. */
-  --gs-size-icon-md: 20; /** default icon. Buttons, nav items, list items. */
-  --gs-size-icon-sm: 16; /** small icon. Inline with text, inputs, table rows. */
-  --gs-size-icon-xl: 32; /** large icon. Empty states, feature highlights. */
-  --gs-size-icon-xs: 12; /** inline icon inside a label or badge. */
-  --gs-size-radius-full: 9999; /** fully rounded. Pills, avatars, toggle switches. */
-  --gs-size-radius-lg: 16; /** large rounding. Bottom sheets, modals, dialogs. */
-  --gs-size-radius-none: 0; /** no rounding. Dividers, full-width elements. */
-  --gs-size-radius-sm: 8; /** Default rounding. Buttons, inputs, cards, menus. */
-  --gs-size-radius-xs: 4; /** subtle rounding. Badges, tags, small chips. */
-  --gs-size-space-0: 0; /** no spacing */
-  --gs-size-space-100: 4; /** icon-to-label gap, tight internal padding. */
-  --gs-size-space-200: 8; /** compact padding inside components. */
-  --gs-size-space-300: 12; /** gap between form elements. */
-  --gs-size-space-400: 16; /** default padding, cards, buttons, list items. */
-  --gs-size-space-600: 24; /** section padding, gap between cards. */
-  --gs-size-space-800: 32; /** large section gap. */
-  --gs-size-space-1200: 48; /** 48px — section separation on content-heavy screens. */
-  --gs-size-space-1600: 64; /** maximum spacing, page-level vertical rhythm. */
-  --gs-size-stroke-md: 2; /** emphasis border. Focused inputs, selected states. */
-  --gs-size-stroke-sm: 1; /** Default border. Cards, inputs, dividers. */
-  --gs-responsive-lg: 768;
-  --gs-responsive-md: 375;
-  --gs-responsive-sm: 360;
-  --gs-responsive-xl: 1024;
-  --gs-responsive-xs: 280;
-  --gs-color-shadow-sm: #ffffff0d;
-  --gs-color-shadow-md: #ffffff1a;
-  --gs-color-shadow-lg: #ffffff33;
-  --gs-elevation-sm-layer-1-offset-x: 0;
-  --gs-elevation-sm-layer-1-spread: 0;
-  --gs-elevation-sm-layer-2-offset-x: 0;
-  --gs-elevation-sm-layer-2-spread: 0;
-  --gs-elevation-sm-layer-3-offset-x: 0;
-  --gs-elevation-sm-layer-3-spread: 0;
-  --gs-elevation-md-layer-1-offset-x: 0;
-  --gs-elevation-md-layer-1-spread: 0;
-  --gs-elevation-md-layer-2-offset-x: 0;
-  --gs-elevation-md-layer-2-spread: 0;
-  --gs-elevation-md-layer-3-offset-x: 0;
-  --gs-elevation-md-layer-3-spread: 0;
-  --gs-elevation-lg-layer-1-offset-x: 0;
-  --gs-elevation-lg-layer-1-spread: 0;
-  --gs-elevation-lg-layer-2-offset-x: 0;
-  --gs-elevation-lg-layer-2-spread: 0;
-  --gs-elevation-lg-layer-3-offset-x: 0;
-  --gs-elevation-lg-layer-3-spread: 0;
-  --gs-elevation-sm-layer-1-color: var(--gs-color-shadow-sm);
-  --gs-elevation-sm-layer-1-offset-y: var(--gs-size-depth-025);
-  --gs-elevation-sm-layer-1-blur: var(--gs-size-blur-800);
-  --gs-elevation-sm-layer-2-color: var(--gs-color-shadow-lg);
-  --gs-elevation-sm-layer-2-offset-y: var(--gs-size-depth-050);
-  --gs-elevation-sm-layer-2-blur: var(--gs-size-blur-100);
-  --gs-elevation-sm-layer-3-color: var(--gs-color-shadow-md);
-  --gs-elevation-sm-layer-3-offset-y: var(--gs-size-depth-025);
-  --gs-elevation-sm-layer-3-blur: var(--gs-size-blur-400);
-  --gs-elevation-md-layer-1-color: var(--gs-color-shadow-sm);
-  --gs-elevation-md-layer-1-offset-y: var(--gs-size-depth-025);
-  --gs-elevation-md-layer-1-blur: var(--gs-size-blur-800);
-  --gs-elevation-md-layer-2-color: var(--gs-color-shadow-md);
-  --gs-elevation-md-layer-2-offset-y: var(--gs-size-depth-050);
-  --gs-elevation-md-layer-2-blur: var(--gs-size-blur-400);
-  --gs-elevation-md-layer-3-color: var(--gs-color-shadow-md);
-  --gs-elevation-md-layer-3-offset-y: var(--gs-size-depth-050);
-  --gs-elevation-md-layer-3-blur: var(--gs-size-blur-600);
-  --gs-elevation-lg-layer-1-color: var(--gs-color-shadow-sm);
-  --gs-elevation-lg-layer-1-offset-y: var(--gs-size-depth-050);
-  --gs-elevation-lg-layer-1-blur: var(--gs-size-blur-600);
-  --gs-elevation-lg-layer-2-color: var(--gs-color-shadow-md);
-  --gs-elevation-lg-layer-2-offset-y: var(--gs-size-depth-200);
-  --gs-elevation-lg-layer-2-blur: var(--gs-size-blur-1600);
-  --gs-elevation-lg-layer-3-color: var(--gs-color-shadow-md);
-  --gs-elevation-lg-layer-3-offset-y: var(--gs-size-depth-100);
-  --gs-elevation-lg-layer-3-blur: var(--gs-size-blur-1200);
+  --size-blur-100: 1;
+  --size-blur-200: 2;
+  --size-blur-400: 4;
+  --size-blur-600: 6;
+  --size-blur-800: 8;
+  --size-blur-1200: 12;
+  --size-blur-1600: 16;
+  --size-depth-0: 0;
+  --size-depth-100: 4;
+  --size-depth-200: 8;
+  --size-depth-400: 16;
+  --size-depth-025: 1;
+  --size-depth-050: 2;
+  --size-icon-2xl: 40; /** extra large icon. Onboarding illustrations. */
+  --size-icon-lg: 24; /** standard icon. Tab bar, toolbar, card actions. */
+  --size-icon-md: 20; /** default icon. Buttons, nav items, list items. */
+  --size-icon-sm: 16; /** small icon. Inline with text, inputs, table rows. */
+  --size-icon-xl: 32; /** large icon. Empty states, feature highlights. */
+  --size-icon-xs: 12; /** inline icon inside a label or badge. */
+  --size-radius-full: 9999; /** fully rounded. Pills, avatars, toggle switches. */
+  --size-radius-lg: 16; /** large rounding. Bottom sheets, modals, dialogs. */
+  --size-radius-none: 0; /** no rounding. Dividers, full-width elements. */
+  --size-radius-sm: 8; /** Default rounding. Buttons, inputs, cards, menus. */
+  --size-radius-xs: 4; /** subtle rounding. Badges, tags, small chips. */
+  --size-space-0: 0; /** no spacing */
+  --size-space-100: 4; /** icon-to-label gap, tight internal padding. */
+  --size-space-200: 8; /** compact padding inside components. */
+  --size-space-300: 12; /** gap between form elements. */
+  --size-space-400: 16; /** default padding, cards, buttons, list items. */
+  --size-space-600: 24; /** section padding, gap between cards. */
+  --size-space-800: 32; /** large section gap. */
+  --size-space-1200: 48; /** 48px — section separation on content-heavy screens. */
+  --size-space-1600: 64; /** maximum spacing, page-level vertical rhythm. */
+  --size-stroke-md: 2; /** emphasis border. Focused inputs, selected states. */
+  --size-stroke-sm: 1; /** Default border. Cards, inputs, dividers. */
+  --responsive-lg: 768;
+  --responsive-md: 375;
+  --responsive-sm: 360;
+  --responsive-xl: 1024;
+  --responsive-xs: 280;
+  --color-shadow-sm: #ffffff0d;
+  --color-shadow-md: #ffffff1a;
+  --color-shadow-lg: #ffffff33;
+  --elevation-sm-layer-1-offset-x: 0;
+  --elevation-sm-layer-1-spread: 0;
+  --elevation-sm-layer-2-offset-x: 0;
+  --elevation-sm-layer-2-spread: 0;
+  --elevation-sm-layer-3-offset-x: 0;
+  --elevation-sm-layer-3-spread: 0;
+  --elevation-md-layer-1-offset-x: 0;
+  --elevation-md-layer-1-spread: 0;
+  --elevation-md-layer-2-offset-x: 0;
+  --elevation-md-layer-2-spread: 0;
+  --elevation-md-layer-3-offset-x: 0;
+  --elevation-md-layer-3-spread: 0;
+  --elevation-lg-layer-1-offset-x: 0;
+  --elevation-lg-layer-1-spread: 0;
+  --elevation-lg-layer-2-offset-x: 0;
+  --elevation-lg-layer-2-spread: 0;
+  --elevation-lg-layer-3-offset-x: 0;
+  --elevation-lg-layer-3-spread: 0;
+  --elevation-sm-layer-1-color: var(--color-shadow-sm);
+  --elevation-sm-layer-1-offset-y: var(--size-depth-025);
+  --elevation-sm-layer-1-blur: var(--size-blur-800);
+  --elevation-sm-layer-2-color: var(--color-shadow-lg);
+  --elevation-sm-layer-2-offset-y: var(--size-depth-050);
+  --elevation-sm-layer-2-blur: var(--size-blur-100);
+  --elevation-sm-layer-3-color: var(--color-shadow-md);
+  --elevation-sm-layer-3-offset-y: var(--size-depth-025);
+  --elevation-sm-layer-3-blur: var(--size-blur-400);
+  --elevation-md-layer-1-color: var(--color-shadow-sm);
+  --elevation-md-layer-1-offset-y: var(--size-depth-025);
+  --elevation-md-layer-1-blur: var(--size-blur-800);
+  --elevation-md-layer-2-color: var(--color-shadow-md);
+  --elevation-md-layer-2-offset-y: var(--size-depth-050);
+  --elevation-md-layer-2-blur: var(--size-blur-400);
+  --elevation-md-layer-3-color: var(--color-shadow-md);
+  --elevation-md-layer-3-offset-y: var(--size-depth-050);
+  --elevation-md-layer-3-blur: var(--size-blur-600);
+  --elevation-lg-layer-1-color: var(--color-shadow-sm);
+  --elevation-lg-layer-1-offset-y: var(--size-depth-050);
+  --elevation-lg-layer-1-blur: var(--size-blur-600);
+  --elevation-lg-layer-2-color: var(--color-shadow-md);
+  --elevation-lg-layer-2-offset-y: var(--size-depth-200);
+  --elevation-lg-layer-2-blur: var(--size-blur-1600);
+  --elevation-lg-layer-3-color: var(--color-shadow-md);
+  --elevation-lg-layer-3-offset-y: var(--size-depth-100);
+  --elevation-lg-layer-3-blur: var(--size-blur-1200);
 }
 
 /* elevation-dark-classes.css */
 
-.gs-elevation-sm {
-  box-shadow: calc(var(--gs-elevation-sm-layer-1-offset-x) * 1px) calc(var(--gs-elevation-sm-layer-1-offset-y) * 1px) calc(var(--gs-elevation-sm-layer-1-blur) * 1px) calc(var(--gs-elevation-sm-layer-1-spread) * 1px) var(--gs-elevation-sm-layer-1-color), calc(var(--gs-elevation-sm-layer-2-offset-x) * 1px) calc(var(--gs-elevation-sm-layer-2-offset-y) * 1px) calc(var(--gs-elevation-sm-layer-2-blur) * 1px) calc(var(--gs-elevation-sm-layer-2-spread) * 1px) var(--gs-elevation-sm-layer-2-color), calc(var(--gs-elevation-sm-layer-3-offset-x) * 1px) calc(var(--gs-elevation-sm-layer-3-offset-y) * 1px) calc(var(--gs-elevation-sm-layer-3-blur) * 1px) calc(var(--gs-elevation-sm-layer-3-spread) * 1px) var(--gs-elevation-sm-layer-3-color);
+.elevation-sm {
+  box-shadow: calc(var(--elevation-sm-layer-1-offset-x) * 1px) calc(var(--elevation-sm-layer-1-offset-y) * 1px) calc(var(--elevation-sm-layer-1-blur) * 1px) calc(var(--elevation-sm-layer-1-spread) * 1px) var(--elevation-sm-layer-1-color), calc(var(--elevation-sm-layer-2-offset-x) * 1px) calc(var(--elevation-sm-layer-2-offset-y) * 1px) calc(var(--elevation-sm-layer-2-blur) * 1px) calc(var(--elevation-sm-layer-2-spread) * 1px) var(--elevation-sm-layer-2-color), calc(var(--elevation-sm-layer-3-offset-x) * 1px) calc(var(--elevation-sm-layer-3-offset-y) * 1px) calc(var(--elevation-sm-layer-3-blur) * 1px) calc(var(--elevation-sm-layer-3-spread) * 1px) var(--elevation-sm-layer-3-color);
 }
-.gs-elevation-md {
-  box-shadow: calc(var(--gs-elevation-md-layer-1-offset-x) * 1px) calc(var(--gs-elevation-md-layer-1-offset-y) * 1px) calc(var(--gs-elevation-md-layer-1-blur) * 1px) calc(var(--gs-elevation-md-layer-1-spread) * 1px) var(--gs-elevation-md-layer-1-color), calc(var(--gs-elevation-md-layer-2-offset-x) * 1px) calc(var(--gs-elevation-md-layer-2-offset-y) * 1px) calc(var(--gs-elevation-md-layer-2-blur) * 1px) calc(var(--gs-elevation-md-layer-2-spread) * 1px) var(--gs-elevation-md-layer-2-color), calc(var(--gs-elevation-md-layer-3-offset-x) * 1px) calc(var(--gs-elevation-md-layer-3-offset-y) * 1px) calc(var(--gs-elevation-md-layer-3-blur) * 1px) calc(var(--gs-elevation-md-layer-3-spread) * 1px) var(--gs-elevation-md-layer-3-color);
+.elevation-md {
+  box-shadow: calc(var(--elevation-md-layer-1-offset-x) * 1px) calc(var(--elevation-md-layer-1-offset-y) * 1px) calc(var(--elevation-md-layer-1-blur) * 1px) calc(var(--elevation-md-layer-1-spread) * 1px) var(--elevation-md-layer-1-color), calc(var(--elevation-md-layer-2-offset-x) * 1px) calc(var(--elevation-md-layer-2-offset-y) * 1px) calc(var(--elevation-md-layer-2-blur) * 1px) calc(var(--elevation-md-layer-2-spread) * 1px) var(--elevation-md-layer-2-color), calc(var(--elevation-md-layer-3-offset-x) * 1px) calc(var(--elevation-md-layer-3-offset-y) * 1px) calc(var(--elevation-md-layer-3-blur) * 1px) calc(var(--elevation-md-layer-3-spread) * 1px) var(--elevation-md-layer-3-color);
 }
-.gs-elevation-lg {
-  box-shadow: calc(var(--gs-elevation-lg-layer-1-offset-x) * 1px) calc(var(--gs-elevation-lg-layer-1-offset-y) * 1px) calc(var(--gs-elevation-lg-layer-1-blur) * 1px) calc(var(--gs-elevation-lg-layer-1-spread) * 1px) var(--gs-elevation-lg-layer-1-color), calc(var(--gs-elevation-lg-layer-2-offset-x) * 1px) calc(var(--gs-elevation-lg-layer-2-offset-y) * 1px) calc(var(--gs-elevation-lg-layer-2-blur) * 1px) calc(var(--gs-elevation-lg-layer-2-spread) * 1px) var(--gs-elevation-lg-layer-2-color), calc(var(--gs-elevation-lg-layer-3-offset-x) * 1px) calc(var(--gs-elevation-lg-layer-3-offset-y) * 1px) calc(var(--gs-elevation-lg-layer-3-blur) * 1px) calc(var(--gs-elevation-lg-layer-3-spread) * 1px) var(--gs-elevation-lg-layer-3-color);
+.elevation-lg {
+  box-shadow: calc(var(--elevation-lg-layer-1-offset-x) * 1px) calc(var(--elevation-lg-layer-1-offset-y) * 1px) calc(var(--elevation-lg-layer-1-blur) * 1px) calc(var(--elevation-lg-layer-1-spread) * 1px) var(--elevation-lg-layer-1-color), calc(var(--elevation-lg-layer-2-offset-x) * 1px) calc(var(--elevation-lg-layer-2-offset-y) * 1px) calc(var(--elevation-lg-layer-2-blur) * 1px) calc(var(--elevation-lg-layer-2-spread) * 1px) var(--elevation-lg-layer-2-color), calc(var(--elevation-lg-layer-3-offset-x) * 1px) calc(var(--elevation-lg-layer-3-offset-y) * 1px) calc(var(--elevation-lg-layer-3-blur) * 1px) calc(var(--elevation-lg-layer-3-spread) * 1px) var(--elevation-lg-layer-3-color);
 }

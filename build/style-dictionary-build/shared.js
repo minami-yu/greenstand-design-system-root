@@ -1,7 +1,7 @@
 import path from 'node:path';
 
 export const repoRoot = process.cwd();
-export const manifestPath = path.join(repoRoot, 'style-dictionary.config.json');
+export const manifestPath = path.join(repoRoot, 'build', 'style-dictionary.config.json');
 export const webKebabTransformGroup = 'greenstand/web-kebab';
 
 // Converts a kebab-case value into PascalCase for generated type names.

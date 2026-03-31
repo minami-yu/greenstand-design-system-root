@@ -1,6 +1,11 @@
 {
   "buildPath": "style-dictionary",
-  "prefix": "gs",
+  "platformBuildPaths": {
+    "web": "web",
+    "android": "android",
+    "ios": "ios",
+    "reactNative": "react-native"
+  },
   "androidCompose": {
     "packageName": "org.greenstand.tokens",
     "className": "Tokens"
