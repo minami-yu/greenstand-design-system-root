@@ -1,6 +1,5 @@
-
 /figma-use /sync-figma-token
-Using the Figma file below, fetch only style definitions and generate style design token JSON files under `design-tokens/test`.
+Using the Figma file below, fetch only style definitions and generate style design token JSON files under `design-tokens`.
 
 Figma file:
 https://www.figma.com/design/hyfPWEHHgiH3YE3WWc6Cvn/Yuri-New-Roots-Design-System-1.0?node-id=12004-6&t=RsSap6FyfBgMBsz2-1
@@ -26,7 +25,7 @@ Create these exact variable files:
 - design-tokens/variables/token_typography-base_desktop.json
 
 Create these exact style files:
-- design-tokens/styles/typography-base.json
+- design-tokens/styles/typography.json
 - design-tokens/styles/elevation.json
 
 Requirements:
@@ -35,7 +34,7 @@ Requirements:
 - Light and dark color files should alias base color tokens, for example `{color.green.600}`
 - `token_size_value.json` must contain top-level `size` and may contain `responsive`
 - `token_typography-base_mobile.json` and `token_typography-base_desktop.json` must contain top-level `font.family`, `font.size`, and `font.weight`
-- `typography-base.json` must contain top-level `text-style`
+- `typography.json` must contain top-level `text-style`
 - Each `text-style` token must use `$type: "typography"` and `$value` with:
   - `fontFamily`
   - `fontSize`
@@ -59,4 +58,4 @@ Formatting rules:
 - Keep top-level keys exactly as specified
 - Do not rename files
 - Do not merge multiple outputs into one file
-- Do not create extra files unless explicitly requested→ takes too much time
+- Do not create extra files unless explicitly requested
