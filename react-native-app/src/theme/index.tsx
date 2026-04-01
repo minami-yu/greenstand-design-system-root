@@ -51,27 +51,3 @@ export function useTheme() {
 
   return value;
 }
-
-export function resolveFontFamily(fontFamily: string, fontWeight?: string) {
-  if (fontFamily === 'Montserrat') {
-    if (fontWeight === '600') {
-      return 'Montserrat-SemiBold';
-    }
-
-    return 'Montserrat-Light';
-  }
-
-  if (fontFamily === 'Roboto') {
-    if (fontWeight === '600') {
-      return 'Roboto-SemiBold';
-    }
-
-    if (fontWeight === '500') {
-      return 'Roboto-Medium';
-    }
-
-    return 'Roboto-Regular';
-  }
-
-  return fontFamily;
-}

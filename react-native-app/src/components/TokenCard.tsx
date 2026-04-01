@@ -1,6 +1,7 @@
 import { type ReactNode } from 'react';
 import { StyleSheet, Text, View, type ViewStyle } from 'react-native';
-import { resolveFontFamily, useTheme } from '../theme';
+import { useTheme } from '../theme';
+import { getFontFamily } from '../theme/fonts';
 
 type TokenCardProps = {
   title: string;
@@ -51,7 +52,7 @@ const styles = StyleSheet.create({
     lineHeight: 20
   },
   title: {
-    fontFamily: resolveFontFamily('Montserrat', '600'),
+    fontFamily: getFontFamily('Montserrat', '600'),
     fontSize: 18,
     lineHeight: 24
   }

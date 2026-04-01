@@ -1,6 +1,8 @@
 import { Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
 import { TokenCard } from '../components/TokenCard';
-import { resolveFontFamily, useTheme } from '../theme';
+import { useTheme } from '../theme';
+import { getFontFamily } from '../theme/fonts';
+import { getTypographyStyle } from '../theme/typography';
 
 function getShadowStyle() {
   return {
@@ -136,12 +138,9 @@ export function DesignSystemScreen() {
             </Text>
             <Text
               style={[
+                getTypographyStyle(token),
                 {
-                  color: theme.colors.colorTextBasePrimary,
-                  fontFamily: resolveFontFamily(token.fontFamily, token.fontWeight),
-                  fontSize: token.fontSize,
-                  letterSpacing: token.letterSpacing,
-                  lineHeight: token.lineHeight
+                  color: theme.colors.colorTextBasePrimary
                 }
               ]}
             >
@@ -182,7 +181,7 @@ const styles = StyleSheet.create({
     paddingVertical: 12
   },
   buttonText: {
-    fontFamily: resolveFontFamily('Roboto', '500'),
+    fontFamily: getFontFamily('Roboto', '500'),
     fontSize: 14,
     lineHeight: 20
   },
@@ -203,13 +202,13 @@ const styles = StyleSheet.create({
     lineHeight: 20
   },
   elevatedTitle: {
-    fontFamily: resolveFontFamily('Montserrat', '600'),
+    fontFamily: getFontFamily('Montserrat', '600'),
     fontSize: 16,
     lineHeight: 22,
     marginBottom: 8
   },
   eyebrow: {
-    fontFamily: resolveFontFamily('Roboto', '500'),
+    fontFamily: getFontFamily('Roboto', '500'),
     fontSize: 13,
     letterSpacing: 0.8,
     lineHeight: 18,
@@ -251,7 +250,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between'
   },
   switchLabel: {
-    fontFamily: resolveFontFamily('Roboto', '500'),
+    fontFamily: getFontFamily('Roboto', '500'),
     fontSize: 14,
     lineHeight: 20
   },
@@ -261,7 +260,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between'
   },
   title: {
-    fontFamily: resolveFontFamily('Montserrat', '600'),
+    fontFamily: getFontFamily('Montserrat', '600'),
     fontSize: 32,
     lineHeight: 38
   },
