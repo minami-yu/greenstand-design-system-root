@@ -1,4 +1,6 @@
+import { useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
+import { RadioButton, RadioGroup } from '../components/RadioButton';
 import { TokenCard } from '../components/TokenCard';
 import { useTheme } from '../theme';
 import { getFontFamily } from '../theme/fonts';
@@ -14,8 +16,11 @@ function getShadowStyle() {
   } as const;
 }
 
+type PlantingGoal = 'restore' | 'offset' | 'learn';
+
 export function DesignSystemScreen() {
   const { isDark, theme, toggleMode } = useTheme();
+  const [plantingGoal, setPlantingGoal] = useState<PlantingGoal>('restore');
 
   const colorSwatches = [
     theme.colors.colorBackgroundBrandDefault,
@@ -67,6 +72,27 @@ export function DesignSystemScreen() {
           />
         </View>
       </View>
+
+      <TokenCard title="Radio buttons" subtitle="Brand border and fill from semantic color tokens">
+        <RadioGroup accessibilityLabel="Planting goal">
+          <RadioButton
+            label="Restore degraded land"
+            onPress={() => setPlantingGoal('restore')}
+            selected={plantingGoal === 'restore'}
+          />
+          <RadioButton
+            label="Offset my footprint"
+            onPress={() => setPlantingGoal('offset')}
+            selected={plantingGoal === 'offset'}
+          />
+          <RadioButton
+            disabled
+            label="Unavailable option"
+            onPress={() => setPlantingGoal('learn')}
+            selected={plantingGoal === 'learn'}
+          />
+        </RadioGroup>
+      </TokenCard>
 
       <TokenCard title="Brand actions" subtitle="Buttons styled from token values">
         <View style={styles.row}>
