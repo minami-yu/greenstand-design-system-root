@@ -38,6 +38,7 @@ After changing `design-tokens/` or the Style Dictionary build, run `npm run buil
 
 ## Conventions for code changes
 
+- **Token-first components:** Prefer **design tokens** for design-system component values (color, type, spacing, radius, elevation): use `useTheme()`, theme wiring in `src/theme/`, and `style-dictionary/react-native/` exports. Avoid raw hex, ad-hoc font sizes, and magic numbers when a token exists or can be added in `design-tokens/` (then `npm run build:tokens`). In Figma work, bind variables / library tokens instead of local one-off values when the file supports it.
 - Edit **token sources** and rebuild; avoid hand-editing generated files under `style-dictionary/` unless the task is explicitly about output formats or the generator.
 - In the RN app, follow existing patterns in `react-native-app/src/theme/` and reuse theme hooks (`useTheme`) and token-backed colors.
 - Keep pull requests focused: avoid unrelated cross-workspace refactors in the same change.

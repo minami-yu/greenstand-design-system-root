@@ -27,6 +27,11 @@
   --size-radius-none: 0; /** no rounding. Dividers, full-width elements. */
   --size-radius-sm: 8; /** Default rounding. Buttons, inputs, cards, menus. */
   --size-radius-xs: 4; /** subtle rounding. Badges, tags, small chips. */
+  --size-responsive-lg: 768;
+  --size-responsive-md: 375;
+  --size-responsive-sm: 360;
+  --size-responsive-xl: 1024;
+  --size-responsive-xs: 280;
   --size-space-0: 0; /** no spacing */
   --size-space-100: 4; /** icon-to-label gap, tight internal padding. */
   --size-space-200: 8; /** compact padding inside components. */
@@ -34,13 +39,8 @@
   --size-space-400: 16; /** default padding, cards, buttons, list items. */
   --size-space-600: 24; /** section padding, gap between cards. */
   --size-space-800: 32; /** large section gap. */
-  --size-space-1200: 48; /** 48px — section separation on content-heavy screens. */
+  --size-space-1200: 48; /** section separation on content-heavy screens. */
   --size-space-1600: 64; /** maximum spacing, page-level vertical rhythm. */
   --size-stroke-md: 2; /** emphasis border. Focused inputs, selected states. */
   --size-stroke-sm: 1; /** Default border. Cards, inputs, dividers. */
-  --responsive-lg: 768;
-  --responsive-md: 375;
-  --responsive-sm: 360;
-  --responsive-xl: 1024;
-  --responsive-xs: 280;
 }

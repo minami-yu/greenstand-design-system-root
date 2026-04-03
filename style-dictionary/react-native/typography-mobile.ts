@@ -47,35 +47,35 @@ export const typographyMobile = {
     lineHeight: 25.2,
     letterSpacing: 0
   },
-  pragraphL: {
+  paragraphL: {
     fontFamily: "Roboto",
     fontSize: 16,
     fontWeight: "400",
     lineHeight: 22.4,
     letterSpacing: 0
   },
-  pragraphLStrong: {
+  paragraphLStrong: {
     fontFamily: "Roboto",
     fontSize: 16,
     fontWeight: "500",
     lineHeight: 22.4,
     letterSpacing: 0
   },
-  pragraphM: {
+  paragraphM: {
     fontFamily: "Roboto",
     fontSize: 14,
     fontWeight: "400",
     lineHeight: 19.6,
     letterSpacing: 0
   },
-  pragraphMStrong: {
+  paragraphMStrong: {
     fontFamily: "Roboto",
     fontSize: 14,
     fontWeight: "500",
     lineHeight: 19.6,
     letterSpacing: 0
   },
-  pragraphS: {
+  paragraphS: {
     fontFamily: "Roboto",
     fontSize: 12,
     fontWeight: "400",

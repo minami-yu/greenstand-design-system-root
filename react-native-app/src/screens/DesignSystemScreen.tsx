@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
+import { MaterialIcons } from '@expo/vector-icons';
+import { Button } from '../components/Button';
 import { RadioButton, RadioGroup } from '../components/RadioButton';
 import { TokenCard } from '../components/TokenCard';
 import { useTheme } from '../theme';
@@ -27,13 +29,13 @@ export function DesignSystemScreen() {
     theme.colors.colorBackgroundAccentDefault,
     theme.colors.colorBackgroundInfoEmphasis,
     theme.colors.colorBackgroundSuccessEmphasis,
-    theme.colors.colorBackgroundErrorEmphasis
+    theme.colors.colorBackgroundErrorEmphasisDefault
   ];
 
   const typographySamples = [
     { label: 'Display', token: theme.typography.mobile.displayM },
     { label: 'Heading', token: theme.typography.mobile.headingM },
-    { label: 'Paragraph', token: theme.typography.mobile.pragraphM },
+    { label: 'Paragraph', token: theme.typography.mobile.paragraphM },
     { label: 'Label', token: theme.typography.mobile.labelMStrong }
   ];
 
@@ -94,44 +96,40 @@ export function DesignSystemScreen() {
         </RadioGroup>
       </TokenCard>
 
-      <TokenCard title="Brand actions" subtitle="Buttons styled from token values">
+      <TokenCard
+        title="Buttons"
+        subtitle="Semantic colors, sizeRadiusXs + space tokens, optional Material favorite icon (matches Figma)"
+      >
         <View style={styles.row}>
-          <Pressable
-            style={[
-              styles.button,
-              {
-                backgroundColor: theme.colors.colorComponentButtonPrimaryFilledBackgroundDefault
-              }
-            ]}
+          <Button variant="primary" onPress={() => {}}>
+            Primary
+          </Button>
+          <Button variant="secondary" onPress={() => {}}>
+            Secondary
+          </Button>
+          <Button variant="tertiary" onPress={() => {}}>
+            Tertiary
+          </Button>
+          <Button variant="error" onPress={() => {}}>
+            Error
+          </Button>
+        </View>
+        <View style={styles.row}>
+          <Button disabled variant="primary" onPress={() => {}}>
+            Disabled
+          </Button>
+          <Button
+            icon={
+              <MaterialIcons
+                name="favorite"
+                size={theme.size.sizeIconMd}
+              />
+            }
+            variant="primary"
+            onPress={() => {}}
           >
-            <Text
-              style={[
-                styles.buttonText,
-                { color: theme.colors.colorComponentButtonPrimaryFilledTextDefault }
-              ]}
-            >
-              Plant a tree
-            </Text>
-          </Pressable>
-
-          <Pressable
-            style={[
-              styles.button,
-              styles.outlinedButton,
-              {
-                borderColor: theme.colors.colorComponentButtonPrimaryOutlinedBorderDefault
-              }
-            ]}
-          >
-            <Text
-              style={[
-                styles.buttonText,
-                { color: theme.colors.colorComponentButtonPrimaryOutlinedTextDefault }
-              ]}
-            >
-              View details
-            </Text>
-          </Pressable>
+            With icon
+          </Button>
         </View>
       </TokenCard>
 
@@ -200,17 +198,6 @@ export function DesignSystemScreen() {
 }
 
 const styles = StyleSheet.create({
-  button: {
-    borderRadius: 9999,
-    minHeight: 48,
-    paddingHorizontal: 18,
-    paddingVertical: 12
-  },
-  buttonText: {
-    fontFamily: getFontFamily('Roboto', '500'),
-    fontSize: 14,
-    lineHeight: 20
-  },
   container: {
     gap: 20,
     padding: 20
@@ -245,10 +232,6 @@ const styles = StyleSheet.create({
   },
   heroText: {
     gap: 8
-  },
-  outlinedButton: {
-    backgroundColor: 'transparent',
-    borderWidth: 1
   },
   row: {
     flexDirection: 'row',

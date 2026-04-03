@@ -17,23 +17,23 @@ Do not add markdown fences.
 Do not add explanation text outside the JSON.
 
 Create these exact variable files:
-- design-tokens/variables/token_color-base_value.json
+- design-tokens/variables/token_color_primitive_value.json
 - design-tokens/variables/token_color_light.json
 - design-tokens/variables/token_color_dark.json
 - design-tokens/variables/token_size_value.json
-- design-tokens/variables/token_typography-base_mobile.json
-- design-tokens/variables/token_typography-base_desktop.json
+- design-tokens/variables/token_typography_mobile.json
+- design-tokens/variables/token_typography_desktop.json
 
 Create these exact style files:
 - design-tokens/styles/typography.json
 - design-tokens/styles/elevation.json
 
 Requirements:
-- `token_color-base_value.json` must contain base palette tokens under top-level `color`
+- `token_color_primitive_value.json` must contain base palette tokens under top-level `color`
 - `token_color_light.json` and `token_color_dark.json` must contain semantic color tokens under top-level `color`
 - Light and dark color files should alias base color tokens, for example `{color.green.600}`
 - `token_size_value.json` must contain top-level `size` and may contain `responsive`
-- `token_typography-base_mobile.json` and `token_typography-base_desktop.json` must contain top-level `font.family`, `font.size`, and `font.weight`
+- `token_typography_mobile.json` and `token_typography_desktop.json` must contain top-level `font.family`, `font.size`, and `font.weight`
 - `typography.json` must contain top-level `text-style`
 - Each `text-style` token must use `$type: "typography"` and `$value` with:
   - `fontFamily`

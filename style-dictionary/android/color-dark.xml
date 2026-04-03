@@ -100,8 +100,8 @@
   <color name="color_background_brand_disabled">#ff474747</color>
   <color name="color_background_brand_hover">#ff3a7d12</color>
   <color name="color_background_brand_subtle">#ff0d2001</color>
-  <color name="color_background_error_emphasis">#ffc42020</color>
   <color name="color_background_error_emphasis_active">#fff47066</color>
+  <color name="color_background_error_emphasis_default">#ffc42020</color>
   <color name="color_background_error_emphasis_hover">#ffe04535</color>
   <color name="color_background_error_subtle">#ff450700</color>
   <color name="color_background_info_emphasis">#ff2196f3</color>

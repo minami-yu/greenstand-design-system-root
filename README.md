@@ -62,7 +62,7 @@ Required JSON structure by source type:
 - `colorBase`, `colorLight`, `colorDark`: must expose a top-level `color` object
 - `size`: must expose a top-level `size` object
 - `typographyMobile`, `typographyDesktop`: must expose `font.family`, `font.size`, and `font.weight`
-- `typographyStyle`: must expose `text-style`, and each text style must be a DTCG `typography` token with `fontFamily`, `fontSize`, `fontWeight`, `lineHeight`, and `letterSpacing`
+- `typographyStyle`: must expose `typography`, and each typography style must be a DTCG `typography` token with `fontFamily`, `fontSize`, `fontWeight`, `lineHeight`, and `letterSpacing`
 - `elevationStyle`: must expose `variables.color.light`, `variables.color.dark`, and `elevation`
 
 Alias expectations:

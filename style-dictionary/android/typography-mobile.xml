@@ -39,35 +39,35 @@
     <item name="android:lineHeight">25.2sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="TypographyPragraphL">
+  <style name="TypographyParagraphL">
     <item name="android:fontFamily">Roboto</item>
     <item name="android:textSize">16sp</item>
     <item name="android:textFontWeight">400</item>
     <item name="android:lineHeight">22.4sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="TypographyPragraphLStrong">
+  <style name="TypographyParagraphLStrong">
     <item name="android:fontFamily">Roboto</item>
     <item name="android:textSize">16sp</item>
     <item name="android:textFontWeight">500</item>
     <item name="android:lineHeight">22.4sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="TypographyPragraphM">
+  <style name="TypographyParagraphM">
     <item name="android:fontFamily">Roboto</item>
     <item name="android:textSize">14sp</item>
     <item name="android:textFontWeight">400</item>
     <item name="android:lineHeight">19.6sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="TypographyPragraphMStrong">
+  <style name="TypographyParagraphMStrong">
     <item name="android:fontFamily">Roboto</item>
     <item name="android:textSize">14sp</item>
     <item name="android:textFontWeight">500</item>
     <item name="android:lineHeight">19.6sp</item>
     <item name="android:letterSpacing">0</item>
   </style>
-  <style name="TypographyPragraphS">
+  <style name="TypographyParagraphS">
     <item name="android:fontFamily">Roboto</item>
     <item name="android:textSize">12sp</item>
     <item name="android:textFontWeight">400</item>

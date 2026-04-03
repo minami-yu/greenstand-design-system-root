@@ -1,5 +1,5 @@
 {
-  "text-style": {
+  "typography": {
     "display-l": {
       "$type": "typography",
       "$value": {
@@ -55,7 +55,7 @@
       },
       "$description": "Card title, list section header, or small grouping label."
     },
-    "pragraph-l": {
+    "paragraph-l": {
       "$type": "typography",
       "$value": {
         "fontFamily": "{font.family.body}",
@@ -66,7 +66,7 @@
       },
       "$description": "Primary body text for descriptions, instructions, and onboarding copy."
     },
-    "pragraph-l-strong": {
+    "paragraph-l-strong": {
       "$type": "typography",
       "$value": {
         "fontFamily": "{font.family.body}",
@@ -77,7 +77,7 @@
       },
       "$description": "Emphasized body text, key sentence or price that needs to stand out."
     },
-    "pragraph-m": {
+    "paragraph-m": {
       "$type": "typography",
       "$value": {
         "fontFamily": "{font.family.body}",
@@ -88,7 +88,7 @@
       },
       "$description": "Secondary description, supporting text below a heading or list item title."
     },
-    "pragraph-m-strong": {
+    "paragraph-m-strong": {
       "$type": "typography",
       "$value": {
         "fontFamily": "{font.family.body}",
@@ -99,7 +99,7 @@
       },
       "$description": "Key value or status within a secondary description that needs emphasis."
     },
-    "pragraph-s": {
+    "paragraph-s": {
       "$type": "typography",
       "$value": {
         "fontFamily": "{font.family.body}",

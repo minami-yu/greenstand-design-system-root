@@ -1,785 +1,863 @@
 {
-  "color": {
-    "background": {
-      "accent": {
+  "background": {
+    "accent": {
+      "active": {
+        "$type": "color",
+        "$value": "{orange.400}",
+        "$description": "Pressed state on accent elements"
+      },
+      "default": {
+        "$type": "color",
+        "$value": "{orange.600}",
+        "$description": "Secondary accent fills, promotional elements"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{orange.800}",
+        "$description": "Disabled accent element fill"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "{orange.500}",
+        "$description": "Hover state on accent elements"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{orange.900}",
+        "$description": "Light orange tint for accent surfaces"
+      }
+    },
+    "base": {
+      "container": {
+        "$type": "color",
+        "$value": "{neutral.800}",
+        "$description": "Cards, panels, modals, drawers"
+      },
+      "default": {
+        "$type": "color",
+        "$value": "{neutral.900}",
+        "$description": "App root, body background"
+      },
+      "overlay": {
+        "$type": "color",
+        "$value": "#00000099",
+        "$description": "Scrim behind modals and drawers"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{neutral.700}",
+        "$description": "Hover rows, inset sections, zebra stripes"
+      }
+    },
+    "brand": {
+      "active": {
+        "$type": "color",
+        "$value": "{green.700}",
+        "$description": "Pressed state on brand elements"
+      },
+      "default": {
+        "$type": "color",
+        "$value": "{green.500}",
+        "$description": "Primary brand button, strong brand fills"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{neutral.700}",
+        "$description": "Disabled brand button fill"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "{green.600}",
+        "$description": "Hover state on brand elements"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{green.900}",
+        "$description": "Selected states, active nav tint"
+      }
+    },
+    "error": {
+      "emphasis": {
         "active": {
           "$type": "color",
-          "$value": "{color.orange.400}"
+          "$value": "{red.300}",
+          "$description": "Critical error banner, system-wide alert"
         },
         "default": {
           "$type": "color",
-          "$value": "{color.orange.600}"
-        },
-        "disabled": {
-          "$type": "color",
-          "$value": "{color.orange.800}"
+          "$value": "{red.500}",
+          "$description": "Critical error banner, system-wide alert"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.orange.500}"
-        },
-        "subtle": {
-          "$type": "color",
-          "$value": "{color.orange.900}"
+          "$value": "{red.400}",
+          "$description": "Critical error banner, system-wide alert"
         }
       },
-      "base": {
-        "container": {
-          "$type": "color",
-          "$value": "{color.neutral.800}"
-        },
-        "default": {
-          "$type": "color",
-          "$value": "{color.neutral.900}"
-        },
-        "overlay": {
-          "$type": "color",
-          "$value": "#00000099"
-        },
-        "subtle": {
-          "$type": "color",
-          "$value": "{color.neutral.700}"
-        }
-      },
-      "brand": {
-        "active": {
-          "$type": "color",
-          "$value": "{color.green.700}"
-        },
-        "default": {
-          "$type": "color",
-          "$value": "{color.green.500}"
-        },
-        "disabled": {
-          "$type": "color",
-          "$value": "{color.neutral.700}"
-        },
-        "hover": {
-          "$type": "color",
-          "$value": "{color.green.600}"
-        },
-        "subtle": {
-          "$type": "color",
-          "$value": "{color.green.900}"
-        }
-      },
-      "error": {
-        "emphasis": {
-          "$type": "color",
-          "$value": "{color.red.500}"
-        },
-        "emphasis-active": {
-          "$type": "color",
-          "$value": "{color.red.300}"
-        },
-        "emphasis-hover": {
-          "$type": "color",
-          "$value": "{color.red.400}"
-        },
-        "subtle": {
-          "$type": "color",
-          "$value": "{color.red.900}"
-        }
-      },
-      "info": {
-        "emphasis": {
-          "$type": "color",
-          "$value": "{color.blue.500}"
-        },
-        "subtle": {
-          "$type": "color",
-          "$value": "{color.blue.900}"
-        }
-      },
-      "success": {
-        "emphasis": {
-          "$type": "color",
-          "$value": "{color.emerald.500}"
-        },
-        "subtle": {
-          "$type": "color",
-          "$value": "{color.emerald.900}"
-        }
-      },
-      "warning": {
-        "emphasis": {
-          "$type": "color",
-          "$value": "{color.yellow.400}"
-        },
-        "subtle": {
-          "$type": "color",
-          "$value": "{color.yellow.900}"
-        }
+      "subtle": {
+        "$type": "color",
+        "$value": "{red.900}",
+        "$description": "Inline error alert, form field error bg"
       }
     },
-    "border": {
-      "accent": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.orange.500}"
-        },
-        "subtle": {
-          "$type": "color",
-          "$value": "{color.orange.800}"
-        }
+    "info": {
+      "emphasis": {
+        "$type": "color",
+        "$value": "{blue.500}",
+        "$description": "Critical info banner, system-wide notice"
       },
-      "base": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.neutral.700}"
-        },
-        "disabled": {
-          "$type": "color",
-          "$value": "{color.neutral.800}"
-        },
-        "divider": {
-          "$type": "color",
-          "$value": "{color.neutral.800}"
-        },
-        "strong": {
-          "$type": "color",
-          "$value": "{color.neutral.400}"
-        }
-      },
-      "brand": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.green.500}"
-        },
-        "subtle": {
-          "$type": "color",
-          "$value": "{color.green.800}"
-        }
-      },
-      "error": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.red.700}"
-        },
-        "emphasis": {
-          "$type": "color",
-          "$value": "{color.red.500}"
-        }
-      },
-      "info": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.blue.600}"
-        },
-        "emphasis": {
-          "$type": "color",
-          "$value": "{color.blue.500}"
-        }
-      },
-      "success": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.emerald.600}"
-        },
-        "emphasis": {
-          "$type": "color",
-          "$value": "{color.emerald.400}"
-        }
-      },
-      "warning": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.yellow.700}"
-        },
-        "emphasis": {
-          "$type": "color",
-          "$value": "{color.yellow.400}"
-        }
+      "subtle": {
+        "$type": "color",
+        "$value": "{blue.900}",
+        "$description": "Inline informational alert, tooltip bg"
       }
     },
-    "component": {
-      "button": {
-        "error": {
-          "filled": {
-            "background": {
-              "active": {
-                "$type": "color",
-                "$value": "{color.background.error.emphasis-active}"
-              },
-              "default": {
-                "$type": "color",
-                "$value": "{color.background.error.emphasis}"
-              },
-              "disabled": {
-                "$type": "color",
-                "$value": "{color.background.brand.disabled}"
-              },
-              "hover": {
-                "$type": "color",
-                "$value": "{color.background.error.emphasis-hover}"
-              }
-            },
-            "text": {
-              "default": {
-                "$type": "color",
-                "$value": "{color.text.error.on-emphasis}"
-              },
-              "disabled": {
-                "$type": "color",
-                "$value": "{color.text.base.disabled}"
-              }
-            }
-          },
-          "plain": {
-            "background": {
-              "active": {
-                "$type": "color",
-                "$value": "{color.background.error.subtle}"
-              },
-              "default": {
-                "$type": "color",
-                "$value": "#FFFFFF00"
-              },
-              "hover": {
-                "$type": "color",
-                "$value": "{color.background.error.subtle}"
-              }
-            },
-            "text": {
-              "default": {
-                "$type": "color",
-                "$value": "{color.text.error.default}"
-              },
-              "disabled": {
-                "$type": "color",
-                "$value": "{color.text.base.disabled}"
-              }
-            }
-          }
-        },
-        "neutral": {
-          "filled": {
-            "background": {
-              "active": {
-                "$type": "color",
-                "$value": "{color.background.base.subtle}"
-              },
-              "default": {
-                "$type": "color",
-                "$value": "{color.background.base.subtle}"
-              },
-              "disabled": {
-                "$type": "color",
-                "$value": "{color.background.base.subtle}"
-              },
-              "hover": {
-                "$type": "color",
-                "$value": "{color.background.base.container}"
-              }
-            },
-            "text": {
-              "default": {
-                "$type": "color",
-                "$value": "{color.text.base.primary}"
-              },
-              "disabled": {
-                "$type": "color",
-                "$value": "{color.text.base.disabled}"
-              }
-            }
-          },
-          "outlined": {
-            "background": {
-              "active": {
-                "$type": "color",
-                "$value": "{color.background.base.subtle}"
-              },
-              "default": {
-                "$type": "color",
-                "$value": "#FFFFFF00"
-              },
-              "disabled": {
-                "$type": "color",
-                "$value": "#FFFFFF00"
-              },
-              "hover": {
-                "$type": "color",
-                "$value": "{color.background.base.subtle}"
-              }
-            },
-            "border": {
-              "default": {
-                "$type": "color",
-                "$value": "{color.border.base.strong}"
-              },
-              "disabled": {
-                "$type": "color",
-                "$value": "{color.border.base.disabled}"
-              }
-            },
-            "text": {
-              "default": {
-                "$type": "color",
-                "$value": "{color.text.base.primary}"
-              },
-              "disabled": {
-                "$type": "color",
-                "$value": "{color.text.base.disabled}"
-              }
-            }
-          },
-          "plain": {
-            "background": {
-              "active": {
-                "$type": "color",
-                "$value": "{color.background.base.subtle}"
-              },
-              "default": {
-                "$type": "color",
-                "$value": "#FFFFFF00"
-              },
-              "hover": {
-                "$type": "color",
-                "$value": "{color.background.base.subtle}"
-              }
-            },
-            "text": {
-              "default": {
-                "$type": "color",
-                "$value": "{color.text.base.primary}"
-              },
-              "disabled": {
-                "$type": "color",
-                "$value": "{color.text.base.disabled}"
-              }
-            }
-          }
-        },
-        "primary": {
-          "filled": {
-            "background": {
-              "active": {
-                "$type": "color",
-                "$value": "{color.background.brand.active}"
-              },
-              "default": {
-                "$type": "color",
-                "$value": "{color.background.brand.default}"
-              },
-              "disabled": {
-                "$type": "color",
-                "$value": "{color.background.brand.disabled}"
-              },
-              "hover": {
-                "$type": "color",
-                "$value": "{color.background.brand.hover}"
-              }
-            },
-            "text": {
-              "default": {
-                "$type": "color",
-                "$value": "{color.text.brand.on-brand}"
-              },
-              "disabled": {
-                "$type": "color",
-                "$value": "{color.text.base.disabled}"
-              }
-            }
-          },
-          "outlined": {
-            "background": {
-              "active": {
-                "$type": "color",
-                "$value": "{color.background.brand.subtle}"
-              },
-              "default": {
-                "$type": "color",
-                "$value": "#FFFFFF00"
-              },
-              "disabled": {
-                "$type": "color",
-                "$value": "#FFFFFF00"
-              },
-              "hover": {
-                "$type": "color",
-                "$value": "{color.background.brand.subtle}"
-              }
-            },
-            "border": {
-              "default": {
-                "$type": "color",
-                "$value": "{color.border.brand.default}"
-              },
-              "disabled": {
-                "$type": "color",
-                "$value": "{color.border.base.disabled}"
-              }
-            },
-            "text": {
-              "default": {
-                "$type": "color",
-                "$value": "{color.text.brand.default}"
-              },
-              "disabled": {
-                "$type": "color",
-                "$value": "{color.text.base.disabled}"
-              }
-            }
-          },
-          "plain": {
-            "background": {
-              "active": {
-                "$type": "color",
-                "$value": "{color.background.brand.subtle}"
-              },
-              "default": {
-                "$type": "color",
-                "$value": "#FFFFFF00"
-              },
-              "hover": {
-                "$type": "color",
-                "$value": "{color.background.brand.subtle}"
-              }
-            },
-            "text": {
-              "default": {
-                "$type": "color",
-                "$value": "{color.text.brand.default}"
-              },
-              "disabled": {
-                "$type": "color",
-                "$value": "{color.text.base.disabled}"
-              }
-            }
-          }
-        }
+    "success": {
+      "emphasis": {
+        "$type": "color",
+        "$value": "{emerald.500}",
+        "$description": "Critical success banner, system confirmation"
       },
-      "input": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{emerald.900}",
+        "$description": "Inline confirmation, completed state bg"
+      }
+    },
+    "warning": {
+      "emphasis": {
+        "$type": "color",
+        "$value": "{yellow.400}",
+        "$description": "Critical warning banner like Uber surge pricing"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{yellow.900}",
+        "$description": "Inline caution alert, advisory notice bg"
+      }
+    }
+  },
+  "border": {
+    "accent": {
+      "default": {
+        "$type": "color",
+        "$value": "{orange.500}",
+        "$description": "Accent outlined component borders for promotional elements"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{orange.800}",
+        "$description": "For callouts"
+      }
+    },
+    "base": {
+      "default": {
+        "$type": "color",
+        "$value": "{neutral.700}",
+        "$description": "Standard border for cards, inputs, containers"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{neutral.800}",
+        "$description": "Border for disabled inputs and non-interactive form controls"
+      },
+      "divider": {
+        "$type": "color",
+        "$value": "{neutral.800}",
+        "$description": "Section separators, list item dividers"
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{neutral.400}",
+        "$description": "Emphasized border for active inputs, hover states, selected neutral items"
+      }
+    },
+    "brand": {
+      "default": {
+        "$type": "color",
+        "$value": "{green.500}",
+        "$description": "Selected cards, active tabs, brand-accented component borders"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{green.800}",
+        "$description": "For callouts and highlighted sections"
+      }
+    },
+    "error": {
+      "default": {
+        "$type": "color",
+        "$value": "{red.700}",
+        "$description": "Inline error states, invalid inputs, error alert components"
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": "{red.500}",
+        "$description": "Critical error banners, system-wide alerts, destructive dialogs"
+      }
+    },
+    "info": {
+      "default": {
+        "$type": "color",
+        "$value": "{blue.600}",
+        "$description": "Inline informational alerts and tooltip components"
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": "{blue.500}",
+        "$description": "Critical informational banners and system-wide notices"
+      }
+    },
+    "success": {
+      "default": {
+        "$type": "color",
+        "$value": "{emerald.600}",
+        "$description": "Inline confirmation alerts and success input states"
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": "{emerald.400}",
+        "$description": "Critical success banners and system confirmations"
+      }
+    },
+    "warning": {
+      "default": {
+        "$type": "color",
+        "$value": "{yellow.700}",
+        "$description": "Inline caution alerts and advisory input states"
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": "{yellow.400}",
+        "$description": "Critical warning banners and system-wide caution notices"
+      }
+    }
+  },
+  "component": {
+    "button": {
+      "error": {
         "filled": {
           "background": {
+            "active": {
+              "$type": "color",
+              "$value": "{background.error.emphasis.active}"
+            },
             "default": {
               "$type": "color",
-              "$value": "{color.background.base.subtle}"
+              "$value": "{background.error.emphasis.default}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.background.base.container}"
+              "$value": "{background.brand.disabled}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{background.error.emphasis.hover}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{text.error.on-emphasis}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{text.base.disabled}"
+            }
+          }
+        },
+        "plain": {
+          "background": {
+            "active": {
+              "$type": "color",
+              "$value": "{background.error.subtle}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "#ffffff00"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{background.error.subtle}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{text.error.default}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{text.base.disabled}"
+            }
+          }
+        }
+      },
+      "neutral": {
+        "filled": {
+          "background": {
+            "active": {
+              "$type": "color",
+              "$value": "{background.base.subtle}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{background.base.subtle}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{background.base.subtle}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{background.base.container}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{text.base.primary}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{text.base.disabled}"
+            }
+          }
+        },
+        "outlined": {
+          "background": {
+            "active": {
+              "$type": "color",
+              "$value": "{background.base.subtle}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "#ffffff00"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "#ffffff00"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{background.base.subtle}"
             }
           },
           "border": {
             "default": {
               "$type": "color",
-              "$value": "{color.border.base.strong}"
+              "$value": "{border.base.strong}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.base.disabled}"
-            },
-            "error": {
-              "$type": "color",
-              "$value": "{color.border.base.disabled}"
-            },
-            "filled": {
-              "$type": "color",
-              "$value": "{color.border.base.strong}"
-            },
-            "focus": {
-              "$type": "color",
-              "$value": "{color.border.brand.default}"
+              "$value": "{border.base.disabled}"
             }
           },
-          "helper": {
+          "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.base.secondary}"
+              "$value": "{text.base.primary}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.base.disabled}"
-            },
-            "error": {
+              "$value": "{text.base.disabled}"
+            }
+          }
+        },
+        "plain": {
+          "background": {
+            "active": {
               "$type": "color",
-              "$value": "{color.text.error.default}"
+              "$value": "{background.base.subtle}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "#ffffff00"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{background.base.subtle}"
             }
           },
-          "icon": {
+          "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.base.secondary}"
+              "$value": "{text.base.primary}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.base.disabled}"
-            },
-            "error": {
-              "$type": "color",
-              "$value": "{color.icon.base.secondary}"
-            },
-            "focus": {
-              "$type": "color",
-              "$value": "{color.icon.base.default}"
-            }
-          },
-          "input": {
-            "default": {
-              "$type": "color",
-              "$value": "{color.text.base.primary}"
-            },
-            "disabled": {
-              "$type": "color",
-              "$value": "{color.border.base.disabled}"
-            },
-            "placeholder": {
-              "$type": "color",
-              "$value": "{color.text.base.placeholder}"
-            }
-          },
-          "label": {
-            "default": {
-              "$type": "color",
-              "$value": "{color.text.base.secondary}"
-            },
-            "disabled": {
-              "$type": "color",
-              "$value": "{color.border.base.disabled}"
-            },
-            "error": {
-              "$type": "color",
-              "$value": "{color.text.error.default}"
+              "$value": "{text.base.disabled}"
             }
           }
         }
       },
-      "nav": {
-        "primary": {
-          "container": {
-            "background": {
+      "primary": {
+        "filled": {
+          "background": {
+            "active": {
               "$type": "color",
-              "$value": "{color.background.base.default}"
+              "$value": "{background.brand.active}"
             },
-            "border": {
-              "$type": "color",
-              "$value": "{color.background.base.default}"
-            }
-          },
-          "icon": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.base.secondary}"
+              "$value": "{background.brand.default}"
             },
-            "selected": {
+            "disabled": {
               "$type": "color",
-              "$value": "{color.icon.base.default}"
+              "$value": "{background.brand.disabled}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{background.brand.hover}"
             }
           },
-          "label": {
+          "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.base.primary}"
+              "$value": "{text.brand.on-brand}"
             },
-            "selected": {
+            "disabled": {
               "$type": "color",
-              "$value": "{color.text.base.primary}"
+              "$value": "{text.base.disabled}"
+            }
+          }
+        },
+        "outlined": {
+          "background": {
+            "active": {
+              "$type": "color",
+              "$value": "{background.brand.subtle}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "#ffffff00"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "#ffffff00"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{background.brand.subtle}"
+            }
+          },
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{border.brand.default}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{border.base.disabled}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{text.brand.default}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{text.base.disabled}"
+            }
+          }
+        },
+        "plain": {
+          "background": {
+            "active": {
+              "$type": "color",
+              "$value": "{background.brand.subtle}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "#ffffff00"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{background.brand.subtle}"
+            }
+          },
+          "text": {
+            "default": {
+              "$type": "color",
+              "$value": "{text.brand.default}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{text.base.disabled}"
             }
           }
         }
       }
     },
-    "icon": {
-      "accent": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.orange.300}"
+    "input": {
+      "filled": {
+        "background": {
+          "default": {
+            "$type": "color",
+            "$value": "{background.base.subtle}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{background.base.container}"
+          }
         },
-        "on-accent": {
-          "$type": "color",
-          "$value": "{color.orange.950}"
-        }
-      },
-      "base": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.neutral.300}"
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{border.base.strong}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{border.base.disabled}"
+          },
+          "error": {
+            "$type": "color",
+            "$value": "{border.base.disabled}"
+          },
+          "filled": {
+            "$type": "color",
+            "$value": "{border.base.strong}"
+          },
+          "focus": {
+            "$type": "color",
+            "$value": "{border.brand.default}"
+          }
         },
-        "disabled": {
-          "$type": "color",
-          "$value": "{color.neutral.700}"
+        "helper": {
+          "default": {
+            "$type": "color",
+            "$value": "{text.base.secondary}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{border.base.disabled}"
+          },
+          "error": {
+            "$type": "color",
+            "$value": "{text.error.default}"
+          }
         },
-        "inverse": {
-          "$type": "color",
-          "$value": "{color.neutral.900}"
+        "icon": {
+          "default": {
+            "$type": "color",
+            "$value": "{icon.base.secondary}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{icon.base.disabled}"
+          },
+          "error": {
+            "$type": "color",
+            "$value": "{icon.base.secondary}"
+          },
+          "focus": {
+            "$type": "color",
+            "$value": "{icon.base.default}"
+          }
         },
-        "secondary": {
-          "$type": "color",
-          "$value": "{color.neutral.400}"
+        "input": {
+          "default": {
+            "$type": "color",
+            "$value": "{text.base.primary}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{border.base.disabled}"
+          },
+          "placeholder": {
+            "$type": "color",
+            "$value": "{text.base.placeholder}"
+          }
         },
-        "subtle": {
-          "$type": "color",
-          "$value": "{color.neutral.600}"
-        }
-      },
-      "brand": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.green.200}"
-        },
-        "on-brand": {
-          "$type": "color",
-          "$value": "{color.base.white}"
-        }
-      },
-      "error": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.red.200}"
-        },
-        "on-emphasis": {
-          "$type": "color",
-          "$value": "{color.base.white}"
-        }
-      },
-      "info": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.blue.200}"
-        },
-        "on-emphasis": {
-          "$type": "color",
-          "$value": "{color.base.white}"
-        }
-      },
-      "link": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.blue.300}"
-        }
-      },
-      "success": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.emerald.200}"
-        },
-        "on-emphasis": {
-          "$type": "color",
-          "$value": "{color.base.white}"
-        }
-      },
-      "warning": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.yellow.200}"
-        },
-        "on-emphasis": {
-          "$type": "color",
-          "$value": "{color.neutral.900}"
+        "label": {
+          "default": {
+            "$type": "color",
+            "$value": "{text.base.secondary}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{border.base.disabled}"
+          },
+          "error": {
+            "$type": "color",
+            "$value": "{text.error.default}"
+          }
         }
       }
     },
-    "shadow": {
-      "lg": {
+    "nav": {
+      "primary": {
+        "container": {
+          "background": {
+            "$type": "color",
+            "$value": "{background.base.default}"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{background.base.default}"
+          }
+        },
+        "icon": {
+          "default": {
+            "$type": "color",
+            "$value": "{icon.base.secondary}"
+          },
+          "selected": {
+            "$type": "color",
+            "$value": "{icon.base.default}"
+          }
+        },
+        "label": {
+          "default": {
+            "$type": "color",
+            "$value": "{text.base.primary}"
+          },
+          "selected": {
+            "$type": "color",
+            "$value": "{text.base.primary}"
+          }
+        }
+      }
+    }
+  },
+  "icon": {
+    "accent": {
+      "default": {
         "$type": "color",
-        "$value": "#FFFFFF33"
+        "$value": "{orange.300}",
+        "$description": "Accent icons"
       },
-      "md": {
+      "on-accent": {
         "$type": "color",
-        "$value": "#FFFFFF1A"
-      },
-      "sm": {
-        "$type": "color",
-        "$value": "#FFFFFF0D"
+        "$value": "{orange.950}",
+        "$description": "Icon on accent fill"
       }
     },
-    "text": {
-      "accent": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.orange.300}"
-        },
-        "on-accent": {
-          "$type": "color",
-          "$value": "{color.orange.950}"
-        }
+    "base": {
+      "default": {
+        "$type": "color",
+        "$value": "{neutral.300}",
+        "$description": "Primary standalone icons, icon buttons"
       },
-      "base": {
-        "disabled": {
-          "$type": "color",
-          "$value": "{color.neutral.700}"
-        },
-        "inverse": {
-          "$type": "color",
-          "$value": "{color.neutral.900}"
-        },
-        "placeholder": {
-          "$type": "color",
-          "$value": "{color.neutral.600}"
-        },
-        "primary": {
-          "$type": "color",
-          "$value": "{color.neutral.50}"
-        },
-        "secondary": {
-          "$type": "color",
-          "$value": "{color.neutral.400}"
-        },
-        "tertiary": {
-          "$type": "color",
-          "$value": "{color.neutral.600}"
-        }
+      "disabled": {
+        "$type": "color",
+        "$value": "{neutral.700}",
+        "$description": "Icons inside disabled buttons and non-interactive elements"
       },
-      "brand": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.green.200}"
-        },
-        "on-brand": {
-          "$type": "color",
-          "$value": "{color.base.white}"
-        }
+      "inverse": {
+        "$type": "color",
+        "$value": "{neutral.900}",
+        "$description": "Icons on dark or colored fills, tooltips, filled buttons"
       },
-      "error": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.red.200}"
-        },
-        "on-emphasis": {
-          "$type": "color",
-          "$value": "{color.base.white}"
-        }
+      "secondary": {
+        "$type": "color",
+        "$value": "{neutral.400}",
+        "$description": "Supporting icons next to secondary text, inactive nav icons"
       },
-      "info": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.blue.200}"
-        },
-        "on-emphasis": {
-          "$type": "color",
-          "$value": "{color.base.white}"
-        }
+      "subtle": {
+        "$type": "color",
+        "$value": "{neutral.600}",
+        "$description": "Decorative icons, placeholder icons, lowest emphasis"
+      }
+    },
+    "brand": {
+      "default": {
+        "$type": "color",
+        "$value": "{green.200}",
+        "$description": "Brand-colored icons, active nav icons"
       },
-      "link": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.blue.300}"
-        },
-        "hover": {
-          "$type": "color",
-          "$value": "{color.blue.200}"
-        }
+      "on-brand": {
+        "$type": "color",
+        "$value": "{base.white}",
+        "$description": "Icons on brand fill"
+      }
+    },
+    "error": {
+      "default": {
+        "$type": "color",
+        "$value": "{red.200}",
+        "$description": "Error icons, destructive action indicators"
       },
-      "success": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.emerald.200}"
-        },
-        "on-emphasis": {
-          "$type": "color",
-          "$value": "{color.base.white}"
-        }
+      "on-emphasis": {
+        "$type": "color",
+        "$value": "{base.white}",
+        "$description": "Icons on error fill"
+      }
+    },
+    "info": {
+      "default": {
+        "$type": "color",
+        "$value": "{blue.200}",
+        "$description": "Info icons, tooltip triggers, system status indicators"
       },
-      "warning": {
-        "default": {
-          "$type": "color",
-          "$value": "{color.yellow.200}"
-        },
-        "on-emphasis": {
-          "$type": "color",
-          "$value": "{color.neutral.900}"
-        }
+      "on-emphasis": {
+        "$type": "color",
+        "$value": "{base.white}",
+        "$description": "Icon of info fill"
+      }
+    },
+    "link": {
+      "default": {
+        "$type": "color",
+        "$value": "{blue.300}",
+        "$description": "Icons alongside or inside hyperlinks"
+      }
+    },
+    "success": {
+      "default": {
+        "$type": "color",
+        "$value": "{emerald.200}",
+        "$description": "Positive status indicators"
+      },
+      "on-emphasis": {
+        "$type": "color",
+        "$value": "{base.white}",
+        "$description": "Icon of success fill"
+      }
+    },
+    "warning": {
+      "default": {
+        "$type": "color",
+        "$value": "{yellow.200}",
+        "$description": "Caution icons, advisory indicators"
+      },
+      "on-emphasis": {
+        "$type": "color",
+        "$value": "{neutral.900}",
+        "$description": "Icon on warning fill"
+      }
+    }
+  },
+  "shadow": {
+    "lg": {
+      "$type": "color",
+      "$value": "#ffffff33"
+    },
+    "md": {
+      "$type": "color",
+      "$value": "#ffffff1a"
+    },
+    "sm": {
+      "$type": "color",
+      "$value": "#ffffff0d"
+    }
+  },
+  "text": {
+    "accent": {
+      "default": {
+        "$type": "color",
+        "$value": "{orange.300}",
+        "$description": "Orange accent text, promotional labels, secondary brand moments"
+      },
+      "on-accent": {
+        "$type": "color",
+        "$value": "{orange.950}",
+        "$description": "Text on vivid orange fills, always dark for contrast"
+      }
+    },
+    "base": {
+      "disabled": {
+        "$type": "color",
+        "$value": "{neutral.700}",
+        "$description": "Text inside disabled elements"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{neutral.900}",
+        "$description": "Text on dark or vivid colored fills, tooltips, bold banners, colored buttons"
+      },
+      "placeholder": {
+        "$type": "color",
+        "$value": "{neutral.600}",
+        "$description": "Placeholder text inside empty input fields"
+      },
+      "primary": {
+        "$type": "color",
+        "$value": "{neutral.50}",
+        "$description": "Headings, body copy, default labels, highest contrast"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{neutral.400}",
+        "$description": "Supporting text, metadata, timestamps, medium emphasis"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{neutral.600}",
+        "$description": "Hint text, helper labels, lowest emphasis copy"
+      }
+    },
+    "brand": {
+      "default": {
+        "$type": "color",
+        "$value": "{green.200}",
+        "$description": "Brand-colored text, active nav labels, branded emphasis"
+      },
+      "on-brand": {
+        "$type": "color",
+        "$value": "{base.white}",
+        "$description": "Text sitting directly on brand-colored fills"
+      }
+    },
+    "error": {
+      "default": {
+        "$type": "color",
+        "$value": "{red.200}",
+        "$description": "Error messages, form validation text, destructive action labels"
+      },
+      "on-emphasis": {
+        "$type": "color",
+        "$value": "{base.white}",
+        "$description": "Text on vivid red bold banner"
+      }
+    },
+    "info": {
+      "default": {
+        "$type": "color",
+        "$value": "{blue.200}",
+        "$description": "Informational copy inside info banners and tooltips"
+      },
+      "on-emphasis": {
+        "$type": "color",
+        "$value": "{base.white}",
+        "$description": "Text on vivid blue bold banner"
+      }
+    },
+    "link": {
+      "default": {
+        "$type": "color",
+        "$value": "{blue.300}",
+        "$description": "Hyperlinks and inline interactive text"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "{blue.200}",
+        "$description": "Link text on hover"
+      }
+    },
+    "success": {
+      "default": {
+        "$type": "color",
+        "$value": "{emerald.200}",
+        "$description": "Confirmation copy, positive feedback on light or tinted backgrounds"
+      },
+      "on-emphasis": {
+        "$type": "color",
+        "$value": "{base.white}",
+        "$description": "Text on vivid emerald bold banner"
+      }
+    },
+    "warning": {
+      "default": {
+        "$type": "color",
+        "$value": "{yellow.200}",
+        "$description": "Caution labels, advisory copy on light or yellow-tinted backgrounds"
+      },
+      "on-emphasis": {
+        "$type": "color",
+        "$value": "{neutral.900}",
+        "$description": "Text on vivid yellow bold banner"
       }
     }
   }
