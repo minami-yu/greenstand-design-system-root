@@ -1,15 +1,14 @@
-import React, { type ReactNode } from 'react';
+import React from 'react';
 import {
   Animated,
   Pressable,
   StyleSheet,
-  Text,
   View,
   type GestureResponderEvent,
   type ViewStyle
 } from 'react-native';
 import { useTheme } from '../theme';
-import { getTypographyStyle } from '../theme/typography';
+import type { themeLight } from '../theme/theme-light';
 import {
   readHovered,
   resolveButtonColors,
@@ -17,37 +16,51 @@ import {
 } from './buttonInteractionColors';
 import { Icon, type IconName } from './Icon';
 
-export type { ButtonVariant };
+export type IconButtonSize = 'large' | 'medium' | 'small';
 
-export type ButtonProps = {
+export type IconButtonProps = {
+  /** Icon from `Icon` / `ICON_MAP`. */
+  icon: IconName;
   variant?: ButtonVariant;
+  size?: IconButtonSize;
   onPress: (e: GestureResponderEvent) => void;
   disabled?: boolean;
-  children?: ReactNode;
-  /** Leading icon from `Icon` / `ICON_MAP`. Omitted = text-only variant. */
-  icon?: IconName;
-  accessibilityLabel?: string;
+  accessibilityLabel: string;
   style?: ViewStyle;
 };
 
+function iconButtonMetrics(
+  sizeTokens: typeof themeLight.size,
+  size: IconButtonSize
+): { hit: number; icon: number } {
+  switch (size) {
+    case 'small':
+      return { hit: sizeTokens.sizeSpace800, icon: sizeTokens.sizeIconSm };
+    case 'medium':
+      return { hit: sizeTokens.sizeIcon2xl, icon: sizeTokens.sizeIconLg };
+    default:
+      return { hit: sizeTokens.sizeSpace1200, icon: sizeTokens.sizeIconXl };
+  }
+}
+
 /**
- * Mobile-first button: min 48×48pt touch target, **semantic color** tokens only
- * (`colorBackgroundBrand*`, `colorBackgroundBase*`, `colorBackgroundErrorEmphasis*`, `colorText*`),
- * typography **`labelLStrong`** (matches Figma text style `label-l-strong` / token `typography/label-l-strong`),
- * plus `size` tokens for radius/padding/gap. Press motion: 100ms in / 160ms out scale 0.98.
+ * Icon-only control: semantic **color** tokens (same as `Button`), **size** tokens for
+ * hit area (`sizeSpace800` / `sizeIcon2xl` / `sizeSpace1200`) and glyph (`sizeIconSm` / `sizeIconLg` / `sizeIconXl`),
+ * circular surface via `sizeRadiusFull`. States: default, hover (web), pressed, disabled.
  */
-export function Button({
+export function IconButton({
+  icon,
   variant = 'primary',
+  size: sizeProp = 'medium',
   onPress,
   disabled,
-  children,
-  icon,
   accessibilityLabel,
   style
-}: ButtonProps) {
+}: IconButtonProps) {
   const { theme } = useTheme();
-  const { colors, size } = theme;
+  const { colors, size: sizeTokens } = theme;
   const scale = React.useRef(new Animated.Value(1)).current;
+  const { hit, icon: iconSize } = iconButtonMetrics(sizeTokens, sizeProp);
 
   const runScale = (to: number) => {
     Animated.timing(scale, {
@@ -56,8 +69,6 @@ export function Button({
       useNativeDriver: true
     }).start();
   };
-
-  const labelTypography = getTypographyStyle(theme.typography.mobile.labelLStrong);
 
   return (
     <Pressable
@@ -91,29 +102,17 @@ export function Button({
               styles.surface,
               {
                 backgroundColor: background,
-                borderRadius: size.sizeRadiusXs,
-                gap: size.sizeSpace200,
-                minHeight: 48,
-                paddingHorizontal: size.sizeSpace600,
-                paddingVertical: size.sizeSpace300,
-                transform: [{ scale }]
+                borderRadius: sizeTokens.sizeRadiusFull,
+                height: hit,
+                transform: [{ scale }],
+                width: hit
               },
               style
             ]}
           >
-            {icon != null ? (
-              <View style={styles.iconSlot}>
-                <Icon
-                  name={icon}
-                  size={size.sizeIconMd}
-                  color={foreground}
-                  accessible={false}
-                />
-              </View>
-            ) : null}
-            {children != null ? (
-              <Text style={[labelTypography, { color: foreground }]}>{children}</Text>
-            ) : null}
+            <View style={styles.iconCenter}>
+              <Icon name={icon} size={iconSize} color={foreground} accessible={false} />
+            </View>
           </Animated.View>
         );
       }}
@@ -122,13 +121,13 @@ export function Button({
 }
 
 const styles = StyleSheet.create({
-  iconSlot: {
+  iconCenter: {
     alignItems: 'center',
     justifyContent: 'center'
   },
   surface: {
     alignItems: 'center',
-    flexDirection: 'row',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    overflow: 'hidden'
   }
 });

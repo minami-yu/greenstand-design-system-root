@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
-import { MaterialIcons } from '@expo/vector-icons';
 import { Button } from '../components/Button';
+import { IconButton } from '../components/IconButton';
 import { RadioButton, RadioGroup } from '../components/RadioButton';
 import { TokenCard } from '../components/TokenCard';
 import { useTheme } from '../theme';
@@ -98,7 +98,7 @@ export function DesignSystemScreen() {
 
       <TokenCard
         title="Buttons"
-        subtitle="Semantic colors, sizeRadiusXs + space tokens, optional Material favorite icon (matches Figma)"
+        subtitle="Semantic colors, sizeRadiusXs + space tokens, optional leading icon via Icon map (matches Figma)"
       >
         <View style={styles.row}>
           <Button variant="primary" onPress={() => { }}>
@@ -118,18 +118,78 @@ export function DesignSystemScreen() {
           <Button disabled variant="primary" onPress={() => { }}>
             Disabled
           </Button>
-          <Button
-            icon={
-              <MaterialIcons
-                name="favorite"
-                size={theme.size.sizeIconMd}
-              />
-            }
-            variant="primary"
-            onPress={() => { }}
-          >
+          <Button icon="heart" variant="primary" onPress={() => { }}>
             With icon
           </Button>
+        </View>
+      </TokenCard>
+
+      <TokenCard
+        title="Icon buttons"
+        subtitle="Variants match Button; sizes from size tokens; circular radius (sizeRadiusFull)"
+      >
+        <Text
+          style={[
+            getTypographyStyle(theme.typography.mobile.labelS),
+            styles.sectionLabel,
+            { color: theme.colors.colorTextBaseSecondary }
+          ]}
+        >
+          Large / medium / small
+        </Text>
+        <View style={styles.row}>
+          <IconButton
+            accessibilityLabel="Search"
+            icon="search"
+            size="large"
+            onPress={() => {}}
+          />
+          <IconButton
+            accessibilityLabel="Search"
+            icon="search"
+            size="medium"
+            onPress={() => {}}
+          />
+          <IconButton
+            accessibilityLabel="Search"
+            icon="search"
+            size="small"
+            onPress={() => {}}
+          />
+        </View>
+        <Text
+          style={[
+            getTypographyStyle(theme.typography.mobile.labelS),
+            styles.sectionLabel,
+            { color: theme.colors.colorTextBaseSecondary }
+          ]}
+        >
+          Variants
+        </Text>
+        <View style={styles.row}>
+          <IconButton accessibilityLabel="Heart" icon="heart" variant="primary" onPress={() => {}} />
+          <IconButton
+            accessibilityLabel="Heart"
+            icon="heart"
+            variant="secondary"
+            onPress={() => {}}
+          />
+          <IconButton
+            accessibilityLabel="Heart"
+            icon="heart"
+            variant="tertiary"
+            onPress={() => {}}
+          />
+          <IconButton accessibilityLabel="Close" icon="close" variant="error" onPress={() => {}} />
+        </View>
+        <View style={styles.row}>
+          <IconButton
+            accessibilityLabel="Disabled"
+            disabled
+            icon="settings"
+            variant="primary"
+            onPress={() => {}}
+          />
         </View>
       </TokenCard>
 
@@ -237,6 +297,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     flexWrap: 'wrap',
     gap: 12
+  },
+  sectionLabel: {
+    marginBottom: 4,
+    textTransform: 'uppercase'
   },
   swatch: {
     borderRadius: 12,
