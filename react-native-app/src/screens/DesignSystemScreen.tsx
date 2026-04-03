@@ -101,21 +101,21 @@ export function DesignSystemScreen() {
         subtitle="Semantic colors, sizeRadiusXs + space tokens, optional Material favorite icon (matches Figma)"
       >
         <View style={styles.row}>
-          <Button variant="primary" onPress={() => {}}>
+          <Button variant="primary" onPress={() => { }}>
             Primary
           </Button>
-          <Button variant="secondary" onPress={() => {}}>
+          <Button variant="secondary" onPress={() => { }}>
             Secondary
           </Button>
-          <Button variant="tertiary" onPress={() => {}}>
+          <Button variant="tertiary" onPress={() => { }}>
             Tertiary
           </Button>
-          <Button variant="error" onPress={() => {}}>
+          <Button variant="error" onPress={() => { }}>
             Error
           </Button>
         </View>
         <View style={styles.row}>
-          <Button disabled variant="primary" onPress={() => {}}>
+          <Button disabled variant="primary" onPress={() => { }}>
             Disabled
           </Button>
           <Button
@@ -126,7 +126,7 @@ export function DesignSystemScreen() {
               />
             }
             variant="primary"
-            onPress={() => {}}
+            onPress={() => { }}
           >
             With icon
           </Button>
