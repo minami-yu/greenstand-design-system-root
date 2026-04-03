@@ -3,6 +3,7 @@ import { ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
 import { Button } from '../components/Button';
 import { IconButton } from '../components/IconButton';
 import { RadioButton, RadioGroup } from '../components/RadioButton';
+import { Tab, TabGroup } from '../components/Tab';
 import { TokenCard } from '../components/TokenCard';
 import { useTheme } from '../theme';
 import { getFontFamily } from '../theme/fonts';
@@ -20,9 +21,12 @@ function getShadowStyle() {
 
 type PlantingGoal = 'restore' | 'offset' | 'learn';
 
+type DemoTab = 'overview' | 'activity' | 'settings';
+
 export function DesignSystemScreen() {
   const { isDark, theme, toggleMode } = useTheme();
   const [plantingGoal, setPlantingGoal] = useState<PlantingGoal>('restore');
+  const [demoTab, setDemoTab] = useState<DemoTab>('overview');
 
   const colorSwatches = [
     theme.colors.colorBackgroundBrandDefault,
@@ -94,6 +98,23 @@ export function DesignSystemScreen() {
             selected={plantingGoal === 'learn'}
           />
         </RadioGroup>
+      </TokenCard>
+
+      <TokenCard
+        title="Tabs"
+        subtitle="TabGroup + Tab: active uses brand text and indicator; full-width row on mobile (flex per tab)"
+      >
+        <TabGroup accessibilityLabel="Demo section">
+          <Tab active={demoTab === 'overview'} onPress={() => setDemoTab('overview')}>
+            Overview
+          </Tab>
+          <Tab active={demoTab === 'activity'} onPress={() => setDemoTab('activity')}>
+            Activity
+          </Tab>
+          <Tab active={demoTab === 'settings'} onPress={() => setDemoTab('settings')}>
+            Settings
+          </Tab>
+        </TabGroup>
       </TokenCard>
 
       <TokenCard
