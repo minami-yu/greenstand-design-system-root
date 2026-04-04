@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
+import { BottomSheet } from '../components/BottomSheet';
 import { Button } from '../components/Button';
 import { IconButton } from '../components/IconButton';
 import { RadioButton, RadioGroup } from '../components/RadioButton';
@@ -27,6 +28,7 @@ export function DesignSystemScreen() {
   const { isDark, theme, toggleMode } = useTheme();
   const [plantingGoal, setPlantingGoal] = useState<PlantingGoal>('restore');
   const [demoTab, setDemoTab] = useState<DemoTab>('overview');
+  const [bottomSheetOpen, setBottomSheetOpen] = useState(false);
 
   const colorSwatches = [
     theme.colors.colorBackgroundBrandDefault,
@@ -102,7 +104,7 @@ export function DesignSystemScreen() {
 
       <TokenCard
         title="Tabs"
-        subtitle="TabGroup + Tab: active uses brand text and indicator; full-width row on mobile (flex per tab)"
+        subtitle="TabGroup + Tab: Figma-aligned labelL, tertiary inactive, brand underline + divider below row"
       >
         <TabGroup accessibilityLabel="Demo section">
           <Tab active={demoTab === 'overview'} onPress={() => setDemoTab('overview')}>
@@ -115,6 +117,36 @@ export function DesignSystemScreen() {
             Settings
           </Tab>
         </TabGroup>
+      </TokenCard>
+
+      <TokenCard
+        title="Bottom sheet"
+        subtitle="Modal + Animated slide; token scrim and surface; safe-area bottom; Android back and backdrop dismiss"
+      >
+        <Button variant="primary" onPress={() => setBottomSheetOpen(true)}>
+          Open bottom sheet
+        </Button>
+        <BottomSheet
+          accessibilityLabel="Example bottom sheet"
+          visible={bottomSheetOpen}
+          onRequestClose={() => setBottomSheetOpen(false)}
+        >
+          <Text style={[getTypographyStyle(theme.typography.mobile.headingS), { color: theme.colors.colorTextBasePrimary }]}>
+            Sheet title
+          </Text>
+          <Text
+            style={[
+              getTypographyStyle(theme.typography.mobile.paragraphM),
+              { color: theme.colors.colorTextBaseSecondary }
+            ]}
+          >
+            Uses a transparent Modal (overFullScreen on iOS), design-token overlay, and bottom safe-area
+            padding so content clears the home indicator on iPhone.
+          </Text>
+          <Button variant="secondary" onPress={() => setBottomSheetOpen(false)}>
+            Close
+          </Button>
+        </BottomSheet>
       </TokenCard>
 
       <TokenCard
