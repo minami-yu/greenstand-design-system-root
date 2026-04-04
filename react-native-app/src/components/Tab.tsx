@@ -9,23 +9,13 @@ import {
 } from 'react-native';
 import { useTheme } from '../theme';
 import { getTypographyStyle } from '../theme/typography';
-import { readHovered } from './buttonInteractionColors';
-import {
-  resolveTabColors,
-  resolveTabInteraction,
-  type TabElementState,
-  tabStateToInteraction
-} from './tabInteractionColors';
-
-export type { TabElementState };
-export { tabStateToInteraction };
+import { resolveTabColors } from './tabInteractionColors';
 
 export type TabProps = {
   /** When true, tab uses brand text and primary indicator (`colorBorderBrandDefault`). */
   active: boolean;
   onPress: () => void;
   children?: ReactNode;
-  disabled?: boolean;
   accessibilityLabel?: string;
   style?: StyleProp<ViewStyle>;
 };
@@ -44,17 +34,15 @@ export type TabGroupProps = {
 };
 
 /**
- * Single tab trigger. **Active** (true|false) × **state** (Default | Hovered | Pressed) matches Figma:
- * hover/press come from `Pressable`; use `tabStateToInteraction` if you need the resolver from a fixed state.
+ * Single tab trigger. **Active** selects brand text and primary indicator.
  *
- * Tokens: `colorTextBrandDefault` / `colorTextBaseSecondary`, `colorBorderBrandDefault`, `colorBackgroundBrandSubtle`,
- * `colorBackgroundBaseSubtle`, `sizeSpace*` padding, `sizeStrokeMd` indicator, typography **labelMStrong**.
+ * Tokens: `colorTextBrandDefault` / `colorTextBaseSecondary`, `colorBorderBrandDefault`, `sizeSpace*` padding,
+ * `sizeStrokeMd` indicator, typography **labelMStrong**.
  */
 export function Tab({
   active,
   onPress,
   children,
-  disabled,
   accessibilityLabel,
   style
 }: TabProps) {
@@ -65,61 +53,46 @@ export function Tab({
   const a11yLabel =
     accessibilityLabel ?? (typeof children === 'string' ? children : undefined);
 
+  const { text, indicator, background } = resolveTabColors(colors, active);
+
   return (
     <Pressable
       accessibilityLabel={a11yLabel}
       accessibilityRole="tab"
-      accessibilityState={{ selected: active, disabled: !!disabled }}
-      disabled={disabled}
+      accessibilityState={{ selected: active }}
       onPress={onPress}
       style={style}
     >
-      {(state) => {
-        const hovered = readHovered(state);
-        const interaction = disabled
-          ? 'default'
-          : resolveTabInteraction(state.pressed, hovered);
-        const { text, indicator, background } = disabled
-          ? {
-              text: colors.colorTextBaseDisabled,
-              indicator: 'transparent',
-              background: 'transparent'
+      <View
+        style={[
+          styles.tabInner,
+          {
+            backgroundColor: background,
+            borderRadius: size.sizeRadiusXs,
+            minHeight: size.sizeSpace1200,
+            paddingBottom: size.sizeSpace300 + size.sizeStrokeMd,
+            paddingHorizontal: size.sizeSpace300,
+            paddingTop: size.sizeSpace300
+          }
+        ]}
+      >
+        {children != null ? (
+          <Text numberOfLines={1} style={[labelTypography, { color: text }]}>
+            {children}
+          </Text>
+        ) : null}
+        <View
+          style={[
+            styles.indicator,
+            {
+              backgroundColor: indicator,
+              borderRadius: size.sizeRadiusNone,
+              bottom: -size.sizeStrokeSm,
+              height: size.sizeStrokeMd
             }
-          : resolveTabColors(colors, active, interaction);
-
-        return (
-          <View
-            style={[
-              styles.tabInner,
-              {
-                backgroundColor: background,
-                borderRadius: size.sizeRadiusXs,
-                minHeight: size.sizeSpace1200,
-                paddingBottom: size.sizeSpace300 + size.sizeStrokeMd,
-                paddingHorizontal: size.sizeSpace300,
-                paddingTop: size.sizeSpace300
-              }
-            ]}
-          >
-            {children != null ? (
-              <Text numberOfLines={1} style={[labelTypography, { color: text }]}>
-                {children}
-              </Text>
-            ) : null}
-            <View
-              style={[
-                styles.indicator,
-                {
-                  backgroundColor: indicator,
-                  borderRadius: size.sizeRadiusNone,
-                  bottom: -size.sizeStrokeSm,
-                  height: size.sizeStrokeMd
-                }
-              ]}
-            />
-          </View>
-        );
-      }}
+          ]}
+        />
+      </View>
     </Pressable>
   );
 }
