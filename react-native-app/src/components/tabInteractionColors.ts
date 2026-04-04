@@ -4,23 +4,22 @@ import type { themeLight } from '../theme/theme-light';
 type ThemeColors = typeof themeLight.colors | typeof themeDark.colors;
 
 /**
- * Semantic colors for tab label and bottom indicator (no hover/press surface).
- * **Active** uses brand text + `colorBorderBrandDefault` indicator; inactive uses neutral text.
+ * Semantic colors for tab label and bottom border (Figma: inactive `text/base/tertiary`, active brand + `stroke/md` underline).
  */
 export function resolveTabColors(
   colors: ThemeColors,
   active: boolean
-): { text: string; indicator: string; background: string } {
+): { text: string; borderBottom: string; background: string } {
   if (active) {
     return {
       text: colors.colorTextBrandDefault,
-      indicator: colors.colorBorderBrandDefault,
+      borderBottom: colors.colorBorderBrandDefault,
       background: 'transparent'
     };
   }
   return {
-    text: colors.colorTextBaseSecondary,
-    indicator: 'transparent',
+    text: colors.colorTextBaseTertiary,
+    borderBottom: 'transparent',
     background: 'transparent'
   };
 }

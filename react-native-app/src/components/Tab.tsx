@@ -12,7 +12,7 @@ import { getTypographyStyle } from '../theme/typography';
 import { resolveTabColors } from './tabInteractionColors';
 
 export type TabProps = {
-  /** When true, tab uses brand text and primary indicator (`colorBorderBrandDefault`). */
+  /** When true, tab uses brand text and `sizeStrokeMd` bottom border (`colorBorderBrandDefault`). */
   active: boolean;
   onPress: () => void;
   children?: ReactNode;
@@ -24,20 +24,18 @@ export type TabGroupProps = {
   children: ReactNode;
   /**
    * When true (default), each direct `Tab` child gets `flex: 1` so the row spans full width
-   * (typical mobile segmented control).
+   * (Figma tab bar).
    */
   fullWidth?: boolean;
-  /** Baseline under the tab row from `colorBorderBaseDivider` + `sizeStrokeSm`. */
+  /** Full-width 1px line below the tab row (`colorBorderBaseDivider`). */
   showDivider?: boolean;
   accessibilityLabel?: string;
   style?: StyleProp<ViewStyle>;
 };
 
 /**
- * Single tab trigger. **Active** selects brand text and primary indicator.
- *
- * Tokens: `colorTextBrandDefault` / `colorTextBaseSecondary`, `colorBorderBrandDefault`, `sizeSpace*` padding,
- * `sizeStrokeMd` indicator, typography **labelMStrong**.
+ * Single tab trigger. Matches Figma Tab: **labelL** (16 / medium), inactive `colorTextBaseTertiary`,
+ * active `colorTextBrandDefault` + `sizeStrokeMd` bottom border; row height `sizeSpace1200` (48).
  */
 export function Tab({
   active,
@@ -48,12 +46,12 @@ export function Tab({
 }: TabProps) {
   const { theme } = useTheme();
   const { colors, size } = theme;
-  const labelTypography = getTypographyStyle(theme.typography.mobile.labelMStrong);
+  const labelTypography = getTypographyStyle(theme.typography.mobile.labelL);
 
   const a11yLabel =
     accessibilityLabel ?? (typeof children === 'string' ? children : undefined);
 
-  const { text, indicator, background } = resolveTabColors(colors, active);
+  const { text, borderBottom, background } = resolveTabColors(colors, active);
 
   return (
     <Pressable
@@ -68,11 +66,11 @@ export function Tab({
           styles.tabInner,
           {
             backgroundColor: background,
-            borderRadius: size.sizeRadiusXs,
+            borderBottomColor: borderBottom,
+            borderBottomWidth: size.sizeStrokeMd,
             minHeight: size.sizeSpace1200,
-            paddingBottom: size.sizeSpace300 + size.sizeStrokeMd,
             paddingHorizontal: size.sizeSpace300,
-            paddingTop: size.sizeSpace300
+            paddingVertical: size.sizeSpace300
           }
         ]}
       >
@@ -81,24 +79,13 @@ export function Tab({
             {children}
           </Text>
         ) : null}
-        <View
-          style={[
-            styles.indicator,
-            {
-              backgroundColor: indicator,
-              borderRadius: size.sizeRadiusNone,
-              bottom: -size.sizeStrokeSm,
-              height: size.sizeStrokeMd
-            }
-          ]}
-        />
       </View>
     </Pressable>
   );
 }
 
 /**
- * Groups `Tab` children with optional full-width layout and a shared bottom divider.
+ * Groups `Tab` children. Figma: 48px tab row + optional 1px `colorBorderBaseDivider` line below the row.
  */
 export function TabGroup({
   children,
@@ -126,29 +113,33 @@ export function TabGroup({
       accessibilityRole="tablist"
       style={style}
     >
-      <View
-        style={[
-          styles.row,
-          showDivider && {
-            borderBottomColor: colors.colorBorderBaseDivider,
-            borderBottomWidth: size.sizeStrokeSm
-          }
-        ]}
-      >
-        {mapped}
+      <View style={styles.column}>
+        <View style={[styles.row, { minHeight: size.sizeSpace1200 }]}>{mapped}</View>
+        {showDivider ? (
+          <View
+            style={[
+              styles.divider,
+              {
+                backgroundColor: colors.colorBorderBaseDivider,
+                height: size.sizeStrokeSm
+              }
+            ]}
+          />
+        ) : null}
       </View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  indicator: {
-    bottom: 0,
-    left: 0,
-    position: 'absolute',
-    right: 0
+  column: {
+    width: '100%'
+  },
+  divider: {
+    width: '100%'
   },
   row: {
+    alignItems: 'stretch',
     flexDirection: 'row',
     width: '100%'
   },
@@ -158,6 +149,7 @@ const styles = StyleSheet.create({
   },
   tabInner: {
     alignItems: 'center',
+    flexGrow: 1,
     justifyContent: 'center',
     width: '100%'
   }
