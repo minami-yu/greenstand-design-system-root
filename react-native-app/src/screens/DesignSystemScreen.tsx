@@ -24,11 +24,14 @@ type PlantingGoal = 'restore' | 'offset' | 'learn';
 
 type DemoTab = 'overview' | 'activity' | 'settings';
 
+type SheetNotifyOption = 'all' | 'mentions' | 'off';
+
 export function DesignSystemScreen() {
   const { isDark, theme, toggleMode } = useTheme();
   const [plantingGoal, setPlantingGoal] = useState<PlantingGoal>('restore');
   const [demoTab, setDemoTab] = useState<DemoTab>('overview');
   const [bottomSheetOpen, setBottomSheetOpen] = useState(false);
+  const [sheetNotify, setSheetNotify] = useState<SheetNotifyOption>('all');
 
   const colorSwatches = [
     theme.colors.colorBackgroundBrandDefault,
@@ -81,7 +84,10 @@ export function DesignSystemScreen() {
         </View>
       </View>
 
-      <TokenCard title="Radio buttons" subtitle="Brand border and fill from semantic color tokens">
+      <TokenCard
+        title="Radio buttons"
+        subtitle="Figma radio button new: 48×48 target, 24px control, label-l; brand/disabled colors from tokens"
+      >
         <RadioGroup accessibilityLabel="Planting goal">
           <RadioButton
             label="Restore degraded land"
@@ -121,7 +127,7 @@ export function DesignSystemScreen() {
 
       <TokenCard
         title="Bottom sheet"
-        subtitle="Modal + Animated slide; token scrim and surface; safe-area bottom; Android back and backdrop dismiss"
+        subtitle="Figma Bottom Sheet + radio form: same RadioGroup/RadioButton as main demo; token spacing between options"
       >
         <Button variant="primary" onPress={() => setBottomSheetOpen(true)}>
           Open bottom sheet
@@ -137,15 +143,51 @@ export function DesignSystemScreen() {
           <Text
             style={[
               getTypographyStyle(theme.typography.mobile.paragraphM),
-              { color: theme.colors.colorTextBaseSecondary }
+              {
+                color: theme.colors.colorTextBaseSecondary,
+                marginTop: theme.size.sizeSpace200
+              }
             ]}
           >
             Uses a transparent Modal (overFullScreen on iOS), design-token overlay, and bottom safe-area
             padding so content clears the home indicator on iPhone.
           </Text>
-          <Button variant="secondary" onPress={() => setBottomSheetOpen(false)}>
-            Close
-          </Button>
+          <Text
+            style={[
+              getTypographyStyle(theme.typography.mobile.labelLStrong),
+              {
+                color: theme.colors.colorTextBasePrimary,
+                marginTop: theme.size.sizeSpace600
+              }
+            ]}
+          >
+            Notifications
+          </Text>
+          <RadioGroup
+            accessibilityLabel="Notification preference"
+            style={{ gap: theme.size.sizeSpace300, marginTop: theme.size.sizeSpace300 }}
+          >
+            <RadioButton
+              label="All activity"
+              selected={sheetNotify === 'all'}
+              onPress={() => setSheetNotify('all')}
+            />
+            <RadioButton
+              label="Mentions only"
+              selected={sheetNotify === 'mentions'}
+              onPress={() => setSheetNotify('mentions')}
+            />
+            <RadioButton
+              label="Off"
+              selected={sheetNotify === 'off'}
+              onPress={() => setSheetNotify('off')}
+            />
+          </RadioGroup>
+          <View style={{ marginTop: theme.size.sizeSpace600 }}>
+            <Button variant="secondary" onPress={() => setBottomSheetOpen(false)}>
+              Close
+            </Button>
+          </View>
         </BottomSheet>
       </TokenCard>
 

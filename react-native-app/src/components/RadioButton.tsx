@@ -32,6 +32,22 @@ function resolveHaloColor(
   return visual === 'focus' ? colors.colorBackgroundBaseContainer : colors.colorBackgroundBaseSubtle;
 }
 
+/**
+ * Figma `radio button new` (12541:58199): 48×48 hit area, 24×24 artwork, label-l.
+ * — Selected default: solid brand fill + small **white** center dot (not a ring).
+ * — Unselected: thin neutral stroke, transparent fill.
+ * — Hover/focus: brand or neutral halo fills the 48px circle behind the artwork.
+ * — Disabled: muted fill/stroke per semantic tokens; selected keeps a visible inner dot.
+ */
+function radioMetrics(size: ReturnType<typeof useTheme>['theme']['size']) {
+  const touchTarget = size.sizeSpace1200;
+  const diameter = size.sizeIconLg;
+  /** Inner dot ≈ Figma artwork (smaller than 50% of diameter). */
+  const innerDot = 8;
+  const unselectedStroke = size.sizeStrokeMd;
+  return { touchTarget, diameter, innerDot, unselectedStroke };
+}
+
 export type RadioButtonProps = {
   selected: boolean;
   onPress: () => void;
@@ -41,18 +57,6 @@ export type RadioButtonProps = {
   style?: ViewStyle;
 };
 
-/**
- * Single radio control. Parent should own `selected` / `onPress` (one selected per group).
- * Wrap options in `RadioGroup` for screen reader grouping.
- *
- * **Figma** (`radio button new`, node `12541:58199`): `RadioButton` component set uses
- * **selected** (true|false) × **state** (Default | Hovered | Focused | Disabled).
- * In code, `disabled` matches state=Disabled; pointer hover → Hovered halo; keyboard focus → Focused halo
- * (stronger neutral halo when unselected); press on touch uses the same halo as hover.
- *
- * Layout: gap `size/space/200`, min height `size/space/600` (24), control `size/icon/md` (20),
- * stroke `size/stroke/md`. Label: typography **label-m** (`labelM`, medium 500).
- */
 export function RadioButton({
   selected,
   onPress,
@@ -65,24 +69,9 @@ export function RadioButton({
   const { size, colors } = theme;
   const [focused, setFocused] = useState(false);
 
-  const outer = size.sizeIconMd;
-  const borderW = size.sizeStrokeMd;
-  /** Figma selected variant uses a 10px dot inside the 20px ring (50% of outer). */
-  const innerDot = outer / 2;
-  /** Halo diameter aligned with Figma hover/focus artwork (20px dot + 4px). */
-  const haloSize = outer + size.sizeSpace100;
-
-  const borderColor = disabled
-    ? colors.colorBorderBaseDisabled
-    : selected
-      ? colors.colorBorderBrandDefault
-      : colors.colorBorderBaseStrong;
-
-  const fillColor = disabled ? colors.colorIconBaseDisabled : colors.colorBackgroundBrandDefault;
-
-  const labelToken = theme.typography.mobile.labelM;
+  const { touchTarget, diameter, innerDot, unselectedStroke } = radioMetrics(size);
+  const labelToken = theme.typography.mobile.labelL;
   const textColor = disabled ? colors.colorTextBaseDisabled : colors.colorTextBasePrimary;
-
   const a11yLabel = accessibilityLabel ?? label;
 
   return (
@@ -101,52 +90,67 @@ export function RadioButton({
         const visual = resolveVisualState(!!disabled, focused, state.pressed, hovered);
         const haloColor = resolveHaloColor(colors, selected, visual);
 
+        const selectedFill = disabled
+          ? colors.colorBackgroundBrandDisabled
+          : colors.colorBackgroundBrandDefault;
+
+        const selectedInnerDot = disabled ? colors.colorIconBaseSubtle : colors.colorBaseWhite;
+
+        const unselectedBorder = disabled
+          ? colors.colorBorderBaseDisabled
+          : colors.colorBorderBaseStrong;
+
         return (
           <View
             style={[
               styles.row,
               {
-                gap: size.sizeSpace200,
-                minHeight: size.sizeSpace600
+                gap: size.sizeSpace0,
+                minHeight: touchTarget
               },
               style
             ]}
           >
-            <View
-              style={{
-                alignItems: 'center',
-                height: haloSize,
-                justifyContent: 'center',
-                width: haloSize
-              }}
-            >
+            <View style={[styles.hit, { height: touchTarget, width: touchTarget }]}>
               {haloColor != null ? (
                 <View
-                  style={{
-                    backgroundColor: haloColor,
-                    borderRadius: haloSize / 2,
-                    height: haloSize,
-                    position: 'absolute',
-                    width: haloSize
-                  }}
+                  style={[
+                    styles.halo,
+                    {
+                      backgroundColor: haloColor,
+                      borderRadius: touchTarget / 2,
+                      height: touchTarget,
+                      width: touchTarget
+                    }
+                  ]}
                 />
               ) : null}
               <View
                 style={[
-                  styles.circle,
-                  {
-                    borderColor,
-                    borderRadius: outer / 2,
-                    borderWidth: borderW,
-                    height: outer,
-                    width: outer
-                  }
+                  styles.disc,
+                  selected
+                    ? {
+                        backgroundColor: selectedFill,
+                        borderColor: selectedFill,
+                        borderRadius: diameter / 2,
+                        borderWidth: 0,
+                        height: diameter,
+                        width: diameter
+                      }
+                    : {
+                        backgroundColor: 'transparent',
+                        borderColor: unselectedBorder,
+                        borderRadius: diameter / 2,
+                        borderWidth: unselectedStroke,
+                        height: diameter,
+                        width: diameter
+                      }
                 ]}
               >
                 {selected ? (
                   <View
                     style={{
-                      backgroundColor: fillColor,
+                      backgroundColor: selectedInnerDot,
                       borderRadius: innerDot / 2,
                       height: innerDot,
                       width: innerDot
@@ -167,7 +171,6 @@ export function RadioButton({
 
 export type RadioGroupProps = {
   children: ReactNode;
-  /** Announces the group purpose to assistive tech */
   accessibilityLabel?: string;
   style?: ViewStyle;
 };
@@ -181,7 +184,14 @@ export function RadioGroup({ children, accessibilityLabel, style }: RadioGroupPr
 }
 
 const styles = StyleSheet.create({
-  circle: {
+  disc: {
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  halo: {
+    position: 'absolute'
+  },
+  hit: {
     alignItems: 'center',
     justifyContent: 'center'
   },

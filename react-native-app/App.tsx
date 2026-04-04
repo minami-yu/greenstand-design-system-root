@@ -1,7 +1,7 @@
 import { useFonts } from 'expo-font';
 import { StatusBar } from 'expo-status-bar';
-import { ActivityIndicator, SafeAreaView, View } from 'react-native';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { ActivityIndicator, View } from 'react-native';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { DesignSystemScreen } from './src/screens/DesignSystemScreen';
 import { appFonts } from './src/theme/fonts';
 import { ThemeProvider, useTheme } from './src/theme';

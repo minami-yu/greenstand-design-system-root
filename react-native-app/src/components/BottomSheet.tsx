@@ -23,9 +23,11 @@ export type BottomSheetProps = {
 
 /**
  * Cross-platform bottom sheet: transparent `Modal` (correct stacking on iOS/Android),
- * token-based scrim, surface, top hairline (`colorBorderBaseDivider` + `sizeStrokeSm`),
- * `elevation.lg` shadow (via `sizeDepth200` on Android), radii/spacing from `size`, and
- * safe-area bottom inset. Slide uses `Animated` + native driver.
+ * aligned with Figma “Bottom Sheet” (node 12766:112902): scrim `colorBackgroundBaseOverlay`,
+ * surface `colorBackgroundBaseContainer`, handle `colorBorderBaseDefault` (4×32),
+ * header padding `sizeSpace400`, content `sizeSpace400` top / `sizeSpace800` horizontal,
+ * bottom inset at least `sizeSpace800`, top radii `sizeRadiusLg`, shadow `elevation.sm`
+ * (Android via `sizeDepth100`). Slide uses `Animated` + native driver.
  */
 export function BottomSheet({
   visible,
@@ -35,8 +37,8 @@ export function BottomSheet({
 }: BottomSheetProps) {
   const { theme } = useTheme();
   const { colors, elevation, size } = theme;
-  const sheetShadowLayer = elevation.lg.layers[1];
-  const sheetShadow = reactNativeShadowFromElevationLayer(sheetShadowLayer, size.sizeDepth200);
+  const sheetShadowLayer = elevation.sm.layers[1];
+  const sheetShadow = reactNativeShadowFromElevationLayer(sheetShadowLayer, size.sizeDepth100);
   const insets = useSafeAreaInsets();
   const { height: windowHeight } = useWindowDimensions();
   const progress = useRef(new Animated.Value(0)).current;
@@ -118,31 +120,43 @@ export function BottomSheet({
             style={[
               styles.sheet,
               {
-                backgroundColor: colors.colorBackgroundBaseDefault,
-                borderTopColor: colors.colorBorderBaseDivider,
+                backgroundColor: colors.colorBackgroundBaseContainer,
                 borderTopLeftRadius: size.sizeRadiusLg,
                 borderTopRightRadius: size.sizeRadiusLg,
-                borderTopWidth: size.sizeStrokeSm,
-                paddingBottom: Math.max(insets.bottom, size.sizeSpace400),
-                paddingHorizontal: size.sizeSpace600,
-                paddingTop: size.sizeSpace300,
                 ...sheetShadow
               }
             ]}
           >
             <View
               style={[
-                styles.handle,
+                styles.header,
                 {
-                  backgroundColor: colors.colorBorderBaseStrong,
-                  borderRadius: size.sizeRadiusFull,
-                  height: size.sizeSpace100,
-                  marginBottom: size.sizeSpace400,
-                  width: size.sizeSpace800
+                  padding: size.sizeSpace400
                 }
               ]}
-            />
-            {children}
+            >
+              <View
+                style={[
+                  styles.handle,
+                  {
+                    backgroundColor: colors.colorBorderBaseDefault,
+                    borderRadius: size.sizeRadiusFull,
+                    height: size.sizeSpace100,
+                    width: size.sizeSpace800
+                  }
+                ]}
+              />
+            </View>
+            <View
+              style={{
+                paddingBottom: Math.max(insets.bottom, size.sizeSpace800),
+                paddingHorizontal: size.sizeSpace800,
+                paddingTop: size.sizeSpace400,
+                width: '100%'
+              }}
+            >
+              {children}
+            </View>
           </View>
         </Animated.View>
       </View>
@@ -153,6 +167,10 @@ export function BottomSheet({
 const styles = StyleSheet.create({
   handle: {
     alignSelf: 'center'
+  },
+  header: {
+    alignItems: 'center',
+    width: '100%'
   },
   root: {
     flex: 1,
