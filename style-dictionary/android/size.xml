@@ -28,6 +28,11 @@
   <integer name="size_radius_none">0</integer>
   <integer name="size_radius_sm">8</integer>
   <integer name="size_radius_xs">4</integer>
+  <integer name="size_responsive_lg">768</integer>
+  <integer name="size_responsive_md">375</integer>
+  <integer name="size_responsive_sm">360</integer>
+  <integer name="size_responsive_xl">1024</integer>
+  <integer name="size_responsive_xs">280</integer>
   <integer name="size_space_0">0</integer>
   <integer name="size_space_100">4</integer>
   <integer name="size_space_200">8</integer>
@@ -39,9 +44,4 @@
   <integer name="size_space_1600">64</integer>
   <integer name="size_stroke_md">2</integer>
   <integer name="size_stroke_sm">1</integer>
-  <integer name="responsive_lg">768</integer>
-  <integer name="responsive_md">375</integer>
-  <integer name="responsive_sm">360</integer>
-  <integer name="responsive_xl">1024</integer>
-  <integer name="responsive_xs">280</integer>
 </resources>

@@ -1,5 +1,5 @@
 {
-  "text-style": {
+  "typography": {
     "display-l": {
       "font-family": {
         "$type": "string",
@@ -115,7 +115,7 @@
         "$value": "0%"
       }
     },
-    "pragraph-l": {
+    "paragraph-l": {
       "font-family": {
         "$type": "string",
         "$value": "{font.family.body}",
@@ -138,7 +138,7 @@
         "$value": "0%"
       }
     },
-    "pragraph-l-strong": {
+    "paragraph-l-strong": {
       "font-family": {
         "$type": "string",
         "$value": "{font.family.body}",
@@ -161,7 +161,7 @@
         "$value": "0%"
       }
     },
-    "pragraph-m": {
+    "paragraph-m": {
       "font-family": {
         "$type": "string",
         "$value": "{font.family.body}",
@@ -184,7 +184,7 @@
         "$value": "0%"
       }
     },
-    "pragraph-m-strong": {
+    "paragraph-m-strong": {
       "font-family": {
         "$type": "string",
         "$value": "{font.family.body}",
@@ -207,7 +207,7 @@
         "$value": "0%"
       }
     },
-    "pragraph-s": {
+    "paragraph-s": {
       "font-family": {
         "$type": "string",
         "$value": "{font.family.body}",

@@ -51,35 +51,35 @@ public enum TypographyMobile {
         lineHeight: 25.2,
         letterSpacing: 0
     )
-    public static let pragraphL = TypographyStyle(
+    public static let paragraphL = TypographyStyle(
         fontFamily: "Roboto",
         fontSize: 16,
         fontWeight: 400,
         lineHeight: 22.4,
         letterSpacing: 0
     )
-    public static let pragraphLStrong = TypographyStyle(
+    public static let paragraphLStrong = TypographyStyle(
         fontFamily: "Roboto",
         fontSize: 16,
         fontWeight: 500,
         lineHeight: 22.4,
         letterSpacing: 0
     )
-    public static let pragraphM = TypographyStyle(
+    public static let paragraphM = TypographyStyle(
         fontFamily: "Roboto",
         fontSize: 14,
         fontWeight: 400,
         lineHeight: 19.6,
         letterSpacing: 0
     )
-    public static let pragraphMStrong = TypographyStyle(
+    public static let paragraphMStrong = TypographyStyle(
         fontFamily: "Roboto",
         fontSize: 14,
         fontWeight: 500,
         lineHeight: 19.6,
         letterSpacing: 0
     )
-    public static let pragraphS = TypographyStyle(
+    public static let paragraphS = TypographyStyle(
         fontFamily: "Roboto",
         fontSize: 12,
         fontWeight: 400,

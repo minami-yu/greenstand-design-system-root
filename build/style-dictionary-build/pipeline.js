@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import StyleDictionary from 'style-dictionary';
-import { repoRoot, toCamelCase, toPascalCase, toPosixPath } from './shared.js';
+import { repoRoot, TOKEN_GROUPS, toCamelCase, toPascalCase, toPosixPath } from './shared.js';
 
 const defaultPlatformBuildPaths = {
   web: 'web',
@@ -20,6 +20,60 @@ async function readJsonFile(filePath) {
 async function writeGeneratedTokenFile(filePath, contents) {
   await fs.mkdir(path.dirname(filePath), { recursive: true });
   await fs.writeFile(filePath, `${JSON.stringify(contents, null, 2)}\n`);
+}
+
+function isAliasString(value) {
+  return typeof value === 'string' && value.startsWith('{') && value.endsWith('}');
+}
+
+function prefixAlias(value, prefix) {
+  if (!isAliasString(value)) {
+    return value;
+  }
+
+  const aliasPath = value.slice(1, -1);
+  return aliasPath.startsWith(`${prefix}.`) ? value : `{${prefix}.${aliasPath}}`;
+}
+
+function mapTokenValues(node, mapper) {
+  if (Array.isArray(node)) {
+    return node.map((item) => mapTokenValues(item, mapper));
+  }
+
+  if (node && typeof node === 'object') {
+    return Object.fromEntries(Object.entries(node).map(([key, value]) => {
+      if (key === '$value') {
+        return [key, mapper(value)];
+      }
+
+      return [key, mapTokenValues(value, mapper)];
+    }));
+  }
+
+  return node;
+}
+
+function normalizeSourceDocument(sourceName, document) {
+  if ((sourceName === 'colorBase' || sourceName === 'colorLight' || sourceName === 'colorDark')
+    && document[TOKEN_GROUPS.color] === undefined) {
+    return {
+      [TOKEN_GROUPS.color]: mapTokenValues(document, (value) => prefixAlias(value, TOKEN_GROUPS.color))
+    };
+  }
+
+  if (sourceName === 'size' && document[TOKEN_GROUPS.size] === undefined) {
+    return {
+      [TOKEN_GROUPS.size]: mapTokenValues(document, (value) => prefixAlias(value, TOKEN_GROUPS.size))
+    };
+  }
+
+  if ((sourceName === 'typographyMobile' || sourceName === 'typographyDesktop') && document.font === undefined) {
+    return {
+      font: mapTokenValues(document, (value) => prefixAlias(value, 'font'))
+    };
+  }
+
+  return document;
 }
 
 // Removes previous generated artifacts so obsolete files do not survive build shape changes.
@@ -142,17 +196,36 @@ function flattenElevationStyles(elevationTokens) {
 // Creates build-time source files that flatten style definitions onto the variable tokens they depend on.
 export async function prepareGeneratedSources(buildPath, sourceConfig) {
   const generatedDir = path.join(buildPath, '.generated-sources');
-  const typographyStyle = await readJsonFile(path.join(repoRoot, sourceConfig.typographyStyle));
-  const elevationStyle = await readJsonFile(path.join(repoRoot, sourceConfig.elevationStyle));
+  const loadedSources = Object.fromEntries(await Promise.all(
+    Object.entries(sourceConfig).map(async ([sourceName, relativePath]) => ([
+      sourceName,
+      normalizeSourceDocument(sourceName, await readJsonFile(path.join(repoRoot, relativePath)))
+    ]))
+  ));
+  const typographyStyle = loadedSources.typographyStyle;
+  const elevationStyle = loadedSources.elevationStyle;
 
   const generatedSources = {
-    typographyTextStyle: path.join(generatedDir, 'typography-text-style.json'),
+    colorBase: path.join(generatedDir, 'color-base.json'),
+    colorLight: path.join(generatedDir, 'color-light.json'),
+    colorDark: path.join(generatedDir, 'color-dark.json'),
+    size: path.join(generatedDir, 'size.json'),
+    typographyMobile: path.join(generatedDir, 'typography-mobile.json'),
+    typographyDesktop: path.join(generatedDir, 'typography-desktop.json'),
+    typography: path.join(generatedDir, 'typography.json'),
     elevationLight: path.join(generatedDir, 'elevation-light.json'),
     elevationDark: path.join(generatedDir, 'elevation-dark.json')
   };
 
-  await writeGeneratedTokenFile(generatedSources.typographyTextStyle, {
-    'text-style': flattenTypographyStyles(typographyStyle['text-style'])
+  await writeGeneratedTokenFile(generatedSources.colorBase, loadedSources.colorBase);
+  await writeGeneratedTokenFile(generatedSources.colorLight, loadedSources.colorLight);
+  await writeGeneratedTokenFile(generatedSources.colorDark, loadedSources.colorDark);
+  await writeGeneratedTokenFile(generatedSources.size, loadedSources.size);
+  await writeGeneratedTokenFile(generatedSources.typographyMobile, loadedSources.typographyMobile);
+  await writeGeneratedTokenFile(generatedSources.typographyDesktop, loadedSources.typographyDesktop);
+
+  await writeGeneratedTokenFile(generatedSources.typography, {
+    [TOKEN_GROUPS.typography]: flattenTypographyStyles(typographyStyle[TOKEN_GROUPS.typography])
   });
 
   await writeGeneratedTokenFile(generatedSources.elevationLight, {
@@ -179,16 +252,16 @@ function ensureObjectPath(document, objectPath, fileLabel) {
 
 // Validates that a typography style token contains the required composite fields.
 function validateTypographyStyleShape(document, fileLabel) {
-  const textStyles = document['text-style'];
+  const textStyles = document[TOKEN_GROUPS.typography];
 
   for (const [styleName, styleToken] of Object.entries(textStyles)) {
     if (styleToken?.$type !== 'typography') {
-      throw new Error(`Expected text-style.${styleName} in ${fileLabel} to use "$type": "typography"`);
+      throw new Error(`Expected ${TOKEN_GROUPS.typography}.${styleName} in ${fileLabel} to use "$type": "typography"`);
     }
 
     for (const field of ['fontFamily', 'fontSize', 'fontWeight', 'lineHeight', 'letterSpacing']) {
       if (styleToken?.$value?.[field] === undefined) {
-        throw new Error(`Expected text-style.${styleName}.$value.${field} in ${fileLabel}`);
+        throw new Error(`Expected ${TOKEN_GROUPS.typography}.${styleName}.$value.${field} in ${fileLabel}`);
       }
     }
   }
@@ -227,7 +300,7 @@ export async function validateConfiguredSources(sourceConfig) {
 
   const loadedSources = await Promise.all(sourceEntries.map(async ([sourceName, relativePath]) => ([
     sourceName,
-    await readJsonFile(path.join(repoRoot, relativePath)),
+    normalizeSourceDocument(sourceName, await readJsonFile(path.join(repoRoot, relativePath))),
     relativePath
   ])));
 
@@ -247,7 +320,7 @@ export async function validateConfiguredSources(sourceConfig) {
     }
 
     if (sourceName === 'typographyStyle') {
-      ensureObjectPath(document, ['text-style'], relativePath);
+      ensureObjectPath(document, [TOKEN_GROUPS.typography], relativePath);
       validateTypographyStyleShape(document, relativePath);
     }
 
@@ -266,48 +339,48 @@ export function createBundleDefinitions(sourceConfig, generatedSources) {
     {
       name: 'color-light',
       source: [
-        path.join(repoRoot, sourceConfig.colorBase),
-        path.join(repoRoot, sourceConfig.colorLight)
+        generatedSources.colorBase,
+        generatedSources.colorLight
       ]
     },
     {
       name: 'color-dark',
       source: [
-        path.join(repoRoot, sourceConfig.colorBase),
-        path.join(repoRoot, sourceConfig.colorDark)
+        generatedSources.colorBase,
+        generatedSources.colorDark
       ]
     },
     {
       name: 'size',
       source: [
-        path.join(repoRoot, sourceConfig.size)
+        generatedSources.size
       ]
     },
     {
       name: 'typography-mobile',
       source: [
-        path.join(repoRoot, sourceConfig.typographyMobile),
-        generatedSources.typographyTextStyle
+        generatedSources.typographyMobile,
+        generatedSources.typography
       ]
     },
     {
       name: 'typography-desktop',
       source: [
-        path.join(repoRoot, sourceConfig.typographyDesktop),
-        generatedSources.typographyTextStyle
+        generatedSources.typographyDesktop,
+        generatedSources.typography
       ]
     },
     {
       name: 'elevation-light',
       source: [
-        path.join(repoRoot, sourceConfig.size),
+        generatedSources.size,
         generatedSources.elevationLight
       ]
     },
     {
       name: 'elevation-dark',
       source: [
-        path.join(repoRoot, sourceConfig.size),
+        generatedSources.size,
         generatedSources.elevationDark
       ]
     }

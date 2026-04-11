@@ -5,6 +5,7 @@ import {
   getTypographyStyleMap,
   parsePercent,
   resolveTokenValue,
+  TOKEN_GROUPS,
   toCamelCase,
   toPascalCase
 } from './shared.js';
@@ -73,10 +74,10 @@ function formatElevationCssClasses({ dictionary, file }) {
   ].join('\n');
 }
 
-// Builds a typed Swift typography API from flattened text-style tokens.
+// Builds a typed Swift typography API from flattened typography tokens.
 function formatTypographySwift({ dictionary, file, options }) {
   const className = options.className;
-  const textStyles = dictionary.tokens['text-style'] || {};
+  const textStyles = dictionary.tokens[TOKEN_GROUPS.typography] || {};
   const styleLines = Object.entries(textStyles).map(([styleName, properties]) => {
     const fontFamily = resolveTokenValue(dictionary.tokens, properties['font-family'].$value);
     const fontSize = Number(resolveTokenValue(dictionary.tokens, properties['font-size'].$value));
@@ -120,9 +121,9 @@ function formatTypographySwift({ dictionary, file, options }) {
   ].join('\n');
 }
 
-// Builds Android text appearance styles from flattened text-style tokens.
+// Builds Android text appearance styles from flattened typography tokens.
 function formatTypographyAndroidXml({ dictionary }) {
-  const textStyles = dictionary.tokens['text-style'] || {};
+  const textStyles = dictionary.tokens[TOKEN_GROUPS.typography] || {};
   const styleBlocks = Object.entries(textStyles).map(([styleName, properties]) => {
     const fontFamily = resolveTokenValue(dictionary.tokens, properties['font-family'].$value);
     const fontSize = Number(resolveTokenValue(dictionary.tokens, properties['font-size'].$value));
@@ -202,7 +203,7 @@ function formatReactNativeModule({ dictionary, file, options }) {
 // Builds structured text styles that can be consumed directly in React Native.
 function formatReactNativeTypography({ dictionary, file, options }) {
   const moduleName = options.moduleName;
-  const textStyles = dictionary.tokens['text-style'] || {};
+  const textStyles = dictionary.tokens[TOKEN_GROUPS.typography] || {};
   const styleEntries = Object.entries(textStyles).map(([styleName, properties]) => {
     const fontFamily = resolveTokenValue(dictionary.tokens, properties['font-family'].$value);
     const fontSize = Number(resolveTokenValue(dictionary.tokens, properties['font-size'].$value));

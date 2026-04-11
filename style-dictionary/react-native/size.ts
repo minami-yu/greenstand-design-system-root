@@ -28,6 +28,11 @@ export const size = {
   sizeRadiusNone: 0,
   sizeRadiusSm: 8,
   sizeRadiusXs: 4,
+  sizeResponsiveLg: 768,
+  sizeResponsiveMd: 375,
+  sizeResponsiveSm: 360,
+  sizeResponsiveXl: 1024,
+  sizeResponsiveXs: 280,
   sizeSpace0: 0,
   sizeSpace100: 4,
   sizeSpace200: 8,
@@ -38,12 +43,7 @@ export const size = {
   sizeSpace1200: 48,
   sizeSpace1600: 64,
   sizeStrokeMd: 2,
-  sizeStrokeSm: 1,
-  responsiveLg: 768,
-  responsiveMd: 375,
-  responsiveSm: 360,
-  responsiveXl: 1024,
-  responsiveXs: 280
+  sizeStrokeSm: 1
 } as const;
 
 export default size;

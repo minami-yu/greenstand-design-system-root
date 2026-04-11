@@ -3,6 +3,12 @@ import path from 'node:path';
 export const repoRoot = process.cwd();
 export const manifestPath = path.join(repoRoot, 'build', 'style-dictionary.config.json');
 export const webKebabTransformGroup = 'greenstand/web-kebab';
+export const TOKEN_GROUPS = {
+  color: 'color',
+  size: 'size',
+  typography: 'typography',
+  elevation: 'elevation'
+};
 
 // Converts a kebab-case value into PascalCase for generated type names.
 export function toPascalCase(value) {
@@ -54,10 +60,10 @@ export function resolveTokenValue(tokens, value) {
   return value;
 }
 
-// Groups flattened text-style tokens by style name for custom typography outputs.
+// Groups flattened typography tokens by style name for custom typography outputs.
 export function getTypographyStyleMap(dictionary) {
   return dictionary.allTokens
-    .filter((token) => token.path[0] === 'text-style')
+    .filter((token) => token.path[0] === TOKEN_GROUPS.typography)
     .reduce((styles, token) => {
       const [, styleName, propertyName] = token.path;
       const style = styles.get(styleName) || {};

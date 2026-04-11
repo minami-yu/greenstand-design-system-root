@@ -1,4 +1,10 @@
-import { Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
+import { useState } from 'react';
+import { ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
+import { BottomSheet } from '../components/BottomSheet';
+import { Button } from '../components/Button';
+import { IconButton } from '../components/IconButton';
+import { RadioButton, RadioGroup } from '../components/RadioButton';
+import { Tab, TabGroup } from '../components/Tab';
 import { TokenCard } from '../components/TokenCard';
 import { useTheme } from '../theme';
 import { getFontFamily } from '../theme/fonts';
@@ -14,21 +20,31 @@ function getShadowStyle() {
   } as const;
 }
 
+type PlantingGoal = 'restore' | 'offset' | 'learn';
+
+type DemoTab = 'overview' | 'activity' | 'settings';
+
+type SheetNotifyOption = 'all' | 'mentions' | 'off';
+
 export function DesignSystemScreen() {
   const { isDark, theme, toggleMode } = useTheme();
+  const [plantingGoal, setPlantingGoal] = useState<PlantingGoal>('restore');
+  const [demoTab, setDemoTab] = useState<DemoTab>('overview');
+  const [bottomSheetOpen, setBottomSheetOpen] = useState(false);
+  const [sheetNotify, setSheetNotify] = useState<SheetNotifyOption>('all');
 
   const colorSwatches = [
     theme.colors.colorBackgroundBrandDefault,
     theme.colors.colorBackgroundAccentDefault,
     theme.colors.colorBackgroundInfoEmphasis,
     theme.colors.colorBackgroundSuccessEmphasis,
-    theme.colors.colorBackgroundErrorEmphasis
+    theme.colors.colorBackgroundErrorEmphasisDefault
   ];
 
   const typographySamples = [
     { label: 'Display', token: theme.typography.mobile.displayM },
     { label: 'Heading', token: theme.typography.mobile.headingM },
-    { label: 'Paragraph', token: theme.typography.mobile.pragraphM },
+    { label: 'Paragraph', token: theme.typography.mobile.paragraphM },
     { label: 'Label', token: theme.typography.mobile.labelMStrong }
   ];
 
@@ -68,44 +84,207 @@ export function DesignSystemScreen() {
         </View>
       </View>
 
-      <TokenCard title="Brand actions" subtitle="Buttons styled from token values">
-        <View style={styles.row}>
-          <Pressable
-            style={[
-              styles.button,
-              {
-                backgroundColor: theme.colors.colorComponentButtonPrimaryFilledBackgroundDefault
-              }
-            ]}
-          >
-            <Text
-              style={[
-                styles.buttonText,
-                { color: theme.colors.colorComponentButtonPrimaryFilledTextDefault }
-              ]}
-            >
-              Plant a tree
-            </Text>
-          </Pressable>
+      <TokenCard
+        title="Radio buttons"
+        subtitle="Figma radio button new: 48×48 target, 24px control, label-l; brand/disabled colors from tokens"
+      >
+        <RadioGroup accessibilityLabel="Planting goal">
+          <RadioButton
+            label="Restore degraded land"
+            onPress={() => setPlantingGoal('restore')}
+            selected={plantingGoal === 'restore'}
+          />
+          <RadioButton
+            label="Offset my footprint"
+            onPress={() => setPlantingGoal('offset')}
+            selected={plantingGoal === 'offset'}
+          />
+          <RadioButton
+            disabled
+            label="Unavailable option"
+            onPress={() => setPlantingGoal('learn')}
+            selected={plantingGoal === 'learn'}
+          />
+        </RadioGroup>
+      </TokenCard>
 
-          <Pressable
+      <TokenCard
+        title="Tabs"
+        subtitle="TabGroup + Tab: Figma-aligned labelL, tertiary inactive, brand underline + divider below row"
+      >
+        <TabGroup accessibilityLabel="Demo section">
+          <Tab active={demoTab === 'overview'} onPress={() => setDemoTab('overview')}>
+            Overview
+          </Tab>
+          <Tab active={demoTab === 'activity'} onPress={() => setDemoTab('activity')}>
+            Activity
+          </Tab>
+          <Tab active={demoTab === 'settings'} onPress={() => setDemoTab('settings')}>
+            Settings
+          </Tab>
+        </TabGroup>
+      </TokenCard>
+
+      <TokenCard
+        title="Bottom sheet"
+        subtitle="Figma Bottom Sheet + radio form: same RadioGroup/RadioButton as main demo; token spacing between options"
+      >
+        <Button variant="primary" onPress={() => setBottomSheetOpen(true)}>
+          Open bottom sheet
+        </Button>
+        <BottomSheet
+          accessibilityLabel="Example bottom sheet"
+          visible={bottomSheetOpen}
+          onRequestClose={() => setBottomSheetOpen(false)}
+        >
+          <Text style={[getTypographyStyle(theme.typography.mobile.headingS), { color: theme.colors.colorTextBasePrimary }]}>
+            Sheet title
+          </Text>
+          <Text
             style={[
-              styles.button,
-              styles.outlinedButton,
+              getTypographyStyle(theme.typography.mobile.paragraphM),
               {
-                borderColor: theme.colors.colorComponentButtonPrimaryOutlinedBorderDefault
+                color: theme.colors.colorTextBaseSecondary,
+                marginTop: theme.size.sizeSpace200
               }
             ]}
           >
-            <Text
-              style={[
-                styles.buttonText,
-                { color: theme.colors.colorComponentButtonPrimaryOutlinedTextDefault }
-              ]}
-            >
-              View details
-            </Text>
-          </Pressable>
+            Uses a transparent Modal (overFullScreen on iOS), design-token overlay, and bottom safe-area
+            padding so content clears the home indicator on iPhone.
+          </Text>
+          <Text
+            style={[
+              getTypographyStyle(theme.typography.mobile.labelLStrong),
+              {
+                color: theme.colors.colorTextBasePrimary,
+                marginTop: theme.size.sizeSpace600
+              }
+            ]}
+          >
+            Notifications
+          </Text>
+          <RadioGroup
+            accessibilityLabel="Notification preference"
+            style={{ gap: theme.size.sizeSpace300, marginTop: theme.size.sizeSpace300 }}
+          >
+            <RadioButton
+              label="All activity"
+              selected={sheetNotify === 'all'}
+              onPress={() => setSheetNotify('all')}
+            />
+            <RadioButton
+              label="Mentions only"
+              selected={sheetNotify === 'mentions'}
+              onPress={() => setSheetNotify('mentions')}
+            />
+            <RadioButton
+              label="Off"
+              selected={sheetNotify === 'off'}
+              onPress={() => setSheetNotify('off')}
+            />
+          </RadioGroup>
+          <View style={{ marginTop: theme.size.sizeSpace600 }}>
+            <Button variant="secondary" onPress={() => setBottomSheetOpen(false)}>
+              Close
+            </Button>
+          </View>
+        </BottomSheet>
+      </TokenCard>
+
+      <TokenCard
+        title="Buttons"
+        subtitle="Semantic colors, sizeRadiusXs + space tokens, optional leading icon via Icon map (matches Figma)"
+      >
+        <View style={styles.row}>
+          <Button variant="primary" onPress={() => { }}>
+            Primary
+          </Button>
+          <Button variant="secondary" onPress={() => { }}>
+            Secondary
+          </Button>
+          <Button variant="tertiary" onPress={() => { }}>
+            Tertiary
+          </Button>
+          <Button variant="error" onPress={() => { }}>
+            Error
+          </Button>
+        </View>
+        <View style={styles.row}>
+          <Button disabled variant="primary" onPress={() => { }}>
+            Disabled
+          </Button>
+          <Button icon="heart" variant="primary" onPress={() => { }}>
+            With icon
+          </Button>
+        </View>
+      </TokenCard>
+
+      <TokenCard
+        title="Icon buttons"
+        subtitle="Variants match Button; sizes from size tokens; circular radius (sizeRadiusFull)"
+      >
+        <Text
+          style={[
+            getTypographyStyle(theme.typography.mobile.labelS),
+            styles.sectionLabel,
+            { color: theme.colors.colorTextBaseSecondary }
+          ]}
+        >
+          Large / medium / small
+        </Text>
+        <View style={styles.row}>
+          <IconButton
+            accessibilityLabel="Search"
+            icon="search"
+            size="large"
+            onPress={() => {}}
+          />
+          <IconButton
+            accessibilityLabel="Search"
+            icon="search"
+            size="medium"
+            onPress={() => {}}
+          />
+          <IconButton
+            accessibilityLabel="Search"
+            icon="search"
+            size="small"
+            onPress={() => {}}
+          />
+        </View>
+        <Text
+          style={[
+            getTypographyStyle(theme.typography.mobile.labelS),
+            styles.sectionLabel,
+            { color: theme.colors.colorTextBaseSecondary }
+          ]}
+        >
+          Variants
+        </Text>
+        <View style={styles.row}>
+          <IconButton accessibilityLabel="Heart" icon="heart" variant="primary" onPress={() => {}} />
+          <IconButton
+            accessibilityLabel="Heart"
+            icon="heart"
+            variant="secondary"
+            onPress={() => {}}
+          />
+          <IconButton
+            accessibilityLabel="Heart"
+            icon="heart"
+            variant="tertiary"
+            onPress={() => {}}
+          />
+          <IconButton accessibilityLabel="Close" icon="close" variant="error" onPress={() => {}} />
+        </View>
+        <View style={styles.row}>
+          <IconButton
+            accessibilityLabel="Disabled"
+            disabled
+            icon="settings"
+            variant="primary"
+            onPress={() => {}}
+          />
         </View>
       </TokenCard>
 
@@ -174,17 +353,6 @@ export function DesignSystemScreen() {
 }
 
 const styles = StyleSheet.create({
-  button: {
-    borderRadius: 9999,
-    minHeight: 48,
-    paddingHorizontal: 18,
-    paddingVertical: 12
-  },
-  buttonText: {
-    fontFamily: getFontFamily('Roboto', '500'),
-    fontSize: 14,
-    lineHeight: 20
-  },
   container: {
     gap: 20,
     padding: 20
@@ -220,14 +388,14 @@ const styles = StyleSheet.create({
   heroText: {
     gap: 8
   },
-  outlinedButton: {
-    backgroundColor: 'transparent',
-    borderWidth: 1
-  },
   row: {
     flexDirection: 'row',
     flexWrap: 'wrap',
     gap: 12
+  },
+  sectionLabel: {
+    marginBottom: 4,
+    textTransform: 'uppercase'
   },
   swatch: {
     borderRadius: 12,

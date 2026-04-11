@@ -97,11 +97,11 @@
   <color name="color_background_base_subtle">#fff2f2f2</color>
   <color name="color_background_brand_active">#ff1a3d04</color>
   <color name="color_background_brand_default">#ff3a7d12</color>
-  <color name="color_background_brand_disabled">#ffd4d4d4</color>
+  <color name="color_background_brand_disabled">#fff2f2f2</color>
   <color name="color_background_brand_hover">#ff295c0a</color>
   <color name="color_background_brand_subtle">#ffeef8e6</color>
-  <color name="color_background_error_emphasis">#ffc42020</color>
   <color name="color_background_error_emphasis_active">#ff7a1212</color>
+  <color name="color_background_error_emphasis_default">#ffc42020</color>
   <color name="color_background_error_emphasis_hover">#ffa01a1a</color>
   <color name="color_background_error_subtle">#fffff0ee</color>
   <color name="color_background_info_emphasis">#ff2196f3</color>
@@ -128,7 +128,7 @@
   <color name="color_border_warning_emphasis">#ffb08202</color>
   <color name="color_component_button_error_filled_background_active">#ff7a1212</color>
   <color name="color_component_button_error_filled_background_default">#ffc42020</color>
-  <color name="color_component_button_error_filled_background_disabled">#ffd4d4d4</color>
+  <color name="color_component_button_error_filled_background_disabled">#fff2f2f2</color>
   <color name="color_component_button_error_filled_background_hover">#ffa01a1a</color>
   <color name="color_component_button_error_filled_text_default">#ffffffff</color>
   <color name="color_component_button_error_filled_text_disabled">#ffd4d4d4</color>
@@ -158,7 +158,7 @@
   <color name="color_component_button_neutral_plain_text_disabled">#ffd4d4d4</color>
   <color name="color_component_button_primary_filled_background_active">#ff1a3d04</color>
   <color name="color_component_button_primary_filled_background_default">#ff3a7d12</color>
-  <color name="color_component_button_primary_filled_background_disabled">#ffd4d4d4</color>
+  <color name="color_component_button_primary_filled_background_disabled">#fff2f2f2</color>
   <color name="color_component_button_primary_filled_background_hover">#ff295c0a</color>
   <color name="color_component_button_primary_filled_text_default">#ffffffff</color>
   <color name="color_component_button_primary_filled_text_disabled">#ffd4d4d4</color>

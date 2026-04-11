@@ -9,11 +9,6 @@
 import UIKit
 
 public class Size {
-    public static let responsiveLg = 768
-    public static let responsiveMd = 375
-    public static let responsiveSm = 360
-    public static let responsiveXl = 1024
-    public static let responsiveXs = 280
     public static let sizeBlur100 = 1
     public static let sizeBlur1200 = 12
     public static let sizeBlur1600 = 16
@@ -38,9 +33,14 @@ public class Size {
     public static let sizeRadiusNone = 0 /** no rounding. Dividers, full-width elements. */
     public static let sizeRadiusSm = 8 /** Default rounding. Buttons, inputs, cards, menus. */
     public static let sizeRadiusXs = 4 /** subtle rounding. Badges, tags, small chips. */
+    public static let sizeResponsiveLg = 768
+    public static let sizeResponsiveMd = 375
+    public static let sizeResponsiveSm = 360
+    public static let sizeResponsiveXl = 1024
+    public static let sizeResponsiveXs = 280
     public static let sizeSpace0 = 0 /** no spacing */
     public static let sizeSpace100 = 4 /** icon-to-label gap, tight internal padding. */
-    public static let sizeSpace1200 = 48 /** 48px — section separation on content-heavy screens. */
+    public static let sizeSpace1200 = 48 /** section separation on content-heavy screens. */
     public static let sizeSpace1600 = 64 /** maximum spacing, page-level vertical rhythm. */
     public static let sizeSpace200 = 8 /** compact padding inside components. */
     public static let sizeSpace300 = 12 /** gap between form elements. */
