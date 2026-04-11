@@ -1,6 +1,7 @@
 import { type ReactNode, useEffect, useRef, useState } from 'react';
 import {
   Animated,
+  Dimensions,
   Modal,
   Platform,
   Pressable,
@@ -8,7 +9,7 @@ import {
   useWindowDimensions,
   View
 } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useTheme } from '../theme';
 import { reactNativeShadowFromElevationLayer } from '../theme/elevationRN';
 
@@ -21,29 +22,32 @@ export type BottomSheetProps = {
   accessibilityLabel?: string;
 };
 
+type BottomSheetModalBodyProps = {
+  visible: boolean;
+  onRequestClose: () => void;
+  children?: ReactNode;
+  accessibilityLabel: string;
+  setMounted: (next: boolean) => void;
+};
+
 /**
- * Cross-platform bottom sheet: transparent `Modal` (correct stacking on iOS/Android),
- * aligned with Figma “Bottom Sheet” (node 12766:112902): scrim `colorBackgroundBaseOverlay`,
- * surface `colorBackgroundBaseContainer`, handle `colorBorderBaseDefault` (4×32),
- * header padding `sizeSpace400`, content `sizeSpace400` top / `sizeSpace800` horizontal,
- * bottom inset at least `sizeSpace800`, top radii `sizeRadiusLg`, shadow `elevation.sm`
- * (Android via `sizeDepth100`). Slide uses `Animated` + native driver.
+ * Renders sheet UI inside Modal + SafeAreaProvider so `useSafeAreaInsets` matches the modal window.
  */
-export function BottomSheet({
+function BottomSheetModalBody({
   visible,
   onRequestClose,
   children,
-  accessibilityLabel = 'Bottom sheet'
-}: BottomSheetProps) {
+  accessibilityLabel,
+  setMounted
+}: BottomSheetModalBodyProps) {
   const { theme } = useTheme();
   const { colors, elevation, size } = theme;
   const sheetShadowLayer = elevation.sm.layers[1];
   const sheetShadow = reactNativeShadowFromElevationLayer(sheetShadowLayer, size.sizeDepth100);
   const insets = useSafeAreaInsets();
   const { height: windowHeight } = useWindowDimensions();
+  const screen = Dimensions.get('screen');
   const progress = useRef(new Animated.Value(0)).current;
-  const [mounted, setMounted] = useState(false);
-  const modalVisible = visible || mounted;
 
   useEffect(() => {
     if (visible) {
@@ -68,17 +72,117 @@ export function BottomSheet({
         setMounted(false);
       }
     });
-  }, [visible, progress]);
+  }, [visible, progress, setMounted]);
 
   const backdropOpacity = progress.interpolate({
     inputRange: [0, 1],
     outputRange: [0, 1]
   });
 
+  const sheetTravel =
+    Platform.OS === 'ios' ? Math.max(windowHeight, screen.height) : windowHeight;
+
   const sheetTranslateY = progress.interpolate({
     inputRange: [0, 1],
-    outputRange: [windowHeight, 0]
+    outputRange: [sheetTravel, 0]
   });
+
+  return (
+    <View style={styles.root}>
+      <Animated.View
+        pointerEvents={visible ? 'auto' : 'none'}
+        style={[StyleSheet.absoluteFill, { opacity: backdropOpacity }]}
+      >
+        <Pressable
+          accessibilityLabel="Dismiss sheet"
+          accessibilityRole="button"
+          onPress={onRequestClose}
+          style={[StyleSheet.absoluteFill, { backgroundColor: colors.colorBackgroundBaseOverlay }]}
+        />
+      </Animated.View>
+
+      <Animated.View
+        accessibilityLabel={accessibilityLabel}
+        accessibilityRole="none"
+        importantForAccessibility="yes"
+        style={[styles.sheetMotion, { transform: [{ translateY: sheetTranslateY }] }]}
+      >
+        <View
+          style={[
+            styles.sheet,
+            {
+              backgroundColor: colors.colorBackgroundBaseContainer,
+              borderTopLeftRadius: size.sizeRadiusLg,
+              borderTopRightRadius: size.sizeRadiusLg,
+              ...sheetShadow
+            }
+          ]}
+        >
+          <View
+            style={[
+              styles.header,
+              {
+                padding: size.sizeSpace400
+              }
+            ]}
+          >
+            <View
+              style={[
+                styles.handle,
+                {
+                  backgroundColor: colors.colorBorderBaseDefault,
+                  borderRadius: size.sizeRadiusFull,
+                  height: size.sizeSpace100,
+                  width: size.sizeSpace800
+                }
+              ]}
+            />
+          </View>
+          <View
+            style={{
+              paddingBottom: Math.max(insets.bottom, size.sizeSpace800),
+              paddingHorizontal: size.sizeSpace800,
+              paddingTop: size.sizeSpace400,
+              width: '100%'
+            }}
+          >
+            {children}
+          </View>
+        </View>
+      </Animated.View>
+    </View>
+  );
+}
+
+/**
+ * Cross-platform bottom sheet: transparent `Modal` (correct stacking on iOS/Android),
+ * aligned with Figma “Bottom Sheet” (node 12766:112902): scrim `colorBackgroundBaseOverlay`,
+ * surface `colorBackgroundBaseContainer`, handle `colorBorderBaseDefault` (4×32),
+ * header padding `sizeSpace400`, content `sizeSpace400` top / `sizeSpace800` horizontal,
+ * bottom inset at least `sizeSpace800`, top radii `sizeRadiusLg`, shadow `elevation.sm`
+ * (Android via `sizeDepth100`). Slide uses `Animated` + native driver.
+ */
+export function BottomSheet({
+  visible,
+  onRequestClose,
+  children,
+  accessibilityLabel = 'Bottom sheet'
+}: BottomSheetProps) {
+  const [mounted, setMounted] = useState(false);
+  const modalVisible = visible || mounted;
+  const { height: windowHeight, width: windowWidth } = useWindowDimensions();
+  const screen = Dimensions.get('screen');
+  // iOS Modal often lays out its root above the home-indicator strip; pin a full-screen layer.
+  const iosModalLayerStyle =
+    Platform.OS === 'ios'
+      ? {
+          position: 'absolute' as const,
+          top: 0,
+          left: 0,
+          width: Math.max(screen.width, windowWidth),
+          height: Math.max(screen.height, windowHeight)
+        }
+      : null;
 
   if (!modalVisible) {
     return null;
@@ -94,77 +198,26 @@ export function BottomSheet({
       transparent
       visible={modalVisible}
     >
-      <View style={styles.root}>
-        <Animated.View
-          pointerEvents={visible ? 'auto' : 'none'}
-          style={[StyleSheet.absoluteFill, { opacity: backdropOpacity }]}
-        >
-          <Pressable
-            accessibilityLabel="Dismiss sheet"
-            accessibilityRole="button"
-            onPress={onRequestClose}
-            style={[
-              StyleSheet.absoluteFill,
-              { backgroundColor: colors.colorBackgroundBaseOverlay }
-            ]}
-          />
-        </Animated.View>
-
-        <Animated.View
-          accessibilityLabel={accessibilityLabel}
-          accessibilityRole="none"
-          importantForAccessibility="yes"
-          style={[styles.sheetMotion, { transform: [{ translateY: sheetTranslateY }] }]}
-        >
-          <View
-            style={[
-              styles.sheet,
-              {
-                backgroundColor: colors.colorBackgroundBaseContainer,
-                borderTopLeftRadius: size.sizeRadiusLg,
-                borderTopRightRadius: size.sizeRadiusLg,
-                ...sheetShadow
-              }
-            ]}
+      <View style={iosModalLayerStyle ?? styles.modalFill}>
+        <SafeAreaProvider style={styles.modalFill}>
+          <BottomSheetModalBody
+            accessibilityLabel={accessibilityLabel}
+            setMounted={setMounted}
+            visible={visible}
+            onRequestClose={onRequestClose}
           >
-            <View
-              style={[
-                styles.header,
-                {
-                  padding: size.sizeSpace400
-                }
-              ]}
-            >
-              <View
-                style={[
-                  styles.handle,
-                  {
-                    backgroundColor: colors.colorBorderBaseDefault,
-                    borderRadius: size.sizeRadiusFull,
-                    height: size.sizeSpace100,
-                    width: size.sizeSpace800
-                  }
-                ]}
-              />
-            </View>
-            <View
-              style={{
-                paddingBottom: Math.max(insets.bottom, size.sizeSpace800),
-                paddingHorizontal: size.sizeSpace800,
-                paddingTop: size.sizeSpace400,
-                width: '100%'
-              }}
-            >
-              {children}
-            </View>
-          </View>
-        </Animated.View>
+            {children}
+          </BottomSheetModalBody>
+        </SafeAreaProvider>
       </View>
     </Modal>
   );
 }
 
 const styles = StyleSheet.create({
+  modalFill: {
+    flex: 1
+  },
   handle: {
     alignSelf: 'center'
   },
