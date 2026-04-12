@@ -1,40 +1,4 @@
 {
-  "variables": {
-    "color": {
-      "light": {
-        "shadow": {
-          "sm": {
-            "$type": "color",
-            "$value": "#00000014"
-          },
-          "md": {
-            "$type": "color",
-            "$value": "#0000001A"
-          },
-          "lg": {
-            "$type": "color",
-            "$value": "#00000026"
-          }
-        }
-      },
-      "dark": {
-        "shadow": {
-          "sm": {
-            "$type": "color",
-            "$value": "#FFFFFF0D"
-          },
-          "md": {
-            "$type": "color",
-            "$value": "#FFFFFF1A"
-          },
-          "lg": {
-            "$type": "color",
-            "$value": "#FFFFFF33"
-          }
-        }
-      }
-    }
-  },
   "elevation": {
     "sm": {
       "$type": "shadow",

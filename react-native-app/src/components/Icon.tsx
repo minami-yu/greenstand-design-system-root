@@ -11,9 +11,14 @@ export const ICON_MAP = {
   'arrow-down': 'arrow-down',
   'arrow-left': 'arrow-left',
   'arrow-right': 'arrow-right',
+  'chevron-right': 'chevron-right',
+  /** Filled circle + check; use with `colorIconSuccessDefault` for list “selected” row. */
+  'check-circle': 'check-circle',
   add: 'plus-outline',
   swap: 'swap-horizontal',
   close: 'close',
+  /** Figma `mdi:close-circle` (e.g. amount clear on transaction). */
+  'close-circle': 'close-circle',
   calendar: 'calendar-outline',
   information: 'information-outline',
   clock: 'clock-outline',
@@ -29,6 +34,8 @@ export const ICON_MAP = {
   upload: 'cloud-upload-outline',
   offline: 'cloud-off-outline',
   download: 'cloud-download-outline',
+  /** Figma `mdi:coins-outline` → closest MCI glyph. */
+  coins: 'circle-multiple-outline',
   tree: 'pine-tree-variant-outline',
   'cloud-upload': 'cloud-upload-outline',
   map: 'map-outline',
@@ -68,7 +75,7 @@ export function Icon({ name, size, color, accessibilityLabel, accessible }: Icon
     <MaterialCommunityIcons
       name={ICON_MAP[name]}
       size={size ?? theme.size.sizeIconMd}
-      color={color ?? theme.colors.colorIconBaseDefault}
+      color={color ?? theme.colors.colorIconBasePrimary}
       accessibilityLabel={accessibilityLabel}
       accessible={accessible}
     />

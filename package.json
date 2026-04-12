@@ -9,7 +9,7 @@
     "react-native-app"
   ],
   "scripts": {
-    "build:tokens": "node build/style-dictionary-build-tokens.js",
+    "build:tokens": "node build/style-dictionary-build/style-dictionary-build-tokens.js",
     "mobile": "npm run start -w react-native-app",
     "mobile:android": "npm run android -w react-native-app",
     "mobile:ios": "npm run ios -w react-native-app",

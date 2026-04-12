@@ -1,169 +1,194 @@
 {
   "typography": {
-    "display-l": {
-      "$type": "typography",
-      "$value": {
-        "fontFamily": "{font.family.title}",
-        "fontSize": "{font.size.4xl}",
-        "fontWeight": "{font.weight.light}",
-        "lineHeight": "140%",
-        "letterSpacing": "0%"
-      },
-      "$description": "Hero headline for onboarding screens, empty states, and success moments."
-    },
-    "display-m": {
-      "$type": "typography",
-      "$value": {
-        "fontFamily": "{font.family.title}",
-        "fontSize": "{font.size.3xl}",
-        "fontWeight": "{font.weight.light}",
-        "lineHeight": "140%",
-        "letterSpacing": "0%"
-      },
-      "$description": "Secondary hero text for feature highlights and full-screen modal titles."
-    },
     "heading-l": {
       "$type": "typography",
       "$value": {
         "fontFamily": "{font.family.title}",
-        "fontSize": "{font.size.2xl}",
-        "fontWeight": "{font.weight.semibold}",
-        "lineHeight": "140%",
+        "fontSize": "{font.size.heading-l}",
+        "fontWeight": "{font.weight.bold}",
+        "lineHeight": "120%",
         "letterSpacing": "0%"
-      },
-      "$description": "Page title, the primary heading at the top of a screen or modal."
+      }
     },
     "heading-m": {
       "$type": "typography",
       "$value": {
         "fontFamily": "{font.family.title}",
-        "fontSize": "{font.size.xl}",
-        "fontWeight": "{font.weight.semibold}",
-        "lineHeight": "140%",
+        "fontSize": "{font.size.heading-m}",
+        "fontWeight": "{font.weight.bold}",
+        "lineHeight": "120%",
         "letterSpacing": "0%"
-      },
-      "$description": "Section header, groups related content within a page."
+      }
     },
     "heading-s": {
       "$type": "typography",
       "$value": {
         "fontFamily": "{font.family.title}",
-        "fontSize": "{font.size.lg}",
+        "fontSize": "{font.size.heading-s}",
+        "fontWeight": "{font.weight.bold}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      }
+    },
+    "label-xl": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.label-xl}",
+        "fontWeight": "{font.weight.medium}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      }
+    },
+    "label-xl-strong": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.label-xl}",
         "fontWeight": "{font.weight.semibold}",
         "lineHeight": "140%",
         "letterSpacing": "0%"
-      },
-      "$description": "Card title, list section header, or small grouping label."
-    },
-    "paragraph-l": {
-      "$type": "typography",
-      "$value": {
-        "fontFamily": "{font.family.body}",
-        "fontSize": "{font.size.md}",
-        "fontWeight": "{font.weight.regular}",
-        "lineHeight": "140%",
-        "letterSpacing": "0%"
-      },
-      "$description": "Primary body text for descriptions, instructions, and onboarding copy."
-    },
-    "paragraph-l-strong": {
-      "$type": "typography",
-      "$value": {
-        "fontFamily": "{font.family.body}",
-        "fontSize": "{font.size.md}",
-        "fontWeight": "{font.weight.medium}",
-        "lineHeight": "140%",
-        "letterSpacing": "0%"
-      },
-      "$description": "Emphasized body text, key sentence or price that needs to stand out."
-    },
-    "paragraph-m": {
-      "$type": "typography",
-      "$value": {
-        "fontFamily": "{font.family.body}",
-        "fontSize": "{font.size.sm}",
-        "fontWeight": "{font.weight.regular}",
-        "lineHeight": "140%",
-        "letterSpacing": "0%"
-      },
-      "$description": "Secondary description, supporting text below a heading or list item title."
-    },
-    "paragraph-m-strong": {
-      "$type": "typography",
-      "$value": {
-        "fontFamily": "{font.family.body}",
-        "fontSize": "{font.size.sm}",
-        "fontWeight": "{font.weight.medium}",
-        "lineHeight": "140%",
-        "letterSpacing": "0%"
-      },
-      "$description": "Key value or status within a secondary description that needs emphasis."
-    },
-    "paragraph-s": {
-      "$type": "typography",
-      "$value": {
-        "fontFamily": "{font.family.body}",
-        "fontSize": "{font.size.xs}",
-        "fontWeight": "{font.weight.regular}",
-        "lineHeight": "140%",
-        "letterSpacing": "0%"
-      },
-      "$description": "Fine print, timestamps, disclaimers, and meta info."
+      }
     },
     "label-l": {
       "$type": "typography",
       "$value": {
         "fontFamily": "{font.family.body}",
-        "fontSize": "{font.size.md}",
+        "fontSize": "{font.size.label-l}",
         "fontWeight": "{font.weight.medium}",
         "lineHeight": "140%",
         "letterSpacing": "0%"
-      },
-      "$description": "Primary button text, main nav items, and input field text."
+      }
     },
     "label-l-strong": {
       "$type": "typography",
       "$value": {
         "fontFamily": "{font.family.body}",
-        "fontSize": "{font.size.md}",
+        "fontSize": "{font.size.label-l}",
         "fontWeight": "{font.weight.semibold}",
         "lineHeight": "140%",
         "letterSpacing": "0%"
-      },
-      "$description": "Active or selected state, nav item, focused input, or high-emphasis button."
+      }
     },
     "label-m": {
       "$type": "typography",
       "$value": {
         "fontFamily": "{font.family.body}",
-        "fontSize": "{font.size.sm}",
+        "fontSize": "{font.size.label-m}",
         "fontWeight": "{font.weight.medium}",
         "lineHeight": "140%",
         "letterSpacing": "0%"
-      },
-      "$description": "Form labels, secondary buttons, tab labels, and badge text."
+      }
     },
     "label-m-strong": {
       "$type": "typography",
       "$value": {
         "fontFamily": "{font.family.body}",
-        "fontSize": "{font.size.sm}",
+        "fontSize": "{font.size.label-m}",
         "fontWeight": "{font.weight.semibold}",
         "lineHeight": "140%",
         "letterSpacing": "0%"
-      },
-      "$description": "Active tab, selected list item, or table column header."
+      }
     },
     "label-s": {
       "$type": "typography",
       "$value": {
         "fontFamily": "{font.family.body}",
-        "fontSize": "{font.size.xs}",
+        "fontSize": "{font.size.label-s}",
         "fontWeight": "{font.weight.medium}",
         "lineHeight": "140%",
         "letterSpacing": "0%"
-      },
-      "$description": "Helper text, error messages, tooltips, and overline tags."
+      }
+    },
+    "label-xs": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.label-xs}",
+        "fontWeight": "{font.weight.medium}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      }
+    },
+    "paragraph-l": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.paragraph-l}",
+        "fontWeight": "{font.weight.regular}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      }
+    },
+    "paragraph-l-strong": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.paragraph-l}",
+        "fontWeight": "{font.weight.medium}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      }
+    },
+    "paragraph-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.paragraph-m}",
+        "fontWeight": "{font.weight.regular}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      }
+    },
+    "paragraph-m-strong": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.paragraph-m}",
+        "fontWeight": "{font.weight.medium}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      }
+    },
+    "paragraph-s": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.paragraph-s}",
+        "fontWeight": "{font.weight.regular}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      }
+    },
+    "caption": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.caption}",
+        "fontWeight": "{font.weight.regular}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      }
+    },
+    "numeric-l": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.numeric-l}",
+        "fontWeight": "{font.weight.semibold}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      }
+    },
+    "numeric-m": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.body}",
+        "fontSize": "{font.size.numeric-m}",
+        "fontWeight": "{font.weight.semibold}",
+        "lineHeight": "140%",
+        "letterSpacing": "0%"
+      }
     }
   }
 }

@@ -2,7 +2,7 @@
   "family": {
     "body": {
       "$type": "string",
-      "$value": "Roboto"
+      "$value": "Inter"
     },
     "title": {
       "$type": "string",
@@ -10,40 +10,68 @@
     }
   },
   "size": {
-    "2xl": {
+    "caption": {
       "$type": "number",
-      "$value": 24
+      "$value": 12
     },
-    "3xl": {
-      "$type": "number",
-      "$value": 28
-    },
-    "4xl": {
+    "heading-l": {
       "$type": "number",
       "$value": 36
     },
-    "lg": {
+    "heading-m": {
+      "$type": "number",
+      "$value": 24
+    },
+    "heading-s": {
       "$type": "number",
       "$value": 18
     },
-    "md": {
+    "label-l": {
       "$type": "number",
       "$value": 16
     },
-    "sm": {
+    "label-m": {
       "$type": "number",
       "$value": 14
     },
-    "xl": {
+    "label-s": {
       "$type": "number",
-      "$value": 20
+      "$value": 12
     },
-    "xs": {
+    "label-xl": {
+      "$type": "number",
+      "$value": 18
+    },
+    "label-xs": {
+      "$type": "number",
+      "$value": 11
+    },
+    "numeric-l": {
+      "$type": "number",
+      "$value": 40
+    },
+    "numeric-m": {
+      "$type": "number",
+      "$value": 40
+    },
+    "paragraph-l": {
+      "$type": "number",
+      "$value": 16
+    },
+    "paragraph-m": {
+      "$type": "number",
+      "$value": 14
+    },
+    "paragraph-s": {
       "$type": "number",
       "$value": 12
     }
   },
   "weight": {
+    "bold": {
+      "$type": "number",
+      "$value": 700
+    },
     "light": {
       "$type": "number",
       "$value": 300

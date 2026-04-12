@@ -12,7 +12,7 @@ function AppContent() {
   return (
     <>
       <StatusBar style={isDark ? 'light' : 'dark'} />
-      <SafeAreaView style={{ flex: 1 }}>
+      <SafeAreaView edges={['top', 'left', 'right']} style={{ flex: 1 }}>
         <DesignSystemScreen />
       </SafeAreaView>
     </>

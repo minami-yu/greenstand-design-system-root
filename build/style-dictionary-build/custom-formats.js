@@ -6,8 +6,7 @@ import {
   parsePercent,
   resolveTokenValue,
   TOKEN_GROUPS,
-  toCamelCase,
-  toPascalCase
+  toCamelCase
 } from './shared.js';
 
 // Builds CSS utility classes that bind typography styles to generated CSS variables.
@@ -71,87 +70,6 @@ function formatElevationCssClasses({ dictionary, file }) {
     `/* ${file.destination} */`,
     '',
     ...classes
-  ].join('\n');
-}
-
-// Builds a typed Swift typography API from flattened typography tokens.
-function formatTypographySwift({ dictionary, file, options }) {
-  const className = options.className;
-  const textStyles = dictionary.tokens[TOKEN_GROUPS.typography] || {};
-  const styleLines = Object.entries(textStyles).map(([styleName, properties]) => {
-    const fontFamily = resolveTokenValue(dictionary.tokens, properties['font-family'].$value);
-    const fontSize = Number(resolveTokenValue(dictionary.tokens, properties['font-size'].$value));
-    const fontWeight = Number(resolveTokenValue(dictionary.tokens, properties['font-weight'].$value));
-    const lineHeight = fontSize * parsePercent(resolveTokenValue(dictionary.tokens, properties['line-height'].$value));
-    const letterSpacing = fontSize * parsePercent(resolveTokenValue(dictionary.tokens, properties['letter-spacing'].$value));
-
-    return [
-      `    public static let ${toCamelCase(styleName)} = TypographyStyle(`,
-      `        fontFamily: "${fontFamily}",`,
-      `        fontSize: ${formatNumber(fontSize)},`,
-      `        fontWeight: ${formatNumber(fontWeight)},`,
-      `        lineHeight: ${formatNumber(lineHeight)},`,
-      `        letterSpacing: ${formatNumber(letterSpacing)}`,
-      '    )'
-    ].join('\n');
-  });
-
-  return [
-    '//',
-    `// ${file.destination}`,
-    '//',
-    '',
-    '// Do not edit directly, this file was auto-generated.',
-    '',
-    '',
-    'import UIKit',
-    '',
-    'public struct TypographyStyle {',
-    '    public let fontFamily: String',
-    '    public let fontSize: CGFloat',
-    '    public let fontWeight: CGFloat',
-    '    public let lineHeight: CGFloat',
-    '    public let letterSpacing: CGFloat',
-    '}',
-    '',
-    `public enum ${className} {`,
-    ...styleLines,
-    '}',
-    ''
-  ].join('\n');
-}
-
-// Builds Android text appearance styles from flattened typography tokens.
-function formatTypographyAndroidXml({ dictionary }) {
-  const textStyles = dictionary.tokens[TOKEN_GROUPS.typography] || {};
-  const styleBlocks = Object.entries(textStyles).map(([styleName, properties]) => {
-    const fontFamily = resolveTokenValue(dictionary.tokens, properties['font-family'].$value);
-    const fontSize = Number(resolveTokenValue(dictionary.tokens, properties['font-size'].$value));
-    const fontWeight = Number(resolveTokenValue(dictionary.tokens, properties['font-weight'].$value));
-    const lineHeight = fontSize * parsePercent(resolveTokenValue(dictionary.tokens, properties['line-height'].$value));
-    const letterSpacing = parsePercent(resolveTokenValue(dictionary.tokens, properties['letter-spacing'].$value));
-
-    return [
-      `  <style name="Typography${toPascalCase(styleName)}">`,
-      `    <item name="android:fontFamily">${fontFamily}</item>`,
-      `    <item name="android:textSize">${formatNumber(fontSize)}sp</item>`,
-      `    <item name="android:textFontWeight">${formatNumber(fontWeight)}</item>`,
-      `    <item name="android:lineHeight">${formatNumber(lineHeight)}sp</item>`,
-      `    <item name="android:letterSpacing">${formatNumber(letterSpacing)}</item>`,
-      '  </style>'
-    ].join('\n');
-  });
-
-  return [
-    '<?xml version="1.0" encoding="UTF-8"?>',
-    '',
-    '<!--',
-    '  Do not edit directly, this file was auto-generated.',
-    '-->',
-    '<resources>',
-    ...styleBlocks,
-    '</resources>',
-    ''
   ].join('\n');
 }
 
@@ -308,16 +226,6 @@ export function registerCustomFormats() {
   StyleDictionary.registerFormat({
     name: 'greenstand/css-elevation-classes',
     format: formatElevationCssClasses
-  });
-
-  StyleDictionary.registerFormat({
-    name: 'greenstand/ios-typography-swift',
-    format: formatTypographySwift
-  });
-
-  StyleDictionary.registerFormat({
-    name: 'greenstand/android-typography-xml',
-    format: formatTypographyAndroidXml
   });
 
   StyleDictionary.registerFormat({

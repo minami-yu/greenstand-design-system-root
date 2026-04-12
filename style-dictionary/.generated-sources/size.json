@@ -59,7 +59,7 @@
     "icon": {
       "2xl": {
         "$type": "number",
-        "$value": 40,
+        "$value": 48,
         "$description": "extra large icon. Onboarding illustrations."
       },
       "lg": {
@@ -98,6 +98,11 @@
         "$type": "number",
         "$value": 16,
         "$description": "large rounding. Bottom sheets, modals, dialogs."
+      },
+      "md": {
+        "$type": "number",
+        "$value": 12,
+        "$description": "Default rounding. Buttons, inputs, cards, menus."
       },
       "none": {
         "$type": "number",
@@ -182,6 +187,21 @@
         "$type": "number",
         "$value": 64,
         "$description": "maximum spacing, page-level vertical rhythm."
+      },
+      "negative 200": {
+        "$type": "number",
+        "$value": -8,
+        "$description": "compact padding inside components."
+      },
+      "negative 400": {
+        "$type": "number",
+        "$value": -16,
+        "$description": "compact padding inside components."
+      },
+      "negative 800": {
+        "$type": "number",
+        "$value": -32,
+        "$description": "compact padding inside components."
       }
     },
     "stroke": {

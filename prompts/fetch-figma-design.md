@@ -42,8 +42,7 @@ Requirements:
   - `lineHeight`
   - `letterSpacing`
 - Typography style aliases must reference the typography variable files, for example `{font.size.md}`
-- `elevation.json` must contain top-level `elevation`
-- `elevation.json` must also contain `variables.color.light`, `variables.color.dark`
+- `elevation.json` must contain top-level `elevation` only (shadow colors live in `token_color_light.json` / `token_color_dark.json` under `shadow`)
 - Each elevation token must use `$type: "shadow"` with an array `$value`
 - Each shadow layer must define:
   - `color`

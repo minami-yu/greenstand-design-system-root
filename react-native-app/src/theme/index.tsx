@@ -6,10 +6,19 @@ import {
   type PropsWithChildren
 } from 'react';
 import { useColorScheme } from 'react-native';
+import { layout } from './layout';
 import { themeDark } from './theme-dark';
 import { themeLight } from './theme-light';
 
-type AppTheme = typeof themeLight | typeof themeDark;
+type BaseTheme = typeof themeLight | typeof themeDark;
+
+type AppTheme =
+  | (typeof themeLight & { layout: typeof layout })
+  | (typeof themeDark & { layout: typeof layout });
+
+function withLayout<T extends BaseTheme>(base: T): T & { layout: typeof layout } {
+  return { ...base, layout };
+}
 type ThemeMode = 'light' | 'dark';
 
 type ThemeContextValue = {
@@ -36,7 +45,7 @@ export function ThemeProvider({ children }: PropsWithChildren) {
     mode,
     setMode,
     toggleMode: () => setMode(isDark ? 'light' : 'dark'),
-    theme: isDark ? themeDark : themeLight
+    theme: withLayout(isDark ? themeDark : themeLight)
   };
 
   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
@@ -51,3 +60,6 @@ export function useTheme() {
 
   return value;
 }
+
+export { layout } from './layout';
+export type { ThemeLayout } from './layout';
