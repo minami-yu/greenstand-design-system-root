@@ -1,155 +1,102 @@
-import { Children, cloneElement, isValidElement, type ReactElement, type ReactNode } from 'react';
-import {
-  Pressable,
-  StyleSheet,
-  Text,
-  View,
-  type StyleProp,
-  type ViewStyle
-} from 'react-native';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { useTheme } from '../theme';
 import { getTypographyStyle } from '../theme/typography';
-import { resolveTabColors } from './tabInteractionColors';
 
-export type TabProps = {
-  /** When true, tab uses brand text and `sizeStrokeMd` bottom border (`colorBorderBrandDefault`). */
-  active: boolean;
-  onPress: () => void;
-  children?: ReactNode;
-  accessibilityLabel?: string;
-  style?: StyleProp<ViewStyle>;
+export type TabItemConfig = {
+  key: string;
+  label: string;
+  disabled?: boolean;
 };
 
-export type TabGroupProps = {
-  children: ReactNode;
-  /**
-   * When true (default), each direct `Tab` child gets `flex: 1` so the row spans full width
-   * (Figma tab bar).
-   */
-  fullWidth?: boolean;
-  /** Full-width 1px line below the tab row (`colorBorderBaseDivider`). */
-  showDivider?: boolean;
-  accessibilityLabel?: string;
-  style?: StyleProp<ViewStyle>;
+export type TabBarProps = {
+  tabs: TabItemConfig[];
+  selectedKey: string;
+  onSelect: (key: string) => void;
 };
 
-/**
- * Single tab trigger. Matches Figma Tab: **labelL** (16 / medium), inactive `colorTextBaseTertiary`,
- * active `colorTextBrandDefault` + `sizeStrokeMd` bottom border; row height `sizeSpace1200` (48).
- */
-export function Tab({
-  active,
-  onPress,
-  children,
-  accessibilityLabel,
-  style
-}: TabProps) {
-  const { theme } = useTheme();
-  const { colors, size } = theme;
-  const labelTypography = getTypographyStyle(theme.typography.mobile.labelL);
-
-  const a11yLabel =
-    accessibilityLabel ?? (typeof children === 'string' ? children : undefined);
-
-  const { text, borderBottom, background } = resolveTabColors(colors, active);
-
-  return (
-    <Pressable
-      accessibilityLabel={a11yLabel}
-      accessibilityRole="tab"
-      accessibilityState={{ selected: active }}
-      onPress={onPress}
-      style={style}
-    >
-      <View
-        style={[
-          styles.tabInner,
-          {
-            backgroundColor: background,
-            borderBottomColor: borderBottom,
-            borderBottomWidth: size.sizeStrokeMd,
-            minHeight: size.sizeSpace1200,
-            paddingHorizontal: size.sizeSpace300,
-            paddingVertical: size.sizeSpace300
-          }
-        ]}
-      >
-        {children != null ? (
-          <Text numberOfLines={1} style={[labelTypography, { color: text }]}>
-            {children}
-          </Text>
-        ) : null}
-      </View>
-    </Pressable>
-  );
-}
+const TAB_HEIGHT = 48;
 
 /**
- * Groups `Tab` children. Figma: 48px tab row + optional 1px `colorBorderBaseDivider` line below the row.
+ * Figma `Tab` (12736:8196) + wallet `Capture-Select User` tab row (13067:11184): equal-width items,
+ * `label-l-strong`, selected = text/brand + 2px brand underline; unselected = text/base/secondary + reserved 2px;
+ * full-width `border/base/subtle` rule under the bar (`size/stroke/sm`).
  */
-export function TabGroup({
-  children,
-  fullWidth = true,
-  showDivider = true,
-  accessibilityLabel,
-  style
-}: TabGroupProps) {
+export function TabBar({ tabs, selectedKey, onSelect }: TabBarProps) {
   const { theme } = useTheme();
   const { colors, size } = theme;
-
-  const mapped = Children.map(children, (child) => {
-    if (!isValidElement(child)) return child;
-    if (fullWidth) {
-      return cloneElement(child as ReactElement<TabProps>, {
-        style: [styles.tabFlex, (child as ReactElement<TabProps>).props.style]
-      });
-    }
-    return child;
-  });
+  const typo = theme.typography.mobile;
+  const labelStyle = getTypographyStyle(typo.labelLStrong);
 
   return (
     <View
-      accessibilityLabel={accessibilityLabel}
-      accessibilityRole="tablist"
-      style={style}
+      style={[
+        styles.row,
+        {
+          borderBottomColor: colors.colorBorderBaseSubtle,
+          borderBottomWidth: size.sizeStrokeSm
+        }
+      ]}
     >
-      <View style={styles.column}>
-        <View style={[styles.row, { minHeight: size.sizeSpace1200 }]}>{mapped}</View>
-        {showDivider ? (
-          <View
-            style={[
-              styles.divider,
-              {
-                backgroundColor: colors.colorBorderBaseDivider,
-                height: size.sizeStrokeSm
-              }
-            ]}
-          />
-        ) : null}
-      </View>
+      {tabs.map((tab) => {
+        const selected = tab.key === selectedKey;
+        const disabled = Boolean(tab.disabled);
+        const textColor = disabled
+          ? colors.colorTextBaseDisabled
+          : selected
+            ? colors.colorTextBrandDefault
+            : colors.colorTextBaseSecondary;
+        const barColor = disabled
+          ? selected
+            ? colors.colorBorderBaseDisabled
+            : 'transparent'
+          : selected
+            ? colors.colorBorderBrandDefault
+            : 'transparent';
+
+        return (
+          <Pressable
+            key={tab.key}
+            accessibilityRole="tab"
+            accessibilityState={{ selected, disabled }}
+            disabled={disabled}
+            onPress={() => onSelect(tab.key)}
+            style={({ pressed }) => [styles.tab, { flex: 1, opacity: pressed && !disabled ? 0.85 : 1 }]}
+          >
+            <View style={[styles.tabInner, { height: TAB_HEIGHT }]}>
+              <View style={styles.labelWrap}>
+                <Text style={[labelStyle, { color: textColor, textAlign: 'center' }]}>{tab.label}</Text>
+              </View>
+              <View
+                style={{
+                  backgroundColor: barColor,
+                  height: size.sizeStrokeMd,
+                  width: '100%'
+                }}
+              />
+            </View>
+          </Pressable>
+        );
+      })}
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  column: {
-    width: '100%'
-  },
-  divider: {
-    width: '100%'
-  },
   row: {
     alignItems: 'stretch',
     flexDirection: 'row',
     width: '100%'
   },
-  tabFlex: {
-    flex: 1,
+  tab: {
     minWidth: 0
   },
   tabInner: {
+    justifyContent: 'space-between',
+    width: '100%'
+  },
+  labelWrap: {
     alignItems: 'center',
-    flexGrow: 1,
+    flex: 1,
     justifyContent: 'center',
     width: '100%'
   }

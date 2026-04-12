@@ -16,7 +16,7 @@
   --size-depth-400: 16;
   --size-depth-025: 1;
   --size-depth-050: 2;
-  --size-icon-2xl: 40; /** extra large icon. Onboarding illustrations. */
+  --size-icon-2xl: 48; /** extra large icon. Onboarding illustrations. */
   --size-icon-lg: 24; /** standard icon. Tab bar, toolbar, card actions. */
   --size-icon-md: 20; /** default icon. Buttons, nav items, list items. */
   --size-icon-sm: 16; /** small icon. Inline with text, inputs, table rows. */
@@ -24,6 +24,7 @@
   --size-icon-xs: 12; /** inline icon inside a label or badge. */
   --size-radius-full: 9999; /** fully rounded. Pills, avatars, toggle switches. */
   --size-radius-lg: 16; /** large rounding. Bottom sheets, modals, dialogs. */
+  --size-radius-md: 12; /** Default rounding. Buttons, inputs, cards, menus. */
   --size-radius-none: 0; /** no rounding. Dividers, full-width elements. */
   --size-radius-sm: 8; /** Default rounding. Buttons, inputs, cards, menus. */
   --size-radius-xs: 4; /** subtle rounding. Badges, tags, small chips. */
@@ -41,6 +42,9 @@
   --size-space-800: 32; /** large section gap. */
   --size-space-1200: 48; /** section separation on content-heavy screens. */
   --size-space-1600: 64; /** maximum spacing, page-level vertical rhythm. */
+  --size-space-negative-200: -8; /** compact padding inside components. */
+  --size-space-negative-400: -16; /** compact padding inside components. */
+  --size-space-negative-800: -32; /** compact padding inside components. */
   --size-stroke-md: 2; /** emphasis border. Focused inputs, selected states. */
   --size-stroke-sm: 1; /** Default border. Cards, inputs, dividers. */
 }

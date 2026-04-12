@@ -1,68 +1,21 @@
 {
   "typography": {
-    "display-l": {
-      "font-family": {
-        "$type": "string",
-        "$value": "{font.family.title}",
-        "$description": "Hero headline for onboarding screens, empty states, and success moments."
-      },
-      "font-size": {
-        "$type": "number",
-        "$value": "{font.size.4xl}"
-      },
-      "font-weight": {
-        "$type": "number",
-        "$value": "{font.weight.light}"
-      },
-      "line-height": {
-        "$type": "string",
-        "$value": "140%"
-      },
-      "letter-spacing": {
-        "$type": "string",
-        "$value": "0%"
-      }
-    },
-    "display-m": {
-      "font-family": {
-        "$type": "string",
-        "$value": "{font.family.title}",
-        "$description": "Secondary hero text for feature highlights and full-screen modal titles."
-      },
-      "font-size": {
-        "$type": "number",
-        "$value": "{font.size.3xl}"
-      },
-      "font-weight": {
-        "$type": "number",
-        "$value": "{font.weight.light}"
-      },
-      "line-height": {
-        "$type": "string",
-        "$value": "140%"
-      },
-      "letter-spacing": {
-        "$type": "string",
-        "$value": "0%"
-      }
-    },
     "heading-l": {
       "font-family": {
         "$type": "string",
-        "$value": "{font.family.title}",
-        "$description": "Page title, the primary heading at the top of a screen or modal."
+        "$value": "{font.family.title}"
       },
       "font-size": {
         "$type": "number",
-        "$value": "{font.size.2xl}"
+        "$value": "{font.size.heading-l}"
       },
       "font-weight": {
         "$type": "number",
-        "$value": "{font.weight.semibold}"
+        "$value": "{font.weight.bold}"
       },
       "line-height": {
         "$type": "string",
-        "$value": "140%"
+        "$value": "120%"
       },
       "letter-spacing": {
         "$type": "string",
@@ -72,20 +25,19 @@
     "heading-m": {
       "font-family": {
         "$type": "string",
-        "$value": "{font.family.title}",
-        "$description": "Section header, groups related content within a page."
+        "$value": "{font.family.title}"
       },
       "font-size": {
         "$type": "number",
-        "$value": "{font.size.xl}"
+        "$value": "{font.size.heading-m}"
       },
       "font-weight": {
         "$type": "number",
-        "$value": "{font.weight.semibold}"
+        "$value": "{font.weight.bold}"
       },
       "line-height": {
         "$type": "string",
-        "$value": "140%"
+        "$value": "120%"
       },
       "letter-spacing": {
         "$type": "string",
@@ -95,131 +47,59 @@
     "heading-s": {
       "font-family": {
         "$type": "string",
-        "$value": "{font.family.title}",
-        "$description": "Card title, list section header, or small grouping label."
+        "$value": "{font.family.title}"
       },
       "font-size": {
         "$type": "number",
-        "$value": "{font.size.lg}"
+        "$value": "{font.size.heading-s}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.bold}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "label-xl": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}"
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.label-xl}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.medium}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "label-xl-strong": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}"
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.label-xl}"
       },
       "font-weight": {
         "$type": "number",
         "$value": "{font.weight.semibold}"
-      },
-      "line-height": {
-        "$type": "string",
-        "$value": "140%"
-      },
-      "letter-spacing": {
-        "$type": "string",
-        "$value": "0%"
-      }
-    },
-    "paragraph-l": {
-      "font-family": {
-        "$type": "string",
-        "$value": "{font.family.body}",
-        "$description": "Primary body text for descriptions, instructions, and onboarding copy."
-      },
-      "font-size": {
-        "$type": "number",
-        "$value": "{font.size.md}"
-      },
-      "font-weight": {
-        "$type": "number",
-        "$value": "{font.weight.regular}"
-      },
-      "line-height": {
-        "$type": "string",
-        "$value": "140%"
-      },
-      "letter-spacing": {
-        "$type": "string",
-        "$value": "0%"
-      }
-    },
-    "paragraph-l-strong": {
-      "font-family": {
-        "$type": "string",
-        "$value": "{font.family.body}",
-        "$description": "Emphasized body text, key sentence or price that needs to stand out."
-      },
-      "font-size": {
-        "$type": "number",
-        "$value": "{font.size.md}"
-      },
-      "font-weight": {
-        "$type": "number",
-        "$value": "{font.weight.medium}"
-      },
-      "line-height": {
-        "$type": "string",
-        "$value": "140%"
-      },
-      "letter-spacing": {
-        "$type": "string",
-        "$value": "0%"
-      }
-    },
-    "paragraph-m": {
-      "font-family": {
-        "$type": "string",
-        "$value": "{font.family.body}",
-        "$description": "Secondary description, supporting text below a heading or list item title."
-      },
-      "font-size": {
-        "$type": "number",
-        "$value": "{font.size.sm}"
-      },
-      "font-weight": {
-        "$type": "number",
-        "$value": "{font.weight.regular}"
-      },
-      "line-height": {
-        "$type": "string",
-        "$value": "140%"
-      },
-      "letter-spacing": {
-        "$type": "string",
-        "$value": "0%"
-      }
-    },
-    "paragraph-m-strong": {
-      "font-family": {
-        "$type": "string",
-        "$value": "{font.family.body}",
-        "$description": "Key value or status within a secondary description that needs emphasis."
-      },
-      "font-size": {
-        "$type": "number",
-        "$value": "{font.size.sm}"
-      },
-      "font-weight": {
-        "$type": "number",
-        "$value": "{font.weight.medium}"
-      },
-      "line-height": {
-        "$type": "string",
-        "$value": "140%"
-      },
-      "letter-spacing": {
-        "$type": "string",
-        "$value": "0%"
-      }
-    },
-    "paragraph-s": {
-      "font-family": {
-        "$type": "string",
-        "$value": "{font.family.body}",
-        "$description": "Fine print, timestamps, disclaimers, and meta info."
-      },
-      "font-size": {
-        "$type": "number",
-        "$value": "{font.size.xs}"
-      },
-      "font-weight": {
-        "$type": "number",
-        "$value": "{font.weight.regular}"
       },
       "line-height": {
         "$type": "string",
@@ -233,12 +113,11 @@
     "label-l": {
       "font-family": {
         "$type": "string",
-        "$value": "{font.family.body}",
-        "$description": "Primary button text, main nav items, and input field text."
+        "$value": "{font.family.body}"
       },
       "font-size": {
         "$type": "number",
-        "$value": "{font.size.md}"
+        "$value": "{font.size.label-l}"
       },
       "font-weight": {
         "$type": "number",
@@ -256,12 +135,11 @@
     "label-l-strong": {
       "font-family": {
         "$type": "string",
-        "$value": "{font.family.body}",
-        "$description": "Active or selected state, nav item, focused input, or high-emphasis button."
+        "$value": "{font.family.body}"
       },
       "font-size": {
         "$type": "number",
-        "$value": "{font.size.md}"
+        "$value": "{font.size.label-l}"
       },
       "font-weight": {
         "$type": "number",
@@ -279,12 +157,11 @@
     "label-m": {
       "font-family": {
         "$type": "string",
-        "$value": "{font.family.body}",
-        "$description": "Form labels, secondary buttons, tab labels, and badge text."
+        "$value": "{font.family.body}"
       },
       "font-size": {
         "$type": "number",
-        "$value": "{font.size.sm}"
+        "$value": "{font.size.label-m}"
       },
       "font-weight": {
         "$type": "number",
@@ -302,12 +179,11 @@
     "label-m-strong": {
       "font-family": {
         "$type": "string",
-        "$value": "{font.family.body}",
-        "$description": "Active tab, selected list item, or table column header."
+        "$value": "{font.family.body}"
       },
       "font-size": {
         "$type": "number",
-        "$value": "{font.size.sm}"
+        "$value": "{font.size.label-m}"
       },
       "font-weight": {
         "$type": "number",
@@ -325,16 +201,213 @@
     "label-s": {
       "font-family": {
         "$type": "string",
-        "$value": "{font.family.body}",
-        "$description": "Helper text, error messages, tooltips, and overline tags."
+        "$value": "{font.family.body}"
       },
       "font-size": {
         "$type": "number",
-        "$value": "{font.size.xs}"
+        "$value": "{font.size.label-s}"
       },
       "font-weight": {
         "$type": "number",
         "$value": "{font.weight.medium}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "label-xs": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}"
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.label-xs}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.medium}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "paragraph-l": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}"
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.paragraph-l}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.regular}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "paragraph-l-strong": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}"
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.paragraph-l}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.medium}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "paragraph-m": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}"
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.paragraph-m}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.regular}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "paragraph-m-strong": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}"
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.paragraph-m}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.medium}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "paragraph-s": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}"
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.paragraph-s}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.regular}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "caption": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}"
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.caption}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.regular}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "numeric-l": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}"
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.numeric-l}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.semibold}"
+      },
+      "line-height": {
+        "$type": "string",
+        "$value": "140%"
+      },
+      "letter-spacing": {
+        "$type": "string",
+        "$value": "0%"
+      }
+    },
+    "numeric-m": {
+      "font-family": {
+        "$type": "string",
+        "$value": "{font.family.body}"
+      },
+      "font-size": {
+        "$type": "number",
+        "$value": "{font.size.numeric-m}"
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{font.weight.semibold}"
       },
       "line-height": {
         "$type": "string",

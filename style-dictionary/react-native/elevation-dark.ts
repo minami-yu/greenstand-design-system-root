@@ -26,14 +26,14 @@ export const elevationDark = {
         spread: 0
       },
       {
-        color: "rgba(255, 255, 255, 0.2)",
+        color: "rgba(255, 255, 255, 0.1)",
         offsetX: 0,
         offsetY: 2,
         blur: 1,
         spread: 0
       },
       {
-        color: "rgba(255, 255, 255, 0.1)",
+        color: "rgba(255, 255, 255, 0.05)",
         offsetX: 0,
         offsetY: 1,
         blur: 4,
@@ -51,14 +51,14 @@ export const elevationDark = {
         spread: 0
       },
       {
-        color: "rgba(255, 255, 255, 0.1)",
+        color: "rgba(255, 255, 255, 0.05)",
         offsetX: 0,
         offsetY: 2,
         blur: 4,
         spread: 0
       },
       {
-        color: "rgba(255, 255, 255, 0.1)",
+        color: "rgba(255, 255, 255, 0.05)",
         offsetX: 0,
         offsetY: 2,
         blur: 6,
@@ -76,14 +76,14 @@ export const elevationDark = {
         spread: 0
       },
       {
-        color: "rgba(255, 255, 255, 0.1)",
+        color: "rgba(255, 255, 255, 0.05)",
         offsetX: 0,
         offsetY: 8,
         blur: 16,
         spread: 0
       },
       {
-        color: "rgba(255, 255, 255, 0.1)",
+        color: "rgba(255, 255, 255, 0.05)",
         offsetX: 0,
         offsetY: 4,
         blur: 12,

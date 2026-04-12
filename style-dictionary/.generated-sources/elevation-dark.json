@@ -1,17 +1,17 @@
 {
   "color": {
     "shadow": {
-      "sm": {
+      "lg": {
         "$type": "color",
-        "$value": "#FFFFFF0D"
+        "$value": "{color.white.200}"
       },
       "md": {
         "$type": "color",
-        "$value": "#FFFFFF1A"
+        "$value": "{color.white.100}"
       },
-      "lg": {
+      "sm": {
         "$type": "color",
-        "$value": "#FFFFFF33"
+        "$value": "{color.white.100}"
       }
     }
   },

@@ -17,7 +17,7 @@ export const size = {
   sizeDepth400: 16,
   sizeDepth025: 1,
   sizeDepth050: 2,
-  sizeIcon2xl: 40,
+  sizeIcon2xl: 48,
   sizeIconLg: 24,
   sizeIconMd: 20,
   sizeIconSm: 16,
@@ -25,6 +25,7 @@ export const size = {
   sizeIconXs: 12,
   sizeRadiusFull: 9999,
   sizeRadiusLg: 16,
+  sizeRadiusMd: 12,
   sizeRadiusNone: 0,
   sizeRadiusSm: 8,
   sizeRadiusXs: 4,
@@ -42,6 +43,9 @@ export const size = {
   sizeSpace800: 32,
   sizeSpace1200: 48,
   sizeSpace1600: 64,
+  sizeSpaceNegative200: -8,
+  sizeSpaceNegative400: -16,
+  sizeSpaceNegative800: -32,
   sizeStrokeMd: 2,
   sizeStrokeSm: 1
 } as const;

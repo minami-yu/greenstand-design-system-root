@@ -1,7 +1,9 @@
 import path from 'node:path';
 
 export const repoRoot = process.cwd();
-export const manifestPath = path.join(repoRoot, 'build', 'style-dictionary.config.json');
+/** Repo-relative path for docs and errors (POSIX for stable messages on all OS). */
+export const manifestRelativePath = 'build/style-dictionary-build/style-dictionary.config.json';
+export const manifestPath = path.join(repoRoot, 'build', 'style-dictionary-build', 'style-dictionary.config.json');
 export const webKebabTransformGroup = 'greenstand/web-kebab';
 export const TOKEN_GROUPS = {
   color: 'color',

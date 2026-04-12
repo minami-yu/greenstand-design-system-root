@@ -1,7 +1,11 @@
 import StyleDictionary from 'style-dictionary';
 import { transforms } from 'style-dictionary/enums';
-import { registerCustomFormats } from './style-dictionary-build/custom-formats.js';
-import { repoRoot, manifestPath, webKebabTransformGroup } from './style-dictionary-build/shared.js';
+import { registerCustomFormats } from './custom-formats.js';
+import { repoRoot, manifestPath, manifestRelativePath, webKebabTransformGroup } from './shared.js';
+import {
+  assertManifestSourcesShape,
+  flattenSourcesForPipeline
+} from './source-manifest.js';
 import {
   buildBundle,
   createBundleDefinitions,
@@ -10,7 +14,7 @@ import {
   prepareGeneratedSources,
   validateConfiguredSources,
   writeReactNativeIndex
-} from './style-dictionary-build/pipeline.js';
+} from './pipeline.js';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
@@ -34,37 +38,18 @@ async function loadManifest() {
   return JSON.parse(raw);
 }
 
-// Validates that the manifest contains the source mapping required by the build pipeline.
+// Validates manifest shape (paths, platform overrides).
 function validateManifest(manifest) {
-  const requiredSourceKeys = [
-    'colorBase',
-    'colorLight',
-    'colorDark',
-    'size',
-    'typographyMobile',
-    'typographyDesktop',
-    'typographyStyle',
-    'elevationStyle'
-  ];
-
-  if (!manifest.sources) {
-    throw new Error('build/style-dictionary.config.json must define a top-level "sources" object for the token build.');
-  }
-
-  for (const sourceKey of requiredSourceKeys) {
-    if (!manifest.sources[sourceKey]) {
-      throw new Error(`build/style-dictionary.config.json is missing sources.${sourceKey}`);
-    }
-  }
+  assertManifestSourcesShape(manifest.sources);
 
   if (manifest.platformBuildPaths !== undefined) {
     if (typeof manifest.platformBuildPaths !== 'object' || Array.isArray(manifest.platformBuildPaths)) {
-      throw new Error('build/style-dictionary.config.json "platformBuildPaths" must be an object when provided.');
+      throw new Error(`${manifestRelativePath} "platformBuildPaths" must be an object when provided.`);
     }
 
     for (const [platformName, platformPath] of Object.entries(manifest.platformBuildPaths)) {
       if (typeof platformPath !== 'string' || platformPath.trim() === '') {
-        throw new Error(`build/style-dictionary.config.json platformBuildPaths.${platformName} must be a non-empty string.`);
+        throw new Error(`${manifestRelativePath} platformBuildPaths.${platformName} must be a non-empty string.`);
       }
     }
   }
@@ -80,11 +65,13 @@ async function main() {
     : undefined;
 
   validateManifest(manifest);
-  await validateConfiguredSources(manifest.sources);
+
+  const sourceConfig = flattenSourcesForPipeline(manifest.sources);
+  await validateConfiguredSources(sourceConfig);
   await prepareBuildDirectory(buildPath, platformBuildPaths);
 
-  const generatedSources = await prepareGeneratedSources(buildPath, manifest.sources);
-  const bundles = createBundleDefinitions(manifest.sources, generatedSources);
+  const generatedSources = await prepareGeneratedSources(buildPath, sourceConfig);
+  const bundles = createBundleDefinitions(generatedSources);
 
   for (const bundle of bundles) {
     await buildBundle({

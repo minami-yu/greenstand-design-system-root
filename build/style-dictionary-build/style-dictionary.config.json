@@ -1,0 +1,25 @@
+{
+  "buildPath": "style-dictionary",
+  "platformBuildPaths": {
+    "web": "web",
+    "reactNative": "react-native"
+  },
+  "sources": {
+    "variables": {
+      "colorBase": "design-tokens/variables/token_color_primitive_value.json",
+      "colorLight": "design-tokens/variables/token_color_light.json",
+      "colorDark": "design-tokens/variables/token_color_dark.json",
+      "size": "design-tokens/variables/token_size_value.json",
+      "typographyMobile": "design-tokens/variables/token_typography_mobile.json",
+      "typographyDesktop": "design-tokens/variables/token_typography_desktop.json"
+    },
+    "styles": {
+      "typographyStyle": "design-tokens/styles/typography.json",
+      "elevationStyle": "design-tokens/styles/elevation.json"
+    }
+  },
+  "source": [
+    "design-tokens/variables/**/*.json",
+    "design-tokens/styles/**/*.json"
+  ]
+}

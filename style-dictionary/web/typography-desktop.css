@@ -3,40 +3,37 @@
  */
 
 :root {
-  --font-family-body: Roboto;
+  --font-family-body: Inter;
   --font-family-title: Montserrat;
-  --font-size-2xl: 24;
-  --font-size-3xl: 28;
-  --font-size-4xl: 36;
-  --font-size-lg: 18;
-  --font-size-md: 16;
-  --font-size-sm: 14;
-  --font-size-xl: 20;
-  --font-size-xs: 12;
+  --font-size-caption: 12;
+  --font-size-heading-l: 36;
+  --font-size-heading-m: 24;
+  --font-size-heading-s: 18;
+  --font-size-label-l: 16;
+  --font-size-label-m: 14;
+  --font-size-label-s: 12;
+  --font-size-label-xl: 18;
+  --font-size-label-xs: 11;
+  --font-size-numeric-l: 40;
+  --font-size-numeric-m: 40;
+  --font-size-paragraph-l: 16;
+  --font-size-paragraph-m: 14;
+  --font-size-paragraph-s: 12;
+  --font-weight-bold: 700;
   --font-weight-light: 300;
   --font-weight-medium: 500;
   --font-weight-regular: 400;
   --font-weight-semibold: 600;
-  --typography-display-l-line-height: 140%;
-  --typography-display-l-letter-spacing: 0%;
-  --typography-display-m-line-height: 140%;
-  --typography-display-m-letter-spacing: 0%;
-  --typography-heading-l-line-height: 140%;
+  --typography-heading-l-line-height: 120%;
   --typography-heading-l-letter-spacing: 0%;
-  --typography-heading-m-line-height: 140%;
+  --typography-heading-m-line-height: 120%;
   --typography-heading-m-letter-spacing: 0%;
   --typography-heading-s-line-height: 140%;
   --typography-heading-s-letter-spacing: 0%;
-  --typography-paragraph-l-line-height: 140%;
-  --typography-paragraph-l-letter-spacing: 0%;
-  --typography-paragraph-l-strong-line-height: 140%;
-  --typography-paragraph-l-strong-letter-spacing: 0%;
-  --typography-paragraph-m-line-height: 140%;
-  --typography-paragraph-m-letter-spacing: 0%;
-  --typography-paragraph-m-strong-line-height: 140%;
-  --typography-paragraph-m-strong-letter-spacing: 0%;
-  --typography-paragraph-s-line-height: 140%;
-  --typography-paragraph-s-letter-spacing: 0%;
+  --typography-label-xl-line-height: 140%;
+  --typography-label-xl-letter-spacing: 0%;
+  --typography-label-xl-strong-line-height: 140%;
+  --typography-label-xl-strong-letter-spacing: 0%;
   --typography-label-l-line-height: 140%;
   --typography-label-l-letter-spacing: 0%;
   --typography-label-l-strong-line-height: 140%;
@@ -47,87 +44,159 @@
   --typography-label-m-strong-letter-spacing: 0%;
   --typography-label-s-line-height: 140%;
   --typography-label-s-letter-spacing: 0%;
-  --typography-display-l-font-family: var(--font-family-title); /** Hero headline for onboarding screens, empty states, and success moments. */
-  --typography-display-l-font-size: var(--font-size-4xl);
-  --typography-display-l-font-weight: var(--font-weight-light);
-  --typography-display-m-font-family: var(--font-family-title); /** Secondary hero text for feature highlights and full-screen modal titles. */
-  --typography-display-m-font-size: var(--font-size-3xl);
-  --typography-display-m-font-weight: var(--font-weight-light);
-  --typography-heading-l-font-family: var(--font-family-title); /** Page title, the primary heading at the top of a screen or modal. */
-  --typography-heading-l-font-size: var(--font-size-2xl);
-  --typography-heading-l-font-weight: var(--font-weight-semibold);
-  --typography-heading-m-font-family: var(--font-family-title); /** Section header, groups related content within a page. */
-  --typography-heading-m-font-size: var(--font-size-xl);
-  --typography-heading-m-font-weight: var(--font-weight-semibold);
-  --typography-heading-s-font-family: var(--font-family-title); /** Card title, list section header, or small grouping label. */
-  --typography-heading-s-font-size: var(--font-size-lg);
-  --typography-heading-s-font-weight: var(--font-weight-semibold);
-  --typography-paragraph-l-font-family: var(--font-family-body); /** Primary body text for descriptions, instructions, and onboarding copy. */
-  --typography-paragraph-l-font-size: var(--font-size-md);
-  --typography-paragraph-l-font-weight: var(--font-weight-regular);
-  --typography-paragraph-l-strong-font-family: var(--font-family-body); /** Emphasized body text, key sentence or price that needs to stand out. */
-  --typography-paragraph-l-strong-font-size: var(--font-size-md);
-  --typography-paragraph-l-strong-font-weight: var(--font-weight-medium);
-  --typography-paragraph-m-font-family: var(--font-family-body); /** Secondary description, supporting text below a heading or list item title. */
-  --typography-paragraph-m-font-size: var(--font-size-sm);
-  --typography-paragraph-m-font-weight: var(--font-weight-regular);
-  --typography-paragraph-m-strong-font-family: var(--font-family-body); /** Key value or status within a secondary description that needs emphasis. */
-  --typography-paragraph-m-strong-font-size: var(--font-size-sm);
-  --typography-paragraph-m-strong-font-weight: var(--font-weight-medium);
-  --typography-paragraph-s-font-family: var(--font-family-body); /** Fine print, timestamps, disclaimers, and meta info. */
-  --typography-paragraph-s-font-size: var(--font-size-xs);
-  --typography-paragraph-s-font-weight: var(--font-weight-regular);
-  --typography-label-l-font-family: var(--font-family-body); /** Primary button text, main nav items, and input field text. */
-  --typography-label-l-font-size: var(--font-size-md);
+  --typography-label-xs-line-height: 140%;
+  --typography-label-xs-letter-spacing: 0%;
+  --typography-paragraph-l-line-height: 140%;
+  --typography-paragraph-l-letter-spacing: 0%;
+  --typography-paragraph-l-strong-line-height: 140%;
+  --typography-paragraph-l-strong-letter-spacing: 0%;
+  --typography-paragraph-m-line-height: 140%;
+  --typography-paragraph-m-letter-spacing: 0%;
+  --typography-paragraph-m-strong-line-height: 140%;
+  --typography-paragraph-m-strong-letter-spacing: 0%;
+  --typography-paragraph-s-line-height: 140%;
+  --typography-paragraph-s-letter-spacing: 0%;
+  --typography-caption-line-height: 140%;
+  --typography-caption-letter-spacing: 0%;
+  --typography-numeric-l-line-height: 140%;
+  --typography-numeric-l-letter-spacing: 0%;
+  --typography-numeric-m-line-height: 140%;
+  --typography-numeric-m-letter-spacing: 0%;
+  --typography-heading-l-font-family: var(--font-family-title);
+  --typography-heading-l-font-size: var(--font-size-heading-l);
+  --typography-heading-l-font-weight: var(--font-weight-bold);
+  --typography-heading-m-font-family: var(--font-family-title);
+  --typography-heading-m-font-size: var(--font-size-heading-m);
+  --typography-heading-m-font-weight: var(--font-weight-bold);
+  --typography-heading-s-font-family: var(--font-family-title);
+  --typography-heading-s-font-size: var(--font-size-heading-s);
+  --typography-heading-s-font-weight: var(--font-weight-bold);
+  --typography-label-xl-font-family: var(--font-family-body);
+  --typography-label-xl-font-size: var(--font-size-label-xl);
+  --typography-label-xl-font-weight: var(--font-weight-medium);
+  --typography-label-xl-strong-font-family: var(--font-family-body);
+  --typography-label-xl-strong-font-size: var(--font-size-label-xl);
+  --typography-label-xl-strong-font-weight: var(--font-weight-semibold);
+  --typography-label-l-font-family: var(--font-family-body);
+  --typography-label-l-font-size: var(--font-size-label-l);
   --typography-label-l-font-weight: var(--font-weight-medium);
-  --typography-label-l-strong-font-family: var(--font-family-body); /** Active or selected state, nav item, focused input, or high-emphasis button. */
-  --typography-label-l-strong-font-size: var(--font-size-md);
+  --typography-label-l-strong-font-family: var(--font-family-body);
+  --typography-label-l-strong-font-size: var(--font-size-label-l);
   --typography-label-l-strong-font-weight: var(--font-weight-semibold);
-  --typography-label-m-font-family: var(--font-family-body); /** Form labels, secondary buttons, tab labels, and badge text. */
-  --typography-label-m-font-size: var(--font-size-sm);
+  --typography-label-m-font-family: var(--font-family-body);
+  --typography-label-m-font-size: var(--font-size-label-m);
   --typography-label-m-font-weight: var(--font-weight-medium);
-  --typography-label-m-strong-font-family: var(--font-family-body); /** Active tab, selected list item, or table column header. */
-  --typography-label-m-strong-font-size: var(--font-size-sm);
+  --typography-label-m-strong-font-family: var(--font-family-body);
+  --typography-label-m-strong-font-size: var(--font-size-label-m);
   --typography-label-m-strong-font-weight: var(--font-weight-semibold);
-  --typography-label-s-font-family: var(--font-family-body); /** Helper text, error messages, tooltips, and overline tags. */
-  --typography-label-s-font-size: var(--font-size-xs);
+  --typography-label-s-font-family: var(--font-family-body);
+  --typography-label-s-font-size: var(--font-size-label-s);
   --typography-label-s-font-weight: var(--font-weight-medium);
+  --typography-label-xs-font-family: var(--font-family-body);
+  --typography-label-xs-font-size: var(--font-size-label-xs);
+  --typography-label-xs-font-weight: var(--font-weight-medium);
+  --typography-paragraph-l-font-family: var(--font-family-body);
+  --typography-paragraph-l-font-size: var(--font-size-paragraph-l);
+  --typography-paragraph-l-font-weight: var(--font-weight-regular);
+  --typography-paragraph-l-strong-font-family: var(--font-family-body);
+  --typography-paragraph-l-strong-font-size: var(--font-size-paragraph-l);
+  --typography-paragraph-l-strong-font-weight: var(--font-weight-medium);
+  --typography-paragraph-m-font-family: var(--font-family-body);
+  --typography-paragraph-m-font-size: var(--font-size-paragraph-m);
+  --typography-paragraph-m-font-weight: var(--font-weight-regular);
+  --typography-paragraph-m-strong-font-family: var(--font-family-body);
+  --typography-paragraph-m-strong-font-size: var(--font-size-paragraph-m);
+  --typography-paragraph-m-strong-font-weight: var(--font-weight-medium);
+  --typography-paragraph-s-font-family: var(--font-family-body);
+  --typography-paragraph-s-font-size: var(--font-size-paragraph-s);
+  --typography-paragraph-s-font-weight: var(--font-weight-regular);
+  --typography-caption-font-family: var(--font-family-body);
+  --typography-caption-font-size: var(--font-size-caption);
+  --typography-caption-font-weight: var(--font-weight-regular);
+  --typography-numeric-l-font-family: var(--font-family-body);
+  --typography-numeric-l-font-size: var(--font-size-numeric-l);
+  --typography-numeric-l-font-weight: var(--font-weight-semibold);
+  --typography-numeric-m-font-family: var(--font-family-body);
+  --typography-numeric-m-font-size: var(--font-size-numeric-m);
+  --typography-numeric-m-font-weight: var(--font-weight-semibold);
 }
 
 /* typography-desktop-classes.css */
 
-.typography-display-l {
-  font-family: var(--typography-display-l-font-family);
-  font-size: calc(var(--typography-display-l-font-size) * 1px);
-  font-weight: var(--typography-display-l-font-weight);
-  line-height: 140%;
-  letter-spacing: 0em;
-}
-.typography-display-m {
-  font-family: var(--typography-display-m-font-family);
-  font-size: calc(var(--typography-display-m-font-size) * 1px);
-  font-weight: var(--typography-display-m-font-weight);
-  line-height: 140%;
-  letter-spacing: 0em;
-}
 .typography-heading-l {
   font-family: var(--typography-heading-l-font-family);
   font-size: calc(var(--typography-heading-l-font-size) * 1px);
   font-weight: var(--typography-heading-l-font-weight);
-  line-height: 140%;
+  line-height: 120%;
   letter-spacing: 0em;
 }
 .typography-heading-m {
   font-family: var(--typography-heading-m-font-family);
   font-size: calc(var(--typography-heading-m-font-size) * 1px);
   font-weight: var(--typography-heading-m-font-weight);
-  line-height: 140%;
+  line-height: 120%;
   letter-spacing: 0em;
 }
 .typography-heading-s {
   font-family: var(--typography-heading-s-font-family);
   font-size: calc(var(--typography-heading-s-font-size) * 1px);
   font-weight: var(--typography-heading-s-font-weight);
+  line-height: 140%;
+  letter-spacing: 0em;
+}
+.typography-label-xl {
+  font-family: var(--typography-label-xl-font-family);
+  font-size: calc(var(--typography-label-xl-font-size) * 1px);
+  font-weight: var(--typography-label-xl-font-weight);
+  line-height: 140%;
+  letter-spacing: 0em;
+}
+.typography-label-xl-strong {
+  font-family: var(--typography-label-xl-strong-font-family);
+  font-size: calc(var(--typography-label-xl-strong-font-size) * 1px);
+  font-weight: var(--typography-label-xl-strong-font-weight);
+  line-height: 140%;
+  letter-spacing: 0em;
+}
+.typography-label-l {
+  font-family: var(--typography-label-l-font-family);
+  font-size: calc(var(--typography-label-l-font-size) * 1px);
+  font-weight: var(--typography-label-l-font-weight);
+  line-height: 140%;
+  letter-spacing: 0em;
+}
+.typography-label-l-strong {
+  font-family: var(--typography-label-l-strong-font-family);
+  font-size: calc(var(--typography-label-l-strong-font-size) * 1px);
+  font-weight: var(--typography-label-l-strong-font-weight);
+  line-height: 140%;
+  letter-spacing: 0em;
+}
+.typography-label-m {
+  font-family: var(--typography-label-m-font-family);
+  font-size: calc(var(--typography-label-m-font-size) * 1px);
+  font-weight: var(--typography-label-m-font-weight);
+  line-height: 140%;
+  letter-spacing: 0em;
+}
+.typography-label-m-strong {
+  font-family: var(--typography-label-m-strong-font-family);
+  font-size: calc(var(--typography-label-m-strong-font-size) * 1px);
+  font-weight: var(--typography-label-m-strong-font-weight);
+  line-height: 140%;
+  letter-spacing: 0em;
+}
+.typography-label-s {
+  font-family: var(--typography-label-s-font-family);
+  font-size: calc(var(--typography-label-s-font-size) * 1px);
+  font-weight: var(--typography-label-s-font-weight);
+  line-height: 140%;
+  letter-spacing: 0em;
+}
+.typography-label-xs {
+  font-family: var(--typography-label-xs-font-family);
+  font-size: calc(var(--typography-label-xs-font-size) * 1px);
+  font-weight: var(--typography-label-xs-font-weight);
   line-height: 140%;
   letter-spacing: 0em;
 }
@@ -166,38 +235,24 @@
   line-height: 140%;
   letter-spacing: 0em;
 }
-.typography-label-l {
-  font-family: var(--typography-label-l-font-family);
-  font-size: calc(var(--typography-label-l-font-size) * 1px);
-  font-weight: var(--typography-label-l-font-weight);
+.typography-caption {
+  font-family: var(--typography-caption-font-family);
+  font-size: calc(var(--typography-caption-font-size) * 1px);
+  font-weight: var(--typography-caption-font-weight);
   line-height: 140%;
   letter-spacing: 0em;
 }
-.typography-label-l-strong {
-  font-family: var(--typography-label-l-strong-font-family);
-  font-size: calc(var(--typography-label-l-strong-font-size) * 1px);
-  font-weight: var(--typography-label-l-strong-font-weight);
+.typography-numeric-l {
+  font-family: var(--typography-numeric-l-font-family);
+  font-size: calc(var(--typography-numeric-l-font-size) * 1px);
+  font-weight: var(--typography-numeric-l-font-weight);
   line-height: 140%;
   letter-spacing: 0em;
 }
-.typography-label-m {
-  font-family: var(--typography-label-m-font-family);
-  font-size: calc(var(--typography-label-m-font-size) * 1px);
-  font-weight: var(--typography-label-m-font-weight);
-  line-height: 140%;
-  letter-spacing: 0em;
-}
-.typography-label-m-strong {
-  font-family: var(--typography-label-m-strong-font-family);
-  font-size: calc(var(--typography-label-m-strong-font-size) * 1px);
-  font-weight: var(--typography-label-m-strong-font-weight);
-  line-height: 140%;
-  letter-spacing: 0em;
-}
-.typography-label-s {
-  font-family: var(--typography-label-s-font-family);
-  font-size: calc(var(--typography-label-s-font-size) * 1px);
-  font-weight: var(--typography-label-s-font-weight);
+.typography-numeric-m {
+  font-family: var(--typography-numeric-m-font-family);
+  font-size: calc(var(--typography-numeric-m-font-size) * 1px);
+  font-weight: var(--typography-numeric-m-font-weight);
   line-height: 140%;
   letter-spacing: 0em;
 }

@@ -3,7 +3,16 @@
  */
 
 :root {
-  --color-base-white: #ffffff;
+  --color-black-50: #0c0c0d0d;
+  --color-black-100: #0c0c0d14;
+  --color-black-200: #0c0c0d1a;
+  --color-black-300: #0c0c0d33;
+  --color-black-400: #0c0c0d66;
+  --color-black-500: #0c0c0db3;
+  --color-black-600: #0c0c0dcc;
+  --color-black-700: #0c0c0dd9;
+  --color-black-800: #0c0c0de6;
+  --color-black-900: #0c0c0df2;
   --color-blue-50: #e3f2fd;
   --color-blue-100: #bbdefb;
   --color-blue-200: #90caf9;
@@ -14,34 +23,34 @@
   --color-blue-700: #1565c0;
   --color-blue-800: #0d47a1;
   --color-blue-900: #072d6b;
-  --color-emerald-50: #e8fcf7;
-  --color-emerald-100: #bcf0e4;
-  --color-emerald-200: #82deca;
-  --color-emerald-300: #42c4ac;
-  --color-emerald-400: #1fa88e;
-  --color-emerald-500: #12836d;
-  --color-emerald-600: #0a6152;
-  --color-emerald-700: #064438;
-  --color-emerald-800: #022b23;
-  --color-emerald-900: #011512;
+  --color-brand-green-50: #eef8e6;
+  --color-brand-green-100: #d4f0b0;
+  --color-brand-green-200: #c5f78d;
+  --color-brand-green-300: #86c232; /** Logo color */
+  --color-brand-green-400: #6aae28;
+  --color-brand-green-500: #52a320;
+  --color-brand-green-600: #3a7d12;
+  --color-brand-green-700: #295c0a;
+  --color-brand-green-800: #1a3d04;
+  --color-brand-green-900: #0d2001;
   --color-green-50: #eef8e6;
   --color-green-100: #d4f0b0;
   --color-green-200: #a8dc6e;
-  --color-green-300: #86c232; /** Logo color */
-  --color-green-400: #6aae28;
-  --color-green-500: #52a320;
+  --color-green-300: #a5e54b;
+  --color-green-400: #78d023;
+  --color-green-500: #47ad08;
   --color-green-600: #3a7d12;
   --color-green-700: #295c0a;
   --color-green-800: #1a3d04;
   --color-green-900: #0d2001;
-  --color-neutral-50: #fafafa;
+  --color-neutral-50: #f7f7f7;
   --color-neutral-100: #f2f2f2;
   --color-neutral-200: #e8e8e8;
   --color-neutral-300: #d4d4d4;
-  --color-neutral-400: #ababab;
-  --color-neutral-500: #858585;
+  --color-neutral-400: #a0a0a0;
+  --color-neutral-500: #7c7c7c;
   --color-neutral-600: #636363;
-  --color-neutral-700: #474747;
+  --color-neutral-700: #5b5b5b;
   --color-neutral-800: #2e2e2e;
   --color-neutral-900: #212121;
   --color-orange-50: #fff8ee;
@@ -68,14 +77,25 @@
   --color-red-50: #fff0ee;
   --color-red-100: #ffd5cf;
   --color-red-200: #ffaa9f;
-  --color-red-300: #f47066;
-  --color-red-400: #e04535;
-  --color-red-500: #c42020;
-  --color-red-600: #a01a1a;
-  --color-red-700: #7a1212;
-  --color-red-800: #560c0c;
-  --color-red-900: #450700;
-  --color-yellow-50: #fffef0;
+  --color-red-300: #ff5252;
+  --color-red-400: #f52020;
+  --color-red-500: #e41212;
+  --color-red-600: #be1414;
+  --color-red-700: #a81414;
+  --color-red-800: #921212;
+  --color-red-900: #7d1010;
+  --color-white-100: #ffffff0d;
+  --color-white-200: #ffffff1a;
+  --color-white-300: #ffffff33;
+  --color-white-400: #ffffff66;
+  --color-white-500: #ffffffb3;
+  --color-white-600: #ffffffcc;
+  --color-white-700: #ffffffd9;
+  --color-white-800: #ffffffe6;
+  --color-white-900: #fffffff2;
+  --color-white-1000: #ffffff;
+  --color-white-transparent: #ffffff00;
+  --color-yellow-50: #fdfbe8;
   --color-yellow-100: #fffbd1;
   --color-yellow-200: #fff69a;
   --color-yellow-300: #ffed4a;
@@ -85,160 +105,98 @@
   --color-yellow-700: #b08202;
   --color-yellow-800: #7a5900;
   --color-yellow-900: #4b3300;
-  --color-background-base-overlay: #00000099; /** Scrim behind modals and drawers */
-  --color-component-button-error-plain-background-default: #ffffff00;
-  --color-component-button-neutral-outlined-background-default: #ffffff00;
-  --color-component-button-neutral-outlined-background-disabled: #ffffff00;
-  --color-component-button-neutral-plain-background-default: #ffffff00;
-  --color-component-button-primary-outlined-background-default: #ffffff00;
-  --color-component-button-primary-outlined-background-disabled: #ffffff00;
-  --color-component-button-primary-plain-background-default: #ffffff00;
-  --color-shadow-lg: #ffffff33;
-  --color-shadow-md: #ffffff1a;
-  --color-shadow-sm: #ffffff0d;
-  --color-background-accent-active: var(--color-orange-400); /** Pressed state on accent elements */
-  --color-background-accent-default: var(--color-orange-600); /** Secondary accent fills, promotional elements */
-  --color-background-accent-disabled: var(--color-orange-800); /** Disabled accent element fill */
-  --color-background-accent-hover: var(--color-orange-500); /** Hover state on accent elements */
-  --color-background-accent-subtle: var(--color-orange-900); /** Light orange tint for accent surfaces */
-  --color-background-base-container: var(--color-neutral-800); /** Cards, panels, modals, drawers */
-  --color-background-base-default: var(--color-neutral-900); /** App root, body background */
-  --color-background-base-subtle: var(--color-neutral-700); /** Hover rows, inset sections, zebra stripes */
-  --color-background-brand-active: var(--color-green-700); /** Pressed state on brand elements */
-  --color-background-brand-default: var(--color-green-500); /** Primary brand button, strong brand fills */
-  --color-background-brand-disabled: var(--color-neutral-700); /** Disabled brand button fill */
-  --color-background-brand-hover: var(--color-green-600); /** Hover state on brand elements */
-  --color-background-brand-subtle: var(--color-green-900); /** Selected states, active nav tint */
-  --color-background-error-emphasis-active: var(--color-red-300); /** Critical error banner, system-wide alert */
-  --color-background-error-emphasis-default: var(--color-red-500); /** Critical error banner, system-wide alert */
-  --color-background-error-emphasis-hover: var(--color-red-400); /** Critical error banner, system-wide alert */
-  --color-background-error-subtle: var(--color-red-900); /** Inline error alert, form field error bg */
-  --color-background-info-emphasis: var(--color-blue-500); /** Critical info banner, system-wide notice */
-  --color-background-info-subtle: var(--color-blue-900); /** Inline informational alert, tooltip bg */
-  --color-background-success-emphasis: var(--color-emerald-500); /** Critical success banner, system confirmation */
-  --color-background-success-subtle: var(--color-emerald-900); /** Inline confirmation, completed state bg */
-  --color-background-warning-emphasis: var(--color-yellow-400); /** Critical warning banner like Uber surge pricing */
-  --color-background-warning-subtle: var(--color-yellow-900); /** Inline caution alert, advisory notice bg */
+  --color-fill-neutral-default-disabled: #212121; /** Hover rows, inset sections, zebra stripes */
+  --color-background-netural-base: var(--color-neutral-900); /** app background */
+  --color-background-netural-overlay: var(--color-white-400); /** Scrim behind modals and drawers */
+  --color-background-netural-surface: var(--color-neutral-800); /** Cards, panels, modals, drawers */
+  --color-background-netural-white: var(--color-neutral-900); /** app background */
   --color-border-accent-default: var(--color-orange-500); /** Accent outlined component borders for promotional elements */
   --color-border-accent-subtle: var(--color-orange-800); /** For callouts */
   --color-border-base-default: var(--color-neutral-700); /** Standard border for cards, inputs, containers */
   --color-border-base-disabled: var(--color-neutral-800); /** Border for disabled inputs and non-interactive form controls */
-  --color-border-base-divider: var(--color-neutral-800); /** Section separators, list item dividers */
+  --color-border-base-inverse: var(--color-neutral-900);
   --color-border-base-strong: var(--color-neutral-400); /** Emphasized border for active inputs, hover states, selected neutral items */
-  --color-border-brand-default: var(--color-green-500); /** Selected cards, active tabs, brand-accented component borders */
-  --color-border-brand-subtle: var(--color-green-800); /** For callouts and highlighted sections */
+  --color-border-base-subtle: var(--color-neutral-700); /** Section separators, list item dividers */
+  --color-border-brand-default: var(--color-brand-green-500); /** Selected cards, active tabs, brand-accented component borders */
+  --color-border-brand-subtle: var(--color-brand-green-800); /** For callouts and highlighted sections */
   --color-border-error-default: var(--color-red-700); /** Inline error states, invalid inputs, error alert components */
   --color-border-error-emphasis: var(--color-red-500); /** Critical error banners, system-wide alerts, destructive dialogs */
   --color-border-info-default: var(--color-blue-600); /** Inline informational alerts and tooltip components */
   --color-border-info-emphasis: var(--color-blue-500); /** Critical informational banners and system-wide notices */
-  --color-border-success-default: var(--color-emerald-600); /** Inline confirmation alerts and success input states */
-  --color-border-success-emphasis: var(--color-emerald-400); /** Critical success banners and system confirmations */
+  --color-border-success-default: var(--color-green-600); /** Inline confirmation alerts and success input states */
+  --color-border-success-emphasis: var(--color-green-400); /** Critical success banners and system confirmations */
   --color-border-warning-default: var(--color-yellow-700); /** Inline caution alerts and advisory input states */
   --color-border-warning-emphasis: var(--color-yellow-400); /** Critical warning banners and system-wide caution notices */
+  --color-fill-accent-active: var(--color-orange-400); /** Pressed state on accent elements */
+  --color-fill-accent-default: var(--color-orange-600); /** Secondary accent fills, promotional elements */
+  --color-fill-accent-disabled: var(--color-orange-800); /** Disabled accent element fill */
+  --color-fill-accent-hover: var(--color-orange-500); /** Hover state on accent elements */
+  --color-fill-accent-subtle: var(--color-orange-900); /** Light orange tint for accent surfaces */
+  --color-fill-brand-accent: var(--color-brand-green-500); /** Primary brand button, strong brand fills */
+  --color-fill-brand-default: var(--color-brand-green-500); /** Primary brand button, strong brand fills */
+  --color-fill-brand-disabled: var(--color-neutral-700); /** Disabled brand button fill */
+  --color-fill-brand-hover: var(--color-brand-green-600); /** Hover state on brand elements */
+  --color-fill-brand-selected: var(--color-brand-green-700); /** Pressed state on brand elements */
+  --color-fill-brand-subtle: var(--color-brand-green-900); /** Selected states, active nav tint */
+  --color-fill-brand-subtle-active: var(--color-brand-green-700); /** Selected states, active nav tint */
+  --color-fill-brand-subtle-hover: var(--color-brand-green-800); /** Selected states, active nav tint */
+  --color-fill-error-emphasis-active: var(--color-red-300); /** Critical error banner, system-wide alert */
+  --color-fill-error-emphasis-default: var(--color-red-500); /** Critical error banner, system-wide alert */
+  --color-fill-error-emphasis-disabled: var(--color-neutral-900); /** Critical error banner, system-wide alert */
+  --color-fill-error-emphasis-hover: var(--color-red-400); /** Critical error banner, system-wide alert */
+  --color-fill-error-subtle: var(--color-red-900); /** Inline error alert, form field error bg */
+  --color-fill-info-emphasis: var(--color-blue-500); /** Critical info banner, system-wide notice */
+  --color-fill-info-subtle: var(--color-blue-900); /** Inline informational alert, tooltip bg */
+  --color-fill-neutral-default: var(--color-neutral-900); /** App root, body background */
+  --color-fill-neutral-default-active: var(--color-neutral-700); /** Hover rows, inset sections, zebra stripes */
+  --color-fill-neutral-default-hover: var(--color-neutral-700); /** Hover rows, inset sections, zebra stripes */
+  --color-fill-neutral-subtle: var(--color-neutral-800);
+  --color-fill-neutral-subtle-active: var(--color-neutral-600);
+  --color-fill-neutral-subtle-disabled: var(--color-neutral-900);
+  --color-fill-neutral-subtle-hover: var(--color-neutral-700);
+  --color-fill-success-emphasis: var(--color-green-500); /** Critical success banner, system confirmation */
+  --color-fill-success-subtle: var(--color-green-900); /** Inline confirmation, completed state bg */
+  --color-fill-warning-emphasis: var(--color-yellow-400); /** Critical warning banner like Uber surge pricing */
+  --color-fill-warning-subtle: var(--color-yellow-900); /** Inline caution alert, advisory notice bg */
   --color-icon-accent-default: var(--color-orange-300); /** Accent icons */
   --color-icon-accent-on-accent: var(--color-orange-950); /** Icon on accent fill */
-  --color-icon-base-default: var(--color-neutral-300); /** Primary standalone icons, icon buttons */
   --color-icon-base-disabled: var(--color-neutral-700); /** Icons inside disabled buttons and non-interactive elements */
   --color-icon-base-inverse: var(--color-neutral-900); /** Icons on dark or colored fills, tooltips, filled buttons */
+  --color-icon-base-primary: var(--color-neutral-300); /** Primary standalone icons, icon buttons */
   --color-icon-base-secondary: var(--color-neutral-400); /** Supporting icons next to secondary text, inactive nav icons */
-  --color-icon-base-subtle: var(--color-neutral-600); /** Decorative icons, placeholder icons, lowest emphasis */
-  --color-icon-brand-default: var(--color-green-200); /** Brand-colored icons, active nav icons */
-  --color-icon-brand-on-brand: var(--color-base-white); /** Icons on brand fill */
+  --color-icon-base-tertiary: var(--color-neutral-600); /** Decorative icons, placeholder icons, lowest emphasis */
+  --color-icon-brand-default: var(--color-brand-green-200); /** Brand-colored icons, active nav icons */
+  --color-icon-brand-on-brand: var(--color-white-1000); /** Icons on brand fill */
   --color-icon-error-default: var(--color-red-200); /** Error icons, destructive action indicators */
-  --color-icon-error-on-emphasis: var(--color-base-white); /** Icons on error fill */
+  --color-icon-error-on-emphasis: var(--color-white-1000); /** Icons on error fill */
   --color-icon-info-default: var(--color-blue-200); /** Info icons, tooltip triggers, system status indicators */
-  --color-icon-info-on-emphasis: var(--color-base-white); /** Icon of info fill */
+  --color-icon-info-on-emphasis: var(--color-white-1000); /** Icon of info fill */
   --color-icon-link-default: var(--color-blue-300); /** Icons alongside or inside hyperlinks */
-  --color-icon-success-default: var(--color-emerald-200); /** Positive status indicators */
-  --color-icon-success-on-emphasis: var(--color-base-white); /** Icon of success fill */
+  --color-icon-success-default: var(--color-green-200); /** Positive status indicators */
+  --color-icon-success-on-emphasis: var(--color-white-1000); /** Icon of success fill */
   --color-icon-warning-default: var(--color-yellow-200); /** Caution icons, advisory indicators */
   --color-icon-warning-on-emphasis: var(--color-neutral-900); /** Icon on warning fill */
+  --color-shadow-lg: var(--color-white-200);
+  --color-shadow-md: var(--color-white-100);
+  --color-shadow-sm: var(--color-white-100);
   --color-text-accent-default: var(--color-orange-300); /** Orange accent text, promotional labels, secondary brand moments */
   --color-text-accent-on-accent: var(--color-orange-950); /** Text on vivid orange fills, always dark for contrast */
   --color-text-base-disabled: var(--color-neutral-700); /** Text inside disabled elements */
   --color-text-base-inverse: var(--color-neutral-900); /** Text on dark or vivid colored fills, tooltips, bold banners, colored buttons */
   --color-text-base-placeholder: var(--color-neutral-600); /** Placeholder text inside empty input fields */
-  --color-text-base-primary: var(--color-neutral-50); /** Headings, body copy, default labels, highest contrast */
+  --color-text-base-primary: var(--color-white-1000); /** Headings, body copy, default labels, highest contrast */
   --color-text-base-secondary: var(--color-neutral-400); /** Supporting text, metadata, timestamps, medium emphasis */
   --color-text-base-tertiary: var(--color-neutral-600); /** Hint text, helper labels, lowest emphasis copy */
-  --color-text-brand-default: var(--color-green-200); /** Brand-colored text, active nav labels, branded emphasis */
-  --color-text-brand-on-brand: var(--color-base-white); /** Text sitting directly on brand-colored fills */
+  --color-text-brand-default: var(--color-brand-green-200); /** Brand-colored text, active nav labels, branded emphasis */
+  --color-text-brand-on-brand: var(--color-white-1000); /** Text sitting directly on brand-colored fills */
   --color-text-error-default: var(--color-red-200); /** Error messages, form validation text, destructive action labels */
-  --color-text-error-on-emphasis: var(--color-base-white); /** Text on vivid red bold banner */
+  --color-text-error-on-emphasis: var(--color-white-1000); /** Text on vivid red bold banner */
   --color-text-info-default: var(--color-blue-200); /** Informational copy inside info banners and tooltips */
-  --color-text-info-on-emphasis: var(--color-base-white); /** Text on vivid blue bold banner */
+  --color-text-info-on-emphasis: var(--color-white-1000); /** Text on vivid blue bold banner */
   --color-text-link-default: var(--color-blue-300); /** Hyperlinks and inline interactive text */
   --color-text-link-hover: var(--color-blue-200); /** Link text on hover */
-  --color-text-success-default: var(--color-emerald-200); /** Confirmation copy, positive feedback on light or tinted backgrounds */
-  --color-text-success-on-emphasis: var(--color-base-white); /** Text on vivid emerald bold banner */
+  --color-text-success-default: var(--color-green-200); /** Confirmation copy, positive feedback on light or tinted backgrounds */
+  --color-text-success-on-emphasis: var(--color-white-1000); /** Text on vivid emerald bold banner */
   --color-text-warning-default: var(--color-yellow-200); /** Caution labels, advisory copy on light or yellow-tinted backgrounds */
   --color-text-warning-on-emphasis: var(--color-neutral-900); /** Text on vivid yellow bold banner */
-  --color-component-button-error-filled-background-active: var(--color-background-error-emphasis-active);
-  --color-component-button-error-filled-background-default: var(--color-background-error-emphasis-default);
-  --color-component-button-error-filled-background-disabled: var(--color-background-brand-disabled);
-  --color-component-button-error-filled-background-hover: var(--color-background-error-emphasis-hover);
-  --color-component-button-error-filled-text-default: var(--color-text-error-on-emphasis);
-  --color-component-button-error-filled-text-disabled: var(--color-text-base-disabled);
-  --color-component-button-error-plain-background-active: var(--color-background-error-subtle);
-  --color-component-button-error-plain-background-hover: var(--color-background-error-subtle);
-  --color-component-button-error-plain-text-default: var(--color-text-error-default);
-  --color-component-button-error-plain-text-disabled: var(--color-text-base-disabled);
-  --color-component-button-neutral-filled-background-active: var(--color-background-base-subtle);
-  --color-component-button-neutral-filled-background-default: var(--color-background-base-subtle);
-  --color-component-button-neutral-filled-background-disabled: var(--color-background-base-subtle);
-  --color-component-button-neutral-filled-background-hover: var(--color-background-base-container);
-  --color-component-button-neutral-filled-text-default: var(--color-text-base-primary);
-  --color-component-button-neutral-filled-text-disabled: var(--color-text-base-disabled);
-  --color-component-button-neutral-outlined-background-active: var(--color-background-base-subtle);
-  --color-component-button-neutral-outlined-background-hover: var(--color-background-base-subtle);
-  --color-component-button-neutral-outlined-border-default: var(--color-border-base-strong);
-  --color-component-button-neutral-outlined-border-disabled: var(--color-border-base-disabled);
-  --color-component-button-neutral-outlined-text-default: var(--color-text-base-primary);
-  --color-component-button-neutral-outlined-text-disabled: var(--color-text-base-disabled);
-  --color-component-button-neutral-plain-background-active: var(--color-background-base-subtle);
-  --color-component-button-neutral-plain-background-hover: var(--color-background-base-subtle);
-  --color-component-button-neutral-plain-text-default: var(--color-text-base-primary);
-  --color-component-button-neutral-plain-text-disabled: var(--color-text-base-disabled);
-  --color-component-button-primary-filled-background-active: var(--color-background-brand-active);
-  --color-component-button-primary-filled-background-default: var(--color-background-brand-default);
-  --color-component-button-primary-filled-background-disabled: var(--color-background-brand-disabled);
-  --color-component-button-primary-filled-background-hover: var(--color-background-brand-hover);
-  --color-component-button-primary-filled-text-default: var(--color-text-brand-on-brand);
-  --color-component-button-primary-filled-text-disabled: var(--color-text-base-disabled);
-  --color-component-button-primary-outlined-background-active: var(--color-background-brand-subtle);
-  --color-component-button-primary-outlined-background-hover: var(--color-background-brand-subtle);
-  --color-component-button-primary-outlined-border-default: var(--color-border-brand-default);
-  --color-component-button-primary-outlined-border-disabled: var(--color-border-base-disabled);
-  --color-component-button-primary-outlined-text-default: var(--color-text-brand-default);
-  --color-component-button-primary-outlined-text-disabled: var(--color-text-base-disabled);
-  --color-component-button-primary-plain-background-active: var(--color-background-brand-subtle);
-  --color-component-button-primary-plain-background-hover: var(--color-background-brand-subtle);
-  --color-component-button-primary-plain-text-default: var(--color-text-brand-default);
-  --color-component-button-primary-plain-text-disabled: var(--color-text-base-disabled);
-  --color-component-input-filled-background-default: var(--color-background-base-subtle);
-  --color-component-input-filled-background-disabled: var(--color-background-base-container);
-  --color-component-input-filled-border-default: var(--color-border-base-strong);
-  --color-component-input-filled-border-disabled: var(--color-border-base-disabled);
-  --color-component-input-filled-border-error: var(--color-border-base-disabled);
-  --color-component-input-filled-border-filled: var(--color-border-base-strong);
-  --color-component-input-filled-border-focus: var(--color-border-brand-default);
-  --color-component-input-filled-helper-default: var(--color-text-base-secondary);
-  --color-component-input-filled-helper-disabled: var(--color-border-base-disabled);
-  --color-component-input-filled-helper-error: var(--color-text-error-default);
-  --color-component-input-filled-icon-default: var(--color-icon-base-secondary);
-  --color-component-input-filled-icon-disabled: var(--color-icon-base-disabled);
-  --color-component-input-filled-icon-error: var(--color-icon-base-secondary);
-  --color-component-input-filled-icon-focus: var(--color-icon-base-default);
-  --color-component-input-filled-input-default: var(--color-text-base-primary);
-  --color-component-input-filled-input-disabled: var(--color-border-base-disabled);
-  --color-component-input-filled-input-placeholder: var(--color-text-base-placeholder);
-  --color-component-input-filled-label-default: var(--color-text-base-secondary);
-  --color-component-input-filled-label-disabled: var(--color-border-base-disabled);
-  --color-component-input-filled-label-error: var(--color-text-error-default);
-  --color-component-nav-primary-container-background: var(--color-background-base-default);
-  --color-component-nav-primary-container-border: var(--color-background-base-default);
-  --color-component-nav-primary-icon-default: var(--color-icon-base-secondary);
-  --color-component-nav-primary-icon-selected: var(--color-icon-base-default);
-  --color-component-nav-primary-label-default: var(--color-text-base-primary);
-  --color-component-nav-primary-label-selected: var(--color-text-base-primary);
 }

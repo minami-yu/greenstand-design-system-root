@@ -3,6 +3,108 @@
  */
 
 :root {
+  --color-black-50: #0c0c0d0d;
+  --color-black-100: #0c0c0d14;
+  --color-black-200: #0c0c0d1a;
+  --color-black-300: #0c0c0d33;
+  --color-black-400: #0c0c0d66;
+  --color-black-500: #0c0c0db3;
+  --color-black-600: #0c0c0dcc;
+  --color-black-700: #0c0c0dd9;
+  --color-black-800: #0c0c0de6;
+  --color-black-900: #0c0c0df2;
+  --color-blue-50: #e3f2fd;
+  --color-blue-100: #bbdefb;
+  --color-blue-200: #90caf9;
+  --color-blue-300: #64b5f6;
+  --color-blue-400: #42a5f5;
+  --color-blue-500: #2196f3;
+  --color-blue-600: #1976d2;
+  --color-blue-700: #1565c0;
+  --color-blue-800: #0d47a1;
+  --color-blue-900: #072d6b;
+  --color-brand-green-50: #eef8e6;
+  --color-brand-green-100: #d4f0b0;
+  --color-brand-green-200: #c5f78d;
+  --color-brand-green-300: #86c232; /** Logo color */
+  --color-brand-green-400: #6aae28;
+  --color-brand-green-500: #52a320;
+  --color-brand-green-600: #3a7d12;
+  --color-brand-green-700: #295c0a;
+  --color-brand-green-800: #1a3d04;
+  --color-brand-green-900: #0d2001;
+  --color-green-50: #eef8e6;
+  --color-green-100: #d4f0b0;
+  --color-green-200: #a8dc6e;
+  --color-green-300: #a5e54b;
+  --color-green-400: #78d023;
+  --color-green-500: #47ad08;
+  --color-green-600: #3a7d12;
+  --color-green-700: #295c0a;
+  --color-green-800: #1a3d04;
+  --color-green-900: #0d2001;
+  --color-neutral-50: #f7f7f7;
+  --color-neutral-100: #f2f2f2;
+  --color-neutral-200: #e8e8e8;
+  --color-neutral-300: #d4d4d4;
+  --color-neutral-400: #a0a0a0;
+  --color-neutral-500: #7c7c7c;
+  --color-neutral-600: #636363;
+  --color-neutral-700: #5b5b5b;
+  --color-neutral-800: #2e2e2e;
+  --color-neutral-900: #212121;
+  --color-orange-50: #fff8ee;
+  --color-orange-100: #ffecd0;
+  --color-orange-200: #ffd599;
+  --color-orange-300: #ffba5c;
+  --color-orange-400: #ffa503;
+  --color-orange-500: #ff8c03;
+  --color-orange-600: #ff7b02;
+  --color-orange-700: #e56200;
+  --color-orange-800: #c44d01;
+  --color-orange-900: #963a00;
+  --color-orange-950: #6b2800;
+  --color-purple-50: #f5eefe;
+  --color-purple-100: #e4d0fc;
+  --color-purple-200: #c9a8f8;
+  --color-purple-300: #aa7ef3;
+  --color-purple-400: #8b5ce8;
+  --color-purple-500: #7040d4;
+  --color-purple-600: #5a2ebf;
+  --color-purple-700: #421fa0;
+  --color-purple-800: #2f1178;
+  --color-purple-900: #1a0850;
+  --color-red-50: #fff0ee;
+  --color-red-100: #ffd5cf;
+  --color-red-200: #ffaa9f;
+  --color-red-300: #ff5252;
+  --color-red-400: #f52020;
+  --color-red-500: #e41212;
+  --color-red-600: #be1414;
+  --color-red-700: #a81414;
+  --color-red-800: #921212;
+  --color-red-900: #7d1010;
+  --color-white-100: #ffffff0d;
+  --color-white-200: #ffffff1a;
+  --color-white-300: #ffffff33;
+  --color-white-400: #ffffff66;
+  --color-white-500: #ffffffb3;
+  --color-white-600: #ffffffcc;
+  --color-white-700: #ffffffd9;
+  --color-white-800: #ffffffe6;
+  --color-white-900: #fffffff2;
+  --color-white-1000: #ffffff;
+  --color-white-transparent: #ffffff00;
+  --color-yellow-50: #fdfbe8;
+  --color-yellow-100: #fffbd1;
+  --color-yellow-200: #fff69a;
+  --color-yellow-300: #ffed4a;
+  --color-yellow-400: #ffe005;
+  --color-yellow-500: #eeca02;
+  --color-yellow-600: #d4a800;
+  --color-yellow-700: #b08202;
+  --color-yellow-800: #7a5900;
+  --color-yellow-900: #4b3300;
   --size-blur-100: 1;
   --size-blur-200: 2;
   --size-blur-400: 4;
@@ -16,7 +118,7 @@
   --size-depth-400: 16;
   --size-depth-025: 1;
   --size-depth-050: 2;
-  --size-icon-2xl: 40; /** extra large icon. Onboarding illustrations. */
+  --size-icon-2xl: 48; /** extra large icon. Onboarding illustrations. */
   --size-icon-lg: 24; /** standard icon. Tab bar, toolbar, card actions. */
   --size-icon-md: 20; /** default icon. Buttons, nav items, list items. */
   --size-icon-sm: 16; /** small icon. Inline with text, inputs, table rows. */
@@ -24,6 +126,7 @@
   --size-icon-xs: 12; /** inline icon inside a label or badge. */
   --size-radius-full: 9999; /** fully rounded. Pills, avatars, toggle switches. */
   --size-radius-lg: 16; /** large rounding. Bottom sheets, modals, dialogs. */
+  --size-radius-md: 12; /** Default rounding. Buttons, inputs, cards, menus. */
   --size-radius-none: 0; /** no rounding. Dividers, full-width elements. */
   --size-radius-sm: 8; /** Default rounding. Buttons, inputs, cards, menus. */
   --size-radius-xs: 4; /** subtle rounding. Badges, tags, small chips. */
@@ -41,11 +144,11 @@
   --size-space-800: 32; /** large section gap. */
   --size-space-1200: 48; /** section separation on content-heavy screens. */
   --size-space-1600: 64; /** maximum spacing, page-level vertical rhythm. */
+  --size-space-negative-200: -8; /** compact padding inside components. */
+  --size-space-negative-400: -16; /** compact padding inside components. */
+  --size-space-negative-800: -32; /** compact padding inside components. */
   --size-stroke-md: 2; /** emphasis border. Focused inputs, selected states. */
   --size-stroke-sm: 1; /** Default border. Cards, inputs, dividers. */
-  --color-shadow-sm: #ffffff0d;
-  --color-shadow-md: #ffffff1a;
-  --color-shadow-lg: #ffffff33;
   --elevation-sm-layer-1-offset-x: 0;
   --elevation-sm-layer-1-spread: 0;
   --elevation-sm-layer-2-offset-x: 0;
@@ -64,33 +167,36 @@
   --elevation-lg-layer-2-spread: 0;
   --elevation-lg-layer-3-offset-x: 0;
   --elevation-lg-layer-3-spread: 0;
-  --elevation-sm-layer-1-color: var(--color-shadow-sm);
+  --color-shadow-lg: var(--color-white-200);
+  --color-shadow-md: var(--color-white-100);
+  --color-shadow-sm: var(--color-white-100);
   --elevation-sm-layer-1-offset-y: var(--size-depth-025);
   --elevation-sm-layer-1-blur: var(--size-blur-800);
-  --elevation-sm-layer-2-color: var(--color-shadow-lg);
   --elevation-sm-layer-2-offset-y: var(--size-depth-050);
   --elevation-sm-layer-2-blur: var(--size-blur-100);
-  --elevation-sm-layer-3-color: var(--color-shadow-md);
   --elevation-sm-layer-3-offset-y: var(--size-depth-025);
   --elevation-sm-layer-3-blur: var(--size-blur-400);
-  --elevation-md-layer-1-color: var(--color-shadow-sm);
   --elevation-md-layer-1-offset-y: var(--size-depth-025);
   --elevation-md-layer-1-blur: var(--size-blur-800);
-  --elevation-md-layer-2-color: var(--color-shadow-md);
   --elevation-md-layer-2-offset-y: var(--size-depth-050);
   --elevation-md-layer-2-blur: var(--size-blur-400);
-  --elevation-md-layer-3-color: var(--color-shadow-md);
   --elevation-md-layer-3-offset-y: var(--size-depth-050);
   --elevation-md-layer-3-blur: var(--size-blur-600);
-  --elevation-lg-layer-1-color: var(--color-shadow-sm);
   --elevation-lg-layer-1-offset-y: var(--size-depth-050);
   --elevation-lg-layer-1-blur: var(--size-blur-600);
-  --elevation-lg-layer-2-color: var(--color-shadow-md);
   --elevation-lg-layer-2-offset-y: var(--size-depth-200);
   --elevation-lg-layer-2-blur: var(--size-blur-1600);
-  --elevation-lg-layer-3-color: var(--color-shadow-md);
   --elevation-lg-layer-3-offset-y: var(--size-depth-100);
   --elevation-lg-layer-3-blur: var(--size-blur-1200);
+  --elevation-sm-layer-1-color: var(--color-shadow-sm);
+  --elevation-sm-layer-2-color: var(--color-shadow-lg);
+  --elevation-sm-layer-3-color: var(--color-shadow-md);
+  --elevation-md-layer-1-color: var(--color-shadow-sm);
+  --elevation-md-layer-2-color: var(--color-shadow-md);
+  --elevation-md-layer-3-color: var(--color-shadow-md);
+  --elevation-lg-layer-1-color: var(--color-shadow-sm);
+  --elevation-lg-layer-2-color: var(--color-shadow-md);
+  --elevation-lg-layer-3-color: var(--color-shadow-md);
 }
 
 /* elevation-dark-classes.css */

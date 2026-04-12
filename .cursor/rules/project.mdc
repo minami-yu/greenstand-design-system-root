@@ -5,8 +5,8 @@ alwaysApply: true
 
 # Greenstand design system
 
-- **Tokens:** Author changes in `design-tokens/` (variables + styles). Regenerate with `npm run build:tokens` from the repo root (`build/style-dictionary-build-tokens.js`). Treat `style-dictionary/` as generated output unless the task is explicitly about the build or formats.
-- **Config:** Source list and paths live in `build/style-dictionary.config.json`. Renames or structural JSON changes may require updates to `build/style-dictionary-build/pipeline.js` and validators; see README for required `sources` keys and shapes.
+- **Tokens:** Author changes in `design-tokens/` (variables + styles). Regenerate with `npm run build:tokens` from the repo root (`build/style-dictionary-build/style-dictionary-build-tokens.js`). Treat `style-dictionary/` as generated output unless the task is explicitly about the build or formats.
+- **Config:** Source paths live in `build/style-dictionary-build/style-dictionary.config.json` under `sources.variables` and `sources.styles`. Renames or structural JSON changes may require updates to `build/style-dictionary-build/pipeline.js` and validators; see README for required keys and shapes.
 - **Token-first UI:** When implementing or editing design-system components (and screens that use them), resolve colors, typography, spacing, radii, and elevation from **design tokens** as much as possible—via `useTheme()`, theme maps, and imports from `style-dictionary/react-native/`—instead of hardcoded literals. If no token exists for a value, add or extend tokens in `design-tokens/` and run `npm run build:tokens` rather than baking one-off magic numbers into components.
 - **React Native:** App lives in `react-native-app/` (Expo). Prefer existing theme usage in `src/theme/` and `useTheme()` when styling; align new UI with current component patterns under `src/components/`.
 - **UI kits:** Do not use component libraries such as React Native Paper, NativeBase, or Tamagui unless the project explicitly adopts one. Build primitives with React Native core (`View`, `Text`, `Pressable`, etc.) plus the app theme and shared components in `src/components/`.

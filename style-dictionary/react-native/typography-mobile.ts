@@ -12,109 +12,137 @@ export type ReactNativeTypographyStyle = {
 };
 
 export const typographyMobile = {
-  displayL: {
-    fontFamily: "Montserrat",
-    fontSize: 28,
-    fontWeight: "300",
-    lineHeight: 39.2,
-    letterSpacing: 0
-  },
-  displayM: {
-    fontFamily: "Montserrat",
-    fontSize: 24,
-    fontWeight: "300",
-    lineHeight: 33.6,
-    letterSpacing: 0
-  },
   headingL: {
     fontFamily: "Montserrat",
-    fontSize: 22,
-    fontWeight: "600",
-    lineHeight: 30.8,
+    fontSize: 32,
+    fontWeight: "700",
+    lineHeight: 38.4,
     letterSpacing: 0
   },
   headingM: {
     fontFamily: "Montserrat",
-    fontSize: 20,
-    fontWeight: "600",
-    lineHeight: 28,
+    fontSize: 24,
+    fontWeight: "700",
+    lineHeight: 28.8,
     letterSpacing: 0
   },
   headingS: {
     fontFamily: "Montserrat",
     fontSize: 18,
+    fontWeight: "700",
+    lineHeight: 25.2,
+    letterSpacing: 0
+  },
+  labelXl: {
+    fontFamily: "Inter",
+    fontSize: 18,
+    fontWeight: "500",
+    lineHeight: 25.2,
+    letterSpacing: 0
+  },
+  labelXlStrong: {
+    fontFamily: "Inter",
+    fontSize: 18,
     fontWeight: "600",
     lineHeight: 25.2,
     letterSpacing: 0
   },
-  paragraphL: {
-    fontFamily: "Roboto",
-    fontSize: 16,
-    fontWeight: "400",
-    lineHeight: 22.4,
-    letterSpacing: 0
-  },
-  paragraphLStrong: {
-    fontFamily: "Roboto",
-    fontSize: 16,
-    fontWeight: "500",
-    lineHeight: 22.4,
-    letterSpacing: 0
-  },
-  paragraphM: {
-    fontFamily: "Roboto",
-    fontSize: 14,
-    fontWeight: "400",
-    lineHeight: 19.6,
-    letterSpacing: 0
-  },
-  paragraphMStrong: {
-    fontFamily: "Roboto",
-    fontSize: 14,
-    fontWeight: "500",
-    lineHeight: 19.6,
-    letterSpacing: 0
-  },
-  paragraphS: {
-    fontFamily: "Roboto",
-    fontSize: 12,
-    fontWeight: "400",
-    lineHeight: 16.8,
-    letterSpacing: 0
-  },
   labelL: {
-    fontFamily: "Roboto",
+    fontFamily: "Inter",
     fontSize: 16,
     fontWeight: "500",
     lineHeight: 22.4,
     letterSpacing: 0
   },
   labelLStrong: {
-    fontFamily: "Roboto",
+    fontFamily: "Inter",
     fontSize: 16,
     fontWeight: "600",
     lineHeight: 22.4,
     letterSpacing: 0
   },
   labelM: {
-    fontFamily: "Roboto",
+    fontFamily: "Inter",
     fontSize: 14,
     fontWeight: "500",
     lineHeight: 19.6,
     letterSpacing: 0
   },
   labelMStrong: {
-    fontFamily: "Roboto",
+    fontFamily: "Inter",
     fontSize: 14,
     fontWeight: "600",
     lineHeight: 19.6,
     letterSpacing: 0
   },
   labelS: {
-    fontFamily: "Roboto",
+    fontFamily: "Inter",
     fontSize: 12,
     fontWeight: "500",
     lineHeight: 16.8,
+    letterSpacing: 0
+  },
+  labelXs: {
+    fontFamily: "Inter",
+    fontSize: 11,
+    fontWeight: "500",
+    lineHeight: 15.4,
+    letterSpacing: 0
+  },
+  paragraphL: {
+    fontFamily: "Inter",
+    fontSize: 16,
+    fontWeight: "400",
+    lineHeight: 22.4,
+    letterSpacing: 0
+  },
+  paragraphLStrong: {
+    fontFamily: "Inter",
+    fontSize: 16,
+    fontWeight: "500",
+    lineHeight: 22.4,
+    letterSpacing: 0
+  },
+  paragraphM: {
+    fontFamily: "Inter",
+    fontSize: 14,
+    fontWeight: "400",
+    lineHeight: 19.6,
+    letterSpacing: 0
+  },
+  paragraphMStrong: {
+    fontFamily: "Inter",
+    fontSize: 14,
+    fontWeight: "500",
+    lineHeight: 19.6,
+    letterSpacing: 0
+  },
+  paragraphS: {
+    fontFamily: "Inter",
+    fontSize: 12,
+    fontWeight: "400",
+    lineHeight: 16.8,
+    letterSpacing: 0
+  },
+  caption: {
+    fontFamily: "Inter",
+    fontSize: 12,
+    fontWeight: "400",
+    lineHeight: 16.8,
+    letterSpacing: 0
+  },
+  numericL: {
+    fontFamily: "Inter",
+    fontSize: 40,
+    fontWeight: "600",
+    lineHeight: 56,
+    letterSpacing: 0
+  },
+  numericM: {
+    fontFamily: "Inter",
+    fontSize: 28,
+    fontWeight: "600",
+    lineHeight: 39.2,
     letterSpacing: 0
   }
 } as const satisfies Record<string, ReactNativeTypographyStyle>;

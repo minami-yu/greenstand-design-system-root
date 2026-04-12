@@ -19,21 +19,21 @@ export const elevationLight = {
   sm: {
     layers: [
       {
-        color: "rgba(0, 0, 0, 0.08)",
+        color: "rgba(12, 12, 13, 0.05)",
         offsetX: 0,
         offsetY: 1,
         blur: 8,
         spread: 0
       },
       {
-        color: "rgba(0, 0, 0, 0.15)",
+        color: "rgba(12, 12, 13, 0.1)",
         offsetX: 0,
         offsetY: 2,
         blur: 1,
         spread: 0
       },
       {
-        color: "rgba(0, 0, 0, 0.1)",
+        color: "rgba(12, 12, 13, 0.08)",
         offsetX: 0,
         offsetY: 1,
         blur: 4,
@@ -44,21 +44,21 @@ export const elevationLight = {
   md: {
     layers: [
       {
-        color: "rgba(0, 0, 0, 0.08)",
+        color: "rgba(12, 12, 13, 0.05)",
         offsetX: 0,
         offsetY: 1,
         blur: 8,
         spread: 0
       },
       {
-        color: "rgba(0, 0, 0, 0.1)",
+        color: "rgba(12, 12, 13, 0.08)",
         offsetX: 0,
         offsetY: 2,
         blur: 4,
         spread: 0
       },
       {
-        color: "rgba(0, 0, 0, 0.1)",
+        color: "rgba(12, 12, 13, 0.08)",
         offsetX: 0,
         offsetY: 2,
         blur: 6,
@@ -69,21 +69,21 @@ export const elevationLight = {
   lg: {
     layers: [
       {
-        color: "rgba(0, 0, 0, 0.08)",
+        color: "rgba(12, 12, 13, 0.05)",
         offsetX: 0,
         offsetY: 2,
         blur: 6,
         spread: 0
       },
       {
-        color: "rgba(0, 0, 0, 0.1)",
+        color: "rgba(12, 12, 13, 0.08)",
         offsetX: 0,
         offsetY: 8,
         blur: 16,
         spread: 0
       },
       {
-        color: "rgba(0, 0, 0, 0.1)",
+        color: "rgba(12, 12, 13, 0.08)",
         offsetX: 0,
         offsetY: 4,
         blur: 12,
