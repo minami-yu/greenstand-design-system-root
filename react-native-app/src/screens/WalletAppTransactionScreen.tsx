@@ -14,6 +14,7 @@ export function WalletAppTransactionScreen() {
   const { colors, layout, size } = theme;
   const typo = theme.typography.mobile;
 
+  const labelXL = getTypographyStyle(typo.labelXl);
   const labelL = getTypographyStyle(typo.labelL);
   const numericL = getTypographyStyle(typo.numericL);
 
@@ -90,7 +91,7 @@ export function WalletAppTransactionScreen() {
             <View style={[styles.hero, { gap: size.sizeSpace600 }]}>
               <View style={[styles.payee, { gap: size.sizeSpace200 }]}>
                 <Avatar initials="GS" variant="brand" />
-                <Text style={[labelL, { color: colors.colorTextBasePrimary, textAlign: 'center' }]}>
+                <Text style={[labelXL, { color: colors.colorTextBasePrimary, textAlign: 'center' }]}>
                   Greenstand
                 </Text>
               </View>
