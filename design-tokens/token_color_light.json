@@ -1,0 +1,579 @@
+{
+  "background": {
+    "netural": {
+      "base": {
+        "$type": "color",
+        "$value": "{neutral.100}",
+        "$description": "app background"
+      },
+      "default": {
+        "$type": "color",
+        "$value": "{white.1000}",
+        "$description": "app background"
+      },
+      "overlay": {
+        "$type": "color",
+        "$value": "{black.400}",
+        "$description": "Scrim behind modals and drawers"
+      },
+      "surface": {
+        "$type": "color",
+        "$value": "{white.1000}",
+        "$description": "Cards, panels, modals, drawers"
+      }
+    }
+  },
+  "border": {
+    "accent": {
+      "default": {
+        "$type": "color",
+        "$value": "{orange.600}",
+        "$description": "Accent outlined component borders for promotional elements"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{orange.200}",
+        "$description": "For callouts"
+      }
+    },
+    "brand": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-green.600}",
+        "$description": "Selected cards, active tabs, brand-accented component borders"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{brand-green.200}",
+        "$description": "For callouts and highlighted sections"
+      }
+    },
+    "error": {
+      "default": {
+        "$type": "color",
+        "$value": "{red.500}",
+        "$description": "Inline error states, invalid inputs, error alert components"
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": "{red.400}",
+        "$description": "Critical error banners, system-wide alerts, destructive dialogs"
+      }
+    },
+    "info": {
+      "default": {
+        "$type": "color",
+        "$value": "{blue.200}",
+        "$description": "Inline informational alerts and tooltip components"
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": "{blue.600}",
+        "$description": "Critical informational banners and system-wide notices"
+      }
+    },
+    "neutral": {
+      "default": {
+        "$type": "color",
+        "$value": "{neutral.400}",
+        "$description": "Standard border for cards, inputs, containers"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{neutral.300}",
+        "$description": "Border for disabled inputs and non-interactive form controls"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{white.1000}"
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{neutral.700}",
+        "$description": "Emphasized border for active inputs, hover states, selected neutral items"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{neutral.200}",
+        "$description": "Section separators, list item dividers"
+      }
+    },
+    "success": {
+      "default": {
+        "$type": "color",
+        "$value": "{green.200}",
+        "$description": "Inline confirmation alerts and success input states"
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": "{green.500}",
+        "$description": "Critical success banners and system confirmations"
+      }
+    },
+    "warning": {
+      "default": {
+        "$type": "color",
+        "$value": "{yellow.200}",
+        "$description": "Inline caution alerts and advisory input states"
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": "{yellow.700}",
+        "$description": "Critical warning banners and system-wide caution notices"
+      }
+    }
+  },
+  "fill": {
+    "accent": {
+      "default": {
+        "$type": "color",
+        "$value": "{orange.600}",
+        "$description": "Secondary accent fills, promotional elements"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{orange.200}",
+        "$description": "Disabled accent element fill"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "{orange.700}",
+        "$description": "Hover state on accent elements"
+      },
+      "pressed": {
+        "$type": "color",
+        "$value": "{orange.800}",
+        "$description": "Pressed state on accent elements"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{orange.50}",
+        "$description": "Light orange tint for accent surfaces"
+      }
+    },
+    "brand": {
+      "accent": {
+        "$type": "color",
+        "$value": "{brand-green.400}",
+        "$description": "Primary brand button, strong brand fills"
+      },
+      "active": {
+        "$type": "color",
+        "$value": "{brand-green.800}",
+        "$description": "Pressed state on brand elements"
+      },
+      "default": {
+        "$type": "color",
+        "$value": "{brand-green.600}",
+        "$description": "Primary brand button, strong brand fills"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{neutral.100}",
+        "$description": "Disabled brand button fill"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "{brand-green.700}",
+        "$description": "Hover state on brand elements"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{brand-green.50}",
+        "$description": "Selected states, active nav tint"
+      },
+      "subtle-disabled": {
+        "$type": "color",
+        "$value": "{neutral.100}",
+        "$description": "Disabled brand button fill"
+      },
+      "subtle-hover": {
+        "$type": "color",
+        "$value": "{brand-green.100}",
+        "$description": "Selected states, active nav tint"
+      },
+      "subtle-pressed": {
+        "$type": "color",
+        "$value": "{brand-green.200}",
+        "$description": "Selected states, active nav tint"
+      }
+    },
+    "error": {
+      "disabled": {
+        "$type": "color",
+        "$value": "{neutral.100}",
+        "$description": "Critical error banner, system-wide alert"
+      },
+      "emphasis-default": {
+        "$type": "color",
+        "$value": "{red.500}",
+        "$description": "Critical error banner, system-wide alert"
+      },
+      "emphasis-hover": {
+        "$type": "color",
+        "$value": "{red.600}",
+        "$description": "Critical error banner, system-wide alert"
+      },
+      "emphasis-pressed": {
+        "$type": "color",
+        "$value": "{red.700}",
+        "$description": "Critical error banner, system-wide alert"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{red.50}",
+        "$description": "Inline error alert, form field error bg"
+      },
+      "subtle-active": {
+        "$type": "color",
+        "$value": "{red.200}",
+        "$description": "Inline error alert, form field error bg"
+      },
+      "subtle-hover": {
+        "$type": "color",
+        "$value": "{red.100}",
+        "$description": "Inline error alert, form field error bg"
+      }
+    },
+    "info": {
+      "emphasis": {
+        "$type": "color",
+        "$value": "{blue.500}",
+        "$description": "Critical info banner, system-wide notice"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{blue.50}",
+        "$description": "Inline informational alert, tooltip bg"
+      }
+    },
+    "neutral": {
+      "default": {
+        "$type": "color",
+        "$value": "{neutral.200}",
+        "$description": "App root, body background"
+      },
+      "default-disabled": {
+        "$type": "color",
+        "$value": "{neutral.100}",
+        "$description": "Hover rows, inset sections, zebra stripes"
+      },
+      "default-hover": {
+        "$type": "color",
+        "$value": "{neutral.300}",
+        "$description": "Hover rows, inset sections, zebra stripes"
+      },
+      "default-pressed": {
+        "$type": "color",
+        "$value": "{neutral.400}",
+        "$description": "Hover rows, inset sections, zebra stripes"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{neutral.800}"
+      },
+      "inverse-disabled": {
+        "$type": "color",
+        "$value": "{neutral.500}"
+      },
+      "inverse-hover": {
+        "$type": "color",
+        "$value": "{neutral.700}"
+      },
+      "inverse-pressed": {
+        "$type": "color",
+        "$value": "{neutral.600}"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{neutral.100}"
+      },
+      "subtle-disabled": {
+        "$type": "color",
+        "$value": "{neutral.50}"
+      },
+      "subtle-hover": {
+        "$type": "color",
+        "$value": "{neutral.200}"
+      },
+      "subtle-pressed": {
+        "$type": "color",
+        "$value": "{neutral.300}"
+      }
+    },
+    "success": {
+      "emphasis": {
+        "$type": "color",
+        "$value": "{green.600}",
+        "$description": "Critical success banner, system confirmation"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{green.50}",
+        "$description": "Inline confirmation, completed state bg"
+      }
+    },
+    "warning": {
+      "emphasis": {
+        "$type": "color",
+        "$value": "{yellow.400}",
+        "$description": "Critical warning banner like Uber surge pricing"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{yellow.100}",
+        "$description": "Inline caution alert, advisory notice bg"
+      }
+    }
+  },
+  "icon": {
+    "accent": {
+      "default": {
+        "$type": "color",
+        "$value": "{orange.800}",
+        "$description": "Accent icons"
+      },
+      "on-accent": {
+        "$type": "color",
+        "$value": "{orange.950}",
+        "$description": "Icon on accent fill"
+      }
+    },
+    "brand": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-green.600}",
+        "$description": "Brand-colored icons, active nav icons"
+      },
+      "on-brand": {
+        "$type": "color",
+        "$value": "{white.1000}",
+        "$description": "Icons on brand fill"
+      }
+    },
+    "error": {
+      "default": {
+        "$type": "color",
+        "$value": "{red.500}",
+        "$description": "Error icons, destructive action indicators"
+      },
+      "on-emphasis": {
+        "$type": "color",
+        "$value": "{white.1000}",
+        "$description": "Icons on error fill"
+      }
+    },
+    "info": {
+      "default": {
+        "$type": "color",
+        "$value": "{blue.700}",
+        "$description": "Info icons, tooltip triggers, system status indicators"
+      },
+      "on-emphasis": {
+        "$type": "color",
+        "$value": "{white.1000}",
+        "$description": "Icon of info fill"
+      }
+    },
+    "link": {
+      "default": {
+        "$type": "color",
+        "$value": "{blue.600}",
+        "$description": "Icons alongside or inside hyperlinks"
+      }
+    },
+    "neutral": {
+      "disabled": {
+        "$type": "color",
+        "$value": "{neutral.300}",
+        "$description": "Icons inside disabled buttons and non-interactive elements"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{white.1000}",
+        "$description": "Icons on dark or colored fills, tooltips, filled buttons"
+      },
+      "on-disabled": {
+        "$type": "color",
+        "$value": "{neutral.400}",
+        "$description": "Icons inside disabled buttons and non-interactive elements"
+      },
+      "primary": {
+        "$type": "color",
+        "$value": "{neutral.800}",
+        "$description": "Primary standalone icons, icon buttons"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{neutral.600}",
+        "$description": "Supporting icons next to secondary text, inactive nav icons"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{neutral.400}",
+        "$description": "Decorative icons, placeholder icons, lowest emphasis"
+      }
+    },
+    "success": {
+      "default": {
+        "$type": "color",
+        "$value": "{green.500}",
+        "$description": "Positive status indicators"
+      },
+      "on-emphasis": {
+        "$type": "color",
+        "$value": "{white.1000}",
+        "$description": "Icon of success fill"
+      }
+    },
+    "warning": {
+      "default": {
+        "$type": "color",
+        "$value": "{yellow.500}",
+        "$description": "Caution icons, advisory indicators"
+      },
+      "on-emphasis": {
+        "$type": "color",
+        "$value": "{neutral.950}",
+        "$description": "Icon on warning fill"
+      }
+    }
+  },
+  "shadow": {
+    "lg": {
+      "$type": "color",
+      "$value": "{black.200}"
+    },
+    "md": {
+      "$type": "color",
+      "$value": "{black.100}"
+    },
+    "sm": {
+      "$type": "color",
+      "$value": "{black.50}"
+    }
+  },
+  "text": {
+    "accent": {
+      "default": {
+        "$type": "color",
+        "$value": "{orange.600}",
+        "$description": "Orange accent text, promotional labels, secondary brand moments"
+      },
+      "on-accent": {
+        "$type": "color",
+        "$value": "{white.1000}",
+        "$description": "Text on vivid orange fills, always dark for contrast"
+      }
+    },
+    "brand": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-green.600}",
+        "$description": "Brand-colored text, active nav labels, branded emphasis"
+      },
+      "on-brand": {
+        "$type": "color",
+        "$value": "{white.1000}",
+        "$description": "Text sitting directly on brand-colored fills"
+      }
+    },
+    "error": {
+      "default": {
+        "$type": "color",
+        "$value": "{red.500}",
+        "$description": "Error messages, form validation text, destructive action labels"
+      },
+      "on-emphasis": {
+        "$type": "color",
+        "$value": "{white.1000}",
+        "$description": "Text on vivid red bold banner"
+      }
+    },
+    "info": {
+      "default": {
+        "$type": "color",
+        "$value": "{blue.800}",
+        "$description": "Informational copy inside info banners and tooltips"
+      },
+      "on-emphasis": {
+        "$type": "color",
+        "$value": "{white.1000}",
+        "$description": "Text on vivid blue bold banner"
+      }
+    },
+    "link": {
+      "default": {
+        "$type": "color",
+        "$value": "{blue.600}",
+        "$description": "Hyperlinks and inline interactive text"
+      },
+      "hover": {
+        "$type": "color",
+        "$value": "{blue.700}",
+        "$description": "Link text on hover"
+      }
+    },
+    "neutral": {
+      "disabled": {
+        "$type": "color",
+        "$value": "{neutral.400}",
+        "$description": "Text inside disabled elements"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{white.1000}",
+        "$description": "Text on dark or vivid colored fills, tooltips, bold banners, colored buttons"
+      },
+      "on-disabled": {
+        "$type": "color",
+        "$value": "{neutral.400}",
+        "$description": "Text inside disabled elements"
+      },
+      "placeholder": {
+        "$type": "color",
+        "$value": "{neutral.500}",
+        "$description": "Placeholder text inside empty input fields"
+      },
+      "primary": {
+        "$type": "color",
+        "$value": "{neutral.950}",
+        "$description": "Headings, body copy, default labels, highest contrast"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{neutral.700}",
+        "$description": "Supporting text, metadata, timestamps, medium emphasis"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{neutral.500}",
+        "$description": "Hint text, helper labels, lowest emphasis copy"
+      }
+    },
+    "success": {
+      "default": {
+        "$type": "color",
+        "$value": "{green.700}",
+        "$description": "Confirmation copy, positive feedback on light or tinted backgrounds"
+      },
+      "on-emphasis": {
+        "$type": "color",
+        "$value": "{white.1000}",
+        "$description": "Text on vivid emerald bold banner"
+      }
+    },
+    "warning": {
+      "default": {
+        "$type": "color",
+        "$value": "{yellow.900}",
+        "$description": "Caution labels, advisory copy on light or yellow-tinted backgrounds"
+      },
+      "on-emphasis": {
+        "$type": "color",
+        "$value": "{neutral.950}",
+        "$description": "Text on vivid yellow bold banner"
+      }
+    }
+  }
+}
