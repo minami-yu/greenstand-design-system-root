@@ -1,0 +1,31 @@
+{
+  "responsive": {
+    "breakpoint": {
+      "lg": {
+        "$type": "number",
+        "$value": 768,
+        "$description": "tablets"
+      },
+      "md": {
+        "$type": "number",
+        "$value": 375,
+        "$description": "standard size mobile"
+      },
+      "sm": {
+        "$type": "number",
+        "$value": 360,
+        "$description": "small mobile (primary target)"
+      },
+      "xl": {
+        "$type": "number",
+        "$value": 1024,
+        "$description": "desktop"
+      },
+      "xs": {
+        "$type": "number",
+        "$value": 280,
+        "$description": "very tiny phones"
+      }
+    }
+  }
+}
