@@ -1,0 +1,92 @@
+{
+  "family": {
+    "body": {
+      "$type": "string",
+      "$value": "Inter"
+    },
+    "title": {
+      "$type": "string",
+      "$value": "Montserrat"
+    }
+  },
+  "size": {
+    "caption": {
+      "$type": "number",
+      "$value": 12
+    },
+    "heading-l": {
+      "$type": "number",
+      "$value": 28
+    },
+    "heading-m": {
+      "$type": "number",
+      "$value": 24
+    },
+    "heading-s": {
+      "$type": "number",
+      "$value": 18
+    },
+    "label-l": {
+      "$type": "number",
+      "$value": 16
+    },
+    "label-m": {
+      "$type": "number",
+      "$value": 14
+    },
+    "label-s": {
+      "$type": "number",
+      "$value": 12
+    },
+    "label-xl": {
+      "$type": "number",
+      "$value": 18
+    },
+    "label-xs": {
+      "$type": "number",
+      "$value": 11
+    },
+    "numeric-l": {
+      "$type": "number",
+      "$value": 40
+    },
+    "numeric-m": {
+      "$type": "number",
+      "$value": 28
+    },
+    "paragraph-l": {
+      "$type": "number",
+      "$value": 16
+    },
+    "paragraph-m": {
+      "$type": "number",
+      "$value": 14
+    },
+    "paragraph-s": {
+      "$type": "number",
+      "$value": 12
+    }
+  },
+  "weight": {
+    "bold": {
+      "$type": "number",
+      "$value": 700
+    },
+    "light": {
+      "$type": "number",
+      "$value": 300
+    },
+    "medium": {
+      "$type": "number",
+      "$value": 500
+    },
+    "regular": {
+      "$type": "number",
+      "$value": 400
+    },
+    "semibold": {
+      "$type": "number",
+      "$value": 600
+    }
+  }
+}
